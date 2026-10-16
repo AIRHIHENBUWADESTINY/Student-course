@@ -1,0 +1,3448 @@
+{
+  "faculty": "Faculty of Technology",
+  "level": "100L",
+  "generatedAt": "2026-10-16T12:10:45.363Z",
+  "courses": {
+    "faculty-of-technology-software-development-100l-frontend-development": {
+      "file": "software-development/frontend-development.md",
+      "title": "Frontend Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-frontend-development",
+          "title": "Foundations of Frontend Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-frontend-development-together",
+          "title": "Bringing Frontend Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-backend-development": {
+      "file": "software-development/backend-development.md",
+      "title": "Backend Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-backend-development",
+          "title": "Foundations of Backend Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-backend-development-together",
+          "title": "Bringing Backend Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-full-stack-development": {
+      "file": "software-development/full-stack-development.md",
+      "title": "Full-Stack Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-full-stack-development",
+          "title": "Foundations of Full-Stack Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-full-stack-development-together",
+          "title": "Bringing Full-Stack Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-mobile-app-development": {
+      "file": "software-development/mobile-app-development.md",
+      "title": "Mobile App Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-mobile-app-development",
+          "title": "Foundations of Mobile App Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-mobile-app-development-together",
+          "title": "Bringing Mobile App Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-desktop-application-development": {
+      "file": "software-development/desktop-application-development.md",
+      "title": "Desktop Application Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-desktop-application-development",
+          "title": "Foundations of Desktop Application Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-desktop-application-development-together",
+          "title": "Bringing Desktop Application Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-game-development": {
+      "file": "software-development/game-development.md",
+      "title": "Game Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-game-development",
+          "title": "Foundations of Game Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-game-development-together",
+          "title": "Bringing Game Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-api-development": {
+      "file": "software-development/api-development.md",
+      "title": "API Development",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-api-development",
+          "title": "Foundations of API Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-api-development-together",
+          "title": "Bringing API Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-software-development-100l-software-testing-and-quality-assurance": {
+      "file": "software-development/software-testing-and-quality-assurance.md",
+      "title": "Software Testing and Quality Assurance",
+      "department": "Software Development",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-software-testing-and-quality-assurance",
+          "title": "Foundations of Software Testing and Quality Assurance"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-software-testing-and-quality-assurance-together",
+          "title": "Bringing Software Testing and Quality Assurance Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-algorithms-and-data-structures": {
+      "file": "computer-science/algorithms-and-data-structures.md",
+      "title": "Algorithms and Data Structures",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-algorithms-and-data-structures",
+          "title": "Foundations of Algorithms and Data Structures"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-algorithms-and-data-structures-together",
+          "title": "Bringing Algorithms and Data Structures Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-programming-languages": {
+      "file": "computer-science/programming-languages.md",
+      "title": "Programming Languages",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-programming-languages",
+          "title": "Foundations of Programming Languages"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-programming-languages-together",
+          "title": "Bringing Programming Languages Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-operating-systems": {
+      "file": "computer-science/operating-systems.md",
+      "title": "Operating Systems",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-operating-systems",
+          "title": "Foundations of Operating Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-operating-systems-together",
+          "title": "Bringing Operating Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-theory-of-computation": {
+      "file": "computer-science/theory-of-computation.md",
+      "title": "Theory of Computation",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-theory-of-computation",
+          "title": "Foundations of Theory of Computation"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-theory-of-computation-together",
+          "title": "Bringing Theory of Computation Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-artificial-intelligence": {
+      "file": "computer-science/artificial-intelligence.md",
+      "title": "Artificial Intelligence",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-artificial-intelligence",
+          "title": "Foundations of Artificial Intelligence"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-artificial-intelligence-together",
+          "title": "Bringing Artificial Intelligence Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-computer-architecture": {
+      "file": "computer-science/computer-architecture.md",
+      "title": "Computer Architecture",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-computer-architecture",
+          "title": "Foundations of Computer Architecture"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-computer-architecture-together",
+          "title": "Bringing Computer Architecture Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-human-computer-interaction": {
+      "file": "computer-science/human-computer-interaction.md",
+      "title": "Human-Computer Interaction",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-human-computer-interaction",
+          "title": "Foundations of Human-Computer Interaction"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-human-computer-interaction-together",
+          "title": "Bringing Human-Computer Interaction Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-science-100l-computational-mathematics": {
+      "file": "computer-science/computational-mathematics.md",
+      "title": "Computational Mathematics",
+      "department": "Computer Science",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-computational-mathematics",
+          "title": "Foundations of Computational Mathematics"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-computational-mathematics-together",
+          "title": "Bringing Computational Mathematics Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-network-security": {
+      "file": "cybersecurity/network-security.md",
+      "title": "Network Security",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-security",
+          "title": "Foundations of Network Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-security-together",
+          "title": "Bringing Network Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-application-security": {
+      "file": "cybersecurity/application-security.md",
+      "title": "Application Security",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-application-security",
+          "title": "Foundations of Application Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-application-security-together",
+          "title": "Bringing Application Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-cloud-security": {
+      "file": "cybersecurity/cloud-security.md",
+      "title": "Cloud Security",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-security",
+          "title": "Foundations of Cloud Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-security-together",
+          "title": "Bringing Cloud Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-ethical-hacking": {
+      "file": "cybersecurity/ethical-hacking.md",
+      "title": "Ethical Hacking",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-ethical-hacking",
+          "title": "Foundations of Ethical Hacking"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-ethical-hacking-together",
+          "title": "Bringing Ethical Hacking Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-digital-forensics": {
+      "file": "cybersecurity/digital-forensics.md",
+      "title": "Digital Forensics",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-digital-forensics",
+          "title": "Foundations of Digital Forensics"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-digital-forensics-together",
+          "title": "Bringing Digital Forensics Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-identity-and-access-management": {
+      "file": "cybersecurity/identity-and-access-management.md",
+      "title": "Identity and Access Management",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-identity-and-access-management",
+          "title": "Foundations of Identity and Access Management"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-identity-and-access-management-together",
+          "title": "Bringing Identity and Access Management Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-security-operations": {
+      "file": "cybersecurity/security-operations.md",
+      "title": "Security Operations",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-security-operations",
+          "title": "Foundations of Security Operations"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-security-operations-together",
+          "title": "Bringing Security Operations Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cybersecurity-100l-risk-management-and-compliance": {
+      "file": "cybersecurity/risk-management-and-compliance.md",
+      "title": "Risk Management and Compliance",
+      "department": "Cybersecurity",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-risk-management-and-compliance",
+          "title": "Foundations of Risk Management and Compliance"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-risk-management-and-compliance-together",
+          "title": "Bringing Risk Management and Compliance Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-infrastructure": {
+      "file": "cloud-computing/cloud-infrastructure.md",
+      "title": "Cloud Infrastructure",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-infrastructure",
+          "title": "Foundations of Cloud Infrastructure"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-infrastructure-together",
+          "title": "Bringing Cloud Infrastructure Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-architecture": {
+      "file": "cloud-computing/cloud-architecture.md",
+      "title": "Cloud Architecture",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-architecture",
+          "title": "Foundations of Cloud Architecture"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-architecture-together",
+          "title": "Bringing Cloud Architecture Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-networking": {
+      "file": "cloud-computing/cloud-networking.md",
+      "title": "Cloud Networking",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-networking",
+          "title": "Foundations of Cloud Networking"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-networking-together",
+          "title": "Bringing Cloud Networking Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-security": {
+      "file": "cloud-computing/cloud-security.md",
+      "title": "Cloud Security",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-security",
+          "title": "Foundations of Cloud Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-security-together",
+          "title": "Bringing Cloud Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-storage": {
+      "file": "cloud-computing/cloud-storage.md",
+      "title": "Cloud Storage",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-storage",
+          "title": "Foundations of Cloud Storage"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-storage-together",
+          "title": "Bringing Cloud Storage Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-serverless-computing": {
+      "file": "cloud-computing/serverless-computing.md",
+      "title": "Serverless Computing",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-serverless-computing",
+          "title": "Foundations of Serverless Computing"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-serverless-computing-together",
+          "title": "Bringing Serverless Computing Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-databases": {
+      "file": "cloud-computing/cloud-databases.md",
+      "title": "Cloud Databases",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-databases",
+          "title": "Foundations of Cloud Databases"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-databases-together",
+          "title": "Bringing Cloud Databases Together"
+        }
+      ]
+    },
+    "faculty-of-technology-cloud-computing-100l-cloud-cost-management": {
+      "file": "cloud-computing/cloud-cost-management.md",
+      "title": "Cloud Cost Management",
+      "department": "Cloud Computing",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cloud-cost-management",
+          "title": "Foundations of Cloud Cost Management"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cloud-cost-management-together",
+          "title": "Bringing Cloud Cost Management Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-continuous-integration-and-delivery-ci-cd": {
+      "file": "devops-and-site-reliability-engineering/continuous-integration-and-delivery-ci-cd.md",
+      "title": "Continuous Integration and Delivery (CI/CD)",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-continuous-integration-and-delivery-ci-cd",
+          "title": "Foundations of Continuous Integration and Delivery (CI/CD)"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-continuous-integration-and-delivery-ci-cd-together",
+          "title": "Bringing Continuous Integration and Delivery (CI/CD) Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-infrastructure-as-code": {
+      "file": "devops-and-site-reliability-engineering/infrastructure-as-code.md",
+      "title": "Infrastructure as Code",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-infrastructure-as-code",
+          "title": "Foundations of Infrastructure as Code"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-infrastructure-as-code-together",
+          "title": "Bringing Infrastructure as Code Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-containerization": {
+      "file": "devops-and-site-reliability-engineering/containerization.md",
+      "title": "Containerization",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-containerization",
+          "title": "Foundations of Containerization"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-containerization-together",
+          "title": "Bringing Containerization Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-container-orchestration": {
+      "file": "devops-and-site-reliability-engineering/container-orchestration.md",
+      "title": "Container Orchestration",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-container-orchestration",
+          "title": "Foundations of Container Orchestration"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-container-orchestration-together",
+          "title": "Bringing Container Orchestration Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-configuration-management": {
+      "file": "devops-and-site-reliability-engineering/configuration-management.md",
+      "title": "Configuration Management",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-configuration-management",
+          "title": "Foundations of Configuration Management"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-configuration-management-together",
+          "title": "Bringing Configuration Management Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-monitoring-and-logging": {
+      "file": "devops-and-site-reliability-engineering/monitoring-and-logging.md",
+      "title": "Monitoring and Logging",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-monitoring-and-logging",
+          "title": "Foundations of Monitoring and Logging"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-monitoring-and-logging-together",
+          "title": "Bringing Monitoring and Logging Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-automation-and-scripting": {
+      "file": "devops-and-site-reliability-engineering/automation-and-scripting.md",
+      "title": "Automation and Scripting",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-automation-and-scripting",
+          "title": "Foundations of Automation and Scripting"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-automation-and-scripting-together",
+          "title": "Bringing Automation and Scripting Together"
+        }
+      ]
+    },
+    "faculty-of-technology-devops-and-site-reliability-engineering-100l-site-reliability-engineering-sre": {
+      "file": "devops-and-site-reliability-engineering/site-reliability-engineering-sre.md",
+      "title": "Site Reliability Engineering (SRE)",
+      "department": "DevOps and Site Reliability Engineering",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-site-reliability-engineering-sre",
+          "title": "Foundations of Site Reliability Engineering (SRE)"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-site-reliability-engineering-sre-together",
+          "title": "Bringing Site Reliability Engineering (SRE) Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-data-analysis": {
+      "file": "data-science-and-analytics/data-analysis.md",
+      "title": "Data Analysis",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-analysis",
+          "title": "Foundations of Data Analysis"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-analysis-together",
+          "title": "Bringing Data Analysis Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-data-engineering": {
+      "file": "data-science-and-analytics/data-engineering.md",
+      "title": "Data Engineering",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-engineering",
+          "title": "Foundations of Data Engineering"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-engineering-together",
+          "title": "Bringing Data Engineering Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-business-intelligence": {
+      "file": "data-science-and-analytics/business-intelligence.md",
+      "title": "Business Intelligence",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-business-intelligence",
+          "title": "Foundations of Business Intelligence"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-business-intelligence-together",
+          "title": "Bringing Business Intelligence Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-statistical-analysis": {
+      "file": "data-science-and-analytics/statistical-analysis.md",
+      "title": "Statistical Analysis",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-statistical-analysis",
+          "title": "Foundations of Statistical Analysis"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-statistical-analysis-together",
+          "title": "Bringing Statistical Analysis Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-data-visualization": {
+      "file": "data-science-and-analytics/data-visualization.md",
+      "title": "Data Visualization",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-visualization",
+          "title": "Foundations of Data Visualization"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-visualization-together",
+          "title": "Bringing Data Visualization Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-big-data": {
+      "file": "data-science-and-analytics/big-data.md",
+      "title": "Big Data",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-big-data",
+          "title": "Foundations of Big Data"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-big-data-together",
+          "title": "Bringing Big Data Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-data-warehousing": {
+      "file": "data-science-and-analytics/data-warehousing.md",
+      "title": "Data Warehousing",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-warehousing",
+          "title": "Foundations of Data Warehousing"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-warehousing-together",
+          "title": "Bringing Data Warehousing Together"
+        }
+      ]
+    },
+    "faculty-of-technology-data-science-and-analytics-100l-data-governance": {
+      "file": "data-science-and-analytics/data-governance.md",
+      "title": "Data Governance",
+      "department": "Data Science and Analytics",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-governance",
+          "title": "Foundations of Data Governance"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-governance-together",
+          "title": "Bringing Data Governance Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-machine-learning": {
+      "file": "artificial-intelligence-and-machine-learning/machine-learning.md",
+      "title": "Machine Learning",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-machine-learning",
+          "title": "Foundations of Machine Learning"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-machine-learning-together",
+          "title": "Bringing Machine Learning Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-deep-learning": {
+      "file": "artificial-intelligence-and-machine-learning/deep-learning.md",
+      "title": "Deep Learning",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-deep-learning",
+          "title": "Foundations of Deep Learning"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-deep-learning-together",
+          "title": "Bringing Deep Learning Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-natural-language-processing": {
+      "file": "artificial-intelligence-and-machine-learning/natural-language-processing.md",
+      "title": "Natural Language Processing",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-natural-language-processing",
+          "title": "Foundations of Natural Language Processing"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-natural-language-processing-together",
+          "title": "Bringing Natural Language Processing Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-computer-vision": {
+      "file": "artificial-intelligence-and-machine-learning/computer-vision.md",
+      "title": "Computer Vision",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-computer-vision",
+          "title": "Foundations of Computer Vision"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-computer-vision-together",
+          "title": "Bringing Computer Vision Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-generative-ai": {
+      "file": "artificial-intelligence-and-machine-learning/generative-ai.md",
+      "title": "Generative AI",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-generative-ai",
+          "title": "Foundations of Generative AI"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-generative-ai-together",
+          "title": "Bringing Generative AI Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-robotics-and-intelligent-systems": {
+      "file": "artificial-intelligence-and-machine-learning/robotics-and-intelligent-systems.md",
+      "title": "Robotics and Intelligent Systems",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-robotics-and-intelligent-systems",
+          "title": "Foundations of Robotics and Intelligent Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-robotics-and-intelligent-systems-together",
+          "title": "Bringing Robotics and Intelligent Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-speech-recognition": {
+      "file": "artificial-intelligence-and-machine-learning/speech-recognition.md",
+      "title": "Speech Recognition",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-speech-recognition",
+          "title": "Foundations of Speech Recognition"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-speech-recognition-together",
+          "title": "Bringing Speech Recognition Together"
+        }
+      ]
+    },
+    "faculty-of-technology-artificial-intelligence-and-machine-learning-100l-ai-ethics-and-governance": {
+      "file": "artificial-intelligence-and-machine-learning/ai-ethics-and-governance.md",
+      "title": "AI Ethics and Governance",
+      "department": "Artificial Intelligence and Machine Learning",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-ai-ethics-and-governance",
+          "title": "Foundations of AI Ethics and Governance"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-ai-ethics-and-governance-together",
+          "title": "Bringing AI Ethics and Governance Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-network-administration": {
+      "file": "computer-networking/network-administration.md",
+      "title": "Network Administration",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-administration",
+          "title": "Foundations of Network Administration"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-administration-together",
+          "title": "Bringing Network Administration Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-routing-and-switching": {
+      "file": "computer-networking/routing-and-switching.md",
+      "title": "Routing and Switching",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-routing-and-switching",
+          "title": "Foundations of Routing and Switching"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-routing-and-switching-together",
+          "title": "Bringing Routing and Switching Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-wireless-networking": {
+      "file": "computer-networking/wireless-networking.md",
+      "title": "Wireless Networking",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-wireless-networking",
+          "title": "Foundations of Wireless Networking"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-wireless-networking-together",
+          "title": "Bringing Wireless Networking Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-network-design": {
+      "file": "computer-networking/network-design.md",
+      "title": "Network Design",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-design",
+          "title": "Foundations of Network Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-design-together",
+          "title": "Bringing Network Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-network-protocols": {
+      "file": "computer-networking/network-protocols.md",
+      "title": "Network Protocols",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-protocols",
+          "title": "Foundations of Network Protocols"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-protocols-together",
+          "title": "Bringing Network Protocols Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-network-monitoring": {
+      "file": "computer-networking/network-monitoring.md",
+      "title": "Network Monitoring",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-monitoring",
+          "title": "Foundations of Network Monitoring"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-monitoring-together",
+          "title": "Bringing Network Monitoring Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-network-virtualization": {
+      "file": "computer-networking/network-virtualization.md",
+      "title": "Network Virtualization",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-network-virtualization",
+          "title": "Foundations of Network Virtualization"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-network-virtualization-together",
+          "title": "Bringing Network Virtualization Together"
+        }
+      ]
+    },
+    "faculty-of-technology-computer-networking-100l-telecommunications": {
+      "file": "computer-networking/telecommunications.md",
+      "title": "Telecommunications",
+      "department": "Computer Networking",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-telecommunications",
+          "title": "Foundations of Telecommunications"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-telecommunications-together",
+          "title": "Bringing Telecommunications Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-relational-databases": {
+      "file": "database-technology/relational-databases.md",
+      "title": "Relational Databases",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-relational-databases",
+          "title": "Foundations of Relational Databases"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-relational-databases-together",
+          "title": "Bringing Relational Databases Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-nosql-databases": {
+      "file": "database-technology/nosql-databases.md",
+      "title": "NoSQL Databases",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-nosql-databases",
+          "title": "Foundations of NoSQL Databases"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-nosql-databases-together",
+          "title": "Bringing NoSQL Databases Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-database-administration": {
+      "file": "database-technology/database-administration.md",
+      "title": "Database Administration",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-database-administration",
+          "title": "Foundations of Database Administration"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-database-administration-together",
+          "title": "Bringing Database Administration Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-database-design": {
+      "file": "database-technology/database-design.md",
+      "title": "Database Design",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-database-design",
+          "title": "Foundations of Database Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-database-design-together",
+          "title": "Bringing Database Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-database-security": {
+      "file": "database-technology/database-security.md",
+      "title": "Database Security",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-database-security",
+          "title": "Foundations of Database Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-database-security-together",
+          "title": "Bringing Database Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-data-backup-and-recovery": {
+      "file": "database-technology/data-backup-and-recovery.md",
+      "title": "Data Backup and Recovery",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-data-backup-and-recovery",
+          "title": "Foundations of Data Backup and Recovery"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-data-backup-and-recovery-together",
+          "title": "Bringing Data Backup and Recovery Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-database-performance-optimization": {
+      "file": "database-technology/database-performance-optimization.md",
+      "title": "Database Performance Optimization",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-database-performance-optimization",
+          "title": "Foundations of Database Performance Optimization"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-database-performance-optimization-together",
+          "title": "Bringing Database Performance Optimization Together"
+        }
+      ]
+    },
+    "faculty-of-technology-database-technology-100l-distributed-databases": {
+      "file": "database-technology/distributed-databases.md",
+      "title": "Distributed Databases",
+      "department": "Database Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-distributed-databases",
+          "title": "Foundations of Distributed Databases"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-distributed-databases-together",
+          "title": "Bringing Distributed Databases Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-user-interface-ui-design": {
+      "file": "ui-ux-and-digital-product-design/user-interface-ui-design.md",
+      "title": "User Interface (UI) Design",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-user-interface-ui-design",
+          "title": "Foundations of User Interface (UI) Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-user-interface-ui-design-together",
+          "title": "Bringing User Interface (UI) Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-user-experience-ux-design": {
+      "file": "ui-ux-and-digital-product-design/user-experience-ux-design.md",
+      "title": "User Experience (UX) Design",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-user-experience-ux-design",
+          "title": "Foundations of User Experience (UX) Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-user-experience-ux-design-together",
+          "title": "Bringing User Experience (UX) Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-interaction-design": {
+      "file": "ui-ux-and-digital-product-design/interaction-design.md",
+      "title": "Interaction Design",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-interaction-design",
+          "title": "Foundations of Interaction Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-interaction-design-together",
+          "title": "Bringing Interaction Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-wireframing-and-prototyping": {
+      "file": "ui-ux-and-digital-product-design/wireframing-and-prototyping.md",
+      "title": "Wireframing and Prototyping",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-wireframing-and-prototyping",
+          "title": "Foundations of Wireframing and Prototyping"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-wireframing-and-prototyping-together",
+          "title": "Bringing Wireframing and Prototyping Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-user-research": {
+      "file": "ui-ux-and-digital-product-design/user-research.md",
+      "title": "User Research",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-user-research",
+          "title": "Foundations of User Research"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-user-research-together",
+          "title": "Bringing User Research Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-usability-testing": {
+      "file": "ui-ux-and-digital-product-design/usability-testing.md",
+      "title": "Usability Testing",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-usability-testing",
+          "title": "Foundations of Usability Testing"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-usability-testing-together",
+          "title": "Bringing Usability Testing Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-design-systems": {
+      "file": "ui-ux-and-digital-product-design/design-systems.md",
+      "title": "Design Systems",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-design-systems",
+          "title": "Foundations of Design Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-design-systems-together",
+          "title": "Bringing Design Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-ui-ux-and-digital-product-design-100l-accessibility-design": {
+      "file": "ui-ux-and-digital-product-design/accessibility-design.md",
+      "title": "Accessibility Design",
+      "department": "UI/UX and Digital Product Design",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-accessibility-design",
+          "title": "Foundations of Accessibility Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-accessibility-design-together",
+          "title": "Bringing Accessibility Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-robotics-engineering": {
+      "file": "robotics-and-embedded-systems/robotics-engineering.md",
+      "title": "Robotics Engineering",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-robotics-engineering",
+          "title": "Foundations of Robotics Engineering"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-robotics-engineering-together",
+          "title": "Bringing Robotics Engineering Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-embedded-programming": {
+      "file": "robotics-and-embedded-systems/embedded-programming.md",
+      "title": "Embedded Programming",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-embedded-programming",
+          "title": "Foundations of Embedded Programming"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-embedded-programming-together",
+          "title": "Bringing Embedded Programming Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-microcontrollers": {
+      "file": "robotics-and-embedded-systems/microcontrollers.md",
+      "title": "Microcontrollers",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-microcontrollers",
+          "title": "Foundations of Microcontrollers"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-microcontrollers-together",
+          "title": "Bringing Microcontrollers Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-internet-of-things-iot": {
+      "file": "robotics-and-embedded-systems/internet-of-things-iot.md",
+      "title": "Internet of Things (IoT)",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-internet-of-things-iot",
+          "title": "Foundations of Internet of Things (IoT)"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-internet-of-things-iot-together",
+          "title": "Bringing Internet of Things (IoT) Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-sensors-and-actuators": {
+      "file": "robotics-and-embedded-systems/sensors-and-actuators.md",
+      "title": "Sensors and Actuators",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-sensors-and-actuators",
+          "title": "Foundations of Sensors and Actuators"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-sensors-and-actuators-together",
+          "title": "Bringing Sensors and Actuators Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-control-systems": {
+      "file": "robotics-and-embedded-systems/control-systems.md",
+      "title": "Control Systems",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-control-systems",
+          "title": "Foundations of Control Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-control-systems-together",
+          "title": "Bringing Control Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-industrial-automation": {
+      "file": "robotics-and-embedded-systems/industrial-automation.md",
+      "title": "Industrial Automation",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-industrial-automation",
+          "title": "Foundations of Industrial Automation"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-industrial-automation-together",
+          "title": "Bringing Industrial Automation Together"
+        }
+      ]
+    },
+    "faculty-of-technology-robotics-and-embedded-systems-100l-autonomous-systems": {
+      "file": "robotics-and-embedded-systems/autonomous-systems.md",
+      "title": "Autonomous Systems",
+      "department": "Robotics and Embedded Systems",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-autonomous-systems",
+          "title": "Foundations of Autonomous Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-autonomous-systems-together",
+          "title": "Bringing Autonomous Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-computer-hardware": {
+      "file": "information-technology-it-support/computer-hardware.md",
+      "title": "Computer Hardware",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-computer-hardware",
+          "title": "Foundations of Computer Hardware"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-computer-hardware-together",
+          "title": "Bringing Computer Hardware Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-operating-system-support": {
+      "file": "information-technology-it-support/operating-system-support.md",
+      "title": "Operating System Support",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-operating-system-support",
+          "title": "Foundations of Operating System Support"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-operating-system-support-together",
+          "title": "Bringing Operating System Support Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-it-help-desk": {
+      "file": "information-technology-it-support/it-help-desk.md",
+      "title": "IT Help Desk",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-it-help-desk",
+          "title": "Foundations of IT Help Desk"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-it-help-desk-together",
+          "title": "Bringing IT Help Desk Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-system-administration": {
+      "file": "information-technology-it-support/system-administration.md",
+      "title": "System Administration",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-system-administration",
+          "title": "Foundations of System Administration"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-system-administration-together",
+          "title": "Bringing System Administration Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-it-asset-management": {
+      "file": "information-technology-it-support/it-asset-management.md",
+      "title": "IT Asset Management",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-it-asset-management",
+          "title": "Foundations of IT Asset Management"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-it-asset-management-together",
+          "title": "Bringing IT Asset Management Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-technical-troubleshooting": {
+      "file": "information-technology-it-support/technical-troubleshooting.md",
+      "title": "Technical Troubleshooting",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-technical-troubleshooting",
+          "title": "Foundations of Technical Troubleshooting"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-technical-troubleshooting-together",
+          "title": "Bringing Technical Troubleshooting Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-it-service-management": {
+      "file": "information-technology-it-support/it-service-management.md",
+      "title": "IT Service Management",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-it-service-management",
+          "title": "Foundations of IT Service Management"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-it-service-management-together",
+          "title": "Bringing IT Service Management Together"
+        }
+      ]
+    },
+    "faculty-of-technology-information-technology-it-support-100l-backup-and-recovery": {
+      "file": "information-technology-it-support/backup-and-recovery.md",
+      "title": "Backup and Recovery",
+      "department": "Information Technology (IT) Support",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-backup-and-recovery",
+          "title": "Foundations of Backup and Recovery"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-backup-and-recovery-together",
+          "title": "Bringing Backup and Recovery Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-distributed-ledger-systems": {
+      "file": "blockchain-technology/distributed-ledger-systems.md",
+      "title": "Distributed Ledger Systems",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-distributed-ledger-systems",
+          "title": "Foundations of Distributed Ledger Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-distributed-ledger-systems-together",
+          "title": "Bringing Distributed Ledger Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-smart-contract-development": {
+      "file": "blockchain-technology/smart-contract-development.md",
+      "title": "Smart Contract Development",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-smart-contract-development",
+          "title": "Foundations of Smart Contract Development"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-smart-contract-development-together",
+          "title": "Bringing Smart Contract Development Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-decentralized-applications": {
+      "file": "blockchain-technology/decentralized-applications.md",
+      "title": "Decentralized Applications",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-decentralized-applications",
+          "title": "Foundations of Decentralized Applications"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-decentralized-applications-together",
+          "title": "Bringing Decentralized Applications Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-cryptocurrency-systems": {
+      "file": "blockchain-technology/cryptocurrency-systems.md",
+      "title": "Cryptocurrency Systems",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-cryptocurrency-systems",
+          "title": "Foundations of Cryptocurrency Systems"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-cryptocurrency-systems-together",
+          "title": "Bringing Cryptocurrency Systems Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-blockchain-security": {
+      "file": "blockchain-technology/blockchain-security.md",
+      "title": "Blockchain Security",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-blockchain-security",
+          "title": "Foundations of Blockchain Security"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-blockchain-security-together",
+          "title": "Bringing Blockchain Security Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-tokenization": {
+      "file": "blockchain-technology/tokenization.md",
+      "title": "Tokenization",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-tokenization",
+          "title": "Foundations of Tokenization"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-tokenization-together",
+          "title": "Bringing Tokenization Together"
+        }
+      ]
+    },
+    "faculty-of-technology-blockchain-technology-100l-consensus-mechanisms": {
+      "file": "blockchain-technology/consensus-mechanisms.md",
+      "title": "Consensus Mechanisms",
+      "department": "Blockchain Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-consensus-mechanisms",
+          "title": "Foundations of Consensus Mechanisms"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-consensus-mechanisms-together",
+          "title": "Bringing Consensus Mechanisms Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-graphic-design": {
+      "file": "digital-media-and-creative-technology/graphic-design.md",
+      "title": "Graphic Design",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-graphic-design",
+          "title": "Foundations of Graphic Design"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-graphic-design-together",
+          "title": "Bringing Graphic Design Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-2d-and-3d-animation": {
+      "file": "digital-media-and-creative-technology/2d-and-3d-animation.md",
+      "title": "2D and 3D Animation",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-2d-and-3d-animation",
+          "title": "Foundations of 2D and 3D Animation"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-2d-and-3d-animation-together",
+          "title": "Bringing 2D and 3D Animation Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-video-editing": {
+      "file": "digital-media-and-creative-technology/video-editing.md",
+      "title": "Video Editing",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-video-editing",
+          "title": "Foundations of Video Editing"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-video-editing-together",
+          "title": "Bringing Video Editing Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-motion-graphics": {
+      "file": "digital-media-and-creative-technology/motion-graphics.md",
+      "title": "Motion Graphics",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-motion-graphics",
+          "title": "Foundations of Motion Graphics"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-motion-graphics-together",
+          "title": "Bringing Motion Graphics Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-3d-modelling": {
+      "file": "digital-media-and-creative-technology/3d-modelling.md",
+      "title": "3D Modelling",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-3d-modelling",
+          "title": "Foundations of 3D Modelling"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-3d-modelling-together",
+          "title": "Bringing 3D Modelling Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-virtual-reality-vr": {
+      "file": "digital-media-and-creative-technology/virtual-reality-vr.md",
+      "title": "Virtual Reality (VR)",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-virtual-reality-vr",
+          "title": "Foundations of Virtual Reality (VR)"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-virtual-reality-vr-together",
+          "title": "Bringing Virtual Reality (VR) Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-augmented-reality-ar": {
+      "file": "digital-media-and-creative-technology/augmented-reality-ar.md",
+      "title": "Augmented Reality (AR)",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-augmented-reality-ar",
+          "title": "Foundations of Augmented Reality (AR)"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-augmented-reality-ar-together",
+          "title": "Bringing Augmented Reality (AR) Together"
+        }
+      ]
+    },
+    "faculty-of-technology-digital-media-and-creative-technology-100l-digital-audio-production": {
+      "file": "digital-media-and-creative-technology/digital-audio-production.md",
+      "title": "Digital Audio Production",
+      "department": "Digital Media and Creative Technology",
+      "lessons": [
+        {
+          "id": "lesson-1-foundations-of-digital-audio-production",
+          "title": "Foundations of Digital Audio Production"
+        },
+        {
+          "id": "lesson-2-core-concepts-and-key-terms",
+          "title": "Core Concepts and Key Terms"
+        },
+        {
+          "id": "lesson-3-tools-environment-and-workflow",
+          "title": "Tools, Environment, and Workflow"
+        },
+        {
+          "id": "lesson-4-a-guided-practical-example",
+          "title": "A Guided Practical Example"
+        },
+        {
+          "id": "lesson-5-common-problems-and-how-to-solve-them",
+          "title": "Common Problems and How to Solve Them"
+        },
+        {
+          "id": "lesson-6-bringing-digital-audio-production-together",
+          "title": "Bringing Digital Audio Production Together"
+        }
+      ]
+    }
+  }
+}
