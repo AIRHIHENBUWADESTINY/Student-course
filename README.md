@@ -22,6 +22,9 @@ one dashboard. It ships with a marketing landing page, an AI registration
 assistant, and an administrator console. Authentication, data and file storage
 are powered by [Supabase](https://supabase.com).
 
+> **Not a developer?** Start with the [Deeplearn User Guide](docs/USER_GUIDE.md)
+> for a plain-language walkthrough of the app.
+
 ## Table of Contents
 
 - [Features](#features)
@@ -32,6 +35,8 @@ are powered by [Supabase](https://supabase.com).
 - [Project Structure](#project-structure)
 - [Architecture](#architecture)
 - [Database & Security](#database--security)
+- [Limitations](#limitations)
+- [User Guide](#user-guide)
 - [Deployment](#deployment)
 
 ## Features
@@ -196,7 +201,7 @@ src/types               Shared TypeScript types
 content/course-materials  Generated course material files
 scripts                 Data generators and admin tooling
 supabase                Migrations, schema and seed SQL
-docs                    Documentation assets (README banner)
+docs                    Documentation assets (README banner) and the user guide
 ```
 
 ## Architecture
@@ -223,6 +228,41 @@ docs                    Documentation assets (README banner)
   through the API.
 - **Admin actions** are re-checked server-side; the `admin` role is required
   for the console and its endpoints.
+
+## Limitations
+
+Deeplearn is a functional reference implementation of a student course
+platform. The following are known limitations of the current release:
+
+- **Illustrative data.** The catalogue and lesson content are sample data for
+  demonstration and are not an official institutional curriculum.
+- **Sparse lesson coverage.** Only the bundled sample courses ship with lesson
+  bodies; most catalogue courses have none until content is added.
+- **Manual Supabase setup.** The migrations, seeds, the private lesson Storage
+  bucket and its policies must be applied to your Supabase project by hand.
+- **Locked submissions.** Online registrations cannot be edited or removed once
+  submitted — changes require an administrator.
+- **Manual admin promotion.** The first administrator must be promoted with the
+  `promote:admin` script and a service-role key; there is no self-service role
+  management.
+- **No payment processing.** Course fees are recorded and shown, but no payment
+  gateway is integrated.
+- **AI assistant dependency.** The registration assistant depends on an
+  external Gemini API key and is subject to that provider's availability and
+  quota.
+- **Email confirmation.** Auto sign-in after registration requires email
+  confirmation to be disabled in Supabase.
+- **No automated tests.** There is currently no automated test suite; verify
+  changes manually with `npm run lint` and `npm run build`.
+- **Single institution.** The app models one institution's faculties,
+  departments and levels; it is not multi-tenant.
+
+## User Guide
+
+A plain-language walkthrough for students and other non-technical users is
+available in **[docs/USER_GUIDE.md](docs/USER_GUIDE.md)**. It covers creating an
+account, finding and registering courses, submitting a registration, reading
+lessons, tracking progress and using the AI assistant.
 
 ## Deployment
 
