@@ -38,9 +38,6 @@ export default function RegistrationsPage() {
   );
   const hasPreviousSubmission = summary.submittedCount > 0;
   const hasNewCourses = hasPreviousSubmission && summary.newCount > 0;
-  const newTotalPrice = registrations
-    .filter((item) => item.status === "draft")
-    .reduce((sum, item) => sum + (item.course?.price ?? 0), 0);
 
   const handleRemove = async () => {
     if (!removing) return;
@@ -111,7 +108,11 @@ export default function RegistrationsPage() {
         <StatCard
           label="Total Course Fee"
           value={formatNaira(totalPrice)}
-          description="Sum of the fees for your courses"
+          description={
+            hasNewCourses
+              ? `+${formatNaira(summary.newFee)} new since last submission`
+              : "Sum of the fees for your courses"
+          }
           icon={Wallet}
           accent="sky"
         />
@@ -136,7 +137,7 @@ export default function RegistrationsPage() {
             </strong>{" "}
             ({summary.newCreditUnits} credit unit
             {summary.newCreditUnits === 1 ? "" : "s"},{" "}
-            {formatNaira(newTotalPrice)}) since your last submission. Submit
+            {formatNaira(summary.newFee)}) since your last submission. Submit
             again to include them.
           </p>
         </div>

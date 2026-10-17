@@ -185,7 +185,7 @@ export default function DashboardPage() {
               {submitted
                 ? "Your courses are submitted for this semester."
                 : reg.summary.submittedCount > 0 && reg.summary.newCount > 0
-                  ? `You have ${reg.summary.newCount} new course${reg.summary.newCount === 1 ? "" : "s"} to submit.`
+                  ? `You have ${reg.summary.newCount} new course${reg.summary.newCount === 1 ? "" : "s"} (${reg.summary.newCreditUnits} unit${reg.summary.newCreditUnits === 1 ? "" : "s"}, ${formatNaira(reg.summary.newFee)}) to submit.`
                   : "You can still add or remove courses while the window is open."}
             </p>
           </div>

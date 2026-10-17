@@ -206,6 +206,10 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
         (sum, item) => sum + (item.course?.creditUnits ?? 0),
         0
       ),
+      newFee: newRegistrations.reduce(
+        (sum, item) => sum + (item.course?.price ?? 0),
+        0
+      ),
       submittedCount: submittedRegistrations.length,
     };
   }, [registrations, portal?.session, semester]);

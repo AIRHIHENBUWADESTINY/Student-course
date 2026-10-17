@@ -132,6 +132,7 @@ export interface RegistrationSummary {
   /** Courses added after the previous submission (still drafts). */
   newCount: number;
   newCreditUnits: number;
+  newFee: number;
   /** Courses already submitted in this session/semester. */
   submittedCount: number;
 }
