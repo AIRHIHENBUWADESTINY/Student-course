@@ -2,13 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import {
   BarChart3,
   CheckCircle2,
   ChevronsLeft,
   ClipboardList,
-  GraduationCap,
   LayoutDashboard,
   LayoutGrid,
   LogOut,
@@ -88,12 +88,18 @@ export default function Sidebar({
           onClick={onCloseMobile}
           className="flex items-center gap-2.5 overflow-hidden"
         >
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 text-white shadow-sm">
-            <GraduationCap className="h-5 w-5" />
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl shadow-sm">
+            <Image
+              src="/icon.png"
+              alt="Deeplearn logo"
+              width={36}
+              height={36}
+              className="h-9 w-9 object-cover"
+            />
           </span>
           {!compact && (
             <span className="flex flex-col leading-none">
-              <span className="text-sm font-bold text-slate-900">LearnHub</span>
+              <span className="text-sm font-bold text-slate-900">Deeplearn</span>
               <span className="text-[11px] text-slate-400">
                 Student Dashboard
               </span>
@@ -122,13 +128,13 @@ export default function Sidebar({
               title={compact ? item.label : undefined}
               className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200 ${
                 active
-                  ? "bg-indigo-50 text-indigo-700 shadow-sm"
+                  ? "bg-blue-50 text-blue-700 shadow-sm"
                   : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
               } ${compact ? "justify-center" : ""}`}
             >
               <Icon
                 className={`h-5 w-5 shrink-0 ${
-                  active ? "text-indigo-600" : "text-slate-400"
+                  active ? "text-blue-600" : "text-slate-400"
                 }`}
               />
               {!compact && <span>{item.label}</span>}

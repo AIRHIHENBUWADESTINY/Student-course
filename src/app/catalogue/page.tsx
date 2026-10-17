@@ -95,7 +95,7 @@ export default function CataloguePage() {
               <span className="rounded-md bg-slate-100 px-2 py-0.5 font-mono text-xs font-semibold text-slate-600">
                 {course.courseCode || "---"}
               </span>
-              <Badge tone={course.courseType === "Core" ? "indigo" : "sky"}>
+              <Badge tone={course.courseType === "Core" ? "blue" : "sky"}>
                 {course.courseType ?? "Core"}
               </Badge>
               {forYou && <Badge tone="emerald">For you</Badge>}
@@ -187,7 +187,7 @@ export default function CataloguePage() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
             <BookOpen className="h-5 w-5" />
           </span>
           <div>
@@ -205,7 +205,7 @@ export default function CataloguePage() {
             id="catalogue-semester"
             value={reg.semester}
             onChange={(event) => reg.setSemester(event.target.value as Semester)}
-            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
           >
             {SEMESTERS.map((item) => (
               <option key={item} value={item}>

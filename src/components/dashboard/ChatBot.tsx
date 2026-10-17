@@ -92,7 +92,7 @@ export default function ChatBot() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700">
             <Sparkles className="h-3.5 w-3.5" />
             Gemini
           </span>
@@ -124,7 +124,7 @@ export default function ChatBot() {
               <div
                 className={`max-w-[85%] rounded-2xl px-4 py-2 text-sm leading-relaxed ${
                   item.role === "user"
-                    ? "rounded-br-sm bg-indigo-600 text-white"
+                    ? "rounded-br-sm bg-blue-600 text-white"
                     : "rounded-bl-sm border border-slate-200 bg-white text-slate-700"
                 }`}
               >
@@ -160,7 +160,7 @@ export default function ChatBot() {
             type="button"
             onClick={() => send(prompt)}
             disabled={busy}
-            className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-indigo-300 hover:text-indigo-600 disabled:opacity-50"
+            className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-blue-300 hover:text-blue-600 disabled:opacity-50"
           >
             {prompt}
           </button>
@@ -184,7 +184,7 @@ export default function ChatBot() {
           }
           disabled={busy}
           aria-label="Message the registration assistant"
-          className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-100 disabled:opacity-60"
+          className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 disabled:opacity-60"
         />
         <Button type="submit" disabled={busy || !input.trim()}>
           {busy ? (

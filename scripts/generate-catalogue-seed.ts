@@ -34,7 +34,7 @@ const rows = COURSE_SUGGESTIONS.map((course) => {
     "''",
     sqlText(course.category),
     sqlText(CATALOGUE_LEVEL),
-    sqlText("indigo"),
+    sqlText("blue"),
     sqlText("code"),
     sqlText(course.faculty),
     sqlText(course.department),

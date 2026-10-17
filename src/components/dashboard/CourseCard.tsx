@@ -94,7 +94,7 @@ export default function CourseCard({
       <div className="flex flex-1 flex-col p-5">
         <div className="flex flex-wrap items-center gap-2 text-xs">
           {course.courseCode && <Badge tone="slate">{course.courseCode}</Badge>}
-          {course.category && <Badge tone="indigo">{course.category}</Badge>}
+          {course.category && <Badge tone="blue">{course.category}</Badge>}
           {isOwned && <Badge tone="emerald">Your course</Badge>}
         </div>
         <h3 className="mt-3 text-base font-semibold text-slate-900">

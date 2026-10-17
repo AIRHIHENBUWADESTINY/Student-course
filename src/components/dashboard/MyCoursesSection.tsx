@@ -26,7 +26,7 @@ export default function MyCoursesSection() {
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <h2 className="text-lg font-semibold text-slate-900">My Courses</h2>
-          <Badge tone="indigo">{owned.length}</Badge>
+          <Badge tone="blue">{owned.length}</Badge>
         </div>
         <Button onClick={crud.openCreate}>
           <Plus className="h-4 w-4" />

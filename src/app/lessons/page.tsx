@@ -68,7 +68,7 @@ export default function LessonsPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <ListChecks className="h-5 w-5" />
         </span>
         <div>
@@ -91,7 +91,7 @@ export default function LessonsPage() {
             value={courseId}
             onChange={(event) => setCourseId(event.target.value)}
             aria-label="Filter by course"
-            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
           >
             <option value="all">All courses</option>
             {accessibleCourses.map((course) => (
@@ -104,7 +104,7 @@ export default function LessonsPage() {
             value={status}
             onChange={(event) => setStatus(event.target.value as StatusFilter)}
             aria-label="Filter by status"
-            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
           >
             <option value="all">All statuses</option>
             <option value="not-started">Not started</option>
@@ -152,7 +152,7 @@ export default function LessonsPage() {
             <button
               type="button"
               onClick={resetFilters}
-              className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-indigo-700"
+              className="rounded-lg bg-emerald-400 px-4 py-2 text-sm font-medium text-emerald-950 transition hover:bg-emerald-300"
             >
               Reset filters
             </button>

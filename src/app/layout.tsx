@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LearnHub | Student Learning Dashboard",
+  title: "Deeplearn | Student Learning Dashboard",
   description:
     "Manage your courses, access lessons and track your learning progress in one place.",
   icons: {

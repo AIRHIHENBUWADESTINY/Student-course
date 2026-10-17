@@ -84,11 +84,11 @@ export default function ProfileCard() {
 
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className="h-24 bg-gradient-to-r from-indigo-500 via-indigo-600 to-blue-600" />
+      <div className="h-24 bg-gradient-to-r from-blue-600 via-blue-700 to-teal-500" />
       <div className="px-6 pb-6">
         <div className="-mt-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="flex items-end gap-4">
-            <span className="flex h-20 w-20 items-center justify-center rounded-2xl border-4 border-white bg-indigo-100 text-2xl font-bold text-indigo-700 shadow-sm">
+            <span className="flex h-20 w-20 items-center justify-center rounded-2xl border-4 border-white bg-blue-100 text-2xl font-bold text-blue-700 shadow-sm">
               {initials(profile.name)}
             </span>
             <div className="pb-1">
@@ -121,7 +121,7 @@ export default function ProfileCard() {
 
         <p className="mt-5 max-w-2xl text-sm text-slate-600">{profile.bio}</p>
 
-        <div className="mt-5 inline-flex items-center gap-2 rounded-lg bg-indigo-50 px-3 py-2 text-sm text-indigo-700">
+        <div className="mt-5 inline-flex items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm text-blue-700">
           <Target className="h-4 w-4" />
           <span className="font-medium">Goal:</span>
           {profile.goal}
@@ -129,7 +129,7 @@ export default function ProfileCard() {
 
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="flex items-center gap-3 rounded-xl border border-slate-200 p-4">
-            <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+            <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
               <BookOpen className="h-5 w-5" />
             </span>
             <div>
@@ -183,7 +183,7 @@ export default function ProfileCard() {
               onChange={(event) =>
                 setForm((current) => ({ ...current, name: event.target.value }))
               }
-              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             />
           </div>
           <div>
@@ -203,7 +203,7 @@ export default function ProfileCard() {
                   email: event.target.value,
                 }))
               }
-              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             />
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -224,7 +224,7 @@ export default function ProfileCard() {
                   }))
                 }
                 placeholder="e.g. CSC/2023/001"
-                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
               />
             </div>
             <div>
@@ -243,7 +243,7 @@ export default function ProfileCard() {
                     level: event.target.value,
                   }))
                 }
-                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
               >
                 <option value="">Not set</option>
                 {ACADEMIC_LEVELS.map((level) => (
@@ -272,7 +272,7 @@ export default function ProfileCard() {
                     department: "",
                   }))
                 }
-                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
               >
                 <option value="">Not set</option>
                 {FACULTIES.map((faculty) => (
@@ -299,7 +299,7 @@ export default function ProfileCard() {
                   }))
                 }
                 disabled={!form.faculty}
-                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 disabled:bg-slate-50 disabled:text-slate-400"
+                className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100 disabled:bg-slate-50 disabled:text-slate-400"
               >
                 <option value="">Not set</option>
                 {formDepartments.map((department) => (
@@ -326,7 +326,7 @@ export default function ProfileCard() {
                   session: event.target.value,
                 }))
               }
-              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             >
               {ACADEMIC_SESSIONS.map((session) => (
                 <option key={session} value={session}>
@@ -353,7 +353,7 @@ export default function ProfileCard() {
                   dateOfBirth: event.target.value,
                 }))
               }
-              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             />
           </div>
           <div>
@@ -370,7 +370,7 @@ export default function ProfileCard() {
               onChange={(event) =>
                 setForm((current) => ({ ...current, bio: event.target.value }))
               }
-              className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 w-full rounded-lg border border-slate-200 px-3 py-2 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             />
           </div>
           <div>
@@ -386,7 +386,7 @@ export default function ProfileCard() {
               onChange={(event) =>
                 setForm((current) => ({ ...current, goal: event.target.value }))
               }
-              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             />
           </div>
           {error && (

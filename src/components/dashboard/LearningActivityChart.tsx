@@ -27,7 +27,7 @@ export default function LearningActivityChart({
                 <div
                   className={`w-full rounded-md transition-all duration-500 ${
                     point.isToday
-                      ? "bg-gradient-to-t from-indigo-600 to-indigo-400"
+                      ? "bg-gradient-to-t from-blue-600 to-teal-400"
                       : "bg-gradient-to-t from-slate-300 to-slate-200"
                   }`}
                   style={{ height: `${heightPct}%` }}
@@ -39,7 +39,7 @@ export default function LearningActivityChart({
               <span
                 className={`text-xs ${
                   point.isToday
-                    ? "font-semibold text-indigo-600"
+                    ? "font-semibold text-blue-600"
                     : "text-slate-400"
                 }`}
               >

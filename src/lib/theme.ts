@@ -20,13 +20,13 @@ export interface Accent {
 }
 
 export const accentStyles: Record<AccentKey, Accent> = {
-  indigo: {
-    gradient: "from-indigo-500 to-blue-600",
-    soft: "bg-indigo-50 text-indigo-700",
-    text: "text-indigo-600",
-    ring: "ring-indigo-200",
-    solid: "bg-indigo-600",
-    bar: "bg-indigo-600",
+  blue: {
+    gradient: "from-blue-600 to-teal-500",
+    soft: "bg-blue-50 text-blue-700",
+    text: "text-blue-600",
+    ring: "ring-blue-200",
+    solid: "bg-blue-600",
+    bar: "bg-blue-600",
   },
   emerald: {
     gradient: "from-emerald-500 to-teal-600",
@@ -88,7 +88,7 @@ export const courseIcons: Record<string, LucideIcon> = {
 };
 
 export function getAccent(key: AccentKey): Accent {
-  return accentStyles[key];
+  return accentStyles[key] ?? accentStyles.blue;
 }
 
 export function getCourseIcon(key: string): LucideIcon {

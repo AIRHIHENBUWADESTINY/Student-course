@@ -68,7 +68,7 @@ export default function LearningMaterialsPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <BookOpen className="h-5 w-5" />
         </span>
         <div>
@@ -94,7 +94,7 @@ export default function LearningMaterialsPage() {
           title="No learning materials yet"
           description="Register for courses and their study materials will appear here automatically."
           action={
-            <Link href="/catalogue" className="inline-flex h-10 items-center rounded-lg bg-indigo-600 px-4 text-sm font-medium text-white transition hover:bg-indigo-700">
+            <Link href="/catalogue" className="inline-flex h-10 items-center rounded-lg bg-emerald-400 px-4 text-sm font-medium text-emerald-950 transition hover:bg-emerald-300">
               Go to Course Catalogue
             </Link>
           }
@@ -107,7 +107,7 @@ export default function LearningMaterialsPage() {
               value={courses.length}
               description="From your registered courses"
               icon={BookOpen}
-              accent="indigo"
+              accent="blue"
             />
             <StatCard
               label="Lessons available"
@@ -137,7 +137,7 @@ export default function LearningMaterialsPage() {
               value={category}
               onChange={(event) => setCategory(event.target.value)}
               aria-label="Filter by category"
-              className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 transition focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+              className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 transition focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
             >
               <option value="all">All categories</option>
               {categories.map((item) => (
@@ -159,10 +159,10 @@ export default function LearningMaterialsPage() {
               {filtered.map((course) => (
                 <article
                   key={course.courseId}
-                  className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-indigo-200 hover:shadow-md"
+                  className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-blue-200 hover:shadow-md"
                 >
                   <div className="flex items-start justify-between gap-3">
-                    <Badge tone="indigo">{course.category}</Badge>
+                    <Badge tone="blue">{course.category}</Badge>
                     {course.available && course.percent === 100 && (
                       <Badge tone="emerald">Completed</Badge>
                     )}
@@ -201,7 +201,7 @@ export default function LearningMaterialsPage() {
                   {course.available ? (
                     <Link
                       href={`/materials/${course.courseId}`}
-                      className="inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-indigo-600 px-4 text-sm font-medium text-white transition hover:bg-indigo-700"
+                      className="inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-emerald-400 px-4 text-sm font-medium text-emerald-950 transition hover:bg-emerald-300"
                     >
                       <BookOpen className="h-4 w-4" />
                       Read Materials

@@ -124,7 +124,7 @@ export default function TopNavbar({
             onFocus={() => setSearchOpen(true)}
             placeholder="Search courses and lessons..."
             aria-label="Search courses and lessons"
-            className="h-10 w-full rounded-lg border border-slate-200 bg-slate-50 pl-9 pr-9 text-sm text-slate-700 placeholder:text-slate-400 transition focus:border-indigo-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 w-full rounded-lg border border-slate-200 bg-slate-50 pl-9 pr-9 text-sm text-slate-700 placeholder:text-slate-400 transition focus:border-blue-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-100"
           />
           {query && (
             <button
@@ -168,7 +168,7 @@ export default function TopNavbar({
                         }}
                         className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition hover:bg-slate-50"
                       >
-                        <BookOpen className="h-4 w-4 text-indigo-500" />
+                        <BookOpen className="h-4 w-4 text-blue-500" />
                         <span className="flex-1">
                           <span className="block font-medium text-slate-800">
                             {course.title}
@@ -196,7 +196,7 @@ export default function TopNavbar({
                         }}
                         className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition hover:bg-slate-50"
                       >
-                        <PlayCircle className="h-4 w-4 text-indigo-500" />
+                        <PlayCircle className="h-4 w-4 text-blue-500" />
                         <span className="flex-1">
                           <span className="block font-medium text-slate-800">
                             {lesson.title}
@@ -225,7 +225,7 @@ export default function TopNavbar({
             aria-label="Notifications"
           >
             <Bell className="h-5 w-5" />
-            <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-indigo-600 ring-2 ring-white" />
+            <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-blue-600 ring-2 ring-white" />
           </button>
           {notifOpen && (
             <>
@@ -239,7 +239,7 @@ export default function TopNavbar({
                   <p className="text-sm font-semibold text-slate-800">
                     Notifications
                   </p>
-                  <span className="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-600">
+                  <span className="rounded-full bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-600">
                     {notifications.length} new
                   </span>
                 </div>
@@ -251,7 +251,7 @@ export default function TopNavbar({
                       onClick={() => setNotifOpen(false)}
                       className="flex items-start gap-3 border-b border-slate-50 px-4 py-3 transition last:border-0 hover:bg-slate-50"
                     >
-                      <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600">
+                      <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
                         <CheckCircle2 className="h-4 w-4" />
                       </span>
                       <span>
@@ -280,7 +280,7 @@ export default function TopNavbar({
             className="flex items-center gap-2 rounded-lg p-1 pr-2 transition hover:bg-slate-100"
             aria-label="Account menu"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-100 text-sm font-semibold text-indigo-700">
+            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-100 text-sm font-semibold text-blue-700">
               {initials(profile.name)}
             </span>
             <span className="hidden text-left sm:block">

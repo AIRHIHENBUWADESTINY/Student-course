@@ -223,7 +223,7 @@ alter table public.courses
 
 -- Student-created courses do not provide level/accent/icon, so give defaults.
 alter table public.courses alter column level set default 'Beginner';
-alter table public.courses alter column accent set default 'indigo';
+alter table public.courses alter column accent set default 'blue';
 alter table public.courses alter column icon set default 'code';
 
 alter table public.courses

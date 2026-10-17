@@ -9,7 +9,7 @@ interface ProgressBarProps {
 export default function ProgressBar({
   value,
   className = "",
-  colorClass = "bg-indigo-600",
+  colorClass = "bg-blue-600",
   size = "md",
   label = "Progress",
 }: ProgressBarProps) {

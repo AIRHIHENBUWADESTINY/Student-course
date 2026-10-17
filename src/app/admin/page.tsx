@@ -41,7 +41,7 @@ import type {
 type Tab = "courses" | "students" | "departments" | "portal";
 
 const inputClass =
-  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100";
+  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100";
 const labelClass = "block text-sm font-medium text-slate-700";
 
 /* --------------------------------- Courses -------------------------------- */
@@ -968,7 +968,7 @@ export default function AdminPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <ShieldAlert className="h-5 w-5" />
         </span>
         <div>
@@ -990,7 +990,7 @@ export default function AdminPage() {
               onClick={() => setTab(item.id)}
               className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition ${
                 active
-                  ? "bg-indigo-50 text-indigo-700"
+                  ? "bg-blue-50 text-blue-700"
                   : "text-slate-600 hover:bg-slate-100"
               }`}
             >

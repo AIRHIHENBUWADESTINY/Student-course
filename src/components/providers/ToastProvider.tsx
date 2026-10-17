@@ -39,8 +39,8 @@ const variantStyles: Record<
     icon: <XCircle className="h-5 w-5" />,
   },
   info: {
-    ring: "ring-indigo-100",
-    accent: "text-indigo-600",
+    ring: "ring-blue-100",
+    accent: "text-blue-600",
     icon: <Info className="h-5 w-5" />,
   },
 };

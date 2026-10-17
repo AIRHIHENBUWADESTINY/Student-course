@@ -67,7 +67,7 @@ export default function CoursesPage() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
             <BookOpen className="h-5 w-5" />
           </span>
           <div>
@@ -95,7 +95,7 @@ export default function CoursesPage() {
             value={category}
             onChange={(event) => setCategory(event.target.value)}
             aria-label="Filter by category"
-            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
           >
             <option value="all">All categories</option>
             {categories.map((item) => (
@@ -108,7 +108,7 @@ export default function CoursesPage() {
             value={status}
             onChange={(event) => setStatus(event.target.value as StatusFilter)}
             aria-label="Filter by progress status"
-            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
           >
             <option value="all">All progress</option>
             <option value="in-progress">In progress</option>

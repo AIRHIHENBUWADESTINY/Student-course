@@ -75,7 +75,7 @@ const EMPTY: FormState = {
 };
 
 const inputClass =
-  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100";
+  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100";
 
 const labelClass = "block text-sm font-medium text-slate-700";
 
@@ -464,16 +464,16 @@ export default function CourseFormModal({
           </div>
         </div>
 
-        <div className="rounded-xl border border-indigo-100 bg-indigo-50/60 p-3">
+        <div className="rounded-xl border border-blue-100 bg-blue-50/60 p-3">
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-indigo-600">
+            <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-blue-600">
               <Sparkles className="h-3.5 w-3.5" />
               Suggested courses
             </p>
             <button
               type="button"
               onClick={handleGenerate}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-indigo-200 bg-white px-3 py-1.5 text-xs font-medium text-indigo-700 transition hover:border-indigo-300 hover:bg-indigo-100"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-blue-200 bg-white px-3 py-1.5 text-xs font-medium text-blue-700 transition hover:border-blue-300 hover:bg-blue-100"
             >
               <Wand2 className="h-3.5 w-3.5" />
               Generate course specification
@@ -486,7 +486,7 @@ export default function CourseFormModal({
                   key={suggestion.title}
                   type="button"
                   onClick={() => applySuggestion(suggestion)}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-indigo-200 bg-white py-1 pl-3 pr-1.5 text-xs font-medium text-indigo-700 transition hover:border-indigo-300 hover:bg-indigo-100"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-white py-1 pl-3 pr-1.5 text-xs font-medium text-blue-700 transition hover:border-blue-300 hover:bg-blue-100"
                 >
                   {suggestion.title}
                   <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700">

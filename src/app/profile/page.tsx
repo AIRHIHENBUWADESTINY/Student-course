@@ -32,7 +32,7 @@ export default function ProfilePage() {
                   <div className="flex items-center justify-between">
                     <Link
                       href={`/courses/${item.course.id}`}
-                      className="text-sm font-semibold text-slate-900 transition hover:text-indigo-600"
+                      className="text-sm font-semibold text-slate-900 transition hover:text-blue-600"
                     >
                       {item.course.title}
                     </Link>
@@ -129,7 +129,7 @@ export default function ProfilePage() {
               <p className="text-xs uppercase tracking-wide text-slate-400">
                 Role
               </p>
-              <Badge tone={profile.role === "admin" ? "violet" : "indigo"}>
+              <Badge tone={profile.role === "admin" ? "violet" : "blue"}>
                 {profile.role === "admin" ? "Administrator" : "Student"}
               </Badge>
             </div>

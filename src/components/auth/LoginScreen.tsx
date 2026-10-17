@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Image from "next/image";
 import {
+  ArrowLeft,
   Cake,
-  GraduationCap,
   Info,
   Loader2,
   Lock,
@@ -16,9 +17,15 @@ import { MIN_AGE, maxDateOfBirth, minDateOfBirth } from "@/lib/validation";
 
 type Mode = "signin" | "signup";
 
-export default function LoginScreen() {
+export default function LoginScreen({
+  initialMode = "signin",
+  onBack,
+}: {
+  initialMode?: Mode;
+  onBack?: () => void;
+}) {
   const { signIn, signUp } = useAuth();
-  const [mode, setMode] = useState<Mode>("signin");
+  const [mode, setMode] = useState<Mode>(initialMode);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -61,14 +68,29 @@ export default function LoginScreen() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-50 px-4 py-10">
       <div className="w-full max-w-md">
+        {onBack && (
+          <button
+            type="button"
+            onClick={onBack}
+            className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition hover:text-slate-900"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to home
+          </button>
+        )}
         <div className="mb-6 flex flex-col items-center text-center">
-          <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-600 text-white shadow-sm">
-            <GraduationCap className="h-6 w-6" />
-          </span>
+          <Image
+            src="/icon.png"
+            alt="Deeplearn logo"
+            width={48}
+            height={48}
+            className="h-12 w-12 rounded-2xl shadow-sm"
+            priority
+          />
           <h1 className="mt-4 text-xl font-bold text-slate-900">
             {mode === "signin"
-              ? "Welcome back to LearnHub"
-              : "Create your LearnHub account"}
+              ? "Welcome back to Deeplearn"
+              : "Create your Deeplearn account"}
           </h1>
           <p className="mt-1 text-sm text-slate-500">
             {mode === "signin"
@@ -98,7 +120,7 @@ export default function LoginScreen() {
                   required
                   value={name}
                   onChange={(event) => setName(event.target.value)}
-                  className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                  className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
                 />
               </div>
             </div>
@@ -123,7 +145,7 @@ export default function LoginScreen() {
                   max={maxDateOfBirth()}
                   value={dateOfBirth}
                   onChange={(event) => setDateOfBirth(event.target.value)}
-                  className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                  className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
                 />
               </div>
             </div>
@@ -145,7 +167,7 @@ export default function LoginScreen() {
                 required
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
-                className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
               />
             </div>
           </div>
@@ -167,7 +189,7 @@ export default function LoginScreen() {
                 minLength={mode === "signup" ? 6 : undefined}
                 value={password}
                 onChange={(event) => setPassword(event.target.value)}
-                className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                className="h-10 w-full rounded-lg border border-slate-200 pl-9 pr-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100"
               />
             </div>
           </div>
@@ -198,7 +220,7 @@ export default function LoginScreen() {
           </Button>
 
           {mode === "signin" ? (
-            <div className="flex items-start gap-2 rounded-lg bg-indigo-50 px-3 py-2.5 text-xs text-indigo-700">
+            <div className="flex items-start gap-2 rounded-lg bg-blue-50 px-3 py-2.5 text-xs text-blue-700">
               <Info className="mt-0.5 h-4 w-4 shrink-0" />
               <p>
                 Sign in with an account you created earlier. No account yet?
@@ -206,7 +228,7 @@ export default function LoginScreen() {
               </p>
             </div>
           ) : (
-            <div className="flex items-start gap-2 rounded-lg bg-indigo-50 px-3 py-2.5 text-xs text-indigo-700">
+            <div className="flex items-start gap-2 rounded-lg bg-blue-50 px-3 py-2.5 text-xs text-blue-700">
               <Info className="mt-0.5 h-4 w-4 shrink-0" />
               <p>
                 Passwords must be at least 6 characters and you must be at
@@ -223,7 +245,7 @@ export default function LoginScreen() {
                 <button
                   type="button"
                   onClick={() => switchMode("signup")}
-                  className="font-semibold text-indigo-600 transition hover:text-indigo-700"
+                  className="font-semibold text-blue-600 transition hover:text-blue-700"
                 >
                   Create one
                 </button>
@@ -234,7 +256,7 @@ export default function LoginScreen() {
                 <button
                   type="button"
                   onClick={() => switchMode("signin")}
-                  className="font-semibold text-indigo-600 transition hover:text-indigo-700"
+                  className="font-semibold text-blue-600 transition hover:text-blue-700"
                 >
                   Sign in
                 </button>

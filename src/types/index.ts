@@ -1,7 +1,7 @@
 export type LessonStatus = "not-started" | "in-progress" | "completed";
 
 export type AccentKey =
-  | "indigo"
+  | "blue"
   | "emerald"
   | "fuchsia"
   | "sky"

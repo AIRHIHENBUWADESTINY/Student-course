@@ -117,7 +117,7 @@ export default function CourseDetailPage() {
       <div className="flex flex-wrap items-center justify-between gap-3">
         <Link
           href="/courses"
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition hover:text-indigo-600"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition hover:text-blue-600"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to courses
@@ -275,7 +275,7 @@ export default function CourseDetailPage() {
       <section>
         <div className="mb-4 flex items-center gap-2">
           <h2 className="text-lg font-semibold text-slate-900">Course lessons</h2>
-          <Badge tone="indigo">{stats.total} lessons</Badge>
+          <Badge tone="blue">{stats.total} lessons</Badge>
         </div>
         {!canAccess ? (
           <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">

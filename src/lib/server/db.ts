@@ -269,7 +269,7 @@ export async function createCourse(
     price: input.price ?? 0,
     course_type: input.courseType ?? "Core",
     registration_status: input.registrationStatus ?? "Available",
-    accent: "indigo",
+    accent: "blue",
     icon: "code",
   });
   if (error) throw toError(error);

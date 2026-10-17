@@ -40,7 +40,7 @@ const courseSeeds: CourseSeed[] = [
     instructor: "Sarah Mitchell",
     category: "Development",
     level: "Beginner",
-    accent: "indigo",
+    accent: "blue",
     icon: "code",
     price: 45000,
     lessons: [

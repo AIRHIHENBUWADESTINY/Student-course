@@ -15,7 +15,7 @@ export default function StatCard({
   value,
   description,
   icon: Icon,
-  accent = "indigo",
+  accent = "blue",
 }: StatCardProps) {
   const style = getAccent(accent);
   return (

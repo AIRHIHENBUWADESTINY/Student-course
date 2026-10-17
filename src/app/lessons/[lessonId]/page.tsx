@@ -141,13 +141,13 @@ export default function LessonDetailPage() {
       <div className="space-y-5">
         <Link
           href={`/courses/${course.id}`}
-          className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-indigo-600"
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-blue-600"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to {course.title}
         </Link>
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
-          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-indigo-50 text-indigo-500">
+          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-blue-50 text-blue-500">
             <Lock className="h-7 w-7" />
           </span>
           <h1 className="mt-4 text-lg font-semibold text-slate-900">
@@ -203,14 +203,14 @@ export default function LessonDetailPage() {
       <nav className="flex flex-wrap items-center gap-1.5 text-sm text-slate-500">
         <Link
           href="/courses"
-          className="transition hover:text-indigo-600"
+          className="transition hover:text-blue-600"
         >
           Courses
         </Link>
         <span>/</span>
         <Link
           href={`/courses/${course.id}`}
-          className="transition hover:text-indigo-600"
+          className="transition hover:text-blue-600"
         >
           {course.title}
         </Link>
@@ -222,7 +222,7 @@ export default function LessonDetailPage() {
         <article className="lg:col-span-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-2.5 py-0.5 text-xs font-medium text-indigo-700">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700">
                 <BookOpen className="h-3.5 w-3.5" />
                 {course.title}
               </span>
@@ -367,7 +367,7 @@ export default function LessonDetailPage() {
                       href={`/lessons/${item.id}`}
                       className={`flex items-center gap-2 rounded-lg px-2.5 py-2 text-sm transition ${
                         isCurrent
-                          ? "bg-indigo-50 font-medium text-indigo-700"
+                          ? "bg-blue-50 font-medium text-blue-700"
                           : "text-slate-600 hover:bg-slate-50"
                       }`}
                     >

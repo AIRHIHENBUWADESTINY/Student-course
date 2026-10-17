@@ -40,7 +40,7 @@ export default function ProgressPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <BarChart3 className="h-5 w-5" />
         </span>
         <div>
@@ -62,7 +62,7 @@ export default function ProgressPage() {
           <div className="mt-4">
             <ProgressBar
               value={stats.overallPercent}
-              colorClass="bg-gradient-to-r from-indigo-500 to-blue-600"
+              colorClass="bg-gradient-to-r from-blue-600 to-teal-500"
               label="Overall completion"
             />
           </div>
@@ -75,7 +75,7 @@ export default function ProgressPage() {
             <p className="text-sm font-medium text-slate-500">
               Weekly learning activity
             </p>
-            <span className="inline-flex items-center gap-1 text-xs font-medium text-indigo-600">
+            <span className="inline-flex items-center gap-1 text-xs font-medium text-blue-600">
               <TrendingUp className="h-3.5 w-3.5" />
               {weeklyCount} this week
             </span>
@@ -90,7 +90,7 @@ export default function ProgressPage() {
           value={`${stats.overallPercent}%`}
           description="Across all courses"
           icon={TrendingUp}
-          accent="indigo"
+          accent="blue"
         />
         <StatCard
           label="Lessons Completed"
@@ -130,7 +130,7 @@ export default function ProgressPage() {
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <Link
                     href={`/courses/${item.course.id}`}
-                    className="text-sm font-semibold text-slate-900 transition hover:text-indigo-600"
+                    className="text-sm font-semibold text-slate-900 transition hover:text-blue-600"
                   >
                     {item.course.title}
                   </Link>
@@ -184,7 +184,7 @@ export default function ProgressPage() {
                 <div className="min-w-0 flex-1">
                   <Link
                     href={`/lessons/${entry.lesson.id}`}
-                    className="block truncate text-sm font-medium text-slate-800 transition hover:text-indigo-600"
+                    className="block truncate text-sm font-medium text-slate-800 transition hover:text-blue-600"
                   >
                     {entry.lesson.title}
                   </Link>

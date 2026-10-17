@@ -64,7 +64,7 @@ export default function RegistrationsPage() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
             <ClipboardList className="h-5 w-5" />
           </span>
           <div>
@@ -92,7 +92,7 @@ export default function RegistrationsPage() {
           value={summary.count}
           description="In your current basket"
           icon={ClipboardList}
-          accent="indigo"
+          accent="blue"
         />
         <StatCard
           label="Total Credit Units"
@@ -169,7 +169,7 @@ export default function RegistrationsPage() {
                     </p>
                   </td>
                   <td className="hidden px-4 py-3 sm:table-cell">
-                    <Badge tone={item.course?.courseType === "Elective" ? "sky" : "indigo"}>
+                    <Badge tone={item.course?.courseType === "Elective" ? "sky" : "blue"}>
                       {item.course?.courseType ?? "Core"}
                     </Badge>
                   </td>
@@ -187,7 +187,7 @@ export default function RegistrationsPage() {
                           className={buttonClasses("ghost", "sm")}
                           title="View course notes"
                         >
-                          <BookOpen className="h-4 w-4 text-indigo-500" />
+                          <BookOpen className="h-4 w-4 text-blue-500" />
                           View
                         </Link>
                       )}

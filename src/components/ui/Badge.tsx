@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 type BadgeTone =
-  | "indigo"
+  | "blue"
   | "emerald"
   | "amber"
   | "slate"
@@ -10,7 +10,7 @@ type BadgeTone =
   | "violet";
 
 const tones: Record<BadgeTone, string> = {
-  indigo: "bg-indigo-50 text-indigo-700 ring-indigo-100",
+  blue: "bg-blue-50 text-blue-700 ring-blue-100",
   emerald: "bg-emerald-50 text-emerald-700 ring-emerald-100",
   amber: "bg-amber-50 text-amber-700 ring-amber-100",
   slate: "bg-slate-100 text-slate-600 ring-slate-200",

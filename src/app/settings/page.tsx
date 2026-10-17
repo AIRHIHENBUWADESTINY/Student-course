@@ -35,7 +35,7 @@ function Toggle({
       aria-label={label}
       onClick={() => onChange(!checked)}
       className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors ${
-        checked ? "bg-indigo-600" : "bg-slate-300"
+        checked ? "bg-blue-600" : "bg-slate-300"
       }`}
     >
       <span
@@ -70,7 +70,7 @@ export default function SettingsPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <SettingsIcon className="h-5 w-5" />
         </span>
         <div>
@@ -83,7 +83,7 @@ export default function SettingsPage() {
 
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center gap-2">
-          <Bell className="h-5 w-5 text-indigo-500" />
+          <Bell className="h-5 w-5 text-blue-500" />
           <h2 className="text-base font-semibold text-slate-900">
             Notifications
           </h2>
@@ -146,7 +146,7 @@ export default function SettingsPage() {
 
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center gap-2">
-          <Target className="h-5 w-5 text-indigo-500" />
+          <Target className="h-5 w-5 text-blue-500" />
           <h2 className="text-base font-semibold text-slate-900">
             Learning goal
           </h2>
@@ -162,7 +162,7 @@ export default function SettingsPage() {
             value={goalDraft}
             onChange={(event) => setGoalDraft(event.target.value)}
             aria-label="Weekly lesson goal"
-            className="h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100 sm:w-32"
+            className="h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100 sm:w-32"
           />
           <Button
             variant="secondary"
@@ -186,7 +186,7 @@ export default function SettingsPage() {
 
       <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <div className="flex items-center gap-2">
-          <Database className="h-5 w-5 text-indigo-500" />
+          <Database className="h-5 w-5 text-blue-500" />
           <h2 className="text-base font-semibold text-slate-900">
             Learning data
           </h2>

@@ -23,7 +23,7 @@ import {
 import { formatNaira } from "@/lib/format";
 
 const inputClass =
-  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100";
+  "mt-1 h-10 w-full rounded-lg border border-slate-200 px-3 text-sm text-slate-700 transition focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100";
 const labelClass = "block text-sm font-medium text-slate-700";
 
 export default function DashboardPage() {
@@ -114,7 +114,7 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       {/* Welcome session */}
-      <section className="overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-600 via-indigo-600 to-blue-700 p-6 text-white shadow-sm sm:p-8">
+      <section className="overflow-hidden rounded-2xl bg-gradient-to-br from-blue-700 via-blue-800 to-teal-600 p-6 text-white shadow-sm sm:p-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-xl">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-medium backdrop-blur">
@@ -124,10 +124,10 @@ export default function DashboardPage() {
             <h1 className="mt-4 text-2xl font-bold tracking-tight sm:text-3xl">
               Welcome back, {firstName}!
             </h1>
-            <p className="mt-2 text-sm text-indigo-100">
+            <p className="mt-2 text-sm text-blue-100">
               {academicLine || "Set up your academic profile to get started."}
             </p>
-            <p className="mt-1 text-xs text-indigo-200">
+            <p className="mt-1 text-xs text-blue-200">
               Matric number: {profile.matricNumber || "Not set"} ·{" "}
               {reg.portal?.session ?? profile.session} · Session
             </p>
@@ -137,7 +137,7 @@ export default function DashboardPage() {
                 className={buttonClasses(
                   "secondary",
                   "md",
-                  "bg-white text-indigo-700 hover:bg-indigo-50"
+                  "bg-white text-blue-700 hover:bg-blue-50"
                 )}
               >
                 <LayoutGrid className="h-4 w-4" />
@@ -159,7 +159,7 @@ export default function DashboardPage() {
 
           <div className="w-full max-w-xs rounded-2xl bg-white/10 p-5 backdrop-blur">
             <div className="flex items-center justify-between text-sm">
-              <span className="text-indigo-100">Registration window</span>
+              <span className="text-blue-100">Registration window</span>
               <span className="inline-flex items-center gap-1.5 text-lg font-semibold">
                 <span
                   className={`h-2.5 w-2.5 rounded-full ${
@@ -174,14 +174,14 @@ export default function DashboardPage() {
             <div className="mt-4 grid grid-cols-2 gap-3 text-center">
               <div className="rounded-xl bg-white/10 p-3">
                 <p className="text-2xl font-bold">{reg.summary.count}</p>
-                <p className="text-xs text-indigo-100">Courses</p>
+                <p className="text-xs text-blue-100">Courses</p>
               </div>
               <div className="rounded-xl bg-white/10 p-3">
                 <p className="text-2xl font-bold">{totalCreditUnits}</p>
-                <p className="text-xs text-indigo-100">Credit units</p>
+                <p className="text-xs text-blue-100">Credit units</p>
               </div>
             </div>
-            <p className="mt-4 text-xs text-indigo-100">
+            <p className="mt-4 text-xs text-blue-100">
               {submitted
                 ? "Your courses are submitted for this semester."
                 : "You can still add or remove courses while the window is open."}
@@ -205,7 +205,7 @@ export default function DashboardPage() {
           </div>
           <Link
             href="/catalogue"
-            className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition hover:text-indigo-700"
+            className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition hover:text-blue-700"
           >
             View full catalogue
             <ArrowRight className="h-4 w-4" />
@@ -256,14 +256,14 @@ export default function DashboardPage() {
                           setPrice(String(item.price));
                         }}
                         className={`flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left transition ${
-                          selected ? "bg-indigo-50" : "hover:bg-slate-50"
+                          selected ? "bg-blue-50" : "hover:bg-slate-50"
                         }`}
                       >
                         <span className="flex min-w-0 items-center gap-2.5">
                           <span
                             className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border ${
                               selected
-                                ? "border-indigo-600 bg-indigo-600 text-white"
+                                ? "border-blue-600 bg-blue-600 text-white"
                                 : "border-slate-300 text-transparent"
                             }`}
                           >
