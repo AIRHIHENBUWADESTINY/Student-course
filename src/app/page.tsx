@@ -413,17 +413,23 @@ export default function DashboardPage() {
                 {reg.summary.submittedCount > 0 && (
                   <tr className="text-xs text-slate-500">
                     <td className="px-4 py-2" colSpan={3}>
-                      Previous course list fee ({reg.summary.submittedCount})
+                      Previous course list ({reg.summary.submittedCount} course
+                      {reg.summary.submittedCount === 1 ? "" : "s"})
                     </td>
-                    <td className="px-4 py-2 text-right">
+                    <td className="px-4 py-2 text-right font-medium text-slate-600">
                       {formatNaira(totalPrice - reg.summary.newFee)}
                     </td>
                   </tr>
                 )}
                 {reg.summary.submittedCount > 0 && (
-                  <tr className="text-xs font-semibold text-brand-dark">
+                  <tr className="bg-brand/5 text-xs font-semibold text-brand-dark">
                     <td className="px-4 py-2" colSpan={3}>
-                      New since last submission ({reg.summary.newCount})
+                      <span className="flex items-center gap-2">
+                        New since last submission
+                        {reg.summary.newCount > 0 && (
+                          <Badge tone="emerald">NEW</Badge>
+                        )}
+                      </span>
                     </td>
                     <td className="px-4 py-2 text-right">
                       {formatNaira(reg.summary.newFee)}

@@ -8,6 +8,8 @@ import {
   CheckCircle2,
   ClipboardList,
   Loader2,
+  ReceiptText,
+  Sigma,
   Sparkles,
   Trash2,
   Wallet,
@@ -50,6 +52,8 @@ export default function RegistrationsPage() {
     (sum, item) => sum + (item.course?.price ?? 0),
     0
   );
+  const newShare =
+    totalPrice > 0 ? Math.round((summary.newFee / totalPrice) * 100) : 0;
 
   const renderRow = (item: Registration) => (
     <tr
@@ -247,42 +251,74 @@ export default function RegistrationsPage() {
       </section>
 
       {hasPreviousSubmission && (
-        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <div className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
-              <Wallet className="h-5 w-5" />
-            </span>
-            <div>
-              <h2 className="text-sm font-semibold text-slate-900">
-                Course fee breakdown
-              </h2>
-              <p className="text-xs text-slate-500">
-                New courses are billed separately from your previously
-                submitted course list.
-              </p>
+        <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 bg-slate-50/60 px-5 py-4">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white shadow-sm">
+                <Wallet className="h-5 w-5" />
+              </span>
+              <div>
+                <h2 className="text-sm font-semibold text-slate-900">
+                  Course fee breakdown
+                </h2>
+                <p className="text-xs text-slate-500">
+                  New courses are billed separately from your previously
+                  submitted course list.
+                </p>
+              </div>
             </div>
+            <Badge tone="sky">
+              {summary.count} course{summary.count === 1 ? "" : "s"} ·{" "}
+              {summary.totalCreditUnits} units
+            </Badge>
           </div>
-          <dl className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
-            <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
-              <dt className="text-xs text-slate-500">
-                Previous course list ({summary.submittedCount})
-              </dt>
-              <dd className="mt-1 text-lg font-bold text-slate-800">
+
+          <dl className="grid grid-cols-1 divide-y divide-slate-100 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+            <div className="p-5">
+              <div className="flex items-center gap-2 text-slate-500">
+                <ReceiptText className="h-4 w-4" />
+                <dt className="text-xs font-medium uppercase tracking-wide">
+                  Previous course list
+                </dt>
+              </div>
+              <dd className="mt-2 text-2xl font-bold text-slate-800">
                 {formatNaira(submittedFee)}
               </dd>
-            </div>
-            <div className="rounded-xl border border-brand/30 bg-brand/5 p-3">
-              <dt className="text-xs font-medium text-brand-dark">
-                New since last submission ({summary.newCount})
-              </dt>
-              <dd className="mt-1 text-lg font-bold text-brand-dark">
-                {formatNaira(summary.newFee)}
+              <dd className="mt-1 text-xs text-slate-400">
+                {summary.submittedCount} course
+                {summary.submittedCount === 1 ? "" : "s"} already submitted
               </dd>
             </div>
-            <div className="rounded-xl border border-slate-200 bg-white p-3">
-              <dt className="text-xs text-slate-500">Total course fee</dt>
-              <dd className="mt-1 text-lg font-bold text-slate-900">
+
+            <div className="bg-gradient-to-br from-brand/10 via-brand/5 to-transparent p-5">
+              <div className="flex items-center gap-2 text-brand-dark">
+                <Sparkles className="h-4 w-4" />
+                <dt className="text-xs font-medium uppercase tracking-wide">
+                  New since last submission
+                </dt>
+                {summary.newCount > 0 && <Badge tone="emerald">NEW</Badge>}
+              </div>
+              <dd className="mt-2 text-2xl font-bold text-brand-dark">
+                {formatNaira(summary.newFee)}
+              </dd>
+              <dd className="mt-1 text-xs text-brand-dark/70">
+                {newShare}% of your total · {summary.newCount} new course
+                {summary.newCount === 1 ? "" : "s"}
+              </dd>
+            </div>
+
+            <div className="p-5">
+              <div className="flex items-center gap-2 text-slate-500">
+                <Sigma className="h-4 w-4" />
+                <dt className="text-xs font-medium uppercase tracking-wide">
+                  Total course fee
+                </dt>
+              </div>
+              <dd className="mt-2 text-2xl font-bold text-slate-900">
                 {formatNaira(totalPrice)}
+              </dd>
+              <dd className="mt-1 text-xs text-slate-400">
+                Previous + new
               </dd>
             </div>
           </dl>
