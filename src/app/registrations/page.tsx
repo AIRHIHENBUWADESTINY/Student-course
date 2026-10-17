@@ -38,6 +38,125 @@ export default function RegistrationsPage() {
   );
   const hasPreviousSubmission = summary.submittedCount > 0;
   const hasNewCourses = hasPreviousSubmission && summary.newCount > 0;
+  const newItems = registrations.filter((item) => item.status === "draft");
+  const submittedItems = registrations.filter(
+    (item) => item.status === "submitted"
+  );
+  const submittedUnits = submittedItems.reduce(
+    (sum, item) => sum + (item.course?.creditUnits ?? 0),
+    0
+  );
+  const submittedFee = submittedItems.reduce(
+    (sum, item) => sum + (item.course?.price ?? 0),
+    0
+  );
+
+  const renderRow = (item: Registration) => (
+    <tr
+      key={item.id}
+      className={`hover:bg-slate-50/60 ${
+        hasNewCourses && item.status === "draft" ? "bg-brand/5" : ""
+      }`}
+    >
+      <td className="px-4 py-3 font-mono text-xs text-slate-600">
+        {item.course?.courseCode || "---"}
+      </td>
+      <td className="px-4 py-3">
+        <div className="flex items-center gap-2">
+          <p className="font-medium text-slate-800">
+            {item.course?.title ?? "Course unavailable"}
+          </p>
+          {hasNewCourses && item.status === "draft" && (
+            <Badge tone="emerald">New</Badge>
+          )}
+        </div>
+        <p className="text-xs text-slate-400">
+          {item.course?.department ?? ""}
+          {item.course ? " · Beginner" : ""}
+        </p>
+      </td>
+      <td className="hidden px-4 py-3 sm:table-cell">
+        <Badge tone={item.course?.courseType === "Elective" ? "sky" : "blue"}>
+          {item.course?.courseType ?? "Core"}
+        </Badge>
+      </td>
+      <td className="px-4 py-3 text-center font-semibold text-slate-700">
+        {item.course?.creditUnits ?? 0}
+      </td>
+      <td className="px-4 py-3 text-right font-semibold text-slate-700">
+        {formatNaira(item.course?.price)}
+      </td>
+      <td className="px-4 py-3">
+        <div className="flex items-center justify-end gap-1">
+          {item.course && (
+            <Link
+              href={`/courses/${item.course.id}`}
+              className={buttonClasses("ghost", "sm")}
+              title="View course notes"
+            >
+              <BookOpen className="h-4 w-4 text-blue-500" />
+              View
+            </Link>
+          )}
+          <Button
+            variant="ghost"
+            size="sm"
+            disabled={
+              registrationClosed || busyId === item.courseId || submitted
+            }
+            onClick={() => setRemoving(item)}
+            title={
+              submitted
+                ? "Submitted registrations cannot be changed"
+                : "Remove course"
+            }
+          >
+            {busyId === item.courseId ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Trash2 className="h-4 w-4 text-rose-500" />
+            )}
+          </Button>
+        </div>
+      </td>
+    </tr>
+  );
+
+  const renderGroup = (
+    label: string,
+    items: Registration[],
+    units: number,
+    fee: number,
+    tone: "new" | "submitted"
+  ) => (
+    <>
+      <tr className={tone === "new" ? "bg-brand/10" : "bg-slate-100"}>
+        <td
+          colSpan={6}
+          className={`px-4 py-2 text-xs font-semibold uppercase tracking-wide ${
+            tone === "new" ? "text-brand-dark" : "text-slate-500"
+          }`}
+        >
+          {label} ({items.length})
+        </td>
+      </tr>
+      {items.map(renderRow)}
+      <tr
+        className={`text-xs font-semibold ${
+          tone === "new"
+            ? "bg-brand/5 text-brand-dark"
+            : "bg-slate-50 text-slate-600"
+        }`}
+      >
+        <td className="px-4 py-2" colSpan={3}>
+          {tone === "new" ? "New subtotal" : "Submitted subtotal"}
+        </td>
+        <td className="px-4 py-2 text-center">{units}</td>
+        <td className="px-4 py-2 text-right">{formatNaira(fee)}</td>
+        <td />
+      </tr>
+    </>
+  );
 
   const handleRemove = async () => {
     if (!removing) return;
@@ -168,80 +287,28 @@ export default function RegistrationsPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
-              {registrations.map((item) => (
-                <tr
-                  key={item.id}
-                  className={`hover:bg-slate-50/60 ${
-                    hasNewCourses && item.status === "draft"
-                      ? "bg-brand/5"
-                      : ""
-                  }`}
-                >
-                  <td className="px-4 py-3 font-mono text-xs text-slate-600">
-                    {item.course?.courseCode || "---"}
-                  </td>
-                  <td className="px-4 py-3">
-                    <div className="flex items-center gap-2">
-                      <p className="font-medium text-slate-800">
-                        {item.course?.title ?? "Course unavailable"}
-                      </p>
-                      {hasNewCourses && item.status === "draft" && (
-                        <Badge tone="emerald">New</Badge>
-                      )}
-                    </div>
-                    <p className="text-xs text-slate-400">
-                      {item.course?.department ?? ""}
-                      {item.course ? " · Beginner" : ""}
-                    </p>
-                  </td>
-                  <td className="hidden px-4 py-3 sm:table-cell">
-                    <Badge tone={item.course?.courseType === "Elective" ? "sky" : "blue"}>
-                      {item.course?.courseType ?? "Core"}
-                    </Badge>
-                  </td>
-                  <td className="px-4 py-3 text-center font-semibold text-slate-700">
-                    {item.course?.creditUnits ?? 0}
-                  </td>
-                  <td className="px-4 py-3 text-right font-semibold text-slate-700">
-                    {formatNaira(item.course?.price)}
-                  </td>
-                  <td className="px-4 py-3">
-                    <div className="flex items-center justify-end gap-1">
-                      {item.course && (
-                        <Link
-                          href={`/courses/${item.course.id}`}
-                          className={buttonClasses("ghost", "sm")}
-                          title="View course notes"
-                        >
-                          <BookOpen className="h-4 w-4 text-blue-500" />
-                          View
-                        </Link>
-                      )}
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        disabled={
-                          registrationClosed ||
-                          busyId === item.courseId ||
-                          submitted
-                        }
-                        onClick={() => setRemoving(item)}
-                        title={
-                          submitted
-                            ? "Submitted registrations cannot be changed"
-                            : "Remove course"
-                        }
-                      >
-                        {busyId === item.courseId ? (
-                          <Loader2 className="h-4 w-4 animate-spin" />
-                        ) : (
-                          <Trash2 className="h-4 w-4 text-rose-500" />
-                        )}
-                      </Button>
-                    </div>
-                  </td>
-                </tr>
-              ))}
+              {hasPreviousSubmission ? (
+                <>
+                  {newItems.length > 0 &&
+                    renderGroup(
+                      "New since last submission",
+                      newItems,
+                      summary.newCreditUnits,
+                      summary.newFee,
+                      "new"
+                    )}
+                  {submittedItems.length > 0 &&
+                    renderGroup(
+                      "Previously submitted",
+                      submittedItems,
+                      submittedUnits,
+                      submittedFee,
+                      "submitted"
+                    )}
+                </>
+              ) : (
+                registrations.map(renderRow)
+              )}
             </tbody>
             <tfoot>
               <tr className="bg-slate-50 text-sm font-semibold text-slate-700">
