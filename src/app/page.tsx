@@ -263,7 +263,7 @@ export default function DashboardPage() {
                           <span
                             className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border ${
                               selected
-                                ? "border-blue-600 bg-blue-600 text-white"
+                                ? "border-brand bg-brand text-white"
                                 : "border-slate-300 text-transparent"
                             }`}
                           >

@@ -9,13 +9,13 @@ export type ButtonVariant =
 export type ButtonSize = "sm" | "md" | "lg";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60";
+  "inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60";
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-blue-400 text-blue-950 shadow-sm hover:bg-blue-300 active:bg-blue-500",
+    "bg-brand text-white shadow-sm hover:bg-brand-dark active:bg-brand-darker",
   secondary:
-    "bg-blue-50 text-blue-700 hover:bg-blue-100 active:bg-blue-200",
+    "bg-brand/10 text-brand-dark hover:bg-brand/15 active:bg-brand/20",
   outline:
     "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300",
   ghost: "text-slate-600 hover:bg-slate-100 hover:text-slate-900",

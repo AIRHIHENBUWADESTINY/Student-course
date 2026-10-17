@@ -380,7 +380,7 @@ export default function LandingPage({
 
         <section className="py-16 sm:py-20">
           <div className="mx-auto max-w-6xl px-4 sm:px-6">
-            <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 to-teal-500 px-8 py-12 text-center shadow-xl sm:px-12">
+            <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-blue-800 to-teal-800 px-8 py-12 text-center shadow-xl sm:px-12">
               <h2 className="text-3xl font-bold tracking-tight text-white">
                 Ready to learn deeper?
               </h2>
@@ -392,7 +392,7 @@ export default function LandingPage({
                 <button
                   type="button"
                   onClick={() => onSignIn("signup")}
-                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-blue-400 px-5 text-base font-medium text-blue-950 shadow-sm transition hover:bg-blue-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-blue-400 px-5 text-base font-medium text-blue-950 shadow-sm transition hover:bg-brand-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   Create your account
                   <ArrowRight className="h-4 w-4" />

@@ -94,7 +94,7 @@ export default function LearningMaterialsPage() {
           title="No learning materials yet"
           description="Register for courses and their study materials will appear here automatically."
           action={
-            <Link href="/catalogue" className="inline-flex h-10 items-center rounded-lg bg-blue-400 px-4 text-sm font-medium text-blue-950 transition hover:bg-blue-300">
+            <Link href="/catalogue" className="inline-flex h-10 items-center rounded-lg bg-blue-400 px-4 text-sm font-medium text-blue-950 transition hover:bg-brand-dark">
               Go to Course Catalogue
             </Link>
           }
@@ -201,7 +201,7 @@ export default function LearningMaterialsPage() {
                   {course.available ? (
                     <Link
                       href={`/materials/${course.courseId}`}
-                      className="inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-blue-400 px-4 text-sm font-medium text-blue-950 transition hover:bg-blue-300"
+                      className="inline-flex h-10 items-center justify-center gap-2 rounded-lg bg-blue-400 px-4 text-sm font-medium text-blue-950 transition hover:bg-brand-dark"
                     >
                       <BookOpen className="h-4 w-4" />
                       Read Materials
