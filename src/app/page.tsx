@@ -410,6 +410,26 @@ export default function DashboardPage() {
                 ))}
               </tbody>
               <tfoot>
+                {reg.summary.submittedCount > 0 && (
+                  <tr className="text-xs text-slate-500">
+                    <td className="px-4 py-2" colSpan={3}>
+                      Previous course list fee ({reg.summary.submittedCount})
+                    </td>
+                    <td className="px-4 py-2 text-right">
+                      {formatNaira(totalPrice - reg.summary.newFee)}
+                    </td>
+                  </tr>
+                )}
+                {reg.summary.submittedCount > 0 && (
+                  <tr className="text-xs font-semibold text-brand-dark">
+                    <td className="px-4 py-2" colSpan={3}>
+                      New since last submission ({reg.summary.newCount})
+                    </td>
+                    <td className="px-4 py-2 text-right">
+                      {formatNaira(reg.summary.newFee)}
+                    </td>
+                  </tr>
+                )}
                 <tr className="bg-slate-50">
                   <td
                     className="px-4 py-3 font-semibold text-slate-700"

@@ -246,6 +246,49 @@ export default function RegistrationsPage() {
         />
       </section>
 
+      {hasPreviousSubmission && (
+        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div className="flex items-center gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
+              <Wallet className="h-5 w-5" />
+            </span>
+            <div>
+              <h2 className="text-sm font-semibold text-slate-900">
+                Course fee breakdown
+              </h2>
+              <p className="text-xs text-slate-500">
+                New courses are billed separately from your previously
+                submitted course list.
+              </p>
+            </div>
+          </div>
+          <dl className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+              <dt className="text-xs text-slate-500">
+                Previous course list ({summary.submittedCount})
+              </dt>
+              <dd className="mt-1 text-lg font-bold text-slate-800">
+                {formatNaira(submittedFee)}
+              </dd>
+            </div>
+            <div className="rounded-xl border border-brand/30 bg-brand/5 p-3">
+              <dt className="text-xs font-medium text-brand-dark">
+                New since last submission ({summary.newCount})
+              </dt>
+              <dd className="mt-1 text-lg font-bold text-brand-dark">
+                {formatNaira(summary.newFee)}
+              </dd>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-3">
+              <dt className="text-xs text-slate-500">Total course fee</dt>
+              <dd className="mt-1 text-lg font-bold text-slate-900">
+                {formatNaira(totalPrice)}
+              </dd>
+            </div>
+          </dl>
+        </section>
+      )}
+
       {hasNewCourses && (
         <div className="flex items-start gap-3 rounded-2xl border border-brand/30 bg-brand/5 p-4 text-sm text-slate-700">
           <Sparkles className="mt-0.5 h-5 w-5 shrink-0 text-brand" />
@@ -374,8 +417,8 @@ export default function RegistrationsPage() {
         tone="primary"
         description={
           hasPreviousSubmission
-            ? `You are about to submit ${summary.newCount} new course(s) totaling ${summary.newCreditUnits} credit units for ${summary.session} ${summary.semester}. Do you want to continue?`
-            : `You are about to submit ${summary.count} course(s) totaling ${summary.totalCreditUnits} credit units for ${summary.session} ${summary.semester}. Do you want to continue?`
+            ? `You are about to submit ${summary.newCount} new course(s) totaling ${summary.newCreditUnits} credit units (${formatNaira(summary.newFee)}) for ${summary.session} ${summary.semester}. Your previously submitted courses (${formatNaira(submittedFee)}) are unaffected. Do you want to continue?`
+            : `You are about to submit ${summary.count} course(s) totaling ${summary.totalCreditUnits} credit units (${formatNaira(totalPrice)}) for ${summary.session} ${summary.semester}. Do you want to continue?`
         }
         confirmLabel="Submit registration"
       />
