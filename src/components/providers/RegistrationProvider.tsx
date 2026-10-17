@@ -182,8 +182,17 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
       (sum, item) => sum + (item.course?.creditUnits ?? 0),
       0
     );
+    // Courses added after the last submission stay "draft"; everything the
+    // student already submitted keeps the "submitted" status. Splitting them
+    // lets the UI calculate what is genuinely new since the previous submission.
+    const newRegistrations = registrations.filter(
+      (item) => item.status === "draft"
+    );
+    const submittedRegistrations = registrations.filter(
+      (item) => item.status === "submitted"
+    );
     const status =
-      count > 0 && registrations.every((item) => item.status === "submitted")
+      count > 0 && submittedRegistrations.length === count
         ? "submitted"
         : "draft";
     return {
@@ -192,6 +201,12 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
       status,
       session: portal?.session ?? FALLBACK_PORTAL.session,
       semester,
+      newCount: newRegistrations.length,
+      newCreditUnits: newRegistrations.reduce(
+        (sum, item) => sum + (item.course?.creditUnits ?? 0),
+        0
+      ),
+      submittedCount: submittedRegistrations.length,
     };
   }, [registrations, portal?.session, semester]);
 

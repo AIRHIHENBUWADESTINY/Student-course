@@ -184,7 +184,9 @@ export default function DashboardPage() {
             <p className="mt-4 text-xs text-blue-100">
               {submitted
                 ? "Your courses are submitted for this semester."
-                : "You can still add or remove courses while the window is open."}
+                : reg.summary.submittedCount > 0 && reg.summary.newCount > 0
+                  ? `You have ${reg.summary.newCount} new course${reg.summary.newCount === 1 ? "" : "s"} to submit.`
+                  : "You can still add or remove courses while the window is open."}
             </p>
           </div>
         </div>

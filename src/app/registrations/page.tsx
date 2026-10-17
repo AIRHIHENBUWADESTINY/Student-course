@@ -9,6 +9,7 @@ import {
   CheckCircle2,
   ClipboardList,
   Loader2,
+  Sparkles,
   Trash2,
   Wallet,
 } from "lucide-react";
@@ -38,6 +39,11 @@ export default function RegistrationsPage() {
     (sum, item) => sum + (item.course?.price ?? 0),
     0
   );
+  const hasPreviousSubmission = summary.submittedCount > 0;
+  const hasNewCourses = hasPreviousSubmission && summary.newCount > 0;
+  const newTotalPrice = registrations
+    .filter((item) => item.status === "draft")
+    .reduce((sum, item) => sum + (item.course?.price ?? 0), 0);
 
   const handleRemove = async () => {
     if (!removing) return;
@@ -90,7 +96,11 @@ export default function RegistrationsPage() {
         <StatCard
           label="Registered Courses"
           value={summary.count}
-          description="In your current basket"
+          description={
+            hasNewCourses
+              ? `${summary.newCount} new since last submission`
+              : "In your current basket"
+          }
           icon={ClipboardList}
           accent="blue"
         />
@@ -129,6 +139,22 @@ export default function RegistrationsPage() {
         </div>
       )}
 
+      {hasNewCourses && (
+        <div className="flex items-start gap-3 rounded-2xl border border-brand/30 bg-brand/5 p-4 text-sm text-slate-700">
+          <Sparkles className="mt-0.5 h-5 w-5 shrink-0 text-brand" />
+          <p>
+            You have added{" "}
+            <strong className="font-semibold text-slate-900">
+              {summary.newCount} new course{summary.newCount === 1 ? "" : "s"}
+            </strong>{" "}
+            ({summary.newCreditUnits} credit unit
+            {summary.newCreditUnits === 1 ? "" : "s"},{" "}
+            {formatNaira(newTotalPrice)}) since your last submission. Submit
+            again to include them.
+          </p>
+        </div>
+      )}
+
       {registrations.length === 0 ? (
         <EmptyState
           icon={ClipboardList}
@@ -155,14 +181,26 @@ export default function RegistrationsPage() {
             </thead>
             <tbody className="divide-y divide-slate-100">
               {registrations.map((item) => (
-                <tr key={item.id} className="hover:bg-slate-50/60">
+                <tr
+                  key={item.id}
+                  className={`hover:bg-slate-50/60 ${
+                    hasNewCourses && item.status === "draft"
+                      ? "bg-brand/5"
+                      : ""
+                  }`}
+                >
                   <td className="px-4 py-3 font-mono text-xs text-slate-600">
                     {item.course?.courseCode || "---"}
                   </td>
                   <td className="px-4 py-3">
-                    <p className="font-medium text-slate-800">
-                      {item.course?.title ?? "Course unavailable"}
-                    </p>
+                    <div className="flex items-center gap-2">
+                      <p className="font-medium text-slate-800">
+                        {item.course?.title ?? "Course unavailable"}
+                      </p>
+                      {hasNewCourses && item.status === "draft" && (
+                        <Badge tone="emerald">New</Badge>
+                      )}
+                    </div>
                     <p className="text-xs text-slate-400">
                       {item.course?.department ?? ""}
                       {item.course ? " · Beginner" : ""}
@@ -242,7 +280,9 @@ export default function RegistrationsPage() {
               ? "Your registration has been submitted and is awaiting review."
               : registrationClosed
                 ? "Registration is closed. You cannot submit or change courses."
-                : "Review your courses carefully before submitting. Once submitted, you cannot make changes online."}
+                : hasNewCourses
+                  ? `You have ${summary.newCount} new course${summary.newCount === 1 ? "" : "s"} to submit on top of your previous submission.`
+                  : "Review your courses carefully before submitting. Once submitted, you cannot make changes online."}
           </p>
           <Button
             onClick={() => setSubmitOpen(true)}
@@ -278,7 +318,11 @@ export default function RegistrationsPage() {
         onConfirm={handleSubmit}
         title="Submit registration"
         tone="primary"
-        description={`You are about to submit ${summary.count} course(s) totaling ${summary.totalCreditUnits} credit units for ${summary.session} ${summary.semester}. Do you want to continue?`}
+        description={
+          hasPreviousSubmission
+            ? `You are about to submit ${summary.newCount} new course(s) totaling ${summary.newCreditUnits} credit units for ${summary.session} ${summary.semester}. Do you want to continue?`
+            : `You are about to submit ${summary.count} course(s) totaling ${summary.totalCreditUnits} credit units for ${summary.session} ${summary.semester}. Do you want to continue?`
+        }
         confirmLabel="Submit registration"
       />
     </div>

@@ -129,6 +129,11 @@ export interface RegistrationSummary {
   status: RegistrationState;
   session: string;
   semester: Semester;
+  /** Courses added after the previous submission (still drafts). */
+  newCount: number;
+  newCreditUnits: number;
+  /** Courses already submitted in this session/semester. */
+  submittedCount: number;
 }
 
 /** An administrator-facing view of a student account. */
