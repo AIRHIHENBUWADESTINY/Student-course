@@ -23,9 +23,12 @@ export const metadata: Metadata = {
   description:
     "Manage your courses, access lessons and track your learning progress in one place.",
   icons: {
-    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
     shortcut: ["/favicon.ico"],
-    apple: ["/favicon.ico"],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
   },
 };
 
