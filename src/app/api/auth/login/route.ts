@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createSupabaseClient } from "@/lib/supabase/server";
 import { getProfile, mergeProfile } from "@/lib/server/db";
+import { apiHandler } from "@/lib/server/auth";
 import { DEFAULT_PROFILE } from "@/lib/storage";
 import type { StudentProfile } from "@/types";
 
@@ -9,7 +10,7 @@ interface LoginBody {
   password?: unknown;
 }
 
-export async function POST(request: Request) {
+export const POST = apiHandler(async (request: Request) => {
   let body: LoginBody;
   try {
     body = (await request.json()) as LoginBody;
@@ -74,4 +75,4 @@ export async function POST(request: Request) {
     refreshToken: data.session.refresh_token,
     user: mergeProfile(profile, data.user),
   });
-}
+});

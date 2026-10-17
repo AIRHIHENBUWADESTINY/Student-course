@@ -17,6 +17,15 @@ export const SUPABASE_PUBLISHABLE_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
   FALLBACK_SUPABASE_PUBLISHABLE_KEY;
 
+/**
+ * True when the built-in defaults above are in use because the host was not
+ * given the NEXT_PUBLIC_SUPABASE_* variables. Surfaced by /api/health so a
+ * misconfigured deployment is easy to spot.
+ */
+export const usingFallbackSupabase =
+  !process.env.NEXT_PUBLIC_SUPABASE_URL ||
+  !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+
 export function hasSupabaseEnv(): boolean {
   return Boolean(SUPABASE_URL && SUPABASE_PUBLISHABLE_KEY);
 }

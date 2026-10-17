@@ -94,7 +94,23 @@ function ensureRefreshed(): Promise<boolean> {
   return refreshPromise;
 }
 
+function describeStatus(status: number, statusText: string): string {
+  if (status >= 500) {
+    return `Server error (HTTP ${status}). The service may be misconfigured — please try again or contact support.`;
+  }
+  if (status === 0) {
+    return "Network error. Please check your connection and try again.";
+  }
+  return statusText || `Request failed (HTTP ${status})`;
+}
+
 function extractMessage(payload: unknown, fallback: string): string {
+  if (typeof payload === "string") {
+    const trimmed = payload.trim();
+    // Don't surface raw HTML error pages (e.g. a 500 page) to the user.
+    if (trimmed && !trimmed.startsWith("<")) return trimmed;
+    return fallback;
+  }
   if (payload && typeof payload === "object" && "message" in payload) {
     const message = (payload as { message?: unknown }).message;
     if (typeof message === "string" && message.trim()) return message;
@@ -147,7 +163,7 @@ async function request<T>(
       setRefreshToken(null);
     }
     throw new ApiError(
-      extractMessage(payload, response.statusText || "Request failed"),
+      extractMessage(payload, describeStatus(response.status, response.statusText)),
       response.status,
       payload
     );

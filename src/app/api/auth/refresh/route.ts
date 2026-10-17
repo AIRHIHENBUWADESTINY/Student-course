@@ -1,11 +1,12 @@
 import { NextResponse } from "next/server";
 import { createSupabaseClient } from "@/lib/supabase/server";
+import { apiHandler } from "@/lib/server/auth";
 
 interface RefreshBody {
   refreshToken?: unknown;
 }
 
-export async function POST(request: Request) {
+export const POST = apiHandler(async (request: Request) => {
   let body: RefreshBody;
   try {
     body = (await request.json()) as RefreshBody;
@@ -39,4 +40,4 @@ export async function POST(request: Request) {
     token: data.session.access_token,
     refreshToken: data.session.refresh_token,
   });
-}
+});

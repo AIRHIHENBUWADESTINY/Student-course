@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { getAuthContext } from "@/lib/supabase/server";
+import { apiHandler } from "@/lib/server/auth";
 
-export async function POST(request: Request) {
+export const POST = apiHandler(async (request: Request) => {
   const auth = await getAuthContext(request);
   if (auth) {
     try {
@@ -11,4 +12,4 @@ export async function POST(request: Request) {
     }
   }
   return NextResponse.json({ success: true });
-}
+});

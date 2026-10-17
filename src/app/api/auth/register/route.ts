@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createSupabaseClient } from "@/lib/supabase/server";
 import { getProfile, mergeProfile } from "@/lib/server/db";
+import { apiHandler } from "@/lib/server/auth";
 import { DEFAULT_PROFILE } from "@/lib/storage";
 import {
   EMAIL_PATTERN,
@@ -20,7 +21,7 @@ interface RegisterBody {
 
 const MIN_PASSWORD_LENGTH = 6;
 
-export async function POST(request: Request) {
+export const POST = apiHandler(async (request: Request) => {
   let body: RegisterBody;
   try {
     body = (await request.json()) as RegisterBody;
@@ -121,4 +122,4 @@ export async function POST(request: Request) {
     },
     { status: 201 }
   );
-}
+});

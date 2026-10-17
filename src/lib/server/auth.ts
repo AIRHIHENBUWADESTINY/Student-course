@@ -27,3 +27,21 @@ export function serverError(
     { status: 500 }
   );
 }
+
+/**
+ * Wraps a route handler so any uncaught error becomes a JSON 500 response.
+ * Without this, an exception escapes the handler and Next.js returns an HTML
+ * error page, which clients can only report as a generic failure.
+ */
+export function apiHandler(
+  handler: (request: Request) => Response | Promise<Response>
+): (request: Request) => Promise<Response> {
+  return async (request: Request) => {
+    try {
+      return await handler(request);
+    } catch (cause) {
+      console.error(`[api] ${request.method} ${request.url} failed`, cause);
+      return serverError(cause, "Something went wrong. Please try again.");
+    }
+  };
+}

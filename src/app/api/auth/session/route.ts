@@ -1,13 +1,21 @@
 import { NextResponse } from "next/server";
 import { getAuthContext } from "@/lib/supabase/server";
 import { getProfile } from "@/lib/server/db";
-import { unauthorized } from "@/lib/server/auth";
+import { apiHandler, unauthorized } from "@/lib/server/auth";
+import { DEFAULT_PROFILE } from "@/lib/storage";
+import type { StudentProfile } from "@/types";
 
-export async function GET(request: Request) {
+export const GET = apiHandler(async (request: Request) => {
   const auth = await getAuthContext(request);
   if (!auth) return unauthorized();
 
-  const profile = await getProfile(auth.supabase, auth.userId);
+  let profile: StudentProfile = { ...DEFAULT_PROFILE };
+  try {
+    profile = await getProfile(auth.supabase, auth.userId);
+  } catch {
+    /* the auth user is still valid; fall back to a default profile */
+  }
+
   return NextResponse.json({
     authenticated: true,
     user: {
@@ -15,4 +23,4 @@ export async function GET(request: Request) {
       email: auth.email ?? profile.email,
     },
   });
-}
+});
