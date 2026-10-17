@@ -13,6 +13,7 @@ import {
 import { useProgress } from "@/components/providers/ProgressProvider";
 import { useRegistration } from "@/components/providers/RegistrationProvider";
 import ChatBot from "@/components/dashboard/ChatBot";
+import Badge from "@/components/ui/Badge";
 import Button, { buttonClasses } from "@/components/ui/Button";
 import {
   COURSE_CATEGORIES,
@@ -388,7 +389,13 @@ export default function DashboardPage() {
                 {registeredCourses.map((item) => (
                   <tr key={item.id} className="hover:bg-slate-50/60">
                     <td className="px-4 py-3 font-medium text-slate-800">
-                      {item.course?.title ?? item.courseId}
+                      <span className="flex items-center gap-2">
+                        {item.course?.title ?? item.courseId}
+                        {reg.summary.submittedCount > 0 &&
+                          item.status === "draft" && (
+                            <Badge tone="emerald">NEW</Badge>
+                          )}
+                      </span>
                     </td>
                     <td className="px-4 py-3 text-slate-500">
                       {item.course?.category ?? "—"}

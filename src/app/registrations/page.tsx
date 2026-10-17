@@ -67,7 +67,7 @@ export default function RegistrationsPage() {
             {item.course?.title ?? "Course unavailable"}
           </p>
           {hasNewCourses && item.status === "draft" && (
-            <Badge tone="emerald">New</Badge>
+            <Badge tone="emerald">NEW</Badge>
           )}
         </div>
         <p className="text-xs text-slate-400">
