@@ -13,7 +13,6 @@ import {
   COURSE_SUGGESTIONS,
   DEFAULT_CREDIT_UNITS,
   DEFAULT_SEMESTER,
-  MAX_CREDIT_UNITS,
 } from "@/lib/academics";
 import { formatNaira } from "@/lib/format";
 import type {
@@ -289,14 +288,6 @@ async function addCourseToRegistration(
     };
   }
 
-  const before = totals(ctx.registrations);
-  if (before.units + DEFAULT_CREDIT_UNITS > MAX_CREDIT_UNITS) {
-    return {
-      output: `Adding ${match.title} would exceed the ${MAX_CREDIT_UNITS} credit unit limit (the student already has ${before.units}). The student must remove a course first.`,
-      changed: false,
-    };
-  }
-
   const courseType =
     (ctx.profile.department && match.department !== ctx.profile.department) ||
     (ctx.profile.level && match.level !== ctx.profile.level)
@@ -411,7 +402,7 @@ function buildSystemPrompt(ctx: ChatContext): string {
     `Session: ${ctx.session}`,
     `Semester: ${ctx.semester}`,
     `Registration window: ${ctx.portal.registrationOpen ? "Open" : "Closed"}`,
-    `Credit unit limit per semester: ${MAX_CREDIT_UNITS}`,
+    `Credit units: unlimited (no maximum per semester)`,
     "",
     `Current registration (${ctx.registrations.length} course(s), ${units} credit units, ${formatNaira(
       fee

@@ -715,9 +715,6 @@ export const DEFAULT_CREDIT_UNITS = 3;
 /** Selectable credit-unit values for a single course. */
 export const COURSE_CREDIT_UNITS: number[] = [1, 2, 3, 4, 5, 6];
 
-/** Upper bound on the total credit units a student may register per semester. */
-export const MAX_CREDIT_UNITS = 24;
-
 /**
  * Approximate department code prefixes used to pre-fill course codes. These are
  * illustrative; students and administrators can always edit the code manually.

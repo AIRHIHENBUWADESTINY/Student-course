@@ -12,7 +12,6 @@ import {
   parseRegistrationQuery,
 } from "@/lib/server/registrations";
 import { serverError, unauthorized } from "@/lib/server/auth";
-import { MAX_CREDIT_UNITS } from "@/lib/academics";
 
 export const dynamic = "force-dynamic";
 
@@ -107,20 +106,6 @@ export async function POST(request: Request) {
       return NextResponse.json(
         { message: "You have already registered for this course." },
         { status: 409 }
-      );
-    }
-
-    const currentCredits = existing.reduce(
-      (sum, item) => sum + (item.course?.creditUnits ?? 0),
-      0
-    );
-    const nextCredits = currentCredits + (course.creditUnits ?? 3);
-    if (nextCredits > MAX_CREDIT_UNITS) {
-      return NextResponse.json(
-        {
-          message: `Adding this course would exceed the ${MAX_CREDIT_UNITS} credit unit limit. Remove a course first.`,
-        },
-        { status: 422 }
       );
     }
 

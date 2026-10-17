@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import {
-  AlertTriangle,
   BookOpen,
   BookOpenCheck,
   CheckCircle2,
@@ -20,7 +19,6 @@ import Button, { buttonClasses } from "@/components/ui/Button";
 import ConfirmDialog from "@/components/ui/ConfirmDialog";
 import EmptyState from "@/components/ui/EmptyState";
 import StatCard from "@/components/dashboard/StatCard";
-import { MAX_CREDIT_UNITS } from "@/lib/academics";
 import { formatNaira } from "@/lib/format";
 import type { Registration } from "@/types";
 
@@ -34,7 +32,6 @@ export default function RegistrationsPage() {
   const { summary, registrations, portal } = reg;
   const registrationClosed = portal !== null && !portal.registrationOpen;
   const submitted = summary.status === "submitted" && summary.count > 0;
-  const overLimit = summary.totalCreditUnits > MAX_CREDIT_UNITS;
   const totalPrice = registrations.reduce(
     (sum, item) => sum + (item.course?.price ?? 0),
     0
@@ -106,10 +103,10 @@ export default function RegistrationsPage() {
         />
         <StatCard
           label="Total Credit Units"
-          value={`${summary.totalCreditUnits} / ${MAX_CREDIT_UNITS}`}
-          description={`Maximum ${MAX_CREDIT_UNITS} per semester`}
+          value={summary.totalCreditUnits}
+          description="Unlimited — no maximum per semester"
           icon={BookOpenCheck}
-          accent={overLimit ? "amber" : "emerald"}
+          accent="emerald"
         />
         <StatCard
           label="Total Course Fee"
@@ -128,16 +125,6 @@ export default function RegistrationsPage() {
           accent="violet"
         />
       </section>
-
-      {overLimit && (
-        <div className="flex items-start gap-3 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700">
-          <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0" />
-          <p>
-            You have exceeded the {MAX_CREDIT_UNITS} credit unit limit. Remove
-            some courses before submitting.
-          </p>
-        </div>
-      )}
 
       {hasNewCourses && (
         <div className="flex items-start gap-3 rounded-2xl border border-brand/30 bg-brand/5 p-4 text-sm text-slate-700">
@@ -289,8 +276,7 @@ export default function RegistrationsPage() {
             disabled={
               registrationClosed ||
               submitted ||
-              registrations.length === 0 ||
-              overLimit
+              registrations.length === 0
             }
           >
             <CheckCircle2 className="h-4 w-4" />
