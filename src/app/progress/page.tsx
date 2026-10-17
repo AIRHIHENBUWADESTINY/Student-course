@@ -40,7 +40,7 @@ export default function ProgressPage() {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-3">
-        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
           <BarChart3 className="h-5 w-5" />
         </span>
         <div>

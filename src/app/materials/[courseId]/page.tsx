@@ -136,7 +136,7 @@ export default function CourseMaterialPage() {
       <div className="space-y-5">
         <BackLink />
         <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
-          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-blue-50 text-blue-500">
+          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
             {notRegistered ? (
               <Lock className="h-7 w-7" />
             ) : (

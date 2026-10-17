@@ -129,7 +129,7 @@ export default function ProfileCard() {
 
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="flex items-center gap-3 rounded-xl border border-slate-200 p-4">
-            <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+            <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
               <BookOpen className="h-5 w-5" />
             </span>
             <div>

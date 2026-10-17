@@ -87,7 +87,7 @@ function Logo({ className = "h-9 w-9" }: { className?: string }) {
       />
       <span className="text-lg font-bold tracking-tight text-slate-900">
         Deep
-        <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400 bg-clip-text text-transparent">
           learn
         </span>
       </span>
@@ -144,7 +144,7 @@ export default function LandingPage({
               </span>
               <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
                 Your personal hub for{" "}
-                <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400 bg-clip-text text-transparent">
                   deep, focused learning
                 </span>
               </h1>
@@ -214,7 +214,7 @@ export default function LandingPage({
                       </p>
                       <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
                         <div
-                          className="h-full rounded-full bg-gradient-to-r from-blue-600 to-teal-500"
+                          className="h-full rounded-full bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400"
                           style={{ width: `${course.done}%` }}
                         />
                       </div>
@@ -263,7 +263,7 @@ export default function LandingPage({
                   key={feature.title}
                   className="rounded-2xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-lg hover:shadow-slate-200/70"
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-teal-500 text-white">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
                     <feature.icon className="h-5 w-5" />
                   </span>
                   <h3 className="mt-4 text-base font-semibold text-slate-900">
@@ -298,7 +298,7 @@ export default function LandingPage({
                   <span className="absolute right-6 top-6 text-4xl font-extrabold text-slate-100">
                     {index + 1}
                   </span>
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
                     <step.icon className="h-5 w-5" />
                   </span>
                   <h3 className="mt-4 text-base font-semibold text-slate-900">
@@ -344,7 +344,7 @@ export default function LandingPage({
             </div>
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-lg shadow-slate-200/50">
               <div className="flex items-center gap-3">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-teal-500 text-white">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
                   <GraduationCap className="h-5 w-5" />
                 </span>
                 <div>

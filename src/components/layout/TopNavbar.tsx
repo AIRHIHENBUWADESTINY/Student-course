@@ -251,7 +251,7 @@ export default function TopNavbar({
                       onClick={() => setNotifOpen(false)}
                       className="flex items-start gap-3 border-b border-slate-50 px-4 py-3 transition last:border-0 hover:bg-slate-50"
                     >
-                      <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                      <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 via-teal-500 to-emerald-400 text-white">
                         <CheckCircle2 className="h-4 w-4" />
                       </span>
                       <span>

@@ -21,12 +21,12 @@ export interface Accent {
 
 export const accentStyles: Record<AccentKey, Accent> = {
   blue: {
-    gradient: "from-blue-600 to-teal-500",
+    gradient: "from-blue-600 via-teal-500 to-emerald-400",
     soft: "bg-blue-50 text-blue-700",
     text: "text-blue-600",
     ring: "ring-blue-200",
     solid: "bg-blue-600",
-    bar: "bg-blue-600",
+    bar: "bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400",
   },
   emerald: {
     gradient: "from-emerald-500 to-teal-600",

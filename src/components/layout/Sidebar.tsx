@@ -128,13 +128,13 @@ export default function Sidebar({
               title={compact ? item.label : undefined}
               className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200 ${
                 active
-                  ? "bg-blue-50 text-blue-700 shadow-sm"
+                  ? "bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-500 text-white shadow-sm"
                   : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
               } ${compact ? "justify-center" : ""}`}
             >
               <Icon
                 className={`h-5 w-5 shrink-0 ${
-                  active ? "text-blue-600" : "text-slate-400"
+                  active ? "text-white" : "text-slate-400"
                 }`}
               />
               {!compact && <span>{item.label}</span>}
