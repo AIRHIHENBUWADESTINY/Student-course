@@ -5,7 +5,6 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   BarChart3,
-  BookOpen,
   CheckCircle2,
   ChevronsLeft,
   ClipboardList,

@@ -4,7 +4,7 @@ _Blockchain Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Consensus Mechanisms is part of the Blockchain Technology area. Consensus Mechanisms teaches students how distributed systems agree on valid records or transactions. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Consensus Mechanisms teaches students how distributed systems agree on valid records or transactions. Topics include proof-based approaches, validator roles, fault tolerance, transaction ordering, and security assumptions. Students compare consensus designs and examine their effects on performance, decentralization, energy use, and resilience, developing a foundational understanding of how blockchain networks coordinate participants.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Blockchain Technology explores distributed systems that maintain shared records 
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about consensus mechanisms. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Consensus Mechanisms
+## Lesson 1: Introduction to Consensus Mechanisms
 
-### What you will learn
+### What this lesson covers
 
-- What Proof-based approaches means and why it matters.
-- How Validator roles fits into the wider picture.
-- A small way to practise the idea today.
+Consensus Mechanisms teaches students how distributed systems agree on valid records or transactions.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Proof-based approaches and Validator roles so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of consensus mechanisms, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Consensus Mechanisms is and why it belongs to Blockchain Technology.
 
-Proof-based approaches sets the scene for everything else in consensus mechanisms. Once you can describe it in your own words, you have a reliable starting point for later lessons. Validator roles builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Blockchain Technology explores distributed systems that maintain shared records across participating computers. Students learn blockchain architecture, transaction validation, consensus, smart contracts, and decentralized applications, while examining security, transparency, scalability, privacy, and practical limitations of blockchain-based solutions.
 
-Create a one-page reference sheet. On one side list Proof-based approaches; on the other, write one sentence explaining Validator roles in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Consensus Mechanisms, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Proof-based approaches, and why does it matter in consensus mechanisms?
-2. How are Proof-based approaches and Validator roles connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Consensus Mechanisms?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Consensus Mechanisms matter within the Blockchain Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Proof-based Approaches
 
-### What you will learn
+### What this lesson covers
 
-- What Fault tolerance means and why it matters.
-- How Transaction ordering fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at proof-based approaches and the part it plays in consensus mechanisms.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Fault tolerance and Transaction ordering and shows how they fit into a working consensus mechanisms process.
+"Proof-based Approaches" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
 
-Fault tolerance and Transaction ordering are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with proof-based approaches makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of consensus mechanisms you have seen (in a tutorial, a product, or the news). Identify where Fault tolerance appears and where Transaction ordering matters. Write two or three sentences connecting them.
+Write a short definition of proof-based approaches in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where proof-based approaches appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Fault tolerance, and why does it matter in consensus mechanisms?
-2. How are Fault tolerance and Transaction ordering connected?
-3. What is one practical situation where this lesson would help you?
+1. What is proof-based approaches, and why does it matter in consensus mechanisms?
+2. Give one example of proof-based approaches in a real blockchain technology task.
+3. Which other topic in this course does proof-based approaches connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Validator Roles
 
-### What you will learn
+### What this lesson covers
 
-- What Security assumptions means and why it matters.
-- How Their effects on performance fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at validator roles and the part it plays in consensus mechanisms.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Security assumptions and Their effects on performance and how they shape the tools and steps you will use when working on consensus mechanisms.
+"Validator Roles" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Security assumptions and Their effects on performance helps you decide what to do first, what to check, and what to leave for a later pass when you are working on consensus mechanisms.
+Getting comfortable with validator roles makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small consensus mechanisms task. Mark on your sketch where Security assumptions and Their effects on performance appear and why the order matters.
+Write a short definition of validator roles in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where validator roles appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Security assumptions, and why does it matter in consensus mechanisms?
-2. How are Security assumptions and Their effects on performance connected?
-3. What is one practical situation where this lesson would help you?
+1. What is validator roles, and why does it matter in consensus mechanisms?
+2. Give one example of validator roles in a real blockchain technology task.
+3. Which other topic in this course does validator roles connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Fault Tolerance
 
-### What you will learn
+### What this lesson covers
 
-- What Decentralization means and why it matters.
-- How Proof-based approaches fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at fault tolerance and the part it plays in consensus mechanisms.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Decentralization and Proof-based approaches to show how the concepts behave when you actually put them to work.
+"Fault Tolerance" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with fault tolerance makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Decentralization.
+Write a short definition of fault tolerance in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where fault tolerance appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Decentralization, and why does it matter in consensus mechanisms?
-2. How are Decentralization and Proof-based approaches connected?
-3. What is one practical situation where this lesson would help you?
+1. What is fault tolerance, and why does it matter in consensus mechanisms?
+2. Give one example of fault tolerance in a real blockchain technology task.
+3. Which other topic in this course does fault tolerance connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Transaction Ordering
 
-### What you will learn
+### What this lesson covers
 
-- What Energy use means and why it matters.
-- How Resilience fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at transaction ordering and the part it plays in consensus mechanisms.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Energy use and Resilience and gives you a calm, repeatable way to find and fix problems.
+"Transaction Ordering" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
 
-Problems in consensus mechanisms usually have recognisable patterns. Learning Energy use and Resilience helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with transaction ordering makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of transaction ordering in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where transaction ordering appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Energy use, and why does it matter in consensus mechanisms?
-2. How are Energy use and Resilience connected?
-3. What is one practical situation where this lesson would help you?
+1. What is transaction ordering, and why does it matter in consensus mechanisms?
+2. Give one example of transaction ordering in a real blockchain technology task.
+3. Which other topic in this course does transaction ordering connect to, and how?
 
-## Lesson 6: Bringing Consensus Mechanisms Together
+## Lesson 6: Security Assumptions
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Validator roles fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at security assumptions and the part it plays in consensus mechanisms.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The core idea and Validator roles and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Security Assumptions" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The core idea and Validator roles show how the parts of Consensus Mechanisms support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with security assumptions makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of security assumptions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where security assumptions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in consensus mechanisms?
-2. How are The core idea and Validator roles connected?
-3. What is one practical situation where this lesson would help you?
+1. What is security assumptions, and why does it matter in consensus mechanisms?
+2. Give one example of security assumptions in a real blockchain technology task.
+3. Which other topic in this course does security assumptions connect to, and how?
 
-## Summary
+## Lesson 7: Effects on Performance
 
-You have covered the foundations of consensus mechanisms, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at effects on performance and the part it plays in consensus mechanisms.
+
+### Explanation
+
+"Effects on Performance" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with effects on performance makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of effects on performance in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where effects on performance appears and why it matters.
+
+### Review questions
+
+1. What is effects on performance, and why does it matter in consensus mechanisms?
+2. Give one example of effects on performance in a real blockchain technology task.
+3. Which other topic in this course does effects on performance connect to, and how?
+
+## Lesson 8: Decentralization
+
+### What this lesson covers
+
+A closer look at decentralization and the part it plays in consensus mechanisms.
+
+### Explanation
+
+"Decentralization" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with decentralization makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of decentralization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where decentralization appears and why it matters.
+
+### Review questions
+
+1. What is decentralization, and why does it matter in consensus mechanisms?
+2. Give one example of decentralization in a real blockchain technology task.
+3. Which other topic in this course does decentralization connect to, and how?
+
+## Lesson 9: Energy Use
+
+### What this lesson covers
+
+A closer look at energy use and the part it plays in consensus mechanisms.
+
+### Explanation
+
+"Energy Use" is one of the building blocks of Consensus Mechanisms. You will recognise it whenever you work on a consensus mechanisms task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with energy use makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of energy use in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where energy use appears and why it matters.
+
+### Review questions
+
+1. What is energy use, and why does it matter in consensus mechanisms?
+2. Give one example of energy use in a real blockchain technology task.
+3. Which other topic in this course does energy use connect to, and how?
+
+## Lesson 10: Consensus Mechanisms: Putting It into Practice
+
+### What this lesson covers
+
+Students compare consensus designs and examine their effects on performance, decentralization, energy use, and resilience, developing a foundational understanding of how blockchain networks coordinate participants.
+
+### Explanation
+
+This final lesson brings Consensus Mechanisms together. You have looked at proof-based approaches, validator roles, fault tolerance, transaction ordering, security assumptions, effects on performance, decentralization, energy use and seen how they relate. Individually they are manageable; together they describe how consensus mechanisms work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of consensus mechanisms, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on consensus mechanisms and compare it with what you learned here.
-- Explore a related course in the Blockchain Technology area to widen your skills.
+- Explore a related course in the Blockchain Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in consensus mechanisms look like for you?

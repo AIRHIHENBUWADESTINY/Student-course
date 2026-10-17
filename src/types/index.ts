@@ -43,6 +43,18 @@ export interface Lesson {
   content: string[];
 }
 
+/** Where a lesson body came from: an uploaded .txt file or the inline array. */
+export type LessonContentSource = "storage" | "inline";
+
+/**
+ * A single lesson with its full body. `text` is populated for lessons stored as
+ * a .txt file in private Storage; otherwise `content` holds the inline body.
+ */
+export interface LessonDetail extends Lesson {
+  text?: string | null;
+  source?: LessonContentSource;
+}
+
 export interface Course {
   id: string;
   title: string;

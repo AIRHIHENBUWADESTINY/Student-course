@@ -4,7 +4,7 @@ _Computer Science · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Programming Languages is part of the Computer Science area. Programming Languages introduces the principles and characteristics of languages used to develop software. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Programming Languages introduces the principles and characteristics of languages used to develop software. Students examine syntax, data types, variables, control structures, functions, object-oriented programming, and language paradigms. They also explore how interpreters and compilers work, compare programming languages, and learn how language selection affects application development, maintainability, and performance.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Computer Science studies the fundamental principles behind computing systems, al
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about programming languages. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Programming Languages
+## Lesson 1: Introduction to Programming Languages
 
-### What you will learn
+### What this lesson covers
 
-- What Syntax means and why it matters.
-- How Data types fits into the wider picture.
-- A small way to practise the idea today.
+Programming Languages introduces the principles and characteristics of languages used to develop software.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Syntax and Data types so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of programming languages, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Programming Languages is and why it belongs to Computer Science.
 
-Syntax sets the scene for everything else in programming languages. Once you can describe it in your own words, you have a reliable starting point for later lessons. Data types builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Science studies the fundamental principles behind computing systems, algorithms, programming, and information processing. Students learn how computers solve problems, represent data, execute instructions, and support intelligent applications, while developing analytical thinking and computational problem-solving skills.
 
-Create a one-page reference sheet. On one side list Syntax; on the other, write one sentence explaining Data types in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Programming Languages, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Syntax, and why does it matter in programming languages?
-2. How are Syntax and Data types connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Programming Languages?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Programming Languages matter within the Computer Science area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Syntax
 
-### What you will learn
+### What this lesson covers
 
-- What Variables means and why it matters.
-- How Control structures fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at syntax and the part it plays in programming languages.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Variables and Control structures and shows how they fit into a working programming languages process.
+"Syntax" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
 
-Variables and Control structures are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with syntax makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of programming languages you have seen (in a tutorial, a product, or the news). Identify where Variables appears and where Control structures matters. Write two or three sentences connecting them.
+Write a short definition of syntax in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where syntax appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Variables, and why does it matter in programming languages?
-2. How are Variables and Control structures connected?
-3. What is one practical situation where this lesson would help you?
+1. What is syntax, and why does it matter in programming languages?
+2. Give one example of syntax in a real computer science task.
+3. Which other topic in this course does syntax connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Data Types
 
-### What you will learn
+### What this lesson covers
 
-- What Functions means and why it matters.
-- How Object-oriented programming fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at data types and the part it plays in programming languages.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Functions and Object-oriented programming and how they shape the tools and steps you will use when working on programming languages.
+"Data Types" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Functions and Object-oriented programming helps you decide what to do first, what to check, and what to leave for a later pass when you are working on programming languages.
+Getting comfortable with data types makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small programming languages task. Mark on your sketch where Functions and Object-oriented programming appear and why the order matters.
+Write a short definition of data types in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where data types appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Functions, and why does it matter in programming languages?
-2. How are Functions and Object-oriented programming connected?
-3. What is one practical situation where this lesson would help you?
+1. What is data types, and why does it matter in programming languages?
+2. Give one example of data types in a real computer science task.
+3. Which other topic in this course does data types connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Variables
 
-### What you will learn
+### What this lesson covers
 
-- What Language paradigms means and why it matters.
-- How Syntax fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at variables and the part it plays in programming languages.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Language paradigms and Syntax to show how the concepts behave when you actually put them to work.
+"Variables" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with variables makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Language paradigms.
+Write a short definition of variables in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where variables appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Language paradigms, and why does it matter in programming languages?
-2. How are Language paradigms and Syntax connected?
-3. What is one practical situation where this lesson would help you?
+1. What is variables, and why does it matter in programming languages?
+2. Give one example of variables in a real computer science task.
+3. Which other topic in this course does variables connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Control Structures
 
-### What you will learn
+### What this lesson covers
 
-- What How interpreters means and why it matters.
-- How Compilers work fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at control structures and the part it plays in programming languages.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers How interpreters and Compilers work and gives you a calm, repeatable way to find and fix problems.
+"Control Structures" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
 
-Problems in programming languages usually have recognisable patterns. Learning How interpreters and Compilers work helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with control structures makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of control structures in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where control structures appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is How interpreters, and why does it matter in programming languages?
-2. How are How interpreters and Compilers work connected?
-3. What is one practical situation where this lesson would help you?
+1. What is control structures, and why does it matter in programming languages?
+2. Give one example of control structures in a real computer science task.
+3. Which other topic in this course does control structures connect to, and how?
 
-## Lesson 6: Bringing Programming Languages Together
+## Lesson 6: Functions
 
-### What you will learn
+### What this lesson covers
 
-- What Compare programming languages means and why it matters.
-- How Data types fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at functions and the part it plays in programming languages.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Compare programming languages and Data types and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Functions" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Compare programming languages and Data types show how the parts of Programming Languages support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with functions makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of functions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where functions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Compare programming languages, and why does it matter in programming languages?
-2. How are Compare programming languages and Data types connected?
-3. What is one practical situation where this lesson would help you?
+1. What is functions, and why does it matter in programming languages?
+2. Give one example of functions in a real computer science task.
+3. Which other topic in this course does functions connect to, and how?
 
-## Summary
+## Lesson 7: Object-oriented Programming
 
-You have covered the foundations of programming languages, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at object-oriented programming and the part it plays in programming languages.
+
+### Explanation
+
+"Object-oriented Programming" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with object-oriented programming makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of object-oriented programming in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where object-oriented programming appears and why it matters.
+
+### Review questions
+
+1. What is object-oriented programming, and why does it matter in programming languages?
+2. Give one example of object-oriented programming in a real computer science task.
+3. Which other topic in this course does object-oriented programming connect to, and how?
+
+## Lesson 8: Language Paradigms
+
+### What this lesson covers
+
+A closer look at language paradigms and the part it plays in programming languages.
+
+### Explanation
+
+"Language Paradigms" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with language paradigms makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of language paradigms in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where language paradigms appears and why it matters.
+
+### Review questions
+
+1. What is language paradigms, and why does it matter in programming languages?
+2. Give one example of language paradigms in a real computer science task.
+3. Which other topic in this course does language paradigms connect to, and how?
+
+## Lesson 9: Interpreters
+
+### What this lesson covers
+
+A closer look at interpreters and the part it plays in programming languages.
+
+### Explanation
+
+"Interpreters" is one of the building blocks of Programming Languages. You will recognise it whenever you work on a programming languages task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with interpreters makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of interpreters in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where interpreters appears and why it matters.
+
+### Review questions
+
+1. What is interpreters, and why does it matter in programming languages?
+2. Give one example of interpreters in a real computer science task.
+3. Which other topic in this course does interpreters connect to, and how?
+
+## Lesson 10: Programming Languages: Putting It into Practice
+
+### What this lesson covers
+
+They also explore how interpreters and compilers work, compare programming languages, and learn how language selection affects application development, maintainability, and performance.
+
+### Explanation
+
+This final lesson brings Programming Languages together. You have looked at syntax, data types, variables, control structures, functions, object-oriented programming, language paradigms, interpreters and seen how they relate. Individually they are manageable; together they describe how programming languages work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of programming languages, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on programming languages and compare it with what you learned here.
-- Explore a related course in the Computer Science area to widen your skills.
+- Explore a related course in the Computer Science area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in programming languages look like for you?

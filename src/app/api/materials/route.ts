@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getAuthContext } from "@/lib/supabase/server";
 import { listMaterialProgress, listRegistrations } from "@/lib/server/db";
-import { getMaterialSummary } from "@/lib/server/materials";
+import { loadCourseMaterial } from "@/lib/server/materials";
 import { serverError, unauthorized } from "@/lib/server/auth";
 import type { MaterialCourseSummary } from "@/types";
 
@@ -23,8 +23,18 @@ export async function GET(request: Request) {
       if (seen.has(courseId)) continue;
       seen.add(courseId);
 
-      const manifest = getMaterialSummary(courseId);
-      const lessonCount = manifest?.lessons.length ?? 0;
+      const material = await loadCourseMaterial(
+        courseId,
+        registration.course
+          ? {
+              title: registration.course.title,
+              department: registration.course.department,
+              category: registration.course.category,
+              description: registration.course.description,
+            }
+          : undefined
+      );
+      const lessonCount = material?.lessons.length ?? 0;
       const courseProgress = progress[courseId] ?? {};
       const completedCount = Object.values(courseProgress).filter(
         (status) => status === "completed"
@@ -32,9 +42,10 @@ export async function GET(request: Request) {
 
       courses.push({
         courseId,
-        title: registration.course?.title ?? manifest?.title ?? courseId,
+        title: registration.course?.title ?? material?.title ?? courseId,
         category: registration.course?.category ?? "General",
-        department: registration.course?.department ?? manifest?.department ?? null,
+        department:
+          registration.course?.department ?? material?.department ?? null,
         level: registration.course?.level ?? "",
         lessonCount,
         completedCount,
@@ -42,7 +53,7 @@ export async function GET(request: Request) {
           lessonCount > 0
             ? Math.round((completedCount / lessonCount) * 100)
             : 0,
-        available: Boolean(manifest),
+        available: Boolean(material),
       });
     }
 

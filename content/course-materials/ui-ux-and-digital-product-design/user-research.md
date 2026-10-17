@@ -4,7 +4,7 @@ _UI/UX and Digital Product Design · Faculty of Technology · Level 100L_
 
 ## Overview
 
-User Research is part of the UI/UX and Digital Product Design area. User Research introduces methods for understanding the people who will use a digital product. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+User Research introduces methods for understanding the people who will use a digital product. Students study interviews, surveys, observation, usability sessions, and research synthesis. Practical projects gather and interpret feedback to identify user needs and barriers, while emphasizing informed participation, privacy, inclusive research practices, and evidence-based design decisions.
 
 ## Learning Objectives
 
@@ -25,157 +25,167 @@ UI/UX and Digital Product Design focuses on creating digital products that are v
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about user research. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of User Research
+## Lesson 1: Introduction to User Research
 
-### What you will learn
+### What this lesson covers
 
-- What Interviews means and why it matters.
-- How Surveys fits into the wider picture.
-- A small way to practise the idea today.
+User Research introduces methods for understanding the people who will use a digital product.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Interviews and Surveys so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of user research, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what User Research is and why it belongs to UI/UX and Digital Product Design.
 
-Interviews sets the scene for everything else in user research. Once you can describe it in your own words, you have a reliable starting point for later lessons. Surveys builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ UI/UX and Digital Product Design focuses on creating digital products that are visually clear, accessible, and easy to use. Students learn user research, interface design, prototyping, usability evaluation, interaction principles, and design systems to improve how people interact with software.
 
-Create a one-page reference sheet. On one side list Interviews; on the other, write one sentence explaining Surveys in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is User Research, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Interviews, and why does it matter in user research?
-2. How are Interviews and Surveys connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is User Research?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does User Research matter within the UI/UX and Digital Product Design area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Interviews
 
-### What you will learn
+### What this lesson covers
 
-- What Observation means and why it matters.
-- How Usability sessions fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at interviews and the part it plays in user research.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Observation and Usability sessions and shows how they fit into a working user research process.
+"Interviews" is one of the building blocks of User Research. You will recognise it whenever you work on a user research task, because it shapes the decisions you make and the results you produce.
 
-Observation and Usability sessions are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with interviews makes the rest of the UI/UX and Digital Product Design material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of user research you have seen (in a tutorial, a product, or the news). Identify where Observation appears and where Usability sessions matters. Write two or three sentences connecting them.
+Write a short definition of interviews in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where interviews appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Observation, and why does it matter in user research?
-2. How are Observation and Usability sessions connected?
-3. What is one practical situation where this lesson would help you?
+1. What is interviews, and why does it matter in user research?
+2. Give one example of interviews in a real ui/ux and digital product design task.
+3. Which other topic in this course does interviews connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Surveys
 
-### What you will learn
+### What this lesson covers
 
-- What Research synthesis means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at surveys and the part it plays in user research.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Research synthesis and The core idea and how they shape the tools and steps you will use when working on user research.
+"Surveys" is one of the building blocks of User Research. You will recognise it whenever you work on a user research task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Research synthesis and The core idea helps you decide what to do first, what to check, and what to leave for a later pass when you are working on user research.
+Getting comfortable with surveys makes the rest of the UI/UX and Digital Product Design material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small user research task. Mark on your sketch where Research synthesis and The core idea appear and why the order matters.
+Write a short definition of surveys in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where surveys appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Research synthesis, and why does it matter in user research?
-2. How are Research synthesis and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is surveys, and why does it matter in user research?
+2. Give one example of surveys in a real ui/ux and digital product design task.
+3. Which other topic in this course does surveys connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Observation
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Interviews fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at observation and the part it plays in user research.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The typical workflow and Interviews to show how the concepts behave when you actually put them to work.
+"Observation" is one of the building blocks of User Research. You will recognise it whenever you work on a user research task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with observation makes the rest of the UI/UX and Digital Product Design material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The typical workflow.
+Write a short definition of observation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where observation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in user research?
-2. How are The typical workflow and Interviews connected?
-3. What is one practical situation where this lesson would help you?
+1. What is observation, and why does it matter in user research?
+2. Give one example of observation in a real ui/ux and digital product design task.
+3. Which other topic in this course does observation connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Usability Sessions
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Quality and accuracy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at usability sessions and the part it plays in user research.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The main tool and Quality and accuracy and gives you a calm, repeatable way to find and fix problems.
+"Usability Sessions" is one of the building blocks of User Research. You will recognise it whenever you work on a user research task, because it shapes the decisions you make and the results you produce.
 
-Problems in user research usually have recognisable patterns. Learning The main tool and Quality and accuracy helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with usability sessions makes the rest of the UI/UX and Digital Product Design material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of usability sessions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where usability sessions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in user research?
-2. How are The main tool and Quality and accuracy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is usability sessions, and why does it matter in user research?
+2. Give one example of usability sessions in a real ui/ux and digital product design task.
+3. Which other topic in this course does usability sessions connect to, and how?
 
-## Lesson 6: Bringing User Research Together
+## Lesson 6: Research Synthesis
 
-### What you will learn
+### What this lesson covers
 
-- What The common mistake means and why it matters.
-- How Surveys fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at research synthesis and the part it plays in user research.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The common mistake and Surveys and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Research Synthesis" is one of the building blocks of User Research. You will recognise it whenever you work on a user research task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The common mistake and Surveys show how the parts of User Research support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with research synthesis makes the rest of the UI/UX and Digital Product Design material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of research synthesis in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where research synthesis appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The common mistake, and why does it matter in user research?
-2. How are The common mistake and Surveys connected?
-3. What is one practical situation where this lesson would help you?
+1. What is research synthesis, and why does it matter in user research?
+2. Give one example of research synthesis in a real ui/ux and digital product design task.
+3. Which other topic in this course does research synthesis connect to, and how?
 
-## Summary
+## Lesson 7: User Research: Putting It into Practice
 
-You have covered the foundations of user research, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+Practical projects gather and interpret feedback to identify user needs and barriers, while emphasizing informed participation, privacy, inclusive research practices, and evidence-based design decisions.
+
+### Explanation
+
+This final lesson brings User Research together. You have looked at interviews, surveys, observation, usability sessions, research synthesis and seen how they relate. Individually they are manageable; together they describe how user research work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of user research, its key terms, and the core topics (5), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on user research and compare it with what you learned here.
-- Explore a related course in the UI/UX and Digital Product Design area to widen your skills.
+- Explore a related course in the UI/UX and Digital Product Design area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in user research look like for you?

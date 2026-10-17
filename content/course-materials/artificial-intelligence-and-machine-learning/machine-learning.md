@@ -4,7 +4,7 @@ _Artificial Intelligence and Machine Learning · Faculty of Technology · Level 
 
 ## Overview
 
-Machine Learning is part of the Artificial Intelligence and Machine Learning area. Machine Learning teaches students how computer systems learn patterns from data to make predictions or decisions. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Machine Learning teaches students how computer systems learn patterns from data to make predictions or decisions. Topics include supervised and unsupervised learning, classification, regression, clustering, feature engineering, and model evaluation. Practical exercises train and test introductory models, helping learners understand data splitting, overfitting, accuracy measures, and responsible interpretation of predictions.
 
 ## Learning Objectives
 
@@ -25,157 +25,211 @@ Artificial Intelligence and Machine Learning explore techniques that enable comp
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about machine learning. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Machine Learning
+## Lesson 1: Introduction to Machine Learning
 
-### What you will learn
+### What this lesson covers
 
-- What Supervised means and why it matters.
-- How Unsupervised learning fits into the wider picture.
-- A small way to practise the idea today.
+Machine Learning teaches students how computer systems learn patterns from data to make predictions or decisions.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Supervised and Unsupervised learning so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of machine learning, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Machine Learning is and why it belongs to Artificial Intelligence and Machine Learning.
 
-Supervised sets the scene for everything else in machine learning. Once you can describe it in your own words, you have a reliable starting point for later lessons. Unsupervised learning builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Artificial Intelligence and Machine Learning explore techniques that enable computers to identify patterns, make predictions, understand information, and generate outputs. Students learn data preparation, model development, evaluation, responsible use, and the limitations of intelligent systems in practical applications.
 
-Create a one-page reference sheet. On one side list Supervised; on the other, write one sentence explaining Unsupervised learning in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Machine Learning, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Supervised, and why does it matter in machine learning?
-2. How are Supervised and Unsupervised learning connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Machine Learning?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Machine Learning matter within the Artificial Intelligence and Machine Learning area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Supervised
 
-### What you will learn
+### What this lesson covers
 
-- What Classification means and why it matters.
-- How Regression fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at supervised and the part it plays in machine learning.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Classification and Regression and shows how they fit into a working machine learning process.
+"Supervised" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
 
-Classification and Regression are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with supervised makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of machine learning you have seen (in a tutorial, a product, or the news). Identify where Classification appears and where Regression matters. Write two or three sentences connecting them.
+Write a short definition of supervised in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where supervised appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Classification, and why does it matter in machine learning?
-2. How are Classification and Regression connected?
-3. What is one practical situation where this lesson would help you?
+1. What is supervised, and why does it matter in machine learning?
+2. Give one example of supervised in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does supervised connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Unsupervised Learning
 
-### What you will learn
+### What this lesson covers
 
-- What Clustering means and why it matters.
-- How Feature engineering fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at unsupervised learning and the part it plays in machine learning.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Clustering and Feature engineering and how they shape the tools and steps you will use when working on machine learning.
+"Unsupervised Learning" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Clustering and Feature engineering helps you decide what to do first, what to check, and what to leave for a later pass when you are working on machine learning.
+Getting comfortable with unsupervised learning makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small machine learning task. Mark on your sketch where Clustering and Feature engineering appear and why the order matters.
+Write a short definition of unsupervised learning in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where unsupervised learning appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Clustering, and why does it matter in machine learning?
-2. How are Clustering and Feature engineering connected?
-3. What is one practical situation where this lesson would help you?
+1. What is unsupervised learning, and why does it matter in machine learning?
+2. Give one example of unsupervised learning in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does unsupervised learning connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Classification
 
-### What you will learn
+### What this lesson covers
 
-- What Model evaluation means and why it matters.
-- How Supervised fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at classification and the part it plays in machine learning.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Model evaluation and Supervised to show how the concepts behave when you actually put them to work.
+"Classification" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with classification makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Model evaluation.
+Write a short definition of classification in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where classification appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Model evaluation, and why does it matter in machine learning?
-2. How are Model evaluation and Supervised connected?
-3. What is one practical situation where this lesson would help you?
+1. What is classification, and why does it matter in machine learning?
+2. Give one example of classification in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does classification connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Regression
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at regression and the part it plays in machine learning.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Regression" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
 
-Problems in machine learning usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with regression makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of regression in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where regression appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in machine learning?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is regression, and why does it matter in machine learning?
+2. Give one example of regression in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does regression connect to, and how?
 
-## Lesson 6: Bringing Machine Learning Together
+## Lesson 6: Clustering
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Unsupervised learning fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at clustering and the part it plays in machine learning.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Unsupervised learning and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Clustering" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Unsupervised learning show how the parts of Machine Learning support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with clustering makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of clustering in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where clustering appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in machine learning?
-2. How are The main tool and Unsupervised learning connected?
-3. What is one practical situation where this lesson would help you?
+1. What is clustering, and why does it matter in machine learning?
+2. Give one example of clustering in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does clustering connect to, and how?
 
-## Summary
+## Lesson 7: Feature Engineering
 
-You have covered the foundations of machine learning, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at feature engineering and the part it plays in machine learning.
+
+### Explanation
+
+"Feature Engineering" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with feature engineering makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of feature engineering in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where feature engineering appears and why it matters.
+
+### Review questions
+
+1. What is feature engineering, and why does it matter in machine learning?
+2. Give one example of feature engineering in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does feature engineering connect to, and how?
+
+## Lesson 8: Model Evaluation
+
+### What this lesson covers
+
+A closer look at model evaluation and the part it plays in machine learning.
+
+### Explanation
+
+"Model Evaluation" is one of the building blocks of Machine Learning. You will recognise it whenever you work on a machine learning task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with model evaluation makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of model evaluation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where model evaluation appears and why it matters.
+
+### Review questions
+
+1. What is model evaluation, and why does it matter in machine learning?
+2. Give one example of model evaluation in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does model evaluation connect to, and how?
+
+## Lesson 9: Machine Learning: Putting It into Practice
+
+### What this lesson covers
+
+Practical exercises train and test introductory models, helping learners understand data splitting, overfitting, accuracy measures, and responsible interpretation of predictions.
+
+### Explanation
+
+This final lesson brings Machine Learning together. You have looked at supervised, unsupervised learning, classification, regression, clustering, feature engineering, model evaluation and seen how they relate. Individually they are manageable; together they describe how machine learning work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of machine learning, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on machine learning and compare it with what you learned here.
-- Explore a related course in the Artificial Intelligence and Machine Learning area to widen your skills.
+- Explore a related course in the Artificial Intelligence and Machine Learning area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in machine learning look like for you?

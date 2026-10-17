@@ -4,7 +4,7 @@ _Cloud Computing · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Cloud Cost Management is part of the Cloud Computing area. Cloud Cost Management teaches students how to monitor and control spending on cloud resources. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Cloud Cost Management teaches students how to monitor and control spending on cloud resources. Topics include pricing models, budgets, cost allocation tags, usage reports, resource optimization, and billing alerts. Learners examine example cloud bills and identify unnecessary expenditure, developing practical strategies for balancing cost, performance, availability, and organizational requirements.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Cloud Computing teaches students how computing resources such as servers, databa
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about cloud cost management. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Cloud Cost Management
+## Lesson 1: Introduction to Cloud Cost Management
 
-### What you will learn
+### What this lesson covers
 
-- What Pricing models means and why it matters.
-- How Budgets fits into the wider picture.
-- A small way to practise the idea today.
+Cloud Cost Management teaches students how to monitor and control spending on cloud resources.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Pricing models and Budgets so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of cloud cost management, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Cloud Cost Management is and why it belongs to Cloud Computing.
 
-Pricing models sets the scene for everything else in cloud cost management. Once you can describe it in your own words, you have a reliable starting point for later lessons. Budgets builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Cloud Computing teaches students how computing resources such as servers, databases, storage, and networking can be delivered over the internet. Students explore cloud service models, infrastructure management, deployment, security, scalability, and cost control using modern cloud platforms and architectures.
 
-Create a one-page reference sheet. On one side list Pricing models; on the other, write one sentence explaining Budgets in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Cloud Cost Management, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Pricing models, and why does it matter in cloud cost management?
-2. How are Pricing models and Budgets connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Cloud Cost Management?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Cloud Cost Management matter within the Cloud Computing area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Pricing Models
 
-### What you will learn
+### What this lesson covers
 
-- What Cost allocation tags means and why it matters.
-- How Usage reports fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at pricing models and the part it plays in cloud cost management.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Cost allocation tags and Usage reports and shows how they fit into a working cloud cost management process.
+"Pricing Models" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
 
-Cost allocation tags and Usage reports are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with pricing models makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of cloud cost management you have seen (in a tutorial, a product, or the news). Identify where Cost allocation tags appears and where Usage reports matters. Write two or three sentences connecting them.
+Write a short definition of pricing models in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where pricing models appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Cost allocation tags, and why does it matter in cloud cost management?
-2. How are Cost allocation tags and Usage reports connected?
-3. What is one practical situation where this lesson would help you?
+1. What is pricing models, and why does it matter in cloud cost management?
+2. Give one example of pricing models in a real cloud computing task.
+3. Which other topic in this course does pricing models connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Budgets
 
-### What you will learn
+### What this lesson covers
 
-- What Resource optimization means and why it matters.
-- How Billing alerts fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at budgets and the part it plays in cloud cost management.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Resource optimization and Billing alerts and how they shape the tools and steps you will use when working on cloud cost management.
+"Budgets" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Resource optimization and Billing alerts helps you decide what to do first, what to check, and what to leave for a later pass when you are working on cloud cost management.
+Getting comfortable with budgets makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small cloud cost management task. Mark on your sketch where Resource optimization and Billing alerts appear and why the order matters.
+Write a short definition of budgets in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where budgets appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Resource optimization, and why does it matter in cloud cost management?
-2. How are Resource optimization and Billing alerts connected?
-3. What is one practical situation where this lesson would help you?
+1. What is budgets, and why does it matter in cloud cost management?
+2. Give one example of budgets in a real cloud computing task.
+3. Which other topic in this course does budgets connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Cost Allocation Tags
 
-### What you will learn
+### What this lesson covers
 
-- What Example cloud bills means and why it matters.
-- How Pricing models fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at cost allocation tags and the part it plays in cloud cost management.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Example cloud bills and Pricing models to show how the concepts behave when you actually put them to work.
+"Cost Allocation Tags" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with cost allocation tags makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Example cloud bills.
+Write a short definition of cost allocation tags in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where cost allocation tags appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Example cloud bills, and why does it matter in cloud cost management?
-2. How are Example cloud bills and Pricing models connected?
-3. What is one practical situation where this lesson would help you?
+1. What is cost allocation tags, and why does it matter in cloud cost management?
+2. Give one example of cost allocation tags in a real cloud computing task.
+3. Which other topic in this course does cost allocation tags connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Usage Reports
 
-### What you will learn
+### What this lesson covers
 
-- What Identify unnecessary expenditure means and why it matters.
-- How Performance fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at usage reports and the part it plays in cloud cost management.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Identify unnecessary expenditure and Performance and gives you a calm, repeatable way to find and fix problems.
+"Usage Reports" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
 
-Problems in cloud cost management usually have recognisable patterns. Learning Identify unnecessary expenditure and Performance helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with usage reports makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of usage reports in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where usage reports appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Identify unnecessary expenditure, and why does it matter in cloud cost management?
-2. How are Identify unnecessary expenditure and Performance connected?
-3. What is one practical situation where this lesson would help you?
+1. What is usage reports, and why does it matter in cloud cost management?
+2. Give one example of usage reports in a real cloud computing task.
+3. Which other topic in this course does usage reports connect to, and how?
 
-## Lesson 6: Bringing Cloud Cost Management Together
+## Lesson 6: Resource Optimization
 
-### What you will learn
+### What this lesson covers
 
-- What Availability means and why it matters.
-- How Budgets fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at resource optimization and the part it plays in cloud cost management.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Availability and Budgets and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Resource Optimization" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Availability and Budgets show how the parts of Cloud Cost Management support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with resource optimization makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of resource optimization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where resource optimization appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Availability, and why does it matter in cloud cost management?
-2. How are Availability and Budgets connected?
-3. What is one practical situation where this lesson would help you?
+1. What is resource optimization, and why does it matter in cloud cost management?
+2. Give one example of resource optimization in a real cloud computing task.
+3. Which other topic in this course does resource optimization connect to, and how?
 
-## Summary
+## Lesson 7: Billing Alerts
 
-You have covered the foundations of cloud cost management, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at billing alerts and the part it plays in cloud cost management.
+
+### Explanation
+
+"Billing Alerts" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with billing alerts makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of billing alerts in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where billing alerts appears and why it matters.
+
+### Review questions
+
+1. What is billing alerts, and why does it matter in cloud cost management?
+2. Give one example of billing alerts in a real cloud computing task.
+3. Which other topic in this course does billing alerts connect to, and how?
+
+## Lesson 8: Example Cloud Bills
+
+### What this lesson covers
+
+A closer look at example cloud bills and the part it plays in cloud cost management.
+
+### Explanation
+
+"Example Cloud Bills" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with example cloud bills makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of example cloud bills in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where example cloud bills appears and why it matters.
+
+### Review questions
+
+1. What is example cloud bills, and why does it matter in cloud cost management?
+2. Give one example of example cloud bills in a real cloud computing task.
+3. Which other topic in this course does example cloud bills connect to, and how?
+
+## Lesson 9: Identify Unnecessary Expenditure
+
+### What this lesson covers
+
+A closer look at identify unnecessary expenditure and the part it plays in cloud cost management.
+
+### Explanation
+
+"Identify Unnecessary Expenditure" is one of the building blocks of Cloud Cost Management. You will recognise it whenever you work on a cloud cost management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with identify unnecessary expenditure makes the rest of the Cloud Computing material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of identify unnecessary expenditure in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where identify unnecessary expenditure appears and why it matters.
+
+### Review questions
+
+1. What is identify unnecessary expenditure, and why does it matter in cloud cost management?
+2. Give one example of identify unnecessary expenditure in a real cloud computing task.
+3. Which other topic in this course does identify unnecessary expenditure connect to, and how?
+
+## Lesson 10: Cloud Cost Management: Putting It into Practice
+
+### What this lesson covers
+
+Learners examine example cloud bills and identify unnecessary expenditure, developing practical strategies for balancing cost, performance, availability, and organizational requirements.
+
+### Explanation
+
+This final lesson brings Cloud Cost Management together. You have looked at pricing models, budgets, cost allocation tags, usage reports, resource optimization, billing alerts, example cloud bills, identify unnecessary expenditure and seen how they relate. Individually they are manageable; together they describe how cloud cost management work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of cloud cost management, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on cloud cost management and compare it with what you learned here.
-- Explore a related course in the Cloud Computing area to widen your skills.
+- Explore a related course in the Cloud Computing area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in cloud cost management look like for you?

@@ -1,185 +1,124 @@
-import type { ReactNode } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
-const INLINE_PATTERN = /(\*\*[^*]+\*\*|`[^`]+`)/g;
-
-/** Renders a small, safe subset of inline Markdown (**bold** and `code`). */
-function renderInline(text: string, keyPrefix: string): ReactNode[] {
-  const nodes: ReactNode[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let index = 0;
-
-  while ((match = INLINE_PATTERN.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      nodes.push(text.slice(lastIndex, match.index));
-    }
-    const token = match[0];
-    if (token.startsWith("**")) {
-      nodes.push(
-        <strong key={`${keyPrefix}-b${index}`} className="font-semibold text-slate-900">
-          {token.slice(2, -2)}
-        </strong>
-      );
-    } else {
-      nodes.push(
-        <code
-          key={`${keyPrefix}-c${index}`}
-          className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[0.85em] text-rose-700"
-        >
-          {token.slice(1, -1)}
-        </code>
-      );
-    }
-    lastIndex = INLINE_PATTERN.lastIndex;
-    index += 1;
-  }
-
-  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
-  return nodes;
-}
-
-const HEADING_CLASSES: Record<number, string> = {
-  1: "text-2xl font-bold text-slate-900",
-  2: "text-xl font-bold text-slate-900",
-  3: "text-base font-semibold text-slate-900",
-  4: "text-sm font-semibold uppercase tracking-wide text-slate-500",
+const HEADING_CLASSES: Record<string, string> = {
+  h1: "text-2xl font-bold text-slate-900",
+  h2: "text-xl font-bold text-slate-900",
+  h3: "text-base font-semibold text-slate-900",
+  h4: "text-sm font-semibold uppercase tracking-wide text-slate-500",
 };
 
 /**
- * Renders the supported subset of Markdown used by the generated learning
- * materials. Everything is rendered as React elements (never raw HTML), so the
- * content is safe by construction.
+ * Renders the learning materials as GitHub-flavoured Markdown. Raw HTML is not
+ * enabled, so any HTML in the source is safely escaped by react-markdown.
  */
 export default function MaterialContent({ markdown }: { markdown: string }) {
-  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
-  const blocks: ReactNode[] = [];
-  let index = 0;
-  let key = 0;
-
-  const isBlockStart = (line: string) =>
-    /^(#{1,6})\s+/.test(line) ||
-    line.trimStart().startsWith("```") ||
-    /^\s*[-*]\s+/.test(line) ||
-    /^\s*\d+\.\s+/.test(line) ||
-    line.startsWith(">");
-
-  while (index < lines.length) {
-    const line = lines[index];
-
-    if (line.trimStart().startsWith("```")) {
-      const code: string[] = [];
-      index += 1;
-      while (index < lines.length && !lines[index].trimStart().startsWith("```")) {
-        code.push(lines[index]);
-        index += 1;
-      }
-      index += 1;
-      blocks.push(
-        <pre
-          key={key++}
-          className="overflow-x-auto rounded-xl bg-slate-900 p-4 text-sm text-slate-100"
-        >
-          <code className="font-mono">{code.join("\n")}</code>
-        </pre>
-      );
-      continue;
-    }
-
-    const heading = line.match(/^(#{1,6})\s+(.*)$/);
-    if (heading) {
-      const level = Math.min(heading[1].length, 4);
-      const classes = HEADING_CLASSES[level] ?? HEADING_CLASSES[4];
-      const content = renderInline(heading[2], `h${key}`);
-      blocks.push(
-        level <= 2 ? (
-          <h3 key={key++} className={classes}>
-            {content}
-          </h3>
-        ) : (
-          <h4 key={key++} className={classes}>
-            {content}
-          </h4>
-        )
-      );
-      index += 1;
-      continue;
-    }
-
-    if (/^\s*(-{3,}|\*{3,})\s*$/.test(line)) {
-      blocks.push(<hr key={key++} className="border-slate-200" />);
-      index += 1;
-      continue;
-    }
-
-    if (line.startsWith(">")) {
-      const quote: string[] = [];
-      while (index < lines.length && lines[index].startsWith(">")) {
-        quote.push(lines[index].replace(/^>\s?/, ""));
-        index += 1;
-      }
-      blocks.push(
-        <blockquote
-          key={key++}
-          className="border-l-4 border-indigo-200 bg-indigo-50 px-4 py-2 text-slate-700"
-        >
-          {renderInline(quote.join(" "), `q${key}`)}
-        </blockquote>
-      );
-      continue;
-    }
-
-    if (/^\s*[-*]\s+/.test(line)) {
-      const items: string[] = [];
-      while (index < lines.length && /^\s*[-*]\s+/.test(lines[index])) {
-        items.push(lines[index].replace(/^\s*[-*]\s+/, ""));
-        index += 1;
-      }
-      blocks.push(
-        <ul key={key++} className="list-disc space-y-1.5 pl-6 text-slate-700">
-          {items.map((item, i) => (
-            <li key={i}>{renderInline(item, `ul${key}-${i}`)}</li>
-          ))}
-        </ul>
-      );
-      continue;
-    }
-
-    if (/^\s*\d+\.\s+/.test(line)) {
-      const items: string[] = [];
-      while (index < lines.length && /^\s*\d+\.\s+/.test(lines[index])) {
-        items.push(lines[index].replace(/^\s*\d+\.\s+/, ""));
-        index += 1;
-      }
-      blocks.push(
-        <ol key={key++} className="list-decimal space-y-1.5 pl-6 text-slate-700">
-          {items.map((item, i) => (
-            <li key={i}>{renderInline(item, `ol${key}-${i}`)}</li>
-          ))}
-        </ol>
-      );
-      continue;
-    }
-
-    if (line.trim() === "") {
-      index += 1;
-      continue;
-    }
-
-    const paragraph: string[] = [];
-    while (
-      index < lines.length &&
-      lines[index].trim() !== "" &&
-      !isBlockStart(lines[index])
-    ) {
-      paragraph.push(lines[index]);
-      index += 1;
-    }
-    blocks.push(
-      <p key={key++} className="leading-relaxed text-slate-700">
-        {renderInline(paragraph.join(" "), `p${key}`)}
-      </p>
-    );
-  }
-
-  return <div className="space-y-4">{blocks}</div>;
+  return (
+    <div className="text-slate-700">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={{
+          h1: ({ children }) => (
+            <h3 className={`mt-5 mb-3 first:mt-0 ${HEADING_CLASSES.h1}`}>
+              {children}
+            </h3>
+          ),
+          h2: ({ children }) => (
+            <h3 className={`mt-5 mb-3 first:mt-0 ${HEADING_CLASSES.h2}`}>
+              {children}
+            </h3>
+          ),
+          h3: ({ children }) => (
+            <h4 className={`mt-4 mb-2 first:mt-0 ${HEADING_CLASSES.h3}`}>
+              {children}
+            </h4>
+          ),
+          h4: ({ children }) => (
+            <h5 className={`mt-4 mb-2 first:mt-0 ${HEADING_CLASSES.h4}`}>
+              {children}
+            </h5>
+          ),
+          h5: ({ children }) => (
+            <h5 className={`mt-4 mb-2 first:mt-0 ${HEADING_CLASSES.h4}`}>
+              {children}
+            </h5>
+          ),
+          h6: ({ children }) => (
+            <h6 className={`mt-4 mb-2 first:mt-0 ${HEADING_CLASSES.h4}`}>
+              {children}
+            </h6>
+          ),
+          p: ({ children }) => (
+            <p className="mb-4 leading-relaxed last:mb-0">{children}</p>
+          ),
+          ul: ({ children }) => (
+            <ul className="mb-4 list-disc space-y-1.5 pl-6 last:mb-0">
+              {children}
+            </ul>
+          ),
+          ol: ({ children }) => (
+            <ol className="mb-4 list-decimal space-y-1.5 pl-6 last:mb-0">
+              {children}
+            </ol>
+          ),
+          li: ({ children }) => <li className="leading-relaxed">{children}</li>,
+          strong: ({ children }) => (
+            <strong className="font-semibold text-slate-900">{children}</strong>
+          ),
+          em: ({ children }) => <em className="italic">{children}</em>,
+          del: ({ children }) => <del className="line-through">{children}</del>,
+          a: ({ href, children }) => (
+            <a
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-indigo-600 underline underline-offset-2 hover:text-indigo-700"
+            >
+              {children}
+            </a>
+          ),
+          blockquote: ({ children }) => (
+            <blockquote className="mb-4 border-l-4 border-indigo-200 bg-indigo-50 px-4 py-2 text-slate-700 last:mb-0">
+              {children}
+            </blockquote>
+          ),
+          hr: () => <hr className="my-6 border-slate-200" />,
+          pre: ({ children }) => (
+            <pre className="mb-4 overflow-x-auto rounded-xl bg-slate-900 p-4 text-sm text-slate-100 last:mb-0">
+              {children}
+            </pre>
+          ),
+          code: ({ className, children }) => {
+            const isBlock =
+              typeof className === "string" && className.includes("language-");
+            if (isBlock) {
+              return <code className="font-mono">{children}</code>;
+            }
+            return (
+              <code className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[0.85em] text-rose-700">
+                {children}
+              </code>
+            );
+          },
+          table: ({ children }) => (
+            <div className="mb-4 overflow-x-auto last:mb-0">
+              <table className="w-full border-collapse text-sm">{children}</table>
+            </div>
+          ),
+          th: ({ children }) => (
+            <th className="border border-slate-200 bg-slate-50 px-3 py-2 text-left font-semibold text-slate-700">
+              {children}
+            </th>
+          ),
+          td: ({ children }) => (
+            <td className="border border-slate-200 px-3 py-2 align-top text-slate-700">
+              {children}
+            </td>
+          ),
+        }}
+      >
+        {markdown}
+      </ReactMarkdown>
+    </div>
+  );
 }

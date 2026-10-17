@@ -4,7 +4,7 @@ _Database Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Database Design is part of the Database Technology area. Database Design focuses on translating application requirements into well-structured data models. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Database Design focuses on translating application requirements into well-structured data models. Students learn entity-relationship diagrams, entities, attributes, relationships, keys, normalization, and constraints. Practical projects design schemas for systems such as school registration or inventory management, reducing duplication and improving data integrity while preparing structures that can support changing requirements.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Database Technology focuses on designing, storing, organizing, retrieving, and p
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about database design. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Database Design
+## Lesson 1: Introduction to Database Design
 
-### What you will learn
+### What this lesson covers
 
-- What Entity-relationship diagrams means and why it matters.
-- How Entities fits into the wider picture.
-- A small way to practise the idea today.
+Database Design focuses on translating application requirements into well-structured data models.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Entity-relationship diagrams and Entities so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of database design, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Database Design is and why it belongs to Database Technology.
 
-Entity-relationship diagrams sets the scene for everything else in database design. Once you can describe it in your own words, you have a reliable starting point for later lessons. Entities builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Database Technology focuses on designing, storing, organizing, retrieving, and protecting digital information. Students learn data modelling, querying, database administration, performance optimization, recovery, and security to support applications that depend on accurate and accessible information.
 
-Create a one-page reference sheet. On one side list Entity-relationship diagrams; on the other, write one sentence explaining Entities in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Database Design, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Entity-relationship diagrams, and why does it matter in database design?
-2. How are Entity-relationship diagrams and Entities connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Database Design?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Database Design matter within the Database Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Entity-relationship Diagrams
 
-### What you will learn
+### What this lesson covers
 
-- What Attributes means and why it matters.
-- How Relationships fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at entity-relationship diagrams and the part it plays in database design.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Attributes and Relationships and shows how they fit into a working database design process.
+"Entity-relationship Diagrams" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
 
-Attributes and Relationships are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with entity-relationship diagrams makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of database design you have seen (in a tutorial, a product, or the news). Identify where Attributes appears and where Relationships matters. Write two or three sentences connecting them.
+Write a short definition of entity-relationship diagrams in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where entity-relationship diagrams appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Attributes, and why does it matter in database design?
-2. How are Attributes and Relationships connected?
-3. What is one practical situation where this lesson would help you?
+1. What is entity-relationship diagrams, and why does it matter in database design?
+2. Give one example of entity-relationship diagrams in a real database technology task.
+3. Which other topic in this course does entity-relationship diagrams connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Entities
 
-### What you will learn
+### What this lesson covers
 
-- What Keys means and why it matters.
-- How Normalization fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at entities and the part it plays in database design.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Keys and Normalization and how they shape the tools and steps you will use when working on database design.
+"Entities" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Keys and Normalization helps you decide what to do first, what to check, and what to leave for a later pass when you are working on database design.
+Getting comfortable with entities makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small database design task. Mark on your sketch where Keys and Normalization appear and why the order matters.
+Write a short definition of entities in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where entities appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Keys, and why does it matter in database design?
-2. How are Keys and Normalization connected?
-3. What is one practical situation where this lesson would help you?
+1. What is entities, and why does it matter in database design?
+2. Give one example of entities in a real database technology task.
+3. Which other topic in this course does entities connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Attributes
 
-### What you will learn
+### What this lesson covers
 
-- What Constraints means and why it matters.
-- How Entity-relationship diagrams fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at attributes and the part it plays in database design.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Constraints and Entity-relationship diagrams to show how the concepts behave when you actually put them to work.
+"Attributes" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with attributes makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Constraints.
+Write a short definition of attributes in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where attributes appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Constraints, and why does it matter in database design?
-2. How are Constraints and Entity-relationship diagrams connected?
-3. What is one practical situation where this lesson would help you?
+1. What is attributes, and why does it matter in database design?
+2. Give one example of attributes in a real database technology task.
+3. Which other topic in this course does attributes connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Relationships
 
-### What you will learn
+### What this lesson covers
 
-- What School registration or inventory management means and why it matters.
-- How Reducing duplication fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at relationships and the part it plays in database design.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers School registration or inventory management and Reducing duplication and gives you a calm, repeatable way to find and fix problems.
+"Relationships" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
 
-Problems in database design usually have recognisable patterns. Learning School registration or inventory management and Reducing duplication helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with relationships makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of relationships in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where relationships appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is School registration or inventory management, and why does it matter in database design?
-2. How are School registration or inventory management and Reducing duplication connected?
-3. What is one practical situation where this lesson would help you?
+1. What is relationships, and why does it matter in database design?
+2. Give one example of relationships in a real database technology task.
+3. Which other topic in this course does relationships connect to, and how?
 
-## Lesson 6: Bringing Database Design Together
+## Lesson 6: Keys
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Entities fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at keys and the part it plays in database design.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The core idea and Entities and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Keys" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The core idea and Entities show how the parts of Database Design support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with keys makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of keys in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where keys appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in database design?
-2. How are The core idea and Entities connected?
-3. What is one practical situation where this lesson would help you?
+1. What is keys, and why does it matter in database design?
+2. Give one example of keys in a real database technology task.
+3. Which other topic in this course does keys connect to, and how?
 
-## Summary
+## Lesson 7: Normalization
 
-You have covered the foundations of database design, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at normalization and the part it plays in database design.
+
+### Explanation
+
+"Normalization" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with normalization makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of normalization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where normalization appears and why it matters.
+
+### Review questions
+
+1. What is normalization, and why does it matter in database design?
+2. Give one example of normalization in a real database technology task.
+3. Which other topic in this course does normalization connect to, and how?
+
+## Lesson 8: Constraints
+
+### What this lesson covers
+
+A closer look at constraints and the part it plays in database design.
+
+### Explanation
+
+"Constraints" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with constraints makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of constraints in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where constraints appears and why it matters.
+
+### Review questions
+
+1. What is constraints, and why does it matter in database design?
+2. Give one example of constraints in a real database technology task.
+3. Which other topic in this course does constraints connect to, and how?
+
+## Lesson 9: Reducing Duplication
+
+### What this lesson covers
+
+A closer look at reducing duplication and the part it plays in database design.
+
+### Explanation
+
+"Reducing Duplication" is one of the building blocks of Database Design. You will recognise it whenever you work on a database design task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with reducing duplication makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of reducing duplication in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where reducing duplication appears and why it matters.
+
+### Review questions
+
+1. What is reducing duplication, and why does it matter in database design?
+2. Give one example of reducing duplication in a real database technology task.
+3. Which other topic in this course does reducing duplication connect to, and how?
+
+## Lesson 10: Database Design: Putting It into Practice
+
+### What this lesson covers
+
+Practical projects design schemas for systems such as school registration or inventory management, reducing duplication and improving data integrity while preparing structures that can support changing requirements.
+
+### Explanation
+
+This final lesson brings Database Design together. You have looked at entity-relationship diagrams, entities, attributes, relationships, keys, normalization, constraints, reducing duplication and seen how they relate. Individually they are manageable; together they describe how database design work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of database design, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on database design and compare it with what you learned here.
-- Explore a related course in the Database Technology area to widen your skills.
+- Explore a related course in the Database Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in database design look like for you?

@@ -226,10 +226,13 @@ export default function CourseDetailPage() {
                 Register to access lessons
               </div>
             ) : course.lessons.length === 0 ? (
-              <div className="mt-4 flex h-10 w-full items-center justify-center gap-2 rounded-lg bg-white/15 text-sm font-medium text-white/90">
+              <Link
+                href={`/materials/${course.id}`}
+                className="mt-4 flex h-10 w-full items-center justify-center gap-2 rounded-lg bg-white text-sm font-medium text-slate-800 transition hover:bg-white/90"
+              >
                 <BookOpen className="h-4 w-4" />
-                No lessons added yet
-              </div>
+                Read course material
+              </Link>
             ) : nextLesson ? (
               <Link
                 href={`/lessons/${nextLesson.id}`}
@@ -308,8 +311,17 @@ export default function CourseDetailPage() {
         ) : course.lessons.length === 0 ? (
           <EmptyState
             icon={BookOpen}
-            title="No lessons yet"
-            description="This course does not have any lessons. It will appear on your dashboard for tracking."
+            title="Read this course as study material"
+            description="This course does not list individual lessons yet, but its full study material is ready to read."
+            action={
+              <Link
+                href={`/materials/${course.id}`}
+                className={buttonClasses("primary", "md")}
+              >
+                <BookOpen className="h-4 w-4" />
+                Read course material
+              </Link>
+            }
           />
         ) : (
           <div className="space-y-3">

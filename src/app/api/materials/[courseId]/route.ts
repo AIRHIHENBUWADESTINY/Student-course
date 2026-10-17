@@ -32,12 +32,22 @@ export async function GET(
       return NextResponse.json({ message: NOT_REGISTERED }, { status: 403 });
     }
 
-    const material = loadCourseMaterial(courseId);
+    const course = await getCourseById(auth.supabase, courseId);
+    const material = await loadCourseMaterial(
+      courseId,
+      course
+        ? {
+            title: course.title,
+            department: course.department,
+            category: course.category,
+            description: course.description,
+          }
+        : undefined
+    );
     if (!material) {
       return NextResponse.json({ message: NO_MATERIAL }, { status: 404 });
     }
 
-    const course = await getCourseById(auth.supabase, courseId);
     const progress = await getMaterialProgress(
       auth.supabase,
       auth.userId,
@@ -90,7 +100,18 @@ export async function PATCH(
       return NextResponse.json({ message: NOT_REGISTERED }, { status: 403 });
     }
 
-    const material = loadCourseMaterial(courseId);
+    const course = await getCourseById(auth.supabase, courseId);
+    const material = await loadCourseMaterial(
+      courseId,
+      course
+        ? {
+            title: course.title,
+            department: course.department,
+            category: course.category,
+            description: course.description,
+          }
+        : undefined
+    );
     if (!material) {
       return NextResponse.json({ message: NO_MATERIAL }, { status: 404 });
     }

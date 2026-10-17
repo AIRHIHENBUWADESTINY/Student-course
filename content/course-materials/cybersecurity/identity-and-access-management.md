@@ -4,7 +4,7 @@ _Cybersecurity · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Identity and Access Management is part of the Cybersecurity area. Identity and Access Management examines how organizations control who can access systems and information. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Identity and Access Management examines how organizations control who can access systems and information. Students study authentication, authorization, multifactor authentication, role-based access control, single sign-on, and account lifecycle management. Practical activities involve designing access policies, applying least-privilege principles, and reviewing permissions to reduce unauthorized access and improve accountability.
 
 ## Learning Objectives
 
@@ -25,157 +25,211 @@ Cybersecurity focuses on protecting computers, networks, applications, and infor
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about identity and access management. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Identity and Access Management
+## Lesson 1: Introduction to Identity and Access Management
 
-### What you will learn
+### What this lesson covers
 
-- What Information means and why it matters.
-- How Authentication fits into the wider picture.
-- A small way to practise the idea today.
+Identity and Access Management examines how organizations control who can access systems and information.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Information and Authentication so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of identity and access management, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Identity and Access Management is and why it belongs to Cybersecurity.
 
-Information sets the scene for everything else in identity and access management. Once you can describe it in your own words, you have a reliable starting point for later lessons. Authentication builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Cybersecurity focuses on protecting computers, networks, applications, and information from unauthorized access, misuse, and digital threats. Students learn security principles, risk assessment, defensive technologies, incident response, and ethical practices for maintaining confidentiality, integrity, and availability of digital systems.
 
-Create a one-page reference sheet. On one side list Information; on the other, write one sentence explaining Authentication in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Identity and Access Management, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Information, and why does it matter in identity and access management?
-2. How are Information and Authentication connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Identity and Access Management?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Identity and Access Management matter within the Cybersecurity area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Information
 
-### What you will learn
+### What this lesson covers
 
-- What Authorization means and why it matters.
-- How Multifactor authentication fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at information and the part it plays in identity and access management.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Authorization and Multifactor authentication and shows how they fit into a working identity and access management process.
+"Information" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
 
-Authorization and Multifactor authentication are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with information makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of identity and access management you have seen (in a tutorial, a product, or the news). Identify where Authorization appears and where Multifactor authentication matters. Write two or three sentences connecting them.
+Write a short definition of information in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where information appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Authorization, and why does it matter in identity and access management?
-2. How are Authorization and Multifactor authentication connected?
-3. What is one practical situation where this lesson would help you?
+1. What is information, and why does it matter in identity and access management?
+2. Give one example of information in a real cybersecurity task.
+3. Which other topic in this course does information connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Authentication
 
-### What you will learn
+### What this lesson covers
 
-- What Role-based access control means and why it matters.
-- How Single sign-on fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at authentication and the part it plays in identity and access management.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Role-based access control and Single sign-on and how they shape the tools and steps you will use when working on identity and access management.
+"Authentication" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Role-based access control and Single sign-on helps you decide what to do first, what to check, and what to leave for a later pass when you are working on identity and access management.
+Getting comfortable with authentication makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small identity and access management task. Mark on your sketch where Role-based access control and Single sign-on appear and why the order matters.
+Write a short definition of authentication in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where authentication appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Role-based access control, and why does it matter in identity and access management?
-2. How are Role-based access control and Single sign-on connected?
-3. What is one practical situation where this lesson would help you?
+1. What is authentication, and why does it matter in identity and access management?
+2. Give one example of authentication in a real cybersecurity task.
+3. Which other topic in this course does authentication connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Authorization
 
-### What you will learn
+### What this lesson covers
 
-- What Account lifecycle management means and why it matters.
-- How Information fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at authorization and the part it plays in identity and access management.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Account lifecycle management and Information to show how the concepts behave when you actually put them to work.
+"Authorization" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with authorization makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Account lifecycle management.
+Write a short definition of authorization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where authorization appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Account lifecycle management, and why does it matter in identity and access management?
-2. How are Account lifecycle management and Information connected?
-3. What is one practical situation where this lesson would help you?
+1. What is authorization, and why does it matter in identity and access management?
+2. Give one example of authorization in a real cybersecurity task.
+3. Which other topic in this course does authorization connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Multifactor Authentication
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at multifactor authentication and the part it plays in identity and access management.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Multifactor Authentication" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
 
-Problems in identity and access management usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with multifactor authentication makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of multifactor authentication in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where multifactor authentication appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in identity and access management?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is multifactor authentication, and why does it matter in identity and access management?
+2. Give one example of multifactor authentication in a real cybersecurity task.
+3. Which other topic in this course does multifactor authentication connect to, and how?
 
-## Lesson 6: Bringing Identity and Access Management Together
+## Lesson 6: Role-based Access Control
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Authentication fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at role-based access control and the part it plays in identity and access management.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Authentication and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Role-based Access Control" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Authentication show how the parts of Identity and Access Management support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with role-based access control makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of role-based access control in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where role-based access control appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in identity and access management?
-2. How are The main tool and Authentication connected?
-3. What is one practical situation where this lesson would help you?
+1. What is role-based access control, and why does it matter in identity and access management?
+2. Give one example of role-based access control in a real cybersecurity task.
+3. Which other topic in this course does role-based access control connect to, and how?
 
-## Summary
+## Lesson 7: Single Sign-on
 
-You have covered the foundations of identity and access management, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at single sign-on and the part it plays in identity and access management.
+
+### Explanation
+
+"Single Sign-on" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with single sign-on makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of single sign-on in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where single sign-on appears and why it matters.
+
+### Review questions
+
+1. What is single sign-on, and why does it matter in identity and access management?
+2. Give one example of single sign-on in a real cybersecurity task.
+3. Which other topic in this course does single sign-on connect to, and how?
+
+## Lesson 8: Account Lifecycle Management
+
+### What this lesson covers
+
+A closer look at account lifecycle management and the part it plays in identity and access management.
+
+### Explanation
+
+"Account Lifecycle Management" is one of the building blocks of Identity and Access Management. You will recognise it whenever you work on a identity and access management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with account lifecycle management makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of account lifecycle management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where account lifecycle management appears and why it matters.
+
+### Review questions
+
+1. What is account lifecycle management, and why does it matter in identity and access management?
+2. Give one example of account lifecycle management in a real cybersecurity task.
+3. Which other topic in this course does account lifecycle management connect to, and how?
+
+## Lesson 9: Identity and Access Management: Putting It into Practice
+
+### What this lesson covers
+
+Practical activities involve designing access policies, applying least-privilege principles, and reviewing permissions to reduce unauthorized access and improve accountability.
+
+### Explanation
+
+This final lesson brings Identity and Access Management together. You have looked at information, authentication, authorization, multifactor authentication, role-based access control, single sign-on, account lifecycle management and seen how they relate. Individually they are manageable; together they describe how identity and access management work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of identity and access management, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on identity and access management and compare it with what you learned here.
-- Explore a related course in the Cybersecurity area to widen your skills.
+- Explore a related course in the Cybersecurity area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in identity and access management look like for you?

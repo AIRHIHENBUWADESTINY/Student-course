@@ -4,7 +4,7 @@ _DevOps and Site Reliability Engineering · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Infrastructure as Code is part of the DevOps and Site Reliability Engineering area. Infrastructure as Code teaches students to manage computing infrastructure through version-controlled configuration files instead of manual setup. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Infrastructure as Code teaches students to manage computing infrastructure through version-controlled configuration files instead of manual setup. Topics include declarative definitions, reusable modules, state management, environment consistency, and change review. Practical exercises provision sample infrastructure and demonstrate how automation improves repeatability, auditability, collaboration, and recovery from configuration errors.
 
 ## Learning Objectives
 
@@ -25,157 +25,167 @@ DevOps and Site Reliability Engineering combine software development and IT oper
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about infrastructure as code. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Infrastructure as Code
+## Lesson 1: Introduction to Infrastructure as Code
 
-### What you will learn
+### What this lesson covers
 
-- What Declarative definitions means and why it matters.
-- How Reusable modules fits into the wider picture.
-- A small way to practise the idea today.
+Infrastructure as Code teaches students to manage computing infrastructure through version-controlled configuration files instead of manual setup.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Declarative definitions and Reusable modules so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of infrastructure as code, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Infrastructure as Code is and why it belongs to DevOps and Site Reliability Engineering.
 
-Declarative definitions sets the scene for everything else in infrastructure as code. Once you can describe it in your own words, you have a reliable starting point for later lessons. Reusable modules builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ DevOps and Site Reliability Engineering combine software development and IT operations to deliver applications reliably and efficiently. Students learn automation, continuous delivery, infrastructure management, monitoring, incident response, and collaborative practices that help teams deploy changes safely and maintain dependable services.
 
-Create a one-page reference sheet. On one side list Declarative definitions; on the other, write one sentence explaining Reusable modules in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Infrastructure as Code, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Declarative definitions, and why does it matter in infrastructure as code?
-2. How are Declarative definitions and Reusable modules connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Infrastructure as Code?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Infrastructure as Code matter within the DevOps and Site Reliability Engineering area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Declarative Definitions
 
-### What you will learn
+### What this lesson covers
 
-- What State management means and why it matters.
-- How Environment consistency fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at declarative definitions and the part it plays in infrastructure as code.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at State management and Environment consistency and shows how they fit into a working infrastructure as code process.
+"Declarative Definitions" is one of the building blocks of Infrastructure as Code. You will recognise it whenever you work on a infrastructure as code task, because it shapes the decisions you make and the results you produce.
 
-State management and Environment consistency are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with declarative definitions makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of infrastructure as code you have seen (in a tutorial, a product, or the news). Identify where State management appears and where Environment consistency matters. Write two or three sentences connecting them.
+Write a short definition of declarative definitions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where declarative definitions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is State management, and why does it matter in infrastructure as code?
-2. How are State management and Environment consistency connected?
-3. What is one practical situation where this lesson would help you?
+1. What is declarative definitions, and why does it matter in infrastructure as code?
+2. Give one example of declarative definitions in a real devops and site reliability engineering task.
+3. Which other topic in this course does declarative definitions connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Reusable Modules
 
-### What you will learn
+### What this lesson covers
 
-- What Change review means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at reusable modules and the part it plays in infrastructure as code.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Change review and The core idea and how they shape the tools and steps you will use when working on infrastructure as code.
+"Reusable Modules" is one of the building blocks of Infrastructure as Code. You will recognise it whenever you work on a infrastructure as code task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Change review and The core idea helps you decide what to do first, what to check, and what to leave for a later pass when you are working on infrastructure as code.
+Getting comfortable with reusable modules makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small infrastructure as code task. Mark on your sketch where Change review and The core idea appear and why the order matters.
+Write a short definition of reusable modules in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where reusable modules appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Change review, and why does it matter in infrastructure as code?
-2. How are Change review and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is reusable modules, and why does it matter in infrastructure as code?
+2. Give one example of reusable modules in a real devops and site reliability engineering task.
+3. Which other topic in this course does reusable modules connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: State Management
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Declarative definitions fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at state management and the part it plays in infrastructure as code.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The typical workflow and Declarative definitions to show how the concepts behave when you actually put them to work.
+"State Management" is one of the building blocks of Infrastructure as Code. You will recognise it whenever you work on a infrastructure as code task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with state management makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The typical workflow.
+Write a short definition of state management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where state management appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in infrastructure as code?
-2. How are The typical workflow and Declarative definitions connected?
-3. What is one practical situation where this lesson would help you?
+1. What is state management, and why does it matter in infrastructure as code?
+2. Give one example of state management in a real devops and site reliability engineering task.
+3. Which other topic in this course does state management connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Environment Consistency
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Quality and accuracy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at environment consistency and the part it plays in infrastructure as code.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The main tool and Quality and accuracy and gives you a calm, repeatable way to find and fix problems.
+"Environment Consistency" is one of the building blocks of Infrastructure as Code. You will recognise it whenever you work on a infrastructure as code task, because it shapes the decisions you make and the results you produce.
 
-Problems in infrastructure as code usually have recognisable patterns. Learning The main tool and Quality and accuracy helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with environment consistency makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of environment consistency in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where environment consistency appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in infrastructure as code?
-2. How are The main tool and Quality and accuracy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is environment consistency, and why does it matter in infrastructure as code?
+2. Give one example of environment consistency in a real devops and site reliability engineering task.
+3. Which other topic in this course does environment consistency connect to, and how?
 
-## Lesson 6: Bringing Infrastructure as Code Together
+## Lesson 6: Change Review
 
-### What you will learn
+### What this lesson covers
 
-- What The common mistake means and why it matters.
-- How Reusable modules fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at change review and the part it plays in infrastructure as code.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The common mistake and Reusable modules and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Change Review" is one of the building blocks of Infrastructure as Code. You will recognise it whenever you work on a infrastructure as code task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The common mistake and Reusable modules show how the parts of Infrastructure as Code support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with change review makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of change review in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where change review appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The common mistake, and why does it matter in infrastructure as code?
-2. How are The common mistake and Reusable modules connected?
-3. What is one practical situation where this lesson would help you?
+1. What is change review, and why does it matter in infrastructure as code?
+2. Give one example of change review in a real devops and site reliability engineering task.
+3. Which other topic in this course does change review connect to, and how?
 
-## Summary
+## Lesson 7: Infrastructure as Code: Putting It into Practice
 
-You have covered the foundations of infrastructure as code, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+Practical exercises provision sample infrastructure and demonstrate how automation improves repeatability, auditability, collaboration, and recovery from configuration errors.
+
+### Explanation
+
+This final lesson brings Infrastructure as Code together. You have looked at declarative definitions, reusable modules, state management, environment consistency, change review and seen how they relate. Individually they are manageable; together they describe how infrastructure as code work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of infrastructure as code, its key terms, and the core topics (5), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on infrastructure as code and compare it with what you learned here.
-- Explore a related course in the DevOps and Site Reliability Engineering area to widen your skills.
+- Explore a related course in the DevOps and Site Reliability Engineering area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in infrastructure as code look like for you?

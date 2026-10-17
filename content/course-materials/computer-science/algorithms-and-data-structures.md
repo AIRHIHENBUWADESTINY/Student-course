@@ -4,7 +4,7 @@ _Computer Science · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Algorithms and Data Structures is part of the Computer Science area. This course explores methods for organizing data and solving computational problems efficiently. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+This course explores methods for organizing data and solving computational problems efficiently. Students study arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, and algorithm analysis. Practical programming exercises compare different approaches using time and memory complexity, helping learners choose suitable data structures and algorithms for real-world software applications.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Computer Science studies the fundamental principles behind computing systems, al
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about algorithms and data structures. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Algorithms and Data Structures
+## Lesson 1: Introduction to Algorithms and Data Structures
 
-### What you will learn
+### What this lesson covers
 
-- What Methods for organizing data means and why it matters.
-- How Solving computational problems efficiently fits into the wider picture.
-- A small way to practise the idea today.
+This course explores methods for organizing data and solving computational problems efficiently.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Methods for organizing data and Solving computational problems efficiently so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of algorithms and data structures, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Algorithms and Data Structures is and why it belongs to Computer Science.
 
-Methods for organizing data sets the scene for everything else in algorithms and data structures. Once you can describe it in your own words, you have a reliable starting point for later lessons. Solving computational problems efficiently builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Science studies the fundamental principles behind computing systems, algorithms, programming, and information processing. Students learn how computers solve problems, represent data, execute instructions, and support intelligent applications, while developing analytical thinking and computational problem-solving skills.
 
-Create a one-page reference sheet. On one side list Methods for organizing data; on the other, write one sentence explaining Solving computational problems efficiently in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Algorithms and Data Structures, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Methods for organizing data, and why does it matter in algorithms and data structures?
-2. How are Methods for organizing data and Solving computational problems efficiently connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Algorithms and Data Structures?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Algorithms and Data Structures matter within the Computer Science area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Methods for Organizing Data
 
-### What you will learn
+### What this lesson covers
 
-- What Arrays means and why it matters.
-- How Linked lists fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at methods for organizing data and the part it plays in algorithms and data structures.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Arrays and Linked lists and shows how they fit into a working algorithms and data structures process.
+"Methods for Organizing Data" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
 
-Arrays and Linked lists are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with methods for organizing data makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of algorithms and data structures you have seen (in a tutorial, a product, or the news). Identify where Arrays appears and where Linked lists matters. Write two or three sentences connecting them.
+Write a short definition of methods for organizing data in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where methods for organizing data appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Arrays, and why does it matter in algorithms and data structures?
-2. How are Arrays and Linked lists connected?
-3. What is one practical situation where this lesson would help you?
+1. What is methods for organizing data, and why does it matter in algorithms and data structures?
+2. Give one example of methods for organizing data in a real computer science task.
+3. Which other topic in this course does methods for organizing data connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Solving Computational Problems Efficiently
 
-### What you will learn
+### What this lesson covers
 
-- What Stacks means and why it matters.
-- How Queues fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at solving computational problems efficiently and the part it plays in algorithms and data structures.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Stacks and Queues and how they shape the tools and steps you will use when working on algorithms and data structures.
+"Solving Computational Problems Efficiently" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Stacks and Queues helps you decide what to do first, what to check, and what to leave for a later pass when you are working on algorithms and data structures.
+Getting comfortable with solving computational problems efficiently makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small algorithms and data structures task. Mark on your sketch where Stacks and Queues appear and why the order matters.
+Write a short definition of solving computational problems efficiently in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where solving computational problems efficiently appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Stacks, and why does it matter in algorithms and data structures?
-2. How are Stacks and Queues connected?
-3. What is one practical situation where this lesson would help you?
+1. What is solving computational problems efficiently, and why does it matter in algorithms and data structures?
+2. Give one example of solving computational problems efficiently in a real computer science task.
+3. Which other topic in this course does solving computational problems efficiently connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Arrays
 
-### What you will learn
+### What this lesson covers
 
-- What Trees means and why it matters.
-- How Methods for organizing data fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at arrays and the part it plays in algorithms and data structures.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Trees and Methods for organizing data to show how the concepts behave when you actually put them to work.
+"Arrays" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with arrays makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Trees.
+Write a short definition of arrays in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where arrays appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Trees, and why does it matter in algorithms and data structures?
-2. How are Trees and Methods for organizing data connected?
-3. What is one practical situation where this lesson would help you?
+1. What is arrays, and why does it matter in algorithms and data structures?
+2. Give one example of arrays in a real computer science task.
+3. Which other topic in this course does arrays connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Linked Lists
 
-### What you will learn
+### What this lesson covers
 
-- What Graphs means and why it matters.
-- How Sorting fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at linked lists and the part it plays in algorithms and data structures.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Graphs and Sorting and gives you a calm, repeatable way to find and fix problems.
+"Linked Lists" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
 
-Problems in algorithms and data structures usually have recognisable patterns. Learning Graphs and Sorting helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with linked lists makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of linked lists in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where linked lists appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Graphs, and why does it matter in algorithms and data structures?
-2. How are Graphs and Sorting connected?
-3. What is one practical situation where this lesson would help you?
+1. What is linked lists, and why does it matter in algorithms and data structures?
+2. Give one example of linked lists in a real computer science task.
+3. Which other topic in this course does linked lists connect to, and how?
 
-## Lesson 6: Bringing Algorithms and Data Structures Together
+## Lesson 6: Stacks
 
-### What you will learn
+### What this lesson covers
 
-- What Searching means and why it matters.
-- How Solving computational problems efficiently fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at stacks and the part it plays in algorithms and data structures.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Searching and Solving computational problems efficiently and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Stacks" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Searching and Solving computational problems efficiently show how the parts of Algorithms and Data Structures support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with stacks makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of stacks in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where stacks appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Searching, and why does it matter in algorithms and data structures?
-2. How are Searching and Solving computational problems efficiently connected?
-3. What is one practical situation where this lesson would help you?
+1. What is stacks, and why does it matter in algorithms and data structures?
+2. Give one example of stacks in a real computer science task.
+3. Which other topic in this course does stacks connect to, and how?
 
-## Summary
+## Lesson 7: Queues
 
-You have covered the foundations of algorithms and data structures, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at queues and the part it plays in algorithms and data structures.
+
+### Explanation
+
+"Queues" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with queues makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of queues in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where queues appears and why it matters.
+
+### Review questions
+
+1. What is queues, and why does it matter in algorithms and data structures?
+2. Give one example of queues in a real computer science task.
+3. Which other topic in this course does queues connect to, and how?
+
+## Lesson 8: Trees
+
+### What this lesson covers
+
+A closer look at trees and the part it plays in algorithms and data structures.
+
+### Explanation
+
+"Trees" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with trees makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of trees in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where trees appears and why it matters.
+
+### Review questions
+
+1. What is trees, and why does it matter in algorithms and data structures?
+2. Give one example of trees in a real computer science task.
+3. Which other topic in this course does trees connect to, and how?
+
+## Lesson 9: Graphs
+
+### What this lesson covers
+
+A closer look at graphs and the part it plays in algorithms and data structures.
+
+### Explanation
+
+"Graphs" is one of the building blocks of Algorithms and Data Structures. You will recognise it whenever you work on a algorithms and data structures task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with graphs makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of graphs in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where graphs appears and why it matters.
+
+### Review questions
+
+1. What is graphs, and why does it matter in algorithms and data structures?
+2. Give one example of graphs in a real computer science task.
+3. Which other topic in this course does graphs connect to, and how?
+
+## Lesson 10: Algorithms and Data Structures: Putting It into Practice
+
+### What this lesson covers
+
+Practical programming exercises compare different approaches using time and memory complexity, helping learners choose suitable data structures and algorithms for real-world software applications.
+
+### Explanation
+
+This final lesson brings Algorithms and Data Structures together. You have looked at methods for organizing data, solving computational problems efficiently, arrays, linked lists, stacks, queues, trees, graphs and seen how they relate. Individually they are manageable; together they describe how algorithms and data structures work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of algorithms and data structures, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on algorithms and data structures and compare it with what you learned here.
-- Explore a related course in the Computer Science area to widen your skills.
+- Explore a related course in the Computer Science area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in algorithms and data structures look like for you?

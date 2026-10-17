@@ -6,9 +6,9 @@ values
   ('web-development', 'Web Development', 'Build modern, responsive websites from the ground up using HTML, CSS and JavaScript.', 'Sarah Mitchell', 'Development', 'Beginner', 'indigo', 'code', 45000),
   ('python-programming', 'Python Programming', 'Learn to program in Python, from your very first script to object-oriented projects.', 'David Chen', 'Development', 'Beginner', 'emerald', 'terminal', 50000),
   ('ui-ux-design', 'UI/UX Design', 'Design delightful, user-centered interfaces with research, wireframes and modern tools.', 'Emily Carter', 'Design', 'Beginner', 'fuchsia', 'palette', 40000),
-  ('cloud-computing', 'Cloud Computing', 'Understand the cloud and deploy real applications using modern infrastructure services.', 'Michael Torres', 'Infrastructure', 'Intermediate', 'sky', 'cloud', 55000),
+  ('cloud-computing', 'Cloud Computing', 'Understand the cloud and deploy real applications using modern infrastructure services.', 'Michael Torres', 'Infrastructure', 'Beginner', 'sky', 'cloud', 55000),
   ('database-fundamentals', 'Database Fundamentals', 'Learn how data is stored, queried and designed in modern relational databases.', 'Priya Nair', 'Data', 'Beginner', 'amber', 'database', 48000),
-  ('introduction-to-devops', 'Introduction to DevOps', 'Bridge development and operations with automation, CI/CD and reliable practices.', 'James Okafor', 'Infrastructure', 'Intermediate', 'violet', 'infinity', 60000)
+  ('introduction-to-devops', 'Introduction to DevOps', 'Bridge development and operations with automation, CI/CD and reliable practices.', 'James Okafor', 'Infrastructure', 'Beginner', 'violet', 'infinity', 60000)
 on conflict (id) do update set
   title = excluded.title,
   description = excluded.description,

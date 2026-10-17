@@ -4,7 +4,7 @@ _Computer Networking · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Routing and Switching is part of the Computer Networking area. Routing and Switching introduces the technologies that move data between devices and networks. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Routing and Switching introduces the technologies that move data between devices and networks. Students study Ethernet, switching tables, IP routing, VLANs, routing protocols, and network segmentation. Practical laboratory activities configure sample network devices and test connectivity, helping learners understand how packets travel through networks and how segmentation supports performance and security.
 
 ## Learning Objectives
 
@@ -13,8 +13,8 @@ By the end of this course you should be able to:
 - Explain the main ideas that make up routing and switching.
 - Describe ethernet and how it is used.
 - Describe switching tables and how it is used.
-- Describe ip routing and how it is used.
-- Describe vlans and how it is used.
+- Describe iP routing and how it is used.
+- Describe vLANs and how it is used.
 - Describe routing protocols and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
@@ -25,157 +25,189 @@ Computer Networking studies how computers, servers, and other devices communicat
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about routing and switching. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Routing and Switching
+## Lesson 1: Introduction to Routing and Switching
 
-### What you will learn
+### What this lesson covers
 
-- What Ethernet means and why it matters.
-- How Switching tables fits into the wider picture.
-- A small way to practise the idea today.
+Routing and Switching introduces the technologies that move data between devices and networks.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Ethernet and Switching tables so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of routing and switching, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Routing and Switching is and why it belongs to Computer Networking.
 
-Ethernet sets the scene for everything else in routing and switching. Once you can describe it in your own words, you have a reliable starting point for later lessons. Switching tables builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Networking studies how computers, servers, and other devices communicate and share resources. Students learn network architecture, protocols, addressing, routing, wireless communication, troubleshooting, and network protection, developing skills needed to build and maintain dependable digital communication systems.
 
-Create a one-page reference sheet. On one side list Ethernet; on the other, write one sentence explaining Switching tables in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Routing and Switching, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Ethernet, and why does it matter in routing and switching?
-2. How are Ethernet and Switching tables connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Routing and Switching?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Routing and Switching matter within the Computer Networking area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Ethernet
 
-### What you will learn
+### What this lesson covers
 
-- What Ip routing means and why it matters.
-- How Vlans fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at ethernet and the part it plays in routing and switching.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Ip routing and Vlans and shows how they fit into a working routing and switching process.
+"Ethernet" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
 
-Ip routing and Vlans are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with ethernet makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of routing and switching you have seen (in a tutorial, a product, or the news). Identify where Ip routing appears and where Vlans matters. Write two or three sentences connecting them.
+Write a short definition of ethernet in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where ethernet appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Ip routing, and why does it matter in routing and switching?
-2. How are Ip routing and Vlans connected?
-3. What is one practical situation where this lesson would help you?
+1. What is ethernet, and why does it matter in routing and switching?
+2. Give one example of ethernet in a real computer networking task.
+3. Which other topic in this course does ethernet connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Switching Tables
 
-### What you will learn
+### What this lesson covers
 
-- What Routing protocols means and why it matters.
-- How Network segmentation fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at switching tables and the part it plays in routing and switching.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Routing protocols and Network segmentation and how they shape the tools and steps you will use when working on routing and switching.
+"Switching Tables" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Routing protocols and Network segmentation helps you decide what to do first, what to check, and what to leave for a later pass when you are working on routing and switching.
+Getting comfortable with switching tables makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small routing and switching task. Mark on your sketch where Routing protocols and Network segmentation appear and why the order matters.
+Write a short definition of switching tables in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where switching tables appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Routing protocols, and why does it matter in routing and switching?
-2. How are Routing protocols and Network segmentation connected?
-3. What is one practical situation where this lesson would help you?
+1. What is switching tables, and why does it matter in routing and switching?
+2. Give one example of switching tables in a real computer networking task.
+3. Which other topic in this course does switching tables connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: IP Routing
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Ethernet fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at iP routing and the part it plays in routing and switching.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Ethernet to show how the concepts behave when you actually put them to work.
+"IP Routing" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with iP routing makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of iP routing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where iP routing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in routing and switching?
-2. How are The core idea and Ethernet connected?
-3. What is one practical situation where this lesson would help you?
+1. What is iP routing, and why does it matter in routing and switching?
+2. Give one example of iP routing in a real computer networking task.
+3. Which other topic in this course does iP routing connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: VLANs
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at vLANs and the part it plays in routing and switching.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"VLANs" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
 
-Problems in routing and switching usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with vLANs makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of vLANs in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where vLANs appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in routing and switching?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is vLANs, and why does it matter in routing and switching?
+2. Give one example of vLANs in a real computer networking task.
+3. Which other topic in this course does vLANs connect to, and how?
 
-## Lesson 6: Bringing Routing and Switching Together
+## Lesson 6: Routing Protocols
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Switching tables fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at routing protocols and the part it plays in routing and switching.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Switching tables and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Routing Protocols" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Switching tables show how the parts of Routing and Switching support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with routing protocols makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of routing protocols in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where routing protocols appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in routing and switching?
-2. How are Quality and accuracy and Switching tables connected?
-3. What is one practical situation where this lesson would help you?
+1. What is routing protocols, and why does it matter in routing and switching?
+2. Give one example of routing protocols in a real computer networking task.
+3. Which other topic in this course does routing protocols connect to, and how?
 
-## Summary
+## Lesson 7: Network Segmentation
 
-You have covered the foundations of routing and switching, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at network segmentation and the part it plays in routing and switching.
+
+### Explanation
+
+"Network Segmentation" is one of the building blocks of Routing and Switching. You will recognise it whenever you work on a routing and switching task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with network segmentation makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of network segmentation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where network segmentation appears and why it matters.
+
+### Review questions
+
+1. What is network segmentation, and why does it matter in routing and switching?
+2. Give one example of network segmentation in a real computer networking task.
+3. Which other topic in this course does network segmentation connect to, and how?
+
+## Lesson 8: Routing and Switching: Putting It into Practice
+
+### What this lesson covers
+
+Practical laboratory activities configure sample network devices and test connectivity, helping learners understand how packets travel through networks and how segmentation supports performance and security.
+
+### Explanation
+
+This final lesson brings Routing and Switching together. You have looked at ethernet, switching tables, iP routing, vLANs, routing protocols, network segmentation and seen how they relate. Individually they are manageable; together they describe how routing and switching work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of routing and switching, its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on routing and switching and compare it with what you learned here.
-- Explore a related course in the Computer Networking area to widen your skills.
+- Explore a related course in the Computer Networking area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in routing and switching look like for you?

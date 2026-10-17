@@ -4,7 +4,7 @@ _Cybersecurity · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Ethical Hacking is part of the Cybersecurity area. Ethical Hacking introduces authorized security assessment techniques used to identify system vulnerabilities. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Ethical Hacking introduces authorized security assessment techniques used to identify system vulnerabilities. Students study reconnaissance concepts, vulnerability assessment, security testing methodologies, and responsible reporting. Practical work must take place in authorized laboratories or controlled environments. The course emphasizes permission, legal boundaries, documentation, and remediation rather than unauthorized access to real systems.
 
 ## Learning Objectives
 
@@ -24,157 +24,145 @@ Cybersecurity focuses on protecting computers, networks, applications, and infor
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about ethical hacking. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Ethical Hacking
+## Lesson 1: Introduction to Ethical Hacking
 
-### What you will learn
+### What this lesson covers
 
-- What Reconnaissance concepts means and why it matters.
-- How Vulnerability assessment fits into the wider picture.
-- A small way to practise the idea today.
+Ethical Hacking introduces authorized security assessment techniques used to identify system vulnerabilities.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Reconnaissance concepts and Vulnerability assessment so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of ethical hacking, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Ethical Hacking is and why it belongs to Cybersecurity.
 
-Reconnaissance concepts sets the scene for everything else in ethical hacking. Once you can describe it in your own words, you have a reliable starting point for later lessons. Vulnerability assessment builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Cybersecurity focuses on protecting computers, networks, applications, and information from unauthorized access, misuse, and digital threats. Students learn security principles, risk assessment, defensive technologies, incident response, and ethical practices for maintaining confidentiality, integrity, and availability of digital systems.
 
-Create a one-page reference sheet. On one side list Reconnaissance concepts; on the other, write one sentence explaining Vulnerability assessment in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Ethical Hacking, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Reconnaissance concepts, and why does it matter in ethical hacking?
-2. How are Reconnaissance concepts and Vulnerability assessment connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Ethical Hacking?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Ethical Hacking matter within the Cybersecurity area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Reconnaissance Concepts
 
-### What you will learn
+### What this lesson covers
 
-- What Security testing methodologies means and why it matters.
-- How Responsible reporting fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at reconnaissance concepts and the part it plays in ethical hacking.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Security testing methodologies and Responsible reporting and shows how they fit into a working ethical hacking process.
+"Reconnaissance Concepts" is one of the building blocks of Ethical Hacking. You will recognise it whenever you work on a ethical hacking task, because it shapes the decisions you make and the results you produce.
 
-Security testing methodologies and Responsible reporting are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with reconnaissance concepts makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of ethical hacking you have seen (in a tutorial, a product, or the news). Identify where Security testing methodologies appears and where Responsible reporting matters. Write two or three sentences connecting them.
+Write a short definition of reconnaissance concepts in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where reconnaissance concepts appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Security testing methodologies, and why does it matter in ethical hacking?
-2. How are Security testing methodologies and Responsible reporting connected?
-3. What is one practical situation where this lesson would help you?
+1. What is reconnaissance concepts, and why does it matter in ethical hacking?
+2. Give one example of reconnaissance concepts in a real cybersecurity task.
+3. Which other topic in this course does reconnaissance concepts connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Vulnerability Assessment
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at vulnerability assessment and the part it plays in ethical hacking.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at The core idea and The typical workflow and how they shape the tools and steps you will use when working on ethical hacking.
+"Vulnerability Assessment" is one of the building blocks of Ethical Hacking. You will recognise it whenever you work on a ethical hacking task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding The core idea and The typical workflow helps you decide what to do first, what to check, and what to leave for a later pass when you are working on ethical hacking.
+Getting comfortable with vulnerability assessment makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small ethical hacking task. Mark on your sketch where The core idea and The typical workflow appear and why the order matters.
+Write a short definition of vulnerability assessment in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where vulnerability assessment appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in ethical hacking?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is vulnerability assessment, and why does it matter in ethical hacking?
+2. Give one example of vulnerability assessment in a real cybersecurity task.
+3. Which other topic in this course does vulnerability assessment connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Security Testing Methodologies
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Reconnaissance concepts fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at security testing methodologies and the part it plays in ethical hacking.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The main tool and Reconnaissance concepts to show how the concepts behave when you actually put them to work.
+"Security Testing Methodologies" is one of the building blocks of Ethical Hacking. You will recognise it whenever you work on a ethical hacking task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with security testing methodologies makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The main tool.
+Write a short definition of security testing methodologies in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where security testing methodologies appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in ethical hacking?
-2. How are The main tool and Reconnaissance concepts connected?
-3. What is one practical situation where this lesson would help you?
+1. What is security testing methodologies, and why does it matter in ethical hacking?
+2. Give one example of security testing methodologies in a real cybersecurity task.
+3. Which other topic in this course does security testing methodologies connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Responsible Reporting
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How The common mistake fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at responsible reporting and the part it plays in ethical hacking.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Quality and accuracy and The common mistake and gives you a calm, repeatable way to find and fix problems.
+"Responsible Reporting" is one of the building blocks of Ethical Hacking. You will recognise it whenever you work on a ethical hacking task, because it shapes the decisions you make and the results you produce.
 
-Problems in ethical hacking usually have recognisable patterns. Learning Quality and accuracy and The common mistake helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with responsible reporting makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of responsible reporting in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where responsible reporting appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in ethical hacking?
-2. How are Quality and accuracy and The common mistake connected?
-3. What is one practical situation where this lesson would help you?
+1. What is responsible reporting, and why does it matter in ethical hacking?
+2. Give one example of responsible reporting in a real cybersecurity task.
+3. Which other topic in this course does responsible reporting connect to, and how?
 
-## Lesson 6: Bringing Ethical Hacking Together
+## Lesson 6: Ethical Hacking: Putting It into Practice
 
-### What you will learn
+### What this lesson covers
 
-- What An end-to-end example means and why it matters.
-- How Vulnerability assessment fits into the wider picture.
-- A small way to practise the idea today.
+The course emphasizes permission, legal boundaries, documentation, and remediation rather than unauthorized access to real systems.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit An end-to-end example and Vulnerability assessment and connect the earlier lessons into one picture so you can continue learning with confidence.
+This final lesson brings Ethical Hacking together. You have looked at reconnaissance concepts, vulnerability assessment, security testing methodologies, responsible reporting and seen how they relate. Individually they are manageable; together they describe how ethical hacking work is actually done, from understanding a problem to producing something that works.
 
-Taken together, An end-to-end example and Vulnerability assessment show how the parts of Ethical Hacking support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+### Practice
 
-### Practical example
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+### Course summary
 
-### Review questions
+You have covered the foundations of ethical hacking, its key terms, and the core topics (4), and how they fit together. That gives you a working base you can build on with practice.
 
-1. In your own words, what is An end-to-end example, and why does it matter in ethical hacking?
-2. How are An end-to-end example and Vulnerability assessment connected?
-3. What is one practical situation where this lesson would help you?
-
-## Summary
-
-You have covered the foundations of ethical hacking, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
-
-## Suggested next steps
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on ethical hacking and compare it with what you learned here.
-- Explore a related course in the Cybersecurity area to widen your skills.
+- Explore a related course in the Cybersecurity area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in ethical hacking look like for you?

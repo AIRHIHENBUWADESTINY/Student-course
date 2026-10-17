@@ -1,24 +1,51 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
+import Link from "next/link";
 import { ListChecks, SearchX } from "lucide-react";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { useRegistration } from "@/components/providers/RegistrationProvider";
 import LessonItem from "@/components/dashboard/LessonItem";
 import SearchInput from "@/components/ui/SearchInput";
 import EmptyState from "@/components/ui/EmptyState";
+import { buttonClasses } from "@/components/ui/Button";
 import { getLessonStatus } from "@/lib/progress";
+import type { Course } from "@/types";
 
 type StatusFilter = "all" | "not-started" | "in-progress" | "completed";
 
 export default function LessonsPage() {
-  const { progress, courses, lessons, getCourse } = useProgress();
+  const { progress, courses, lessons, getCourse, profile } = useProgress();
+  const reg = useRegistration();
   const [query, setQuery] = useState("");
   const [courseId, setCourseId] = useState("all");
   const [status, setStatus] = useState<StatusFilter>("all");
 
+  const canAccess = useCallback(
+    (course: Course) =>
+      reg.isRegistered(course.id) ||
+      Boolean(course.ownerId) ||
+      profile.role === "admin",
+    [reg, profile.role]
+  );
+
+  const accessibleCourses = useMemo(
+    () => courses.filter(canAccess),
+    [courses, canAccess]
+  );
+
+  const accessibleLessons = useMemo(
+    () =>
+      lessons.filter((lesson) => {
+        const course = getCourse(lesson.courseId);
+        return Boolean(course && canAccess(course));
+      }),
+    [lessons, getCourse, canAccess]
+  );
+
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase();
-    return lessons.filter((lesson) => {
+    return accessibleLessons.filter((lesson) => {
       const course = getCourse(lesson.courseId);
       const lessonStatus = getLessonStatus(progress, lesson.id);
       const matchesQuery =
@@ -30,7 +57,7 @@ export default function LessonsPage() {
       const matchesStatus = status === "all" || lessonStatus === status;
       return matchesQuery && matchesCourse && matchesStatus;
     });
-  }, [lessons, progress, query, courseId, status, getCourse]);
+  }, [accessibleLessons, progress, query, courseId, status, getCourse]);
 
   const resetFilters = () => {
     setQuery("");
@@ -67,7 +94,7 @@ export default function LessonsPage() {
             className="h-10 rounded-lg border border-slate-200 bg-white px-3 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
           >
             <option value="all">All courses</option>
-            {courses.map((course) => (
+            {accessibleCourses.map((course) => (
               <option key={course.id} value={course.id}>
                 {course.title}
               </option>
@@ -97,10 +124,26 @@ export default function LessonsPage() {
       <p className="text-sm text-slate-500">
         Showing{" "}
         <span className="font-semibold text-slate-700">{filtered.length}</span>{" "}
-        of {lessons.length} lessons
+        of {accessibleLessons.length} lessons
       </p>
 
-      {filtered.length === 0 ? (
+      {accessibleLessons.length === 0 ? (
+        <EmptyState
+          icon={ListChecks}
+          title="No lessons yet"
+          description="Register for courses and their lessons will appear here. Courses without listed lessons can still be read as study material."
+          action={
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <Link href="/catalogue" className={buttonClasses("primary", "md")}>
+                Go to Course Catalogue
+              </Link>
+              <Link href="/materials" className={buttonClasses("outline", "md")}>
+                Read Study Materials
+              </Link>
+            </div>
+          }
+        />
+      ) : filtered.length === 0 ? (
         <EmptyState
           icon={SearchX}
           title="No lessons found"

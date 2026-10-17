@@ -4,178 +4,210 @@ _Information Technology (IT) Support · Faculty of Technology · Level 100L_
 
 ## Overview
 
-IT Service Management is part of the Information Technology (IT) Support area. IT Service Management introduces frameworks and processes for delivering reliable technology services. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+IT Service Management introduces structured methods for delivering and improving technology services. Students explore incident management, problem management, change management, service requests, documentation, and service performance. Practical exercises simulate service-desk workflows and change approvals, helping learners understand how coordinated processes improve service quality, accountability, reliability, and communication between technical teams and users.
 
 ## Learning Objectives
 
 By the end of this course you should be able to:
 
 - Explain the main ideas that make up it service management.
-- Describe service levels and how it is used.
-- Describe incident and how it is used.
+- Describe incident management and how it is used.
 - Describe problem management and how it is used.
-- Describe change control and how it is used.
+- Describe change management and how it is used.
 - Describe service requests and how it is used.
+- Describe documentation and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
 
 ## Introduction
 
-Information Technology (IT) Support prepares students to maintain, troubleshoot, and support computer systems, networks, and users. Students learn hardware and software support, system administration, service management, asset management, and backup practices that keep organizational technology running reliably.
+IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about it service management. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of IT Service Management
+## Lesson 1: Introduction to IT Service Management
 
-### What you will learn
+### What this lesson covers
 
-- What Service levels means and why it matters.
-- How Incident fits into the wider picture.
-- A small way to practise the idea today.
+IT Service Management introduces structured methods for delivering and improving technology services.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Service levels and Incident so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of it service management, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what IT Service Management is and why it belongs to Information Technology (IT) Support.
 
-Service levels sets the scene for everything else in it service management. Once you can describe it in your own words, you have a reliable starting point for later lessons. Incident builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
-Create a one-page reference sheet. On one side list Service levels; on the other, write one sentence explaining Incident in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is IT Service Management, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Service levels, and why does it matter in it service management?
-2. How are Service levels and Incident connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is IT Service Management?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does IT Service Management matter within the Information Technology (IT) Support area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Incident Management
 
-### What you will learn
+### What this lesson covers
 
-- What Problem management means and why it matters.
-- How Change control fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at incident management and the part it plays in it service management.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Problem management and Change control and shows how they fit into a working it service management process.
+"Incident Management" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
 
-Problem management and Change control are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with incident management makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of it service management you have seen (in a tutorial, a product, or the news). Identify where Problem management appears and where Change control matters. Write two or three sentences connecting them.
+Write a short definition of incident management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where incident management appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Problem management, and why does it matter in it service management?
-2. How are Problem management and Change control connected?
-3. What is one practical situation where this lesson would help you?
+1. What is incident management, and why does it matter in it service management?
+2. Give one example of incident management in a real information technology (it) support task.
+3. Which other topic in this course does incident management connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Problem Management
 
-### What you will learn
+### What this lesson covers
 
-- What Service requests means and why it matters.
-- How Continual improvement fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at problem management and the part it plays in it service management.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Service requests and Continual improvement and how they shape the tools and steps you will use when working on it service management.
+"Problem Management" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Service requests and Continual improvement helps you decide what to do first, what to check, and what to leave for a later pass when you are working on it service management.
+Getting comfortable with problem management makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small it service management task. Mark on your sketch where Service requests and Continual improvement appear and why the order matters.
+Write a short definition of problem management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where problem management appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Service requests, and why does it matter in it service management?
-2. How are Service requests and Continual improvement connected?
-3. What is one practical situation where this lesson would help you?
+1. What is problem management, and why does it matter in it service management?
+2. Give one example of problem management in a real information technology (it) support task.
+3. Which other topic in this course does problem management connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Change Management
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Service levels fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at change management and the part it plays in it service management.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Service levels to show how the concepts behave when you actually put them to work.
+"Change Management" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with change management makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of change management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where change management appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in it service management?
-2. How are The core idea and Service levels connected?
-3. What is one practical situation where this lesson would help you?
+1. What is change management, and why does it matter in it service management?
+2. Give one example of change management in a real information technology (it) support task.
+3. Which other topic in this course does change management connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Service Requests
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at service requests and the part it plays in it service management.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Service Requests" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
 
-Problems in it service management usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with service requests makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of service requests in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where service requests appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in it service management?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is service requests, and why does it matter in it service management?
+2. Give one example of service requests in a real information technology (it) support task.
+3. Which other topic in this course does service requests connect to, and how?
 
-## Lesson 6: Bringing IT Service Management Together
+## Lesson 6: Documentation
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Incident fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at documentation and the part it plays in it service management.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Incident and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Documentation" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Incident show how the parts of IT Service Management support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with documentation makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of documentation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where documentation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in it service management?
-2. How are Quality and accuracy and Incident connected?
-3. What is one practical situation where this lesson would help you?
+1. What is documentation, and why does it matter in it service management?
+2. Give one example of documentation in a real information technology (it) support task.
+3. Which other topic in this course does documentation connect to, and how?
 
-## Summary
+## Lesson 7: Service Performance
 
-You have covered the foundations of it service management, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at service performance and the part it plays in it service management.
+
+### Explanation
+
+"Service Performance" is one of the building blocks of IT Service Management. You will recognise it whenever you work on a it service management task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with service performance makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of service performance in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where service performance appears and why it matters.
+
+### Review questions
+
+1. What is service performance, and why does it matter in it service management?
+2. Give one example of service performance in a real information technology (it) support task.
+3. Which other topic in this course does service performance connect to, and how?
+
+## Lesson 8: IT Service Management: Putting It into Practice
+
+### What this lesson covers
+
+Practical exercises simulate service-desk workflows and change approvals, helping learners understand how coordinated processes improve service quality, accountability, reliability, and communication between technical teams and users.
+
+### Explanation
+
+This final lesson brings IT Service Management together. You have looked at incident management, problem management, change management, service requests, documentation, service performance and seen how they relate. Individually they are manageable; together they describe how it service management work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of it service management, its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on it service management and compare it with what you learned here.
-- Explore a related course in the Information Technology (IT) Support area to widen your skills.
+- Explore a related course in the Information Technology (IT) Support area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in it service management look like for you?

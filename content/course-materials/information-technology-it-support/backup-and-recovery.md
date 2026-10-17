@@ -4,178 +4,232 @@ _Information Technology (IT) Support · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Backup and Recovery is part of the Information Technology (IT) Support area. Backup and Recovery teaches students how to protect data and restore systems after loss or failure. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Backup and Recovery teaches students how to protect files, configurations, and organizational information from loss. Topics include backup schedules, local and remote copies, recovery testing, retention, access protection, and restoration procedures. Practical exercises back up sample data and restore it successfully, emphasizing verification, secure storage, documentation, and preparedness for hardware failures or accidental deletion.
 
 ## Learning Objectives
 
 By the end of this course you should be able to:
 
 - Explain the main ideas that make up backup and recovery.
-- Describe backup types and how it is used.
-- Describe schedules and how it is used.
-- Describe storage locations and how it is used.
+- Describe backup schedules and how it is used.
+- Describe local and how it is used.
+- Describe remote copies and how it is used.
+- Describe recovery testing and how it is used.
 - Describe retention and how it is used.
-- Describe restoration procedures and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
 
 ## Introduction
 
-Information Technology (IT) Support prepares students to maintain, troubleshoot, and support computer systems, networks, and users. Students learn hardware and software support, system administration, service management, asset management, and backup practices that keep organizational technology running reliably.
+IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about backup and recovery. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Backup and Recovery
+## Lesson 1: Introduction to Backup and Recovery
 
-### What you will learn
+### What this lesson covers
 
-- What Backup types means and why it matters.
-- How Schedules fits into the wider picture.
-- A small way to practise the idea today.
+Backup and Recovery teaches students how to protect files, configurations, and organizational information from loss.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Backup types and Schedules so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of backup and recovery, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Backup and Recovery is and why it belongs to Information Technology (IT) Support.
 
-Backup types sets the scene for everything else in backup and recovery. Once you can describe it in your own words, you have a reliable starting point for later lessons. Schedules builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
-Create a one-page reference sheet. On one side list Backup types; on the other, write one sentence explaining Schedules in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Backup and Recovery, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Backup types, and why does it matter in backup and recovery?
-2. How are Backup types and Schedules connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Backup and Recovery?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Backup and Recovery matter within the Information Technology (IT) Support area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Backup Schedules
 
-### What you will learn
+### What this lesson covers
 
-- What Storage locations means and why it matters.
-- How Retention fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at backup schedules and the part it plays in backup and recovery.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Storage locations and Retention and shows how they fit into a working backup and recovery process.
+"Backup Schedules" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
 
-Storage locations and Retention are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with backup schedules makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of backup and recovery you have seen (in a tutorial, a product, or the news). Identify where Storage locations appears and where Retention matters. Write two or three sentences connecting them.
+Write a short definition of backup schedules in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where backup schedules appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Storage locations, and why does it matter in backup and recovery?
-2. How are Storage locations and Retention connected?
-3. What is one practical situation where this lesson would help you?
+1. What is backup schedules, and why does it matter in backup and recovery?
+2. Give one example of backup schedules in a real information technology (it) support task.
+3. Which other topic in this course does backup schedules connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Local
 
-### What you will learn
+### What this lesson covers
 
-- What Restoration procedures means and why it matters.
-- How Recovery testing fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at local and the part it plays in backup and recovery.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Restoration procedures and Recovery testing and how they shape the tools and steps you will use when working on backup and recovery.
+"Local" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Restoration procedures and Recovery testing helps you decide what to do first, what to check, and what to leave for a later pass when you are working on backup and recovery.
+Getting comfortable with local makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small backup and recovery task. Mark on your sketch where Restoration procedures and Recovery testing appear and why the order matters.
+Write a short definition of local in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where local appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Restoration procedures, and why does it matter in backup and recovery?
-2. How are Restoration procedures and Recovery testing connected?
-3. What is one practical situation where this lesson would help you?
+1. What is local, and why does it matter in backup and recovery?
+2. Give one example of local in a real information technology (it) support task.
+3. Which other topic in this course does local connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Remote Copies
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Backup types fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at remote copies and the part it plays in backup and recovery.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Backup types to show how the concepts behave when you actually put them to work.
+"Remote Copies" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with remote copies makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of remote copies in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where remote copies appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in backup and recovery?
-2. How are The core idea and Backup types connected?
-3. What is one practical situation where this lesson would help you?
+1. What is remote copies, and why does it matter in backup and recovery?
+2. Give one example of remote copies in a real information technology (it) support task.
+3. Which other topic in this course does remote copies connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Recovery Testing
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at recovery testing and the part it plays in backup and recovery.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Recovery Testing" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
 
-Problems in backup and recovery usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with recovery testing makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of recovery testing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where recovery testing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in backup and recovery?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is recovery testing, and why does it matter in backup and recovery?
+2. Give one example of recovery testing in a real information technology (it) support task.
+3. Which other topic in this course does recovery testing connect to, and how?
 
-## Lesson 6: Bringing Backup and Recovery Together
+## Lesson 6: Retention
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Schedules fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at retention and the part it plays in backup and recovery.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Schedules and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Retention" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Schedules show how the parts of Backup and Recovery support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with retention makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of retention in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where retention appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in backup and recovery?
-2. How are Quality and accuracy and Schedules connected?
-3. What is one practical situation where this lesson would help you?
+1. What is retention, and why does it matter in backup and recovery?
+2. Give one example of retention in a real information technology (it) support task.
+3. Which other topic in this course does retention connect to, and how?
 
-## Summary
+## Lesson 7: Access Protection
 
-You have covered the foundations of backup and recovery, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at access protection and the part it plays in backup and recovery.
+
+### Explanation
+
+"Access Protection" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with access protection makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of access protection in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where access protection appears and why it matters.
+
+### Review questions
+
+1. What is access protection, and why does it matter in backup and recovery?
+2. Give one example of access protection in a real information technology (it) support task.
+3. Which other topic in this course does access protection connect to, and how?
+
+## Lesson 8: Restoration Procedures
+
+### What this lesson covers
+
+A closer look at restoration procedures and the part it plays in backup and recovery.
+
+### Explanation
+
+"Restoration Procedures" is one of the building blocks of Backup and Recovery. You will recognise it whenever you work on a backup and recovery task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with restoration procedures makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of restoration procedures in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where restoration procedures appears and why it matters.
+
+### Review questions
+
+1. What is restoration procedures, and why does it matter in backup and recovery?
+2. Give one example of restoration procedures in a real information technology (it) support task.
+3. Which other topic in this course does restoration procedures connect to, and how?
+
+## Lesson 9: Backup and Recovery: Putting It into Practice
+
+### What this lesson covers
+
+Practical exercises back up sample data and restore it successfully, emphasizing verification, secure storage, documentation, and preparedness for hardware failures or accidental deletion.
+
+### Explanation
+
+This final lesson brings Backup and Recovery together. You have looked at backup schedules, local, remote copies, recovery testing, retention, access protection, restoration procedures and seen how they relate. Individually they are manageable; together they describe how backup and recovery work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of backup and recovery, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on backup and recovery and compare it with what you learned here.
-- Explore a related course in the Information Technology (IT) Support area to widen your skills.
+- Explore a related course in the Information Technology (IT) Support area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in backup and recovery look like for you?

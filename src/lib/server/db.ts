@@ -31,6 +31,7 @@ interface LessonRow {
   summary: string;
   duration: number;
   content: string[] | null;
+  storage_path: string | null;
 }
 
 interface CourseRow {
@@ -110,10 +111,10 @@ const COURSE_SELECT =
   "owner_id, image_url, total_lessons, start_date, faculty, department, " +
   "course_code, semester, credit_units, price, course_type, registration_status, " +
   "created_at, updated_at, " +
-  "lessons (id, course_id, sort_order, title, summary, duration, content)";
+  "lessons (id, course_id, sort_order, title, summary, duration, content, storage_path)";
 
 const LESSON_SELECT =
-  "id, course_id, sort_order, title, summary, duration, content";
+  "id, course_id, sort_order, title, summary, duration, content, storage_path";
 
 function toError(error: { message: string }): Error {
   return new Error(error.message);
@@ -203,6 +204,44 @@ export async function getCourseById(
     .maybeSingle();
   if (error) throw toError(error);
   return data ? mapCourse(data as unknown as CourseRow) : null;
+}
+
+export interface CourseAccess {
+  /** True when the user may read every course (administrators). */
+  all: boolean;
+  /** Courses the user registered for or owns. */
+  ids: Set<string>;
+}
+
+/**
+ * Resolves the set of courses whose learning content a user is allowed to read:
+ * the courses they registered for, plus any courses they own. Administrators
+ * can read all courses. Used to gate lesson content at the API boundary.
+ */
+export async function getCourseAccess(
+  supabase: SupabaseClient,
+  userId: string
+): Promise<CourseAccess> {
+  const profile = await getProfile(supabase, userId);
+  if (profile.role === "admin") {
+    return { all: true, ids: new Set() };
+  }
+
+  const [registrations, owned] = await Promise.all([
+    supabase.from("registrations").select("course_id").eq("user_id", userId),
+    supabase.from("courses").select("id").eq("owner_id", userId),
+  ]);
+  if (registrations.error) throw toError(registrations.error);
+  if (owned.error) throw toError(owned.error);
+
+  const ids = new Set<string>();
+  for (const row of (registrations.data as { course_id: string }[] | null) ?? []) {
+    ids.add(row.course_id);
+  }
+  for (const row of (owned.data as { id: string }[] | null) ?? []) {
+    ids.add(row.id);
+  }
+  return { all: false, ids };
 }
 
 export async function createCourse(
@@ -324,6 +363,32 @@ export async function getLessonById(
     .maybeSingle();
   if (error) throw toError(error);
   return data ? mapLesson(data as LessonRow) : null;
+}
+
+/** A lesson together with its Storage object pointer, kept server-side only. */
+export interface LessonSource {
+  lesson: Lesson;
+  /** Object path inside the lesson Storage bucket, or null for inline lessons. */
+  storagePath: string | null;
+}
+
+/**
+ * Loads a lesson and the Storage path of its .txt body without exposing the
+ * path to clients. Used by the lesson route to stream gated content.
+ */
+export async function getLessonSource(
+  supabase: SupabaseClient,
+  lessonId: string
+): Promise<LessonSource | null> {
+  const { data, error } = await supabase
+    .from("lessons")
+    .select(LESSON_SELECT)
+    .eq("id", lessonId)
+    .maybeSingle();
+  if (error) throw toError(error);
+  if (!data) return null;
+  const row = data as LessonRow;
+  return { lesson: mapLesson(row), storagePath: row.storage_path ?? null };
 }
 
 /* ------------------------------- profile ------------------------------- */

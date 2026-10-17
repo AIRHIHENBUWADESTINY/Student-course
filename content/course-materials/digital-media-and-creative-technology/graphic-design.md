@@ -4,7 +4,7 @@ _Digital Media and Creative Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Graphic Design is part of the Digital Media and Creative Technology area. Graphic Design teaches students how to communicate ideas through visual compositions. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Graphic Design teaches students how to communicate ideas through visual compositions. Topics include typography, colour theory, layout, branding, image editing, visual hierarchy, and design principles. Practical projects produce posters, logos, social media graphics, and other communication materials, helping learners develop creative problem-solving skills and create clear, audience-appropriate visual messages.
 
 ## Learning Objectives
 
@@ -25,157 +25,211 @@ Digital Media and Creative Technology combines artistic communication with digit
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about graphic design. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Graphic Design
+## Lesson 1: Introduction to Graphic Design
 
-### What you will learn
+### What this lesson covers
 
-- What Typography means and why it matters.
-- How Colour theory fits into the wider picture.
-- A small way to practise the idea today.
+Graphic Design teaches students how to communicate ideas through visual compositions.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Typography and Colour theory so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of graphic design, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Graphic Design is and why it belongs to Digital Media and Creative Technology.
 
-Typography sets the scene for everything else in graphic design. Once you can describe it in your own words, you have a reliable starting point for later lessons. Colour theory builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Digital Media and Creative Technology combines artistic communication with digital tools used to create visual, animated, interactive, and audio content. Students learn design principles, media production, modelling, editing, and immersive technologies for education, entertainment, marketing, and digital communication.
 
-Create a one-page reference sheet. On one side list Typography; on the other, write one sentence explaining Colour theory in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Graphic Design, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Typography, and why does it matter in graphic design?
-2. How are Typography and Colour theory connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Graphic Design?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Graphic Design matter within the Digital Media and Creative Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Typography
 
-### What you will learn
+### What this lesson covers
 
-- What Layout means and why it matters.
-- How Branding fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at typography and the part it plays in graphic design.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Layout and Branding and shows how they fit into a working graphic design process.
+"Typography" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
 
-Layout and Branding are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with typography makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of graphic design you have seen (in a tutorial, a product, or the news). Identify where Layout appears and where Branding matters. Write two or three sentences connecting them.
+Write a short definition of typography in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where typography appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Layout, and why does it matter in graphic design?
-2. How are Layout and Branding connected?
-3. What is one practical situation where this lesson would help you?
+1. What is typography, and why does it matter in graphic design?
+2. Give one example of typography in a real digital media and creative technology task.
+3. Which other topic in this course does typography connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Colour Theory
 
-### What you will learn
+### What this lesson covers
 
-- What Image editing means and why it matters.
-- How Visual hierarchy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at colour theory and the part it plays in graphic design.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Image editing and Visual hierarchy and how they shape the tools and steps you will use when working on graphic design.
+"Colour Theory" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Image editing and Visual hierarchy helps you decide what to do first, what to check, and what to leave for a later pass when you are working on graphic design.
+Getting comfortable with colour theory makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small graphic design task. Mark on your sketch where Image editing and Visual hierarchy appear and why the order matters.
+Write a short definition of colour theory in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where colour theory appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Image editing, and why does it matter in graphic design?
-2. How are Image editing and Visual hierarchy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is colour theory, and why does it matter in graphic design?
+2. Give one example of colour theory in a real digital media and creative technology task.
+3. Which other topic in this course does colour theory connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Layout
 
-### What you will learn
+### What this lesson covers
 
-- What Design principles means and why it matters.
-- How Typography fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at layout and the part it plays in graphic design.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Design principles and Typography to show how the concepts behave when you actually put them to work.
+"Layout" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with layout makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Design principles.
+Write a short definition of layout in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where layout appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Design principles, and why does it matter in graphic design?
-2. How are Design principles and Typography connected?
-3. What is one practical situation where this lesson would help you?
+1. What is layout, and why does it matter in graphic design?
+2. Give one example of layout in a real digital media and creative technology task.
+3. Which other topic in this course does layout connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Branding
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at branding and the part it plays in graphic design.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Branding" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
 
-Problems in graphic design usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with branding makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of branding in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where branding appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in graphic design?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is branding, and why does it matter in graphic design?
+2. Give one example of branding in a real digital media and creative technology task.
+3. Which other topic in this course does branding connect to, and how?
 
-## Lesson 6: Bringing Graphic Design Together
+## Lesson 6: Image Editing
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Colour theory fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at image editing and the part it plays in graphic design.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Colour theory and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Image Editing" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Colour theory show how the parts of Graphic Design support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with image editing makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of image editing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where image editing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in graphic design?
-2. How are The main tool and Colour theory connected?
-3. What is one practical situation where this lesson would help you?
+1. What is image editing, and why does it matter in graphic design?
+2. Give one example of image editing in a real digital media and creative technology task.
+3. Which other topic in this course does image editing connect to, and how?
 
-## Summary
+## Lesson 7: Visual Hierarchy
 
-You have covered the foundations of graphic design, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at visual hierarchy and the part it plays in graphic design.
+
+### Explanation
+
+"Visual Hierarchy" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with visual hierarchy makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of visual hierarchy in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where visual hierarchy appears and why it matters.
+
+### Review questions
+
+1. What is visual hierarchy, and why does it matter in graphic design?
+2. Give one example of visual hierarchy in a real digital media and creative technology task.
+3. Which other topic in this course does visual hierarchy connect to, and how?
+
+## Lesson 8: Design Principles
+
+### What this lesson covers
+
+A closer look at design principles and the part it plays in graphic design.
+
+### Explanation
+
+"Design Principles" is one of the building blocks of Graphic Design. You will recognise it whenever you work on a graphic design task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with design principles makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of design principles in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where design principles appears and why it matters.
+
+### Review questions
+
+1. What is design principles, and why does it matter in graphic design?
+2. Give one example of design principles in a real digital media and creative technology task.
+3. Which other topic in this course does design principles connect to, and how?
+
+## Lesson 9: Graphic Design: Putting It into Practice
+
+### What this lesson covers
+
+Practical projects produce posters, logos, social media graphics, and other communication materials, helping learners develop creative problem-solving skills and create clear, audience-appropriate visual messages.
+
+### Explanation
+
+This final lesson brings Graphic Design together. You have looked at typography, colour theory, layout, branding, image editing, visual hierarchy, design principles and seen how they relate. Individually they are manageable; together they describe how graphic design work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of graphic design, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on graphic design and compare it with what you learned here.
-- Explore a related course in the Digital Media and Creative Technology area to widen your skills.
+- Explore a related course in the Digital Media and Creative Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in graphic design look like for you?

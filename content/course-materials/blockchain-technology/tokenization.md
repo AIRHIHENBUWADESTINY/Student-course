@@ -4,14 +4,14 @@ _Blockchain Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Tokenization is part of the Blockchain Technology area. Tokenization explores how digital tokens can represent assets, rights, or units of value within software systems. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Tokenization explores how digital tokens can represent assets, rights, or units of value within software systems. Students examine token standards, ownership records, transfer rules, and smart contract integration. Case studies consider possible applications in digital identity, supply chains, and record management, while addressing legal obligations, privacy, governance, and technical limitations.
 
 ## Learning Objectives
 
 By the end of this course you should be able to:
 
 - Explain the main ideas that make up tokenization.
-- Describe how digital tokens can represent assets and how it is used.
+- Describe digital tokens can represent assets and how it is used.
 - Describe rights and how it is used.
 - Describe units of value within software systems and how it is used.
 - Describe token standards and how it is used.
@@ -25,157 +25,233 @@ Blockchain Technology explores distributed systems that maintain shared records 
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about tokenization. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Tokenization
+## Lesson 1: Introduction to Tokenization
 
-### What you will learn
+### What this lesson covers
 
-- What How digital tokens can represent assets means and why it matters.
-- How Rights fits into the wider picture.
-- A small way to practise the idea today.
+Tokenization explores how digital tokens can represent assets, rights, or units of value within software systems.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces How digital tokens can represent assets and Rights so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of tokenization, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Tokenization is and why it belongs to Blockchain Technology.
 
-How digital tokens can represent assets sets the scene for everything else in tokenization. Once you can describe it in your own words, you have a reliable starting point for later lessons. Rights builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Blockchain Technology explores distributed systems that maintain shared records across participating computers. Students learn blockchain architecture, transaction validation, consensus, smart contracts, and decentralized applications, while examining security, transparency, scalability, privacy, and practical limitations of blockchain-based solutions.
 
-Create a one-page reference sheet. On one side list How digital tokens can represent assets; on the other, write one sentence explaining Rights in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Tokenization, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is How digital tokens can represent assets, and why does it matter in tokenization?
-2. How are How digital tokens can represent assets and Rights connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Tokenization?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Tokenization matter within the Blockchain Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Digital Tokens Can Represent Assets
 
-### What you will learn
+### What this lesson covers
 
-- What Units of value within software systems means and why it matters.
-- How Token standards fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at digital tokens can represent assets and the part it plays in tokenization.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Units of value within software systems and Token standards and shows how they fit into a working tokenization process.
+"Digital Tokens Can Represent Assets" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
 
-Units of value within software systems and Token standards are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with digital tokens can represent assets makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of tokenization you have seen (in a tutorial, a product, or the news). Identify where Units of value within software systems appears and where Token standards matters. Write two or three sentences connecting them.
+Write a short definition of digital tokens can represent assets in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where digital tokens can represent assets appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Units of value within software systems, and why does it matter in tokenization?
-2. How are Units of value within software systems and Token standards connected?
-3. What is one practical situation where this lesson would help you?
+1. What is digital tokens can represent assets, and why does it matter in tokenization?
+2. Give one example of digital tokens can represent assets in a real blockchain technology task.
+3. Which other topic in this course does digital tokens can represent assets connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Rights
 
-### What you will learn
+### What this lesson covers
 
-- What Ownership records means and why it matters.
-- How Transfer rules fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at rights and the part it plays in tokenization.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Ownership records and Transfer rules and how they shape the tools and steps you will use when working on tokenization.
+"Rights" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Ownership records and Transfer rules helps you decide what to do first, what to check, and what to leave for a later pass when you are working on tokenization.
+Getting comfortable with rights makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small tokenization task. Mark on your sketch where Ownership records and Transfer rules appear and why the order matters.
+Write a short definition of rights in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where rights appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Ownership records, and why does it matter in tokenization?
-2. How are Ownership records and Transfer rules connected?
-3. What is one practical situation where this lesson would help you?
+1. What is rights, and why does it matter in tokenization?
+2. Give one example of rights in a real blockchain technology task.
+3. Which other topic in this course does rights connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Units of Value Within Software Systems
 
-### What you will learn
+### What this lesson covers
 
-- What Smart contract integration means and why it matters.
-- How How digital tokens can represent assets fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at units of value within software systems and the part it plays in tokenization.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Smart contract integration and How digital tokens can represent assets to show how the concepts behave when you actually put them to work.
+"Units of Value Within Software Systems" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with units of value within software systems makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Smart contract integration.
+Write a short definition of units of value within software systems in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where units of value within software systems appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Smart contract integration, and why does it matter in tokenization?
-2. How are Smart contract integration and How digital tokens can represent assets connected?
-3. What is one practical situation where this lesson would help you?
+1. What is units of value within software systems, and why does it matter in tokenization?
+2. Give one example of units of value within software systems in a real blockchain technology task.
+3. Which other topic in this course does units of value within software systems connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Token Standards
 
-### What you will learn
+### What this lesson covers
 
-- What Supply chains means and why it matters.
-- How Record management fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at token standards and the part it plays in tokenization.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Supply chains and Record management and gives you a calm, repeatable way to find and fix problems.
+"Token Standards" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
 
-Problems in tokenization usually have recognisable patterns. Learning Supply chains and Record management helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with token standards makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of token standards in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where token standards appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Supply chains, and why does it matter in tokenization?
-2. How are Supply chains and Record management connected?
-3. What is one practical situation where this lesson would help you?
+1. What is token standards, and why does it matter in tokenization?
+2. Give one example of token standards in a real blockchain technology task.
+3. Which other topic in this course does token standards connect to, and how?
 
-## Lesson 6: Bringing Tokenization Together
+## Lesson 6: Ownership Records
 
-### What you will learn
+### What this lesson covers
 
-- What While addressing legal obligations means and why it matters.
-- How Rights fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at ownership records and the part it plays in tokenization.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit While addressing legal obligations and Rights and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Ownership Records" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
 
-Taken together, While addressing legal obligations and Rights show how the parts of Tokenization support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with ownership records makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of ownership records in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where ownership records appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is While addressing legal obligations, and why does it matter in tokenization?
-2. How are While addressing legal obligations and Rights connected?
-3. What is one practical situation where this lesson would help you?
+1. What is ownership records, and why does it matter in tokenization?
+2. Give one example of ownership records in a real blockchain technology task.
+3. Which other topic in this course does ownership records connect to, and how?
 
-## Summary
+## Lesson 7: Transfer Rules
 
-You have covered the foundations of tokenization, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at transfer rules and the part it plays in tokenization.
+
+### Explanation
+
+"Transfer Rules" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with transfer rules makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of transfer rules in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where transfer rules appears and why it matters.
+
+### Review questions
+
+1. What is transfer rules, and why does it matter in tokenization?
+2. Give one example of transfer rules in a real blockchain technology task.
+3. Which other topic in this course does transfer rules connect to, and how?
+
+## Lesson 8: Smart Contract Integration
+
+### What this lesson covers
+
+A closer look at smart contract integration and the part it plays in tokenization.
+
+### Explanation
+
+"Smart Contract Integration" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with smart contract integration makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of smart contract integration in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where smart contract integration appears and why it matters.
+
+### Review questions
+
+1. What is smart contract integration, and why does it matter in tokenization?
+2. Give one example of smart contract integration in a real blockchain technology task.
+3. Which other topic in this course does smart contract integration connect to, and how?
+
+## Lesson 9: Supply Chains
+
+### What this lesson covers
+
+A closer look at supply chains and the part it plays in tokenization.
+
+### Explanation
+
+"Supply Chains" is one of the building blocks of Tokenization. You will recognise it whenever you work on a tokenization task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with supply chains makes the rest of the Blockchain Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of supply chains in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where supply chains appears and why it matters.
+
+### Review questions
+
+1. What is supply chains, and why does it matter in tokenization?
+2. Give one example of supply chains in a real blockchain technology task.
+3. Which other topic in this course does supply chains connect to, and how?
+
+## Lesson 10: Tokenization: Putting It into Practice
+
+### What this lesson covers
+
+Case studies consider possible applications in digital identity, supply chains, and record management, while addressing legal obligations, privacy, governance, and technical limitations.
+
+### Explanation
+
+This final lesson brings Tokenization together. You have looked at digital tokens can represent assets, rights, units of value within software systems, token standards, ownership records, transfer rules, smart contract integration, supply chains and seen how they relate. Individually they are manageable; together they describe how tokenization work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of tokenization, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on tokenization and compare it with what you learned here.
-- Explore a related course in the Blockchain Technology area to widen your skills.
+- Explore a related course in the Blockchain Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in tokenization look like for you?

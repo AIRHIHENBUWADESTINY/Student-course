@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import {
@@ -10,22 +11,105 @@ import {
   CheckCircle2,
   Clock,
   ListChecks,
+  Loader2,
+  Lock,
   PlayCircle,
+  Plus,
 } from "lucide-react";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { useRegistration } from "@/components/providers/RegistrationProvider";
 import { useToast } from "@/components/providers/ToastProvider";
 import StatusBadge from "@/components/dashboard/StatusBadge";
 import EmptyState from "@/components/ui/EmptyState";
 import Button, { buttonClasses } from "@/components/ui/Button";
+import { lessonsApi } from "@/lib/api";
 import { getLessonStatus } from "@/lib/progress";
+import type { LessonDetail } from "@/types";
 
 export default function LessonDetailPage() {
   const params = useParams<{ lessonId: string }>();
-  const { progress, setLessonStatus, toggleLessonComplete, getCourse, getLesson } =
-    useProgress();
+  const {
+    progress,
+    profile,
+    setLessonStatus,
+    toggleLessonComplete,
+    getCourse,
+    getLesson,
+  } = useProgress();
+  const reg = useRegistration();
   const { toast } = useToast();
+  const [registering, setRegistering] = useState(false);
 
   const lesson = getLesson(params.lessonId);
+  const course = lesson ? getCourse(lesson.courseId) : undefined;
+
+  const canAccess = Boolean(
+    course &&
+      (reg.isRegistered(course.id) ||
+        Boolean(course.ownerId) ||
+        profile.role === "admin")
+  );
+  const registrationClosed =
+    reg.portal !== null && !reg.portal.registrationOpen;
+
+  const [detail, setDetail] = useState<LessonDetail | null>(null);
+  const [contentState, setContentState] = useState<"loading" | "ready" | "error">(
+    "loading"
+  );
+  const [contentError, setContentError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!lesson || !canAccess) {
+      /* eslint-disable react-hooks/set-state-in-effect */
+      setDetail(null);
+      setContentState("ready");
+      setContentError(null);
+      /* eslint-enable react-hooks/set-state-in-effect */
+      return;
+    }
+
+    let cancelled = false;
+    setContentState("loading");
+    setContentError(null);
+
+    lessonsApi
+      .get(lesson.id)
+      .then((data) => {
+        if (cancelled) return;
+        setDetail(data);
+        setContentState("ready");
+      })
+      .catch((cause: unknown) => {
+        if (cancelled) return;
+        setContentError(
+          cause instanceof Error
+            ? cause.message
+            : "Could not load this lesson's content."
+        );
+        setContentState("error");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [lesson, canAccess]);
+
+  const handleRegister = async () => {
+    if (!course) return;
+    setRegistering(true);
+    try {
+      await reg.register(course.id);
+    } catch (cause) {
+      toast(
+        cause instanceof Error
+          ? cause.message
+          : "Could not register for the course.",
+        "error"
+      );
+    } finally {
+      setRegistering(false);
+    }
+  };
 
   if (!lesson) {
     return (
@@ -42,10 +126,6 @@ export default function LessonDetailPage() {
     );
   }
 
-  const course = getCourse(lesson.courseId);
-  const status = getLessonStatus(progress, lesson.id);
-  const isComplete = status === "completed";
-
   if (!course) {
     return (
       <EmptyState
@@ -55,6 +135,53 @@ export default function LessonDetailPage() {
       />
     );
   }
+
+  if (!canAccess) {
+    return (
+      <div className="space-y-5">
+        <Link
+          href={`/courses/${course.id}`}
+          className="inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-indigo-600"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to {course.title}
+        </Link>
+        <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-indigo-50 text-indigo-500">
+            <Lock className="h-7 w-7" />
+          </span>
+          <h1 className="mt-4 text-lg font-semibold text-slate-900">
+            Lesson locked
+          </h1>
+          <p className="mx-auto mt-1 max-w-md text-sm text-slate-500">
+            You must register for {course.title} before you can read its lesson
+            materials.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Button
+              onClick={() => void handleRegister()}
+              disabled={registering || registrationClosed}
+            >
+              {registering ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <Plus className="h-4 w-4" />
+              )}
+              {registrationClosed
+                ? "Registration closed"
+                : "Register for this course"}
+            </Button>
+            <Link href="/catalogue" className={buttonClasses("outline", "md")}>
+              Go to Course Catalogue
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const status = getLessonStatus(progress, lesson.id);
+  const isComplete = status === "completed";
 
   const index = course.lessons.findIndex((item) => item.id === lesson.id);
   const prevLesson = index > 0 ? course.lessons[index - 1] : undefined;
@@ -121,12 +248,37 @@ export default function LessonDetailPage() {
               {lesson.summary}
             </p>
 
-            <div className="mt-6 space-y-4">
-              {lesson.content.map((paragraph, i) => (
-                <p key={i} className="text-sm leading-7 text-slate-600">
-                  {paragraph}
-                </p>
-              ))}
+            <div className="mt-6">
+              {contentState === "loading" ? (
+                <div
+                  className="flex items-center gap-2 text-sm text-slate-500"
+                  aria-live="polite"
+                >
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                  Loading lesson content…
+                </div>
+              ) : contentState === "error" ? (
+                <div className="rounded-xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700">
+                  {contentError}
+                </div>
+              ) : detail?.text ? (
+                <div className="whitespace-pre-wrap text-sm leading-7 text-slate-600">
+                  {detail.text}
+                </div>
+              ) : (detail?.content ?? lesson.content).length > 0 ? (
+                <div className="space-y-4">
+                  {(detail?.content ?? lesson.content).map((paragraph, i) => (
+                    <p key={i} className="text-sm leading-7 text-slate-600">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-500">
+                  This lesson&apos;s content has not been published yet. Please
+                  check back soon.
+                </div>
+              )}
             </div>
 
             {isComplete && (

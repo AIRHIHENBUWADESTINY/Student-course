@@ -4,7 +4,7 @@ _Data Science and Analytics · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Business Intelligence is part of the Data Science and Analytics area. Business Intelligence teaches students to turn organizational data into reports and decision-support tools. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Business Intelligence teaches students to turn organizational data into reports and decision-support tools. Topics include key performance indicators, dashboard design, reporting, data modelling, and business metrics. Practical activities create reports that help organizations track sales, costs, operations, and customer activity, emphasizing accurate interpretation and clear presentation for decision-makers.
 
 ## Learning Objectives
 
@@ -25,157 +25,167 @@ Data Science and Analytics focuses on collecting, preparing, analysing, and inte
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about business intelligence. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Business Intelligence
+## Lesson 1: Introduction to Business Intelligence
 
-### What you will learn
+### What this lesson covers
 
-- What Key performance indicators means and why it matters.
-- How Dashboard design fits into the wider picture.
-- A small way to practise the idea today.
+Business Intelligence teaches students to turn organizational data into reports and decision-support tools.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Key performance indicators and Dashboard design so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of business intelligence, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Business Intelligence is and why it belongs to Data Science and Analytics.
 
-Key performance indicators sets the scene for everything else in business intelligence. Once you can describe it in your own words, you have a reliable starting point for later lessons. Dashboard design builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Data Science and Analytics focuses on collecting, preparing, analysing, and interpreting data to support decisions. Students learn statistical reasoning, programming, data visualization, data management, and analytical methods for discovering patterns, evaluating performance, and communicating useful findings to different audiences.
 
-Create a one-page reference sheet. On one side list Key performance indicators; on the other, write one sentence explaining Dashboard design in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Business Intelligence, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Key performance indicators, and why does it matter in business intelligence?
-2. How are Key performance indicators and Dashboard design connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Business Intelligence?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Business Intelligence matter within the Data Science and Analytics area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Key Performance Indicators
 
-### What you will learn
+### What this lesson covers
 
-- What Reporting means and why it matters.
-- How Data modelling fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at key performance indicators and the part it plays in business intelligence.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Reporting and Data modelling and shows how they fit into a working business intelligence process.
+"Key Performance Indicators" is one of the building blocks of Business Intelligence. You will recognise it whenever you work on a business intelligence task, because it shapes the decisions you make and the results you produce.
 
-Reporting and Data modelling are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with key performance indicators makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of business intelligence you have seen (in a tutorial, a product, or the news). Identify where Reporting appears and where Data modelling matters. Write two or three sentences connecting them.
+Write a short definition of key performance indicators in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where key performance indicators appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Reporting, and why does it matter in business intelligence?
-2. How are Reporting and Data modelling connected?
-3. What is one practical situation where this lesson would help you?
+1. What is key performance indicators, and why does it matter in business intelligence?
+2. Give one example of key performance indicators in a real data science and analytics task.
+3. Which other topic in this course does key performance indicators connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Dashboard Design
 
-### What you will learn
+### What this lesson covers
 
-- What Business metrics means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at dashboard design and the part it plays in business intelligence.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Business metrics and The core idea and how they shape the tools and steps you will use when working on business intelligence.
+"Dashboard Design" is one of the building blocks of Business Intelligence. You will recognise it whenever you work on a business intelligence task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Business metrics and The core idea helps you decide what to do first, what to check, and what to leave for a later pass when you are working on business intelligence.
+Getting comfortable with dashboard design makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small business intelligence task. Mark on your sketch where Business metrics and The core idea appear and why the order matters.
+Write a short definition of dashboard design in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where dashboard design appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Business metrics, and why does it matter in business intelligence?
-2. How are Business metrics and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is dashboard design, and why does it matter in business intelligence?
+2. Give one example of dashboard design in a real data science and analytics task.
+3. Which other topic in this course does dashboard design connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Reporting
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Key performance indicators fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at reporting and the part it plays in business intelligence.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The typical workflow and Key performance indicators to show how the concepts behave when you actually put them to work.
+"Reporting" is one of the building blocks of Business Intelligence. You will recognise it whenever you work on a business intelligence task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with reporting makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The typical workflow.
+Write a short definition of reporting in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where reporting appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in business intelligence?
-2. How are The typical workflow and Key performance indicators connected?
-3. What is one practical situation where this lesson would help you?
+1. What is reporting, and why does it matter in business intelligence?
+2. Give one example of reporting in a real data science and analytics task.
+3. Which other topic in this course does reporting connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Data Modelling
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Quality and accuracy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at data modelling and the part it plays in business intelligence.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The main tool and Quality and accuracy and gives you a calm, repeatable way to find and fix problems.
+"Data Modelling" is one of the building blocks of Business Intelligence. You will recognise it whenever you work on a business intelligence task, because it shapes the decisions you make and the results you produce.
 
-Problems in business intelligence usually have recognisable patterns. Learning The main tool and Quality and accuracy helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with data modelling makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of data modelling in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where data modelling appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in business intelligence?
-2. How are The main tool and Quality and accuracy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is data modelling, and why does it matter in business intelligence?
+2. Give one example of data modelling in a real data science and analytics task.
+3. Which other topic in this course does data modelling connect to, and how?
 
-## Lesson 6: Bringing Business Intelligence Together
+## Lesson 6: Business Metrics
 
-### What you will learn
+### What this lesson covers
 
-- What The common mistake means and why it matters.
-- How Dashboard design fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at business metrics and the part it plays in business intelligence.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The common mistake and Dashboard design and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Business Metrics" is one of the building blocks of Business Intelligence. You will recognise it whenever you work on a business intelligence task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The common mistake and Dashboard design show how the parts of Business Intelligence support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with business metrics makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of business metrics in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where business metrics appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The common mistake, and why does it matter in business intelligence?
-2. How are The common mistake and Dashboard design connected?
-3. What is one practical situation where this lesson would help you?
+1. What is business metrics, and why does it matter in business intelligence?
+2. Give one example of business metrics in a real data science and analytics task.
+3. Which other topic in this course does business metrics connect to, and how?
 
-## Summary
+## Lesson 7: Business Intelligence: Putting It into Practice
 
-You have covered the foundations of business intelligence, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+Practical activities create reports that help organizations track sales, costs, operations, and customer activity, emphasizing accurate interpretation and clear presentation for decision-makers.
+
+### Explanation
+
+This final lesson brings Business Intelligence together. You have looked at key performance indicators, dashboard design, reporting, data modelling, business metrics and seen how they relate. Individually they are manageable; together they describe how business intelligence work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of business intelligence, its key terms, and the core topics (5), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on business intelligence and compare it with what you learned here.
-- Explore a related course in the Data Science and Analytics area to widen your skills.
+- Explore a related course in the Data Science and Analytics area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in business intelligence look like for you?

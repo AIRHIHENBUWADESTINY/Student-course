@@ -4,7 +4,7 @@ _Computer Science · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Computer Architecture is part of the Computer Science area. Computer Architecture explains how computer hardware components work together to execute programs. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Computer Architecture explains how computer hardware components work together to execute programs. Students study processors, registers, memory hierarchies, instruction sets, input/output systems, and data representation. The course examines how hardware design influences performance and energy consumption. Practical exercises may include assembly-language examples, processor simulations, and performance comparisons.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Computer Science studies the fundamental principles behind computing systems, al
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about computer architecture. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Computer Architecture
+## Lesson 1: Introduction to Computer Architecture
 
-### What you will learn
+### What this lesson covers
 
-- What Processors means and why it matters.
-- How Registers fits into the wider picture.
-- A small way to practise the idea today.
+Computer Architecture explains how computer hardware components work together to execute programs.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Processors and Registers so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of computer architecture, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Computer Architecture is and why it belongs to Computer Science.
 
-Processors sets the scene for everything else in computer architecture. Once you can describe it in your own words, you have a reliable starting point for later lessons. Registers builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Science studies the fundamental principles behind computing systems, algorithms, programming, and information processing. Students learn how computers solve problems, represent data, execute instructions, and support intelligent applications, while developing analytical thinking and computational problem-solving skills.
 
-Create a one-page reference sheet. On one side list Processors; on the other, write one sentence explaining Registers in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Computer Architecture, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Processors, and why does it matter in computer architecture?
-2. How are Processors and Registers connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Computer Architecture?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Computer Architecture matter within the Computer Science area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Processors
 
-### What you will learn
+### What this lesson covers
 
-- What Memory hierarchies means and why it matters.
-- How Instruction sets fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at processors and the part it plays in computer architecture.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Memory hierarchies and Instruction sets and shows how they fit into a working computer architecture process.
+"Processors" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
 
-Memory hierarchies and Instruction sets are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with processors makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of computer architecture you have seen (in a tutorial, a product, or the news). Identify where Memory hierarchies appears and where Instruction sets matters. Write two or three sentences connecting them.
+Write a short definition of processors in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where processors appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Memory hierarchies, and why does it matter in computer architecture?
-2. How are Memory hierarchies and Instruction sets connected?
-3. What is one practical situation where this lesson would help you?
+1. What is processors, and why does it matter in computer architecture?
+2. Give one example of processors in a real computer science task.
+3. Which other topic in this course does processors connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Registers
 
-### What you will learn
+### What this lesson covers
 
-- What Input/output systems means and why it matters.
-- How Data representation fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at registers and the part it plays in computer architecture.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Input/output systems and Data representation and how they shape the tools and steps you will use when working on computer architecture.
+"Registers" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Input/output systems and Data representation helps you decide what to do first, what to check, and what to leave for a later pass when you are working on computer architecture.
+Getting comfortable with registers makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small computer architecture task. Mark on your sketch where Input/output systems and Data representation appear and why the order matters.
+Write a short definition of registers in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where registers appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Input/output systems, and why does it matter in computer architecture?
-2. How are Input/output systems and Data representation connected?
-3. What is one practical situation where this lesson would help you?
+1. What is registers, and why does it matter in computer architecture?
+2. Give one example of registers in a real computer science task.
+3. Which other topic in this course does registers connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Memory Hierarchies
 
-### What you will learn
+### What this lesson covers
 
-- What How hardware design influences performance means and why it matters.
-- How Processors fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at memory hierarchies and the part it plays in computer architecture.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use How hardware design influences performance and Processors to show how the concepts behave when you actually put them to work.
+"Memory Hierarchies" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with memory hierarchies makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using How hardware design influences performance.
+Write a short definition of memory hierarchies in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where memory hierarchies appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is How hardware design influences performance, and why does it matter in computer architecture?
-2. How are How hardware design influences performance and Processors connected?
-3. What is one practical situation where this lesson would help you?
+1. What is memory hierarchies, and why does it matter in computer architecture?
+2. Give one example of memory hierarchies in a real computer science task.
+3. Which other topic in this course does memory hierarchies connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Instruction Sets
 
-### What you will learn
+### What this lesson covers
 
-- What Energy consumption means and why it matters.
-- How Assembly-language examples fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at instruction sets and the part it plays in computer architecture.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Energy consumption and Assembly-language examples and gives you a calm, repeatable way to find and fix problems.
+"Instruction Sets" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
 
-Problems in computer architecture usually have recognisable patterns. Learning Energy consumption and Assembly-language examples helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with instruction sets makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of instruction sets in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where instruction sets appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Energy consumption, and why does it matter in computer architecture?
-2. How are Energy consumption and Assembly-language examples connected?
-3. What is one practical situation where this lesson would help you?
+1. What is instruction sets, and why does it matter in computer architecture?
+2. Give one example of instruction sets in a real computer science task.
+3. Which other topic in this course does instruction sets connect to, and how?
 
-## Lesson 6: Bringing Computer Architecture Together
+## Lesson 6: Input/output Systems
 
-### What you will learn
+### What this lesson covers
 
-- What Processor simulations means and why it matters.
-- How Registers fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at input/output systems and the part it plays in computer architecture.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Processor simulations and Registers and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Input/output Systems" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Processor simulations and Registers show how the parts of Computer Architecture support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with input/output systems makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of input/output systems in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where input/output systems appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Processor simulations, and why does it matter in computer architecture?
-2. How are Processor simulations and Registers connected?
-3. What is one practical situation where this lesson would help you?
+1. What is input/output systems, and why does it matter in computer architecture?
+2. Give one example of input/output systems in a real computer science task.
+3. Which other topic in this course does input/output systems connect to, and how?
 
-## Summary
+## Lesson 7: Data Representation
 
-You have covered the foundations of computer architecture, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at data representation and the part it plays in computer architecture.
+
+### Explanation
+
+"Data Representation" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with data representation makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of data representation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where data representation appears and why it matters.
+
+### Review questions
+
+1. What is data representation, and why does it matter in computer architecture?
+2. Give one example of data representation in a real computer science task.
+3. Which other topic in this course does data representation connect to, and how?
+
+## Lesson 8: Hardware Design Influences Performance
+
+### What this lesson covers
+
+A closer look at hardware design influences performance and the part it plays in computer architecture.
+
+### Explanation
+
+"Hardware Design Influences Performance" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with hardware design influences performance makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of hardware design influences performance in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where hardware design influences performance appears and why it matters.
+
+### Review questions
+
+1. What is hardware design influences performance, and why does it matter in computer architecture?
+2. Give one example of hardware design influences performance in a real computer science task.
+3. Which other topic in this course does hardware design influences performance connect to, and how?
+
+## Lesson 9: Energy Consumption
+
+### What this lesson covers
+
+A closer look at energy consumption and the part it plays in computer architecture.
+
+### Explanation
+
+"Energy Consumption" is one of the building blocks of Computer Architecture. You will recognise it whenever you work on a computer architecture task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with energy consumption makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of energy consumption in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where energy consumption appears and why it matters.
+
+### Review questions
+
+1. What is energy consumption, and why does it matter in computer architecture?
+2. Give one example of energy consumption in a real computer science task.
+3. Which other topic in this course does energy consumption connect to, and how?
+
+## Lesson 10: Computer Architecture: Putting It into Practice
+
+### What this lesson covers
+
+Practical exercises may include assembly-language examples, processor simulations, and performance comparisons.
+
+### Explanation
+
+This final lesson brings Computer Architecture together. You have looked at processors, registers, memory hierarchies, instruction sets, input/output systems, data representation, hardware design influences performance, energy consumption and seen how they relate. Individually they are manageable; together they describe how computer architecture work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of computer architecture, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on computer architecture and compare it with what you learned here.
-- Explore a related course in the Computer Science area to widen your skills.
+- Explore a related course in the Computer Science area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in computer architecture look like for you?

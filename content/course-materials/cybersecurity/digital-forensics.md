@@ -4,7 +4,7 @@ _Cybersecurity · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Digital Forensics is part of the Cybersecurity area. Digital Forensics teaches students how digital evidence is identified, preserved, examined, and documented during investigations. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Digital Forensics teaches students how digital evidence is identified, preserved, examined, and documented during investigations. Topics include evidence integrity, forensic imaging, file-system analysis, metadata, event logs, and investigation procedures. Students learn why accurate documentation and chain of custody matter, while considering privacy, legal requirements, and the limitations of forensic conclusions.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Cybersecurity focuses on protecting computers, networks, applications, and infor
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about digital forensics. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Digital Forensics
+## Lesson 1: Introduction to Digital Forensics
 
-### What you will learn
+### What this lesson covers
 
-- What Evidence integrity means and why it matters.
-- How Forensic imaging fits into the wider picture.
-- A small way to practise the idea today.
+Digital Forensics teaches students how digital evidence is identified, preserved, examined, and documented during investigations.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Evidence integrity and Forensic imaging so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of digital forensics, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Digital Forensics is and why it belongs to Cybersecurity.
 
-Evidence integrity sets the scene for everything else in digital forensics. Once you can describe it in your own words, you have a reliable starting point for later lessons. Forensic imaging builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Cybersecurity focuses on protecting computers, networks, applications, and information from unauthorized access, misuse, and digital threats. Students learn security principles, risk assessment, defensive technologies, incident response, and ethical practices for maintaining confidentiality, integrity, and availability of digital systems.
 
-Create a one-page reference sheet. On one side list Evidence integrity; on the other, write one sentence explaining Forensic imaging in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Digital Forensics, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Evidence integrity, and why does it matter in digital forensics?
-2. How are Evidence integrity and Forensic imaging connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Digital Forensics?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Digital Forensics matter within the Cybersecurity area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Evidence Integrity
 
-### What you will learn
+### What this lesson covers
 
-- What File-system analysis means and why it matters.
-- How Metadata fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at evidence integrity and the part it plays in digital forensics.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at File-system analysis and Metadata and shows how they fit into a working digital forensics process.
+"Evidence Integrity" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
 
-File-system analysis and Metadata are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with evidence integrity makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of digital forensics you have seen (in a tutorial, a product, or the news). Identify where File-system analysis appears and where Metadata matters. Write two or three sentences connecting them.
+Write a short definition of evidence integrity in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where evidence integrity appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is File-system analysis, and why does it matter in digital forensics?
-2. How are File-system analysis and Metadata connected?
-3. What is one practical situation where this lesson would help you?
+1. What is evidence integrity, and why does it matter in digital forensics?
+2. Give one example of evidence integrity in a real cybersecurity task.
+3. Which other topic in this course does evidence integrity connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Forensic Imaging
 
-### What you will learn
+### What this lesson covers
 
-- What Event logs means and why it matters.
-- How Investigation procedures fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at forensic imaging and the part it plays in digital forensics.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Event logs and Investigation procedures and how they shape the tools and steps you will use when working on digital forensics.
+"Forensic Imaging" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Event logs and Investigation procedures helps you decide what to do first, what to check, and what to leave for a later pass when you are working on digital forensics.
+Getting comfortable with forensic imaging makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small digital forensics task. Mark on your sketch where Event logs and Investigation procedures appear and why the order matters.
+Write a short definition of forensic imaging in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where forensic imaging appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Event logs, and why does it matter in digital forensics?
-2. How are Event logs and Investigation procedures connected?
-3. What is one practical situation where this lesson would help you?
+1. What is forensic imaging, and why does it matter in digital forensics?
+2. Give one example of forensic imaging in a real cybersecurity task.
+3. Which other topic in this course does forensic imaging connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: File-system Analysis
 
-### What you will learn
+### What this lesson covers
 
-- What Why accurate documentation means and why it matters.
-- How Evidence integrity fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at file-system analysis and the part it plays in digital forensics.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Why accurate documentation and Evidence integrity to show how the concepts behave when you actually put them to work.
+"File-system Analysis" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with file-system analysis makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Why accurate documentation.
+Write a short definition of file-system analysis in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where file-system analysis appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Why accurate documentation, and why does it matter in digital forensics?
-2. How are Why accurate documentation and Evidence integrity connected?
-3. What is one practical situation where this lesson would help you?
+1. What is file-system analysis, and why does it matter in digital forensics?
+2. Give one example of file-system analysis in a real cybersecurity task.
+3. Which other topic in this course does file-system analysis connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Metadata
 
-### What you will learn
+### What this lesson covers
 
-- What Chain of custody matter means and why it matters.
-- How While considering privacy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at metadata and the part it plays in digital forensics.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Chain of custody matter and While considering privacy and gives you a calm, repeatable way to find and fix problems.
+"Metadata" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
 
-Problems in digital forensics usually have recognisable patterns. Learning Chain of custody matter and While considering privacy helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with metadata makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of metadata in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where metadata appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Chain of custody matter, and why does it matter in digital forensics?
-2. How are Chain of custody matter and While considering privacy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is metadata, and why does it matter in digital forensics?
+2. Give one example of metadata in a real cybersecurity task.
+3. Which other topic in this course does metadata connect to, and how?
 
-## Lesson 6: Bringing Digital Forensics Together
+## Lesson 6: Event Logs
 
-### What you will learn
+### What this lesson covers
 
-- What Legal requirements means and why it matters.
-- How Forensic imaging fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at event logs and the part it plays in digital forensics.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Legal requirements and Forensic imaging and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Event Logs" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Legal requirements and Forensic imaging show how the parts of Digital Forensics support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with event logs makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of event logs in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where event logs appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Legal requirements, and why does it matter in digital forensics?
-2. How are Legal requirements and Forensic imaging connected?
-3. What is one practical situation where this lesson would help you?
+1. What is event logs, and why does it matter in digital forensics?
+2. Give one example of event logs in a real cybersecurity task.
+3. Which other topic in this course does event logs connect to, and how?
 
-## Summary
+## Lesson 7: Investigation Procedures
 
-You have covered the foundations of digital forensics, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at investigation procedures and the part it plays in digital forensics.
+
+### Explanation
+
+"Investigation Procedures" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with investigation procedures makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of investigation procedures in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where investigation procedures appears and why it matters.
+
+### Review questions
+
+1. What is investigation procedures, and why does it matter in digital forensics?
+2. Give one example of investigation procedures in a real cybersecurity task.
+3. Which other topic in this course does investigation procedures connect to, and how?
+
+## Lesson 8: Why Accurate Documentation
+
+### What this lesson covers
+
+A closer look at why accurate documentation and the part it plays in digital forensics.
+
+### Explanation
+
+"Why Accurate Documentation" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with why accurate documentation makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of why accurate documentation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where why accurate documentation appears and why it matters.
+
+### Review questions
+
+1. What is why accurate documentation, and why does it matter in digital forensics?
+2. Give one example of why accurate documentation in a real cybersecurity task.
+3. Which other topic in this course does why accurate documentation connect to, and how?
+
+## Lesson 9: Chain of Custody Matter
+
+### What this lesson covers
+
+A closer look at chain of custody matter and the part it plays in digital forensics.
+
+### Explanation
+
+"Chain of Custody Matter" is one of the building blocks of Digital Forensics. You will recognise it whenever you work on a digital forensics task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with chain of custody matter makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of chain of custody matter in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where chain of custody matter appears and why it matters.
+
+### Review questions
+
+1. What is chain of custody matter, and why does it matter in digital forensics?
+2. Give one example of chain of custody matter in a real cybersecurity task.
+3. Which other topic in this course does chain of custody matter connect to, and how?
+
+## Lesson 10: Digital Forensics: Putting It into Practice
+
+### What this lesson covers
+
+Students learn why accurate documentation and chain of custody matter, while considering privacy, legal requirements, and the limitations of forensic conclusions.
+
+### Explanation
+
+This final lesson brings Digital Forensics together. You have looked at evidence integrity, forensic imaging, file-system analysis, metadata, event logs, investigation procedures, why accurate documentation, chain of custody matter and seen how they relate. Individually they are manageable; together they describe how digital forensics work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of digital forensics, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on digital forensics and compare it with what you learned here.
-- Explore a related course in the Cybersecurity area to widen your skills.
+- Explore a related course in the Cybersecurity area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in digital forensics look like for you?

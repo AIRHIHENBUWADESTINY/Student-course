@@ -4,7 +4,7 @@ _Computer Networking · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Telecommunications is part of the Computer Networking area. Telecommunications examines the technologies used to transmit voice, video, and data over communication systems. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Telecommunications examines the technologies used to transmit voice, video, and data over communication systems. Students explore transmission media, cellular networks, fibre optics, wireless communication, modulation, and signal quality. The course introduces how communication infrastructure connects users and services, while examining bandwidth, latency, coverage, reliability, and emerging communication technologies.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Computer Networking studies how computers, servers, and other devices communicat
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about telecommunications. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Telecommunications
+## Lesson 1: Introduction to Telecommunications
 
-### What you will learn
+### What this lesson covers
 
-- What Technologies used to transmit voice means and why it matters.
-- How Video fits into the wider picture.
-- A small way to practise the idea today.
+Telecommunications examines the technologies used to transmit voice, video, and data over communication systems.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Technologies used to transmit voice and Video so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of telecommunications, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Telecommunications is and why it belongs to Computer Networking.
 
-Technologies used to transmit voice sets the scene for everything else in telecommunications. Once you can describe it in your own words, you have a reliable starting point for later lessons. Video builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Networking studies how computers, servers, and other devices communicate and share resources. Students learn network architecture, protocols, addressing, routing, wireless communication, troubleshooting, and network protection, developing skills needed to build and maintain dependable digital communication systems.
 
-Create a one-page reference sheet. On one side list Technologies used to transmit voice; on the other, write one sentence explaining Video in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Telecommunications, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Technologies used to transmit voice, and why does it matter in telecommunications?
-2. How are Technologies used to transmit voice and Video connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Telecommunications?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Telecommunications matter within the Computer Networking area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Technologies Used to Transmit Voice
 
-### What you will learn
+### What this lesson covers
 
-- What Data over communication systems means and why it matters.
-- How Transmission media fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at technologies used to transmit voice and the part it plays in telecommunications.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Data over communication systems and Transmission media and shows how they fit into a working telecommunications process.
+"Technologies Used to Transmit Voice" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
 
-Data over communication systems and Transmission media are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with technologies used to transmit voice makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of telecommunications you have seen (in a tutorial, a product, or the news). Identify where Data over communication systems appears and where Transmission media matters. Write two or three sentences connecting them.
+Write a short definition of technologies used to transmit voice in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where technologies used to transmit voice appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Data over communication systems, and why does it matter in telecommunications?
-2. How are Data over communication systems and Transmission media connected?
-3. What is one practical situation where this lesson would help you?
+1. What is technologies used to transmit voice, and why does it matter in telecommunications?
+2. Give one example of technologies used to transmit voice in a real computer networking task.
+3. Which other topic in this course does technologies used to transmit voice connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Video
 
-### What you will learn
+### What this lesson covers
 
-- What Cellular networks means and why it matters.
-- How Fibre optics fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at video and the part it plays in telecommunications.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Cellular networks and Fibre optics and how they shape the tools and steps you will use when working on telecommunications.
+"Video" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Cellular networks and Fibre optics helps you decide what to do first, what to check, and what to leave for a later pass when you are working on telecommunications.
+Getting comfortable with video makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small telecommunications task. Mark on your sketch where Cellular networks and Fibre optics appear and why the order matters.
+Write a short definition of video in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where video appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Cellular networks, and why does it matter in telecommunications?
-2. How are Cellular networks and Fibre optics connected?
-3. What is one practical situation where this lesson would help you?
+1. What is video, and why does it matter in telecommunications?
+2. Give one example of video in a real computer networking task.
+3. Which other topic in this course does video connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Data Over Communication Systems
 
-### What you will learn
+### What this lesson covers
 
-- What Wireless communication means and why it matters.
-- How Technologies used to transmit voice fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at data over communication systems and the part it plays in telecommunications.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Wireless communication and Technologies used to transmit voice to show how the concepts behave when you actually put them to work.
+"Data Over Communication Systems" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with data over communication systems makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Wireless communication.
+Write a short definition of data over communication systems in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where data over communication systems appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Wireless communication, and why does it matter in telecommunications?
-2. How are Wireless communication and Technologies used to transmit voice connected?
-3. What is one practical situation where this lesson would help you?
+1. What is data over communication systems, and why does it matter in telecommunications?
+2. Give one example of data over communication systems in a real computer networking task.
+3. Which other topic in this course does data over communication systems connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Transmission Media
 
-### What you will learn
+### What this lesson covers
 
-- What Modulation means and why it matters.
-- How Signal quality fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at transmission media and the part it plays in telecommunications.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Modulation and Signal quality and gives you a calm, repeatable way to find and fix problems.
+"Transmission Media" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
 
-Problems in telecommunications usually have recognisable patterns. Learning Modulation and Signal quality helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with transmission media makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of transmission media in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where transmission media appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Modulation, and why does it matter in telecommunications?
-2. How are Modulation and Signal quality connected?
-3. What is one practical situation where this lesson would help you?
+1. What is transmission media, and why does it matter in telecommunications?
+2. Give one example of transmission media in a real computer networking task.
+3. Which other topic in this course does transmission media connect to, and how?
 
-## Lesson 6: Bringing Telecommunications Together
+## Lesson 6: Cellular Networks
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Video fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at cellular networks and the part it plays in telecommunications.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The core idea and Video and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Cellular Networks" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The core idea and Video show how the parts of Telecommunications support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with cellular networks makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of cellular networks in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where cellular networks appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in telecommunications?
-2. How are The core idea and Video connected?
-3. What is one practical situation where this lesson would help you?
+1. What is cellular networks, and why does it matter in telecommunications?
+2. Give one example of cellular networks in a real computer networking task.
+3. Which other topic in this course does cellular networks connect to, and how?
 
-## Summary
+## Lesson 7: Fibre Optics
 
-You have covered the foundations of telecommunications, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at fibre optics and the part it plays in telecommunications.
+
+### Explanation
+
+"Fibre Optics" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with fibre optics makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of fibre optics in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where fibre optics appears and why it matters.
+
+### Review questions
+
+1. What is fibre optics, and why does it matter in telecommunications?
+2. Give one example of fibre optics in a real computer networking task.
+3. Which other topic in this course does fibre optics connect to, and how?
+
+## Lesson 8: Wireless Communication
+
+### What this lesson covers
+
+A closer look at wireless communication and the part it plays in telecommunications.
+
+### Explanation
+
+"Wireless Communication" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with wireless communication makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of wireless communication in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where wireless communication appears and why it matters.
+
+### Review questions
+
+1. What is wireless communication, and why does it matter in telecommunications?
+2. Give one example of wireless communication in a real computer networking task.
+3. Which other topic in this course does wireless communication connect to, and how?
+
+## Lesson 9: Modulation
+
+### What this lesson covers
+
+A closer look at modulation and the part it plays in telecommunications.
+
+### Explanation
+
+"Modulation" is one of the building blocks of Telecommunications. You will recognise it whenever you work on a telecommunications task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with modulation makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of modulation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where modulation appears and why it matters.
+
+### Review questions
+
+1. What is modulation, and why does it matter in telecommunications?
+2. Give one example of modulation in a real computer networking task.
+3. Which other topic in this course does modulation connect to, and how?
+
+## Lesson 10: Telecommunications: Putting It into Practice
+
+### What this lesson covers
+
+The course introduces how communication infrastructure connects users and services, while examining bandwidth, latency, coverage, reliability, and emerging communication technologies.
+
+### Explanation
+
+This final lesson brings Telecommunications together. You have looked at technologies used to transmit voice, video, data over communication systems, transmission media, cellular networks, fibre optics, wireless communication, modulation and seen how they relate. Individually they are manageable; together they describe how telecommunications work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of telecommunications, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on telecommunications and compare it with what you learned here.
-- Explore a related course in the Computer Networking area to widen your skills.
+- Explore a related course in the Computer Networking area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in telecommunications look like for you?

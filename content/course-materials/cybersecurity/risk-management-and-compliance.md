@@ -4,7 +4,7 @@ _Cybersecurity · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Risk Management and Compliance is part of the Cybersecurity area. This course introduces methods for identifying, assessing, and managing information security risks. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+This course introduces methods for identifying, assessing, and managing information security risks. Students examine risk registers, security policies, control assessments, privacy requirements, and compliance frameworks. They learn to evaluate potential business impacts, recommend appropriate safeguards, and document decisions. The course connects technical security measures with organizational responsibilities and governance.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Cybersecurity focuses on protecting computers, networks, applications, and infor
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about risk management and compliance. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Risk Management and Compliance
+## Lesson 1: Introduction to Risk Management and Compliance
 
-### What you will learn
+### What this lesson covers
 
-- What Risk registers means and why it matters.
-- How Security policies fits into the wider picture.
-- A small way to practise the idea today.
+This course introduces methods for identifying, assessing, and managing information security risks.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Risk registers and Security policies so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of risk management and compliance, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Risk Management and Compliance is and why it belongs to Cybersecurity.
 
-Risk registers sets the scene for everything else in risk management and compliance. Once you can describe it in your own words, you have a reliable starting point for later lessons. Security policies builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Cybersecurity focuses on protecting computers, networks, applications, and information from unauthorized access, misuse, and digital threats. Students learn security principles, risk assessment, defensive technologies, incident response, and ethical practices for maintaining confidentiality, integrity, and availability of digital systems.
 
-Create a one-page reference sheet. On one side list Risk registers; on the other, write one sentence explaining Security policies in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Risk Management and Compliance, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Risk registers, and why does it matter in risk management and compliance?
-2. How are Risk registers and Security policies connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Risk Management and Compliance?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Risk Management and Compliance matter within the Cybersecurity area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Risk Registers
 
-### What you will learn
+### What this lesson covers
 
-- What Control assessments means and why it matters.
-- How Privacy requirements fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at risk registers and the part it plays in risk management and compliance.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Control assessments and Privacy requirements and shows how they fit into a working risk management and compliance process.
+"Risk Registers" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
 
-Control assessments and Privacy requirements are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with risk registers makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of risk management and compliance you have seen (in a tutorial, a product, or the news). Identify where Control assessments appears and where Privacy requirements matters. Write two or three sentences connecting them.
+Write a short definition of risk registers in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where risk registers appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Control assessments, and why does it matter in risk management and compliance?
-2. How are Control assessments and Privacy requirements connected?
-3. What is one practical situation where this lesson would help you?
+1. What is risk registers, and why does it matter in risk management and compliance?
+2. Give one example of risk registers in a real cybersecurity task.
+3. Which other topic in this course does risk registers connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Security Policies
 
-### What you will learn
+### What this lesson covers
 
-- What Compliance frameworks means and why it matters.
-- How To evaluate potential business impacts fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at security policies and the part it plays in risk management and compliance.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Compliance frameworks and To evaluate potential business impacts and how they shape the tools and steps you will use when working on risk management and compliance.
+"Security Policies" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Compliance frameworks and To evaluate potential business impacts helps you decide what to do first, what to check, and what to leave for a later pass when you are working on risk management and compliance.
+Getting comfortable with security policies makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small risk management and compliance task. Mark on your sketch where Compliance frameworks and To evaluate potential business impacts appear and why the order matters.
+Write a short definition of security policies in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where security policies appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Compliance frameworks, and why does it matter in risk management and compliance?
-2. How are Compliance frameworks and To evaluate potential business impacts connected?
-3. What is one practical situation where this lesson would help you?
+1. What is security policies, and why does it matter in risk management and compliance?
+2. Give one example of security policies in a real cybersecurity task.
+3. Which other topic in this course does security policies connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Control Assessments
 
-### What you will learn
+### What this lesson covers
 
-- What Recommend appropriate safeguards means and why it matters.
-- How Risk registers fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at control assessments and the part it plays in risk management and compliance.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Recommend appropriate safeguards and Risk registers to show how the concepts behave when you actually put them to work.
+"Control Assessments" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with control assessments makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Recommend appropriate safeguards.
+Write a short definition of control assessments in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where control assessments appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Recommend appropriate safeguards, and why does it matter in risk management and compliance?
-2. How are Recommend appropriate safeguards and Risk registers connected?
-3. What is one practical situation where this lesson would help you?
+1. What is control assessments, and why does it matter in risk management and compliance?
+2. Give one example of control assessments in a real cybersecurity task.
+3. Which other topic in this course does control assessments connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Privacy Requirements
 
-### What you will learn
+### What this lesson covers
 
-- What Document decisions means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at privacy requirements and the part it plays in risk management and compliance.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Document decisions and The core idea and gives you a calm, repeatable way to find and fix problems.
+"Privacy Requirements" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
 
-Problems in risk management and compliance usually have recognisable patterns. Learning Document decisions and The core idea helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with privacy requirements makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of privacy requirements in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where privacy requirements appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Document decisions, and why does it matter in risk management and compliance?
-2. How are Document decisions and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is privacy requirements, and why does it matter in risk management and compliance?
+2. Give one example of privacy requirements in a real cybersecurity task.
+3. Which other topic in this course does privacy requirements connect to, and how?
 
-## Lesson 6: Bringing Risk Management and Compliance Together
+## Lesson 6: Compliance Frameworks
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Security policies fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at compliance frameworks and the part it plays in risk management and compliance.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The typical workflow and Security policies and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Compliance Frameworks" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The typical workflow and Security policies show how the parts of Risk Management and Compliance support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with compliance frameworks makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of compliance frameworks in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where compliance frameworks appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in risk management and compliance?
-2. How are The typical workflow and Security policies connected?
-3. What is one practical situation where this lesson would help you?
+1. What is compliance frameworks, and why does it matter in risk management and compliance?
+2. Give one example of compliance frameworks in a real cybersecurity task.
+3. Which other topic in this course does compliance frameworks connect to, and how?
 
-## Summary
+## Lesson 7: Evaluate Potential Business Impacts
 
-You have covered the foundations of risk management and compliance, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at evaluate potential business impacts and the part it plays in risk management and compliance.
+
+### Explanation
+
+"Evaluate Potential Business Impacts" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with evaluate potential business impacts makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of evaluate potential business impacts in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where evaluate potential business impacts appears and why it matters.
+
+### Review questions
+
+1. What is evaluate potential business impacts, and why does it matter in risk management and compliance?
+2. Give one example of evaluate potential business impacts in a real cybersecurity task.
+3. Which other topic in this course does evaluate potential business impacts connect to, and how?
+
+## Lesson 8: Recommend Appropriate Safeguards
+
+### What this lesson covers
+
+A closer look at recommend appropriate safeguards and the part it plays in risk management and compliance.
+
+### Explanation
+
+"Recommend Appropriate Safeguards" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with recommend appropriate safeguards makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of recommend appropriate safeguards in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where recommend appropriate safeguards appears and why it matters.
+
+### Review questions
+
+1. What is recommend appropriate safeguards, and why does it matter in risk management and compliance?
+2. Give one example of recommend appropriate safeguards in a real cybersecurity task.
+3. Which other topic in this course does recommend appropriate safeguards connect to, and how?
+
+## Lesson 9: Document Decisions
+
+### What this lesson covers
+
+A closer look at document decisions and the part it plays in risk management and compliance.
+
+### Explanation
+
+"Document Decisions" is one of the building blocks of Risk Management and Compliance. You will recognise it whenever you work on a risk management and compliance task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with document decisions makes the rest of the Cybersecurity material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of document decisions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where document decisions appears and why it matters.
+
+### Review questions
+
+1. What is document decisions, and why does it matter in risk management and compliance?
+2. Give one example of document decisions in a real cybersecurity task.
+3. Which other topic in this course does document decisions connect to, and how?
+
+## Lesson 10: Risk Management and Compliance: Putting It into Practice
+
+### What this lesson covers
+
+The course connects technical security measures with organizational responsibilities and governance.
+
+### Explanation
+
+This final lesson brings Risk Management and Compliance together. You have looked at risk registers, security policies, control assessments, privacy requirements, compliance frameworks, evaluate potential business impacts, recommend appropriate safeguards, document decisions and seen how they relate. Individually they are manageable; together they describe how risk management and compliance work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of risk management and compliance, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on risk management and compliance and compare it with what you learned here.
-- Explore a related course in the Cybersecurity area to widen your skills.
+- Explore a related course in the Cybersecurity area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in risk management and compliance look like for you?

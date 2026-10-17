@@ -4,7 +4,7 @@ _Computer Networking · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Network Monitoring is part of the Computer Networking area. Network Monitoring teaches students how to observe network performance, availability, and traffic patterns. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Network Monitoring teaches students how to observe network performance, availability, and traffic patterns. Topics include latency, packet loss, bandwidth utilization, device health, alerts, and diagnostic tools. Practical activities interpret monitoring dashboards and investigate simulated faults, helping learners identify emerging problems, establish performance baselines, and improve the reliability of network services.
 
 ## Learning Objectives
 
@@ -25,157 +25,189 @@ Computer Networking studies how computers, servers, and other devices communicat
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about network monitoring. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Network Monitoring
+## Lesson 1: Introduction to Network Monitoring
 
-### What you will learn
+### What this lesson covers
 
-- What Latency means and why it matters.
-- How Packet loss fits into the wider picture.
-- A small way to practise the idea today.
+Network Monitoring teaches students how to observe network performance, availability, and traffic patterns.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Latency and Packet loss so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of network monitoring, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Network Monitoring is and why it belongs to Computer Networking.
 
-Latency sets the scene for everything else in network monitoring. Once you can describe it in your own words, you have a reliable starting point for later lessons. Packet loss builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Networking studies how computers, servers, and other devices communicate and share resources. Students learn network architecture, protocols, addressing, routing, wireless communication, troubleshooting, and network protection, developing skills needed to build and maintain dependable digital communication systems.
 
-Create a one-page reference sheet. On one side list Latency; on the other, write one sentence explaining Packet loss in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Network Monitoring, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Latency, and why does it matter in network monitoring?
-2. How are Latency and Packet loss connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Network Monitoring?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Network Monitoring matter within the Computer Networking area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Latency
 
-### What you will learn
+### What this lesson covers
 
-- What Bandwidth utilization means and why it matters.
-- How Device health fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at latency and the part it plays in network monitoring.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Bandwidth utilization and Device health and shows how they fit into a working network monitoring process.
+"Latency" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
 
-Bandwidth utilization and Device health are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with latency makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of network monitoring you have seen (in a tutorial, a product, or the news). Identify where Bandwidth utilization appears and where Device health matters. Write two or three sentences connecting them.
+Write a short definition of latency in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where latency appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Bandwidth utilization, and why does it matter in network monitoring?
-2. How are Bandwidth utilization and Device health connected?
-3. What is one practical situation where this lesson would help you?
+1. What is latency, and why does it matter in network monitoring?
+2. Give one example of latency in a real computer networking task.
+3. Which other topic in this course does latency connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Packet Loss
 
-### What you will learn
+### What this lesson covers
 
-- What Alerts means and why it matters.
-- How Diagnostic tools fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at packet loss and the part it plays in network monitoring.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Alerts and Diagnostic tools and how they shape the tools and steps you will use when working on network monitoring.
+"Packet Loss" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Alerts and Diagnostic tools helps you decide what to do first, what to check, and what to leave for a later pass when you are working on network monitoring.
+Getting comfortable with packet loss makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small network monitoring task. Mark on your sketch where Alerts and Diagnostic tools appear and why the order matters.
+Write a short definition of packet loss in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where packet loss appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Alerts, and why does it matter in network monitoring?
-2. How are Alerts and Diagnostic tools connected?
-3. What is one practical situation where this lesson would help you?
+1. What is packet loss, and why does it matter in network monitoring?
+2. Give one example of packet loss in a real computer networking task.
+3. Which other topic in this course does packet loss connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Bandwidth Utilization
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Latency fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at bandwidth utilization and the part it plays in network monitoring.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Latency to show how the concepts behave when you actually put them to work.
+"Bandwidth Utilization" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with bandwidth utilization makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of bandwidth utilization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where bandwidth utilization appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in network monitoring?
-2. How are The core idea and Latency connected?
-3. What is one practical situation where this lesson would help you?
+1. What is bandwidth utilization, and why does it matter in network monitoring?
+2. Give one example of bandwidth utilization in a real computer networking task.
+3. Which other topic in this course does bandwidth utilization connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Device Health
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at device health and the part it plays in network monitoring.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Device Health" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
 
-Problems in network monitoring usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with device health makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of device health in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where device health appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in network monitoring?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is device health, and why does it matter in network monitoring?
+2. Give one example of device health in a real computer networking task.
+3. Which other topic in this course does device health connect to, and how?
 
-## Lesson 6: Bringing Network Monitoring Together
+## Lesson 6: Alerts
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Packet loss fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at alerts and the part it plays in network monitoring.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Packet loss and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Alerts" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Packet loss show how the parts of Network Monitoring support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with alerts makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of alerts in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where alerts appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in network monitoring?
-2. How are Quality and accuracy and Packet loss connected?
-3. What is one practical situation where this lesson would help you?
+1. What is alerts, and why does it matter in network monitoring?
+2. Give one example of alerts in a real computer networking task.
+3. Which other topic in this course does alerts connect to, and how?
 
-## Summary
+## Lesson 7: Diagnostic Tools
 
-You have covered the foundations of network monitoring, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at diagnostic tools and the part it plays in network monitoring.
+
+### Explanation
+
+"Diagnostic Tools" is one of the building blocks of Network Monitoring. You will recognise it whenever you work on a network monitoring task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with diagnostic tools makes the rest of the Computer Networking material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of diagnostic tools in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where diagnostic tools appears and why it matters.
+
+### Review questions
+
+1. What is diagnostic tools, and why does it matter in network monitoring?
+2. Give one example of diagnostic tools in a real computer networking task.
+3. Which other topic in this course does diagnostic tools connect to, and how?
+
+## Lesson 8: Network Monitoring: Putting It into Practice
+
+### What this lesson covers
+
+Practical activities interpret monitoring dashboards and investigate simulated faults, helping learners identify emerging problems, establish performance baselines, and improve the reliability of network services.
+
+### Explanation
+
+This final lesson brings Network Monitoring together. You have looked at latency, packet loss, bandwidth utilization, device health, alerts, diagnostic tools and seen how they relate. Individually they are manageable; together they describe how network monitoring work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of network monitoring, its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on network monitoring and compare it with what you learned here.
-- Explore a related course in the Computer Networking area to widen your skills.
+- Explore a related course in the Computer Networking area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in network monitoring look like for you?

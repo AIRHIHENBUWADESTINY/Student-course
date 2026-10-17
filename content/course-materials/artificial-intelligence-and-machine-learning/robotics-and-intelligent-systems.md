@@ -4,7 +4,7 @@ _Artificial Intelligence and Machine Learning · Faculty of Technology · Level 
 
 ## Overview
 
-Robotics and Intelligent Systems is part of the Artificial Intelligence and Machine Learning area. This course explores machines and software that sense their environments, make decisions, and perform actions. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+This course explores machines and software that sense their environments, make decisions, and perform actions. Students study sensors, control algorithms, navigation, perception, planning, and basic autonomous behaviour. Practical projects may use simulations or simple robotic platforms, helping learners understand how software, hardware, and intelligent decision-making combine to perform tasks.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Artificial Intelligence and Machine Learning explore techniques that enable comp
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about robotics and intelligent systems. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Robotics and Intelligent Systems
+## Lesson 1: Introduction to Robotics and Intelligent Systems
 
-### What you will learn
+### What this lesson covers
 
-- What Machines means and why it matters.
-- How Software that sense their environments fits into the wider picture.
-- A small way to practise the idea today.
+This course explores machines and software that sense their environments, make decisions, and perform actions.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Machines and Software that sense their environments so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of robotics and intelligent systems, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Robotics and Intelligent Systems is and why it belongs to Artificial Intelligence and Machine Learning.
 
-Machines sets the scene for everything else in robotics and intelligent systems. Once you can describe it in your own words, you have a reliable starting point for later lessons. Software that sense their environments builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Artificial Intelligence and Machine Learning explore techniques that enable computers to identify patterns, make predictions, understand information, and generate outputs. Students learn data preparation, model development, evaluation, responsible use, and the limitations of intelligent systems in practical applications.
 
-Create a one-page reference sheet. On one side list Machines; on the other, write one sentence explaining Software that sense their environments in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Robotics and Intelligent Systems, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Machines, and why does it matter in robotics and intelligent systems?
-2. How are Machines and Software that sense their environments connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Robotics and Intelligent Systems?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Robotics and Intelligent Systems matter within the Artificial Intelligence and Machine Learning area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Machines
 
-### What you will learn
+### What this lesson covers
 
-- What Make decisions means and why it matters.
-- How Perform actions fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at machines and the part it plays in robotics and intelligent systems.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Make decisions and Perform actions and shows how they fit into a working robotics and intelligent systems process.
+"Machines" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
 
-Make decisions and Perform actions are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with machines makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of robotics and intelligent systems you have seen (in a tutorial, a product, or the news). Identify where Make decisions appears and where Perform actions matters. Write two or three sentences connecting them.
+Write a short definition of machines in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where machines appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Make decisions, and why does it matter in robotics and intelligent systems?
-2. How are Make decisions and Perform actions connected?
-3. What is one practical situation where this lesson would help you?
+1. What is machines, and why does it matter in robotics and intelligent systems?
+2. Give one example of machines in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does machines connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Software That Sense Their Environments
 
-### What you will learn
+### What this lesson covers
 
-- What Sensors means and why it matters.
-- How Control algorithms fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at software that sense their environments and the part it plays in robotics and intelligent systems.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Sensors and Control algorithms and how they shape the tools and steps you will use when working on robotics and intelligent systems.
+"Software That Sense Their Environments" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Sensors and Control algorithms helps you decide what to do first, what to check, and what to leave for a later pass when you are working on robotics and intelligent systems.
+Getting comfortable with software that sense their environments makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small robotics and intelligent systems task. Mark on your sketch where Sensors and Control algorithms appear and why the order matters.
+Write a short definition of software that sense their environments in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where software that sense their environments appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Sensors, and why does it matter in robotics and intelligent systems?
-2. How are Sensors and Control algorithms connected?
-3. What is one practical situation where this lesson would help you?
+1. What is software that sense their environments, and why does it matter in robotics and intelligent systems?
+2. Give one example of software that sense their environments in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does software that sense their environments connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Make Decisions
 
-### What you will learn
+### What this lesson covers
 
-- What Navigation means and why it matters.
-- How Machines fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at make decisions and the part it plays in robotics and intelligent systems.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Navigation and Machines to show how the concepts behave when you actually put them to work.
+"Make Decisions" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with make decisions makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Navigation.
+Write a short definition of make decisions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where make decisions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Navigation, and why does it matter in robotics and intelligent systems?
-2. How are Navigation and Machines connected?
-3. What is one practical situation where this lesson would help you?
+1. What is make decisions, and why does it matter in robotics and intelligent systems?
+2. Give one example of make decisions in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does make decisions connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Perform Actions
 
-### What you will learn
+### What this lesson covers
 
-- What Perception means and why it matters.
-- How Planning fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at perform actions and the part it plays in robotics and intelligent systems.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Perception and Planning and gives you a calm, repeatable way to find and fix problems.
+"Perform Actions" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
 
-Problems in robotics and intelligent systems usually have recognisable patterns. Learning Perception and Planning helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with perform actions makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of perform actions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where perform actions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Perception, and why does it matter in robotics and intelligent systems?
-2. How are Perception and Planning connected?
-3. What is one practical situation where this lesson would help you?
+1. What is perform actions, and why does it matter in robotics and intelligent systems?
+2. Give one example of perform actions in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does perform actions connect to, and how?
 
-## Lesson 6: Bringing Robotics and Intelligent Systems Together
+## Lesson 6: Sensors
 
-### What you will learn
+### What this lesson covers
 
-- What Basic autonomous behaviour means and why it matters.
-- How Software that sense their environments fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at sensors and the part it plays in robotics and intelligent systems.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Basic autonomous behaviour and Software that sense their environments and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Sensors" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Basic autonomous behaviour and Software that sense their environments show how the parts of Robotics and Intelligent Systems support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with sensors makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of sensors in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where sensors appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Basic autonomous behaviour, and why does it matter in robotics and intelligent systems?
-2. How are Basic autonomous behaviour and Software that sense their environments connected?
-3. What is one practical situation where this lesson would help you?
+1. What is sensors, and why does it matter in robotics and intelligent systems?
+2. Give one example of sensors in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does sensors connect to, and how?
 
-## Summary
+## Lesson 7: Control Algorithms
 
-You have covered the foundations of robotics and intelligent systems, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at control algorithms and the part it plays in robotics and intelligent systems.
+
+### Explanation
+
+"Control Algorithms" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with control algorithms makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of control algorithms in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where control algorithms appears and why it matters.
+
+### Review questions
+
+1. What is control algorithms, and why does it matter in robotics and intelligent systems?
+2. Give one example of control algorithms in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does control algorithms connect to, and how?
+
+## Lesson 8: Navigation
+
+### What this lesson covers
+
+A closer look at navigation and the part it plays in robotics and intelligent systems.
+
+### Explanation
+
+"Navigation" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with navigation makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of navigation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where navigation appears and why it matters.
+
+### Review questions
+
+1. What is navigation, and why does it matter in robotics and intelligent systems?
+2. Give one example of navigation in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does navigation connect to, and how?
+
+## Lesson 9: Perception
+
+### What this lesson covers
+
+A closer look at perception and the part it plays in robotics and intelligent systems.
+
+### Explanation
+
+"Perception" is one of the building blocks of Robotics and Intelligent Systems. You will recognise it whenever you work on a robotics and intelligent systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with perception makes the rest of the Artificial Intelligence and Machine Learning material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of perception in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where perception appears and why it matters.
+
+### Review questions
+
+1. What is perception, and why does it matter in robotics and intelligent systems?
+2. Give one example of perception in a real artificial intelligence and machine learning task.
+3. Which other topic in this course does perception connect to, and how?
+
+## Lesson 10: Robotics and Intelligent Systems: Putting It into Practice
+
+### What this lesson covers
+
+Practical projects may use simulations or simple robotic platforms, helping learners understand how software, hardware, and intelligent decision-making combine to perform tasks.
+
+### Explanation
+
+This final lesson brings Robotics and Intelligent Systems together. You have looked at machines, software that sense their environments, make decisions, perform actions, sensors, control algorithms, navigation, perception and seen how they relate. Individually they are manageable; together they describe how robotics and intelligent systems work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of robotics and intelligent systems, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on robotics and intelligent systems and compare it with what you learned here.
-- Explore a related course in the Artificial Intelligence and Machine Learning area to widen your skills.
+- Explore a related course in the Artificial Intelligence and Machine Learning area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in robotics and intelligent systems look like for you?

@@ -35,10 +35,21 @@ export default function CourseMaterialPage() {
   const [errorStatus, setErrorStatus] = useState<number | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [saving, setSaving] = useState(false);
+  const [loadedCourseId, setLoadedCourseId] = useState(courseId);
+
+  // Reset to a loading state during render when the route's course changes,
+  // instead of setting state synchronously inside the effect below.
+  if (loadedCourseId !== courseId) {
+    setLoadedCourseId(courseId);
+    setMaterial(null);
+    setState("loading");
+    setError(null);
+    setErrorStatus(null);
+    setActiveIndex(0);
+  }
 
   useEffect(() => {
     let active = true;
-    setState("loading");
     materialsApi
       .get(courseId)
       .then((data) => {

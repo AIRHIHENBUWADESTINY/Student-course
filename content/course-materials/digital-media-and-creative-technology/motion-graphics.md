@@ -4,7 +4,7 @@ _Digital Media and Creative Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Motion Graphics is part of the Digital Media and Creative Technology area. Motion Graphics focuses on animated text, shapes, diagrams, and visual elements used to communicate information. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Motion Graphics focuses on animated text, shapes, diagrams, and visual elements used to communicate information. Students study composition, timing, typography, transitions, keyframes, and visual storytelling. Practical exercises create animated titles, explainers, or promotional sequences, helping learners combine graphic design and movement to make complex information more engaging and understandable.
 
 ## Learning Objectives
 
@@ -25,157 +25,189 @@ Digital Media and Creative Technology combines artistic communication with digit
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about motion graphics. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Motion Graphics
+## Lesson 1: Introduction to Motion Graphics
 
-### What you will learn
+### What this lesson covers
 
-- What Composition means and why it matters.
-- How Timing fits into the wider picture.
-- A small way to practise the idea today.
+Motion Graphics focuses on animated text, shapes, diagrams, and visual elements used to communicate information.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Composition and Timing so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of motion graphics, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Motion Graphics is and why it belongs to Digital Media and Creative Technology.
 
-Composition sets the scene for everything else in motion graphics. Once you can describe it in your own words, you have a reliable starting point for later lessons. Timing builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Digital Media and Creative Technology combines artistic communication with digital tools used to create visual, animated, interactive, and audio content. Students learn design principles, media production, modelling, editing, and immersive technologies for education, entertainment, marketing, and digital communication.
 
-Create a one-page reference sheet. On one side list Composition; on the other, write one sentence explaining Timing in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Motion Graphics, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Composition, and why does it matter in motion graphics?
-2. How are Composition and Timing connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Motion Graphics?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Motion Graphics matter within the Digital Media and Creative Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Composition
 
-### What you will learn
+### What this lesson covers
 
-- What Typography means and why it matters.
-- How Transitions fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at composition and the part it plays in motion graphics.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Typography and Transitions and shows how they fit into a working motion graphics process.
+"Composition" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
 
-Typography and Transitions are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with composition makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of motion graphics you have seen (in a tutorial, a product, or the news). Identify where Typography appears and where Transitions matters. Write two or three sentences connecting them.
+Write a short definition of composition in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where composition appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Typography, and why does it matter in motion graphics?
-2. How are Typography and Transitions connected?
-3. What is one practical situation where this lesson would help you?
+1. What is composition, and why does it matter in motion graphics?
+2. Give one example of composition in a real digital media and creative technology task.
+3. Which other topic in this course does composition connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Timing
 
-### What you will learn
+### What this lesson covers
 
-- What Keyframes means and why it matters.
-- How Visual storytelling fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at timing and the part it plays in motion graphics.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Keyframes and Visual storytelling and how they shape the tools and steps you will use when working on motion graphics.
+"Timing" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Keyframes and Visual storytelling helps you decide what to do first, what to check, and what to leave for a later pass when you are working on motion graphics.
+Getting comfortable with timing makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small motion graphics task. Mark on your sketch where Keyframes and Visual storytelling appear and why the order matters.
+Write a short definition of timing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where timing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Keyframes, and why does it matter in motion graphics?
-2. How are Keyframes and Visual storytelling connected?
-3. What is one practical situation where this lesson would help you?
+1. What is timing, and why does it matter in motion graphics?
+2. Give one example of timing in a real digital media and creative technology task.
+3. Which other topic in this course does timing connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Typography
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Composition fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at typography and the part it plays in motion graphics.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Composition to show how the concepts behave when you actually put them to work.
+"Typography" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with typography makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of typography in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where typography appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in motion graphics?
-2. How are The core idea and Composition connected?
-3. What is one practical situation where this lesson would help you?
+1. What is typography, and why does it matter in motion graphics?
+2. Give one example of typography in a real digital media and creative technology task.
+3. Which other topic in this course does typography connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Transitions
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at transitions and the part it plays in motion graphics.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Transitions" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
 
-Problems in motion graphics usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with transitions makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of transitions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where transitions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in motion graphics?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is transitions, and why does it matter in motion graphics?
+2. Give one example of transitions in a real digital media and creative technology task.
+3. Which other topic in this course does transitions connect to, and how?
 
-## Lesson 6: Bringing Motion Graphics Together
+## Lesson 6: Keyframes
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Timing fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at keyframes and the part it plays in motion graphics.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Timing and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Keyframes" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Timing show how the parts of Motion Graphics support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with keyframes makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of keyframes in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where keyframes appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in motion graphics?
-2. How are Quality and accuracy and Timing connected?
-3. What is one practical situation where this lesson would help you?
+1. What is keyframes, and why does it matter in motion graphics?
+2. Give one example of keyframes in a real digital media and creative technology task.
+3. Which other topic in this course does keyframes connect to, and how?
 
-## Summary
+## Lesson 7: Visual Storytelling
 
-You have covered the foundations of motion graphics, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at visual storytelling and the part it plays in motion graphics.
+
+### Explanation
+
+"Visual Storytelling" is one of the building blocks of Motion Graphics. You will recognise it whenever you work on a motion graphics task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with visual storytelling makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of visual storytelling in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where visual storytelling appears and why it matters.
+
+### Review questions
+
+1. What is visual storytelling, and why does it matter in motion graphics?
+2. Give one example of visual storytelling in a real digital media and creative technology task.
+3. Which other topic in this course does visual storytelling connect to, and how?
+
+## Lesson 8: Motion Graphics: Putting It into Practice
+
+### What this lesson covers
+
+Practical exercises create animated titles, explainers, or promotional sequences, helping learners combine graphic design and movement to make complex information more engaging and understandable.
+
+### Explanation
+
+This final lesson brings Motion Graphics together. You have looked at composition, timing, typography, transitions, keyframes, visual storytelling and seen how they relate. Individually they are manageable; together they describe how motion graphics work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of motion graphics, its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on motion graphics and compare it with what you learned here.
-- Explore a related course in the Digital Media and Creative Technology area to widen your skills.
+- Explore a related course in the Digital Media and Creative Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in motion graphics look like for you?

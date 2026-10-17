@@ -17,6 +17,11 @@ function slug(value: string): string {
     .replace(/(^-|-$)/g, "");
 }
 
+// Every catalogue course is advertised at the beginner level. Ids and start
+// dates still derive from the academic level so existing course references
+// (registrations, lessons, material files) stay stable.
+const CATALOGUE_LEVEL = "Beginner";
+
 const rows = COURSE_SUGGESTIONS.map((course) => {
   const id = slug(
     `${course.faculty}-${course.department}-${course.level}-${course.title}`
@@ -28,7 +33,7 @@ const rows = COURSE_SUGGESTIONS.map((course) => {
     sqlText(course.description),
     "''",
     sqlText(course.category),
-    sqlText(course.level),
+    sqlText(CATALOGUE_LEVEL),
     sqlText("indigo"),
     sqlText("code"),
     sqlText(course.faculty),

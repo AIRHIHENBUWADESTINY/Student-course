@@ -4,7 +4,7 @@ _Information Technology (IT) Support · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Operating System Support is part of the Information Technology (IT) Support area. Operating System Support teaches students how to install, configure, update, and troubleshoot operating systems. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Operating System Support teaches students how to install, configure, maintain, and troubleshoot computer operating systems. Topics include user accounts, updates, drivers, file permissions, system settings, software installation, and recovery tools. Practical tasks resolve common system problems and improve performance, helping learners support users across appropriate desktop operating environments.
 
 ## Learning Objectives
 
@@ -12,170 +12,224 @@ By the end of this course you should be able to:
 
 - Explain the main ideas that make up operating system support.
 - Describe user accounts and how it is used.
+- Describe updates and how it is used.
 - Describe drivers and how it is used.
-- Describe permissions and how it is used.
-- Describe software installation and how it is used.
+- Describe file permissions and how it is used.
 - Describe system settings and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
 
 ## Introduction
 
-Information Technology (IT) Support prepares students to maintain, troubleshoot, and support computer systems, networks, and users. Students learn hardware and software support, system administration, service management, asset management, and backup practices that keep organizational technology running reliably.
+IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about operating system support. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Operating System Support
+## Lesson 1: Introduction to Operating System Support
 
-### What you will learn
+### What this lesson covers
 
-- What User accounts means and why it matters.
-- How Drivers fits into the wider picture.
-- A small way to practise the idea today.
+Operating System Support teaches students how to install, configure, maintain, and troubleshoot computer operating systems.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces User accounts and Drivers so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of operating system support, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Operating System Support is and why it belongs to Information Technology (IT) Support.
 
-User accounts sets the scene for everything else in operating system support. Once you can describe it in your own words, you have a reliable starting point for later lessons. Drivers builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ IT Support focuses on helping people and organizations maintain functional, secure, and reliable computer systems. Students develop troubleshooting, hardware, software, user support, administration, and service-management skills needed to resolve technical issues and keep everyday technology operating effectively.
 
-Create a one-page reference sheet. On one side list User accounts; on the other, write one sentence explaining Drivers in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Operating System Support, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is User accounts, and why does it matter in operating system support?
-2. How are User accounts and Drivers connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Operating System Support?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Operating System Support matter within the Information Technology (IT) Support area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: User Accounts
 
-### What you will learn
+### What this lesson covers
 
-- What Permissions means and why it matters.
-- How Software installation fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at user accounts and the part it plays in operating system support.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Permissions and Software installation and shows how they fit into a working operating system support process.
+"User Accounts" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
 
-Permissions and Software installation are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with user accounts makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of operating system support you have seen (in a tutorial, a product, or the news). Identify where Permissions appears and where Software installation matters. Write two or three sentences connecting them.
+Write a short definition of user accounts in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where user accounts appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Permissions, and why does it matter in operating system support?
-2. How are Permissions and Software installation connected?
-3. What is one practical situation where this lesson would help you?
+1. What is user accounts, and why does it matter in operating system support?
+2. Give one example of user accounts in a real information technology (it) support task.
+3. Which other topic in this course does user accounts connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Updates
 
-### What you will learn
+### What this lesson covers
 
-- What System settings means and why it matters.
-- How Recovery tools fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at updates and the part it plays in operating system support.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at System settings and Recovery tools and how they shape the tools and steps you will use when working on operating system support.
+"Updates" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding System settings and Recovery tools helps you decide what to do first, what to check, and what to leave for a later pass when you are working on operating system support.
+Getting comfortable with updates makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small operating system support task. Mark on your sketch where System settings and Recovery tools appear and why the order matters.
+Write a short definition of updates in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where updates appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is System settings, and why does it matter in operating system support?
-2. How are System settings and Recovery tools connected?
-3. What is one practical situation where this lesson would help you?
+1. What is updates, and why does it matter in operating system support?
+2. Give one example of updates in a real information technology (it) support task.
+3. Which other topic in this course does updates connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Drivers
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How User accounts fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at drivers and the part it plays in operating system support.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and User accounts to show how the concepts behave when you actually put them to work.
+"Drivers" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with drivers makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of drivers in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where drivers appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in operating system support?
-2. How are The core idea and User accounts connected?
-3. What is one practical situation where this lesson would help you?
+1. What is drivers, and why does it matter in operating system support?
+2. Give one example of drivers in a real information technology (it) support task.
+3. Which other topic in this course does drivers connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: File Permissions
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at file permissions and the part it plays in operating system support.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"File Permissions" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
 
-Problems in operating system support usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with file permissions makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of file permissions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where file permissions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in operating system support?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is file permissions, and why does it matter in operating system support?
+2. Give one example of file permissions in a real information technology (it) support task.
+3. Which other topic in this course does file permissions connect to, and how?
 
-## Lesson 6: Bringing Operating System Support Together
+## Lesson 6: System Settings
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Drivers fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at system settings and the part it plays in operating system support.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Drivers and connect the earlier lessons into one picture so you can continue learning with confidence.
+"System Settings" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Drivers show how the parts of Operating System Support support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with system settings makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of system settings in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where system settings appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in operating system support?
-2. How are Quality and accuracy and Drivers connected?
-3. What is one practical situation where this lesson would help you?
+1. What is system settings, and why does it matter in operating system support?
+2. Give one example of system settings in a real information technology (it) support task.
+3. Which other topic in this course does system settings connect to, and how?
 
-## Summary
+## Lesson 7: Software Installation
 
-You have covered the foundations of operating system support, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at software installation and the part it plays in operating system support.
+
+### Explanation
+
+"Software Installation" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with software installation makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of software installation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where software installation appears and why it matters.
+
+### Review questions
+
+1. What is software installation, and why does it matter in operating system support?
+2. Give one example of software installation in a real information technology (it) support task.
+3. Which other topic in this course does software installation connect to, and how?
+
+## Lesson 8: Recovery Tools
+
+### What this lesson covers
+
+A closer look at recovery tools and the part it plays in operating system support.
+
+### Explanation
+
+"Recovery Tools" is one of the building blocks of Operating System Support. You will recognise it whenever you work on a operating system support task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with recovery tools makes the rest of the Information Technology (IT) Support material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of recovery tools in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where recovery tools appears and why it matters.
+
+### Review questions
+
+1. What is recovery tools, and why does it matter in operating system support?
+2. Give one example of recovery tools in a real information technology (it) support task.
+3. Which other topic in this course does recovery tools connect to, and how?
+
+## Lesson 9: Operating System Support: Putting It into Practice
+
+### What this lesson covers
+
+Practical tasks resolve common system problems and improve performance, helping learners support users across appropriate desktop operating environments.
+
+### Explanation
+
+This final lesson brings Operating System Support together. You have looked at user accounts, updates, drivers, file permissions, system settings, software installation, recovery tools and seen how they relate. Individually they are manageable; together they describe how operating system support work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of operating system support, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on operating system support and compare it with what you learned here.
-- Explore a related course in the Information Technology (IT) Support area to widen your skills.
+- Explore a related course in the Information Technology (IT) Support area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in operating system support look like for you?

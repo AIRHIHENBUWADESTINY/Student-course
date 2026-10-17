@@ -4,7 +4,7 @@ _Database Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Relational Databases is part of the Database Technology area. Relational Databases teaches students how to organize information into related tables. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Relational Databases teaches students how to organize information into related tables. Topics include tables, rows, columns, primary keys, foreign keys, constraints, normalization, and SQL queries. Practical projects design databases and retrieve information using joins, filtering, and aggregation, helping learners maintain data consistency and support applications with structured storage requirements.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Database Technology focuses on designing, storing, organizing, retrieving, and p
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about relational databases. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Relational Databases
+## Lesson 1: Introduction to Relational Databases
 
-### What you will learn
+### What this lesson covers
 
-- What Tables means and why it matters.
-- How Rows fits into the wider picture.
-- A small way to practise the idea today.
+Relational Databases teaches students how to organize information into related tables.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Tables and Rows so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of relational databases, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Relational Databases is and why it belongs to Database Technology.
 
-Tables sets the scene for everything else in relational databases. Once you can describe it in your own words, you have a reliable starting point for later lessons. Rows builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Database Technology focuses on designing, storing, organizing, retrieving, and protecting digital information. Students learn data modelling, querying, database administration, performance optimization, recovery, and security to support applications that depend on accurate and accessible information.
 
-Create a one-page reference sheet. On one side list Tables; on the other, write one sentence explaining Rows in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Relational Databases, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Tables, and why does it matter in relational databases?
-2. How are Tables and Rows connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Relational Databases?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Relational Databases matter within the Database Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Tables
 
-### What you will learn
+### What this lesson covers
 
-- What Columns means and why it matters.
-- How Primary keys fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at tables and the part it plays in relational databases.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Columns and Primary keys and shows how they fit into a working relational databases process.
+"Tables" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
 
-Columns and Primary keys are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with tables makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of relational databases you have seen (in a tutorial, a product, or the news). Identify where Columns appears and where Primary keys matters. Write two or three sentences connecting them.
+Write a short definition of tables in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where tables appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Columns, and why does it matter in relational databases?
-2. How are Columns and Primary keys connected?
-3. What is one practical situation where this lesson would help you?
+1. What is tables, and why does it matter in relational databases?
+2. Give one example of tables in a real database technology task.
+3. Which other topic in this course does tables connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Rows
 
-### What you will learn
+### What this lesson covers
 
-- What Foreign keys means and why it matters.
-- How Constraints fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at rows and the part it plays in relational databases.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Foreign keys and Constraints and how they shape the tools and steps you will use when working on relational databases.
+"Rows" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Foreign keys and Constraints helps you decide what to do first, what to check, and what to leave for a later pass when you are working on relational databases.
+Getting comfortable with rows makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small relational databases task. Mark on your sketch where Foreign keys and Constraints appear and why the order matters.
+Write a short definition of rows in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where rows appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Foreign keys, and why does it matter in relational databases?
-2. How are Foreign keys and Constraints connected?
-3. What is one practical situation where this lesson would help you?
+1. What is rows, and why does it matter in relational databases?
+2. Give one example of rows in a real database technology task.
+3. Which other topic in this course does rows connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Columns
 
-### What you will learn
+### What this lesson covers
 
-- What Normalization means and why it matters.
-- How Tables fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at columns and the part it plays in relational databases.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Normalization and Tables to show how the concepts behave when you actually put them to work.
+"Columns" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with columns makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Normalization.
+Write a short definition of columns in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where columns appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Normalization, and why does it matter in relational databases?
-2. How are Normalization and Tables connected?
-3. What is one practical situation where this lesson would help you?
+1. What is columns, and why does it matter in relational databases?
+2. Give one example of columns in a real database technology task.
+3. Which other topic in this course does columns connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Primary Keys
 
-### What you will learn
+### What this lesson covers
 
-- What SQL queries means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at primary keys and the part it plays in relational databases.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers SQL queries and The core idea and gives you a calm, repeatable way to find and fix problems.
+"Primary Keys" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
 
-Problems in relational databases usually have recognisable patterns. Learning SQL queries and The core idea helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with primary keys makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of primary keys in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where primary keys appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is SQL queries, and why does it matter in relational databases?
-2. How are SQL queries and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is primary keys, and why does it matter in relational databases?
+2. Give one example of primary keys in a real database technology task.
+3. Which other topic in this course does primary keys connect to, and how?
 
-## Lesson 6: Bringing Relational Databases Together
+## Lesson 6: Foreign Keys
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Rows fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at foreign keys and the part it plays in relational databases.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The typical workflow and Rows and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Foreign Keys" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The typical workflow and Rows show how the parts of Relational Databases support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with foreign keys makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of foreign keys in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where foreign keys appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in relational databases?
-2. How are The typical workflow and Rows connected?
-3. What is one practical situation where this lesson would help you?
+1. What is foreign keys, and why does it matter in relational databases?
+2. Give one example of foreign keys in a real database technology task.
+3. Which other topic in this course does foreign keys connect to, and how?
 
-## Summary
+## Lesson 7: Constraints
 
-You have covered the foundations of relational databases, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at constraints and the part it plays in relational databases.
+
+### Explanation
+
+"Constraints" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with constraints makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of constraints in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where constraints appears and why it matters.
+
+### Review questions
+
+1. What is constraints, and why does it matter in relational databases?
+2. Give one example of constraints in a real database technology task.
+3. Which other topic in this course does constraints connect to, and how?
+
+## Lesson 8: Normalization
+
+### What this lesson covers
+
+A closer look at normalization and the part it plays in relational databases.
+
+### Explanation
+
+"Normalization" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with normalization makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of normalization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where normalization appears and why it matters.
+
+### Review questions
+
+1. What is normalization, and why does it matter in relational databases?
+2. Give one example of normalization in a real database technology task.
+3. Which other topic in this course does normalization connect to, and how?
+
+## Lesson 9: SQL Queries
+
+### What this lesson covers
+
+A closer look at SQL queries and the part it plays in relational databases.
+
+### Explanation
+
+"SQL Queries" is one of the building blocks of Relational Databases. You will recognise it whenever you work on a relational databases task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with SQL queries makes the rest of the Database Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of SQL queries in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where SQL queries appears and why it matters.
+
+### Review questions
+
+1. What is SQL queries, and why does it matter in relational databases?
+2. Give one example of SQL queries in a real database technology task.
+3. Which other topic in this course does SQL queries connect to, and how?
+
+## Lesson 10: Relational Databases: Putting It into Practice
+
+### What this lesson covers
+
+Practical projects design databases and retrieve information using joins, filtering, and aggregation, helping learners maintain data consistency and support applications with structured storage requirements.
+
+### Explanation
+
+This final lesson brings Relational Databases together. You have looked at tables, rows, columns, primary keys, foreign keys, constraints, normalization, SQL queries and seen how they relate. Individually they are manageable; together they describe how relational databases work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of relational databases, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on relational databases and compare it with what you learned here.
-- Explore a related course in the Database Technology area to widen your skills.
+- Explore a related course in the Database Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in relational databases look like for you?

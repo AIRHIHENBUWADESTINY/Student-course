@@ -344,3 +344,99 @@ create policy "own material progress delete"
   using ((select auth.uid()) = user_id);
 
 grant select, insert, update, delete on public.material_progress to authenticated;
+
+-- ===========================================================================
+-- 20260109000000_lesson_storage.sql
+-- ===========================================================================
+
+-- Stores each lesson body as a plain-text (.txt) file in a private Supabase
+-- Storage bucket. Objects are laid out as "<course_id>/<file>.txt" so the
+-- Storage policy can map a file back to its course and only allow enrolled
+-- students, the course owner, or an administrator to read it.
+
+alter table public.lessons
+  add column if not exists storage_path text;
+
+insert into storage.buckets (id, name, public)
+values ('course-lessons', 'course-lessons', false)
+on conflict (id) do nothing;
+
+drop policy if exists "lesson files readable by enrolled students" on storage.objects;
+create policy "lesson files readable by enrolled students"
+  on storage.objects for select
+  to authenticated
+  using (
+    bucket_id = 'course-lessons'
+    and (
+      public.is_admin((select auth.uid()))
+      or exists (
+        select 1 from public.courses c
+        where c.id = split_part(name, '/', 1)
+          and c.owner_id = (select auth.uid())
+      )
+      or exists (
+        select 1 from public.registrations r
+        where r.user_id = (select auth.uid())
+          and r.course_id = split_part(name, '/', 1)
+      )
+    )
+  );
+
+drop policy if exists "lesson files writable by course owners" on storage.objects;
+create policy "lesson files writable by course owners"
+  on storage.objects for insert
+  to authenticated
+  with check (
+    bucket_id = 'course-lessons'
+    and (
+      public.is_admin((select auth.uid()))
+      or exists (
+        select 1 from public.courses c
+        where c.id = split_part(name, '/', 1)
+          and c.owner_id = (select auth.uid())
+      )
+    )
+  );
+
+drop policy if exists "lesson files updatable by course owners" on storage.objects;
+create policy "lesson files updatable by course owners"
+  on storage.objects for update
+  to authenticated
+  using (
+    bucket_id = 'course-lessons'
+    and (
+      public.is_admin((select auth.uid()))
+      or exists (
+        select 1 from public.courses c
+        where c.id = split_part(name, '/', 1)
+          and c.owner_id = (select auth.uid())
+      )
+    )
+  )
+  with check (
+    bucket_id = 'course-lessons'
+    and (
+      public.is_admin((select auth.uid()))
+      or exists (
+        select 1 from public.courses c
+        where c.id = split_part(name, '/', 1)
+          and c.owner_id = (select auth.uid())
+      )
+    )
+  );
+
+drop policy if exists "lesson files removable by course owners" on storage.objects;
+create policy "lesson files removable by course owners"
+  on storage.objects for delete
+  to authenticated
+  using (
+    bucket_id = 'course-lessons'
+    and (
+      public.is_admin((select auth.uid()))
+      or exists (
+        select 1 from public.courses c
+        where c.id = split_part(name, '/', 1)
+          and c.owner_id = (select auth.uid())
+      )
+    )
+  );

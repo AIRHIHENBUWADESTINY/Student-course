@@ -18,7 +18,11 @@ export async function GET(
     if (!course) {
       return NextResponse.json({ message: "Course not found" }, { status: 404 });
     }
-    return NextResponse.json(course);
+    // Lesson bodies are only served through the registration-gated endpoints.
+    return NextResponse.json({
+      ...course,
+      lessons: course.lessons.map((lesson) => ({ ...lesson, content: [] })),
+    });
   } catch (cause) {
     return serverError(cause, "Failed to load course");
   }

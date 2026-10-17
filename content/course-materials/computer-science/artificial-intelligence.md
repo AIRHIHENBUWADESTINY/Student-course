@@ -4,7 +4,7 @@ _Computer Science · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Artificial Intelligence is part of the Computer Science area. This course introduces computer systems designed to perform tasks associated with intelligent behaviour. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+This course introduces computer systems designed to perform tasks associated with intelligent behaviour. Students explore search algorithms, knowledge representation, reasoning, planning, decision-making, and introductory machine learning. Practical activities demonstrate how intelligent systems solve problems, interpret information, and support decisions, while discussions address limitations, reliability, fairness, and responsible AI development.
 
 ## Learning Objectives
 
@@ -25,157 +25,189 @@ Computer Science studies the fundamental principles behind computing systems, al
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about artificial intelligence. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Artificial Intelligence
+## Lesson 1: Introduction to Artificial Intelligence
 
-### What you will learn
+### What this lesson covers
 
-- What Search algorithms means and why it matters.
-- How Knowledge representation fits into the wider picture.
-- A small way to practise the idea today.
+This course introduces computer systems designed to perform tasks associated with intelligent behaviour.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Search algorithms and Knowledge representation so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of artificial intelligence, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Artificial Intelligence is and why it belongs to Computer Science.
 
-Search algorithms sets the scene for everything else in artificial intelligence. Once you can describe it in your own words, you have a reliable starting point for later lessons. Knowledge representation builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Science studies the fundamental principles behind computing systems, algorithms, programming, and information processing. Students learn how computers solve problems, represent data, execute instructions, and support intelligent applications, while developing analytical thinking and computational problem-solving skills.
 
-Create a one-page reference sheet. On one side list Search algorithms; on the other, write one sentence explaining Knowledge representation in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Artificial Intelligence, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Search algorithms, and why does it matter in artificial intelligence?
-2. How are Search algorithms and Knowledge representation connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Artificial Intelligence?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Artificial Intelligence matter within the Computer Science area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Search Algorithms
 
-### What you will learn
+### What this lesson covers
 
-- What Reasoning means and why it matters.
-- How Planning fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at search algorithms and the part it plays in artificial intelligence.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Reasoning and Planning and shows how they fit into a working artificial intelligence process.
+"Search Algorithms" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
 
-Reasoning and Planning are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with search algorithms makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of artificial intelligence you have seen (in a tutorial, a product, or the news). Identify where Reasoning appears and where Planning matters. Write two or three sentences connecting them.
+Write a short definition of search algorithms in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where search algorithms appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Reasoning, and why does it matter in artificial intelligence?
-2. How are Reasoning and Planning connected?
-3. What is one practical situation where this lesson would help you?
+1. What is search algorithms, and why does it matter in artificial intelligence?
+2. Give one example of search algorithms in a real computer science task.
+3. Which other topic in this course does search algorithms connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Knowledge Representation
 
-### What you will learn
+### What this lesson covers
 
-- What Decision-making means and why it matters.
-- How Introductory machine learning fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at knowledge representation and the part it plays in artificial intelligence.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Decision-making and Introductory machine learning and how they shape the tools and steps you will use when working on artificial intelligence.
+"Knowledge Representation" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Decision-making and Introductory machine learning helps you decide what to do first, what to check, and what to leave for a later pass when you are working on artificial intelligence.
+Getting comfortable with knowledge representation makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small artificial intelligence task. Mark on your sketch where Decision-making and Introductory machine learning appear and why the order matters.
+Write a short definition of knowledge representation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where knowledge representation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Decision-making, and why does it matter in artificial intelligence?
-2. How are Decision-making and Introductory machine learning connected?
-3. What is one practical situation where this lesson would help you?
+1. What is knowledge representation, and why does it matter in artificial intelligence?
+2. Give one example of knowledge representation in a real computer science task.
+3. Which other topic in this course does knowledge representation connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Reasoning
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Search algorithms fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at reasoning and the part it plays in artificial intelligence.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Search algorithms to show how the concepts behave when you actually put them to work.
+"Reasoning" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with reasoning makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of reasoning in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where reasoning appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in artificial intelligence?
-2. How are The core idea and Search algorithms connected?
-3. What is one practical situation where this lesson would help you?
+1. What is reasoning, and why does it matter in artificial intelligence?
+2. Give one example of reasoning in a real computer science task.
+3. Which other topic in this course does reasoning connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Planning
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at planning and the part it plays in artificial intelligence.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Planning" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
 
-Problems in artificial intelligence usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with planning makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of planning in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where planning appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in artificial intelligence?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is planning, and why does it matter in artificial intelligence?
+2. Give one example of planning in a real computer science task.
+3. Which other topic in this course does planning connect to, and how?
 
-## Lesson 6: Bringing Artificial Intelligence Together
+## Lesson 6: Decision-making
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Knowledge representation fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at decision-making and the part it plays in artificial intelligence.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Knowledge representation and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Decision-making" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Knowledge representation show how the parts of Artificial Intelligence support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with decision-making makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of decision-making in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where decision-making appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in artificial intelligence?
-2. How are Quality and accuracy and Knowledge representation connected?
-3. What is one practical situation where this lesson would help you?
+1. What is decision-making, and why does it matter in artificial intelligence?
+2. Give one example of decision-making in a real computer science task.
+3. Which other topic in this course does decision-making connect to, and how?
 
-## Summary
+## Lesson 7: Introductory Machine Learning
 
-You have covered the foundations of artificial intelligence, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at introductory machine learning and the part it plays in artificial intelligence.
+
+### Explanation
+
+"Introductory Machine Learning" is one of the building blocks of Artificial Intelligence. You will recognise it whenever you work on a artificial intelligence task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with introductory machine learning makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of introductory machine learning in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where introductory machine learning appears and why it matters.
+
+### Review questions
+
+1. What is introductory machine learning, and why does it matter in artificial intelligence?
+2. Give one example of introductory machine learning in a real computer science task.
+3. Which other topic in this course does introductory machine learning connect to, and how?
+
+## Lesson 8: Artificial Intelligence: Putting It into Practice
+
+### What this lesson covers
+
+Practical activities demonstrate how intelligent systems solve problems, interpret information, and support decisions, while discussions address limitations, reliability, fairness, and responsible AI development.
+
+### Explanation
+
+This final lesson brings Artificial Intelligence together. You have looked at search algorithms, knowledge representation, reasoning, planning, decision-making, introductory machine learning and seen how they relate. Individually they are manageable; together they describe how artificial intelligence work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of artificial intelligence, its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on artificial intelligence and compare it with what you learned here.
-- Explore a related course in the Computer Science area to widen your skills.
+- Explore a related course in the Computer Science area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in artificial intelligence look like for you?

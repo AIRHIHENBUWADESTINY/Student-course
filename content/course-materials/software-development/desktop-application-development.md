@@ -4,7 +4,7 @@ _Software Development · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Desktop Application Development is part of the Software Development area. Desktop Application Development teaches students to create software that runs on personal computers. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Desktop Application Development teaches students to create software that runs on personal computers. Topics include graphical user interfaces, file management, local databases, operating-system integration, application security, and packaging. Students learn to design applications for Windows, macOS, or Linux, while developing practical skills in debugging, usability, performance, and software maintenance.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Software Development focuses on designing, building, testing, deploying, and mai
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about desktop application development. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Desktop Application Development
+## Lesson 1: Introduction to Desktop Application Development
 
-### What you will learn
+### What this lesson covers
 
-- What Graphical user interfaces means and why it matters.
-- How File management fits into the wider picture.
-- A small way to practise the idea today.
+Desktop Application Development teaches students to create software that runs on personal computers.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Graphical user interfaces and File management so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of desktop application development, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Desktop Application Development is and why it belongs to Software Development.
 
-Graphical user interfaces sets the scene for everything else in desktop application development. Once you can describe it in your own words, you have a reliable starting point for later lessons. File management builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Software Development focuses on designing, building, testing, deploying, and maintaining software applications. Students learn programming, application architecture, problem-solving, user interface development, and software quality practices used to create reliable solutions for individuals and organizations.
 
-Create a one-page reference sheet. On one side list Graphical user interfaces; on the other, write one sentence explaining File management in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Desktop Application Development, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Graphical user interfaces, and why does it matter in desktop application development?
-2. How are Graphical user interfaces and File management connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Desktop Application Development?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Desktop Application Development matter within the Software Development area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Graphical User Interfaces
 
-### What you will learn
+### What this lesson covers
 
-- What Local databases means and why it matters.
-- How Operating-system integration fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at graphical user interfaces and the part it plays in desktop application development.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Local databases and Operating-system integration and shows how they fit into a working desktop application development process.
+"Graphical User Interfaces" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
 
-Local databases and Operating-system integration are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with graphical user interfaces makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of desktop application development you have seen (in a tutorial, a product, or the news). Identify where Local databases appears and where Operating-system integration matters. Write two or three sentences connecting them.
+Write a short definition of graphical user interfaces in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where graphical user interfaces appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Local databases, and why does it matter in desktop application development?
-2. How are Local databases and Operating-system integration connected?
-3. What is one practical situation where this lesson would help you?
+1. What is graphical user interfaces, and why does it matter in desktop application development?
+2. Give one example of graphical user interfaces in a real software development task.
+3. Which other topic in this course does graphical user interfaces connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: File Management
 
-### What you will learn
+### What this lesson covers
 
-- What Application security means and why it matters.
-- How Packaging fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at file management and the part it plays in desktop application development.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Application security and Packaging and how they shape the tools and steps you will use when working on desktop application development.
+"File Management" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Application security and Packaging helps you decide what to do first, what to check, and what to leave for a later pass when you are working on desktop application development.
+Getting comfortable with file management makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small desktop application development task. Mark on your sketch where Application security and Packaging appear and why the order matters.
+Write a short definition of file management in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where file management appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Application security, and why does it matter in desktop application development?
-2. How are Application security and Packaging connected?
-3. What is one practical situation where this lesson would help you?
+1. What is file management, and why does it matter in desktop application development?
+2. Give one example of file management in a real software development task.
+3. Which other topic in this course does file management connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Local Databases
 
-### What you will learn
+### What this lesson covers
 
-- What To design applications for windows means and why it matters.
-- How Graphical user interfaces fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at local databases and the part it plays in desktop application development.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use To design applications for windows and Graphical user interfaces to show how the concepts behave when you actually put them to work.
+"Local Databases" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with local databases makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using To design applications for windows.
+Write a short definition of local databases in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where local databases appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is To design applications for windows, and why does it matter in desktop application development?
-2. How are To design applications for windows and Graphical user interfaces connected?
-3. What is one practical situation where this lesson would help you?
+1. What is local databases, and why does it matter in desktop application development?
+2. Give one example of local databases in a real software development task.
+3. Which other topic in this course does local databases connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Operating-system Integration
 
-### What you will learn
+### What this lesson covers
 
-- What Macos means and why it matters.
-- How Linux fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at operating-system integration and the part it plays in desktop application development.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Macos and Linux and gives you a calm, repeatable way to find and fix problems.
+"Operating-system Integration" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
 
-Problems in desktop application development usually have recognisable patterns. Learning Macos and Linux helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with operating-system integration makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of operating-system integration in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where operating-system integration appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Macos, and why does it matter in desktop application development?
-2. How are Macos and Linux connected?
-3. What is one practical situation where this lesson would help you?
+1. What is operating-system integration, and why does it matter in desktop application development?
+2. Give one example of operating-system integration in a real software development task.
+3. Which other topic in this course does operating-system integration connect to, and how?
 
-## Lesson 6: Bringing Desktop Application Development Together
+## Lesson 6: Application Security
 
-### What you will learn
+### What this lesson covers
 
-- What While developing practical skills in debugging means and why it matters.
-- How File management fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at application security and the part it plays in desktop application development.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit While developing practical skills in debugging and File management and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Application Security" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
 
-Taken together, While developing practical skills in debugging and File management show how the parts of Desktop Application Development support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with application security makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of application security in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where application security appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is While developing practical skills in debugging, and why does it matter in desktop application development?
-2. How are While developing practical skills in debugging and File management connected?
-3. What is one practical situation where this lesson would help you?
+1. What is application security, and why does it matter in desktop application development?
+2. Give one example of application security in a real software development task.
+3. Which other topic in this course does application security connect to, and how?
 
-## Summary
+## Lesson 7: Packaging
 
-You have covered the foundations of desktop application development, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at packaging and the part it plays in desktop application development.
+
+### Explanation
+
+"Packaging" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with packaging makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of packaging in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where packaging appears and why it matters.
+
+### Review questions
+
+1. What is packaging, and why does it matter in desktop application development?
+2. Give one example of packaging in a real software development task.
+3. Which other topic in this course does packaging connect to, and how?
+
+## Lesson 8: Design Applications for Windows
+
+### What this lesson covers
+
+A closer look at design applications for windows and the part it plays in desktop application development.
+
+### Explanation
+
+"Design Applications for Windows" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with design applications for windows makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of design applications for windows in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where design applications for windows appears and why it matters.
+
+### Review questions
+
+1. What is design applications for windows, and why does it matter in desktop application development?
+2. Give one example of design applications for windows in a real software development task.
+3. Which other topic in this course does design applications for windows connect to, and how?
+
+## Lesson 9: MacOS
+
+### What this lesson covers
+
+A closer look at macOS and the part it plays in desktop application development.
+
+### Explanation
+
+"MacOS" is one of the building blocks of Desktop Application Development. You will recognise it whenever you work on a desktop application development task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with macOS makes the rest of the Software Development material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of macOS in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where macOS appears and why it matters.
+
+### Review questions
+
+1. What is macOS, and why does it matter in desktop application development?
+2. Give one example of macOS in a real software development task.
+3. Which other topic in this course does macOS connect to, and how?
+
+## Lesson 10: Desktop Application Development: Putting It into Practice
+
+### What this lesson covers
+
+Students learn to design applications for Windows, macOS, or Linux, while developing practical skills in debugging, usability, performance, and software maintenance.
+
+### Explanation
+
+This final lesson brings Desktop Application Development together. You have looked at graphical user interfaces, file management, local databases, operating-system integration, application security, packaging, design applications for windows, macOS and seen how they relate. Individually they are manageable; together they describe how desktop application development work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of desktop application development, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on desktop application development and compare it with what you learned here.
-- Explore a related course in the Software Development area to widen your skills.
+- Explore a related course in the Software Development area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in desktop application development look like for you?

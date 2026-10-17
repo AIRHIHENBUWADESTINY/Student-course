@@ -1,12 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import {
   AlertTriangle,
   BookOpen,
   Check,
-  Eye,
   Loader2,
   Plus,
 } from "lucide-react";
@@ -14,7 +12,7 @@ import { useProgress } from "@/components/providers/ProgressProvider";
 import { useRegistration } from "@/components/providers/RegistrationProvider";
 import { useToast } from "@/components/providers/ToastProvider";
 import Badge from "@/components/ui/Badge";
-import Button, { buttonClasses } from "@/components/ui/Button";
+import Button from "@/components/ui/Button";
 import EmptyState from "@/components/ui/EmptyState";
 import { SEMESTERS } from "@/lib/academics";
 import { formatNaira } from "@/lib/format";
@@ -151,14 +149,6 @@ export default function CataloguePage() {
             {course.instructor || "Unassigned"}
           </span>
           <div className="flex shrink-0 items-center gap-2">
-            <Link
-              href={`/courses/${course.id}`}
-              className={buttonClasses("ghost", "sm")}
-              title="Open course"
-            >
-              <Eye className="h-4 w-4" />
-              View
-            </Link>
             {registered ? (
               <Button
                 variant="outline"

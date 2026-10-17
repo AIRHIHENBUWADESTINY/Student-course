@@ -165,7 +165,7 @@ export default function RegistrationsPage() {
                     </p>
                     <p className="text-xs text-slate-400">
                       {item.course?.department ?? ""}
-                      {item.course?.level ? ` · ${item.course.level}` : ""}
+                      {item.course ? " · Beginner" : ""}
                     </p>
                   </td>
                   <td className="hidden px-4 py-3 sm:table-cell">

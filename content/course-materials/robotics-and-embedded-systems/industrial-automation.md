@@ -4,7 +4,7 @@ _Robotics and Embedded Systems · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Industrial Automation is part of the Robotics and Embedded Systems area. Industrial Automation focuses on technologies that automate manufacturing and operational processes. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Industrial Automation focuses on technologies that automate manufacturing and operational processes. Students explore programmable logic controllers, industrial sensors, control panels, human-machine interfaces, and process monitoring. Practical simulations demonstrate how automated equipment responds to inputs and operating conditions, while emphasizing safety, fault detection, maintenance, and reliable coordination between industrial components.
 
 ## Learning Objectives
 
@@ -12,10 +12,10 @@ By the end of this course you should be able to:
 
 - Explain the main ideas that make up industrial automation.
 - Describe programmable logic controllers and how it is used.
-- Describe sensors and how it is used.
-- Describe actuators and how it is used.
-- Describe industrial networks and how it is used.
-- Describe efficiency and how it is used.
+- Describe industrial sensors and how it is used.
+- Describe control panels and how it is used.
+- Describe human-machine interfaces and how it is used.
+- Describe process monitoring and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
 
@@ -25,157 +25,167 @@ Robotics and Embedded Systems combines computing, electronics, sensing, and cont
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about industrial automation. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Industrial Automation
+## Lesson 1: Introduction to Industrial Automation
 
-### What you will learn
+### What this lesson covers
 
-- What Programmable logic controllers means and why it matters.
-- How Sensors fits into the wider picture.
-- A small way to practise the idea today.
+Industrial Automation focuses on technologies that automate manufacturing and operational processes.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Programmable logic controllers and Sensors so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of industrial automation, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Industrial Automation is and why it belongs to Robotics and Embedded Systems.
 
-Programmable logic controllers sets the scene for everything else in industrial automation. Once you can describe it in your own words, you have a reliable starting point for later lessons. Sensors builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Robotics and Embedded Systems combines computing, electronics, sensing, and control to create devices that interact with the physical world. Students learn microcontrollers, embedded software, automation, sensors, and intelligent control for applications in industry, healthcare, transport, and consumer technology.
 
-Create a one-page reference sheet. On one side list Programmable logic controllers; on the other, write one sentence explaining Sensors in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Industrial Automation, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Programmable logic controllers, and why does it matter in industrial automation?
-2. How are Programmable logic controllers and Sensors connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Industrial Automation?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Industrial Automation matter within the Robotics and Embedded Systems area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Programmable Logic Controllers
 
-### What you will learn
+### What this lesson covers
 
-- What Actuators means and why it matters.
-- How Industrial networks fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at programmable logic controllers and the part it plays in industrial automation.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Actuators and Industrial networks and shows how they fit into a working industrial automation process.
+"Programmable Logic Controllers" is one of the building blocks of Industrial Automation. You will recognise it whenever you work on a industrial automation task, because it shapes the decisions you make and the results you produce.
 
-Actuators and Industrial networks are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with programmable logic controllers makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of industrial automation you have seen (in a tutorial, a product, or the news). Identify where Actuators appears and where Industrial networks matters. Write two or three sentences connecting them.
+Write a short definition of programmable logic controllers in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where programmable logic controllers appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Actuators, and why does it matter in industrial automation?
-2. How are Actuators and Industrial networks connected?
-3. What is one practical situation where this lesson would help you?
+1. What is programmable logic controllers, and why does it matter in industrial automation?
+2. Give one example of programmable logic controllers in a real robotics and embedded systems task.
+3. Which other topic in this course does programmable logic controllers connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Industrial Sensors
 
-### What you will learn
+### What this lesson covers
 
-- What Efficiency means and why it matters.
-- How Safety fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at industrial sensors and the part it plays in industrial automation.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Efficiency and Safety and how they shape the tools and steps you will use when working on industrial automation.
+"Industrial Sensors" is one of the building blocks of Industrial Automation. You will recognise it whenever you work on a industrial automation task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Efficiency and Safety helps you decide what to do first, what to check, and what to leave for a later pass when you are working on industrial automation.
+Getting comfortable with industrial sensors makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small industrial automation task. Mark on your sketch where Efficiency and Safety appear and why the order matters.
+Write a short definition of industrial sensors in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where industrial sensors appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Efficiency, and why does it matter in industrial automation?
-2. How are Efficiency and Safety connected?
-3. What is one practical situation where this lesson would help you?
+1. What is industrial sensors, and why does it matter in industrial automation?
+2. Give one example of industrial sensors in a real robotics and embedded systems task.
+3. Which other topic in this course does industrial sensors connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Control Panels
 
-### What you will learn
+### What this lesson covers
 
-- What Quality means and why it matters.
-- How Programmable logic controllers fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at control panels and the part it plays in industrial automation.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Quality and Programmable logic controllers to show how the concepts behave when you actually put them to work.
+"Control Panels" is one of the building blocks of Industrial Automation. You will recognise it whenever you work on a industrial automation task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with control panels makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Quality.
+Write a short definition of control panels in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where control panels appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality, and why does it matter in industrial automation?
-2. How are Quality and Programmable logic controllers connected?
-3. What is one practical situation where this lesson would help you?
+1. What is control panels, and why does it matter in industrial automation?
+2. Give one example of control panels in a real robotics and embedded systems task.
+3. Which other topic in this course does control panels connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Human-machine Interfaces
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at human-machine interfaces and the part it plays in industrial automation.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Human-machine Interfaces" is one of the building blocks of Industrial Automation. You will recognise it whenever you work on a industrial automation task, because it shapes the decisions you make and the results you produce.
 
-Problems in industrial automation usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with human-machine interfaces makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of human-machine interfaces in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where human-machine interfaces appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in industrial automation?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is human-machine interfaces, and why does it matter in industrial automation?
+2. Give one example of human-machine interfaces in a real robotics and embedded systems task.
+3. Which other topic in this course does human-machine interfaces connect to, and how?
 
-## Lesson 6: Bringing Industrial Automation Together
+## Lesson 6: Process Monitoring
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Sensors fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at process monitoring and the part it plays in industrial automation.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Sensors and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Process Monitoring" is one of the building blocks of Industrial Automation. You will recognise it whenever you work on a industrial automation task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Sensors show how the parts of Industrial Automation support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with process monitoring makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of process monitoring in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where process monitoring appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in industrial automation?
-2. How are The main tool and Sensors connected?
-3. What is one practical situation where this lesson would help you?
+1. What is process monitoring, and why does it matter in industrial automation?
+2. Give one example of process monitoring in a real robotics and embedded systems task.
+3. Which other topic in this course does process monitoring connect to, and how?
 
-## Summary
+## Lesson 7: Industrial Automation: Putting It into Practice
 
-You have covered the foundations of industrial automation, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+Practical simulations demonstrate how automated equipment responds to inputs and operating conditions, while emphasizing safety, fault detection, maintenance, and reliable coordination between industrial components.
+
+### Explanation
+
+This final lesson brings Industrial Automation together. You have looked at programmable logic controllers, industrial sensors, control panels, human-machine interfaces, process monitoring and seen how they relate. Individually they are manageable; together they describe how industrial automation work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of industrial automation, its key terms, and the core topics (5), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on industrial automation and compare it with what you learned here.
-- Explore a related course in the Robotics and Embedded Systems area to widen your skills.
+- Explore a related course in the Robotics and Embedded Systems area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in industrial automation look like for you?

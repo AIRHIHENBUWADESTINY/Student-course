@@ -4,7 +4,7 @@ _DevOps and Site Reliability Engineering · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Container Orchestration is part of the DevOps and Site Reliability Engineering area. Container Orchestration teaches students how to manage containerized applications across multiple machines. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Container Orchestration teaches students how to manage containerized applications across multiple machines. Topics include deployments, services, scheduling, scaling, health checks, configuration, and workload recovery. Students explore orchestration platforms such as Kubernetes and practise deploying a sample application, helping them understand how automated systems maintain application availability and manage changing workloads.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ DevOps and Site Reliability Engineering combine software development and IT oper
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about container orchestration. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Container Orchestration
+## Lesson 1: Introduction to Container Orchestration
 
-### What you will learn
+### What this lesson covers
 
-- What Deployments means and why it matters.
-- How Services fits into the wider picture.
-- A small way to practise the idea today.
+Container Orchestration teaches students how to manage containerized applications across multiple machines.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Deployments and Services so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of container orchestration, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Container Orchestration is and why it belongs to DevOps and Site Reliability Engineering.
 
-Deployments sets the scene for everything else in container orchestration. Once you can describe it in your own words, you have a reliable starting point for later lessons. Services builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ DevOps and Site Reliability Engineering combine software development and IT operations to deliver applications reliably and efficiently. Students learn automation, continuous delivery, infrastructure management, monitoring, incident response, and collaborative practices that help teams deploy changes safely and maintain dependable services.
 
-Create a one-page reference sheet. On one side list Deployments; on the other, write one sentence explaining Services in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Container Orchestration, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Deployments, and why does it matter in container orchestration?
-2. How are Deployments and Services connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Container Orchestration?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Container Orchestration matter within the DevOps and Site Reliability Engineering area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Deployments
 
-### What you will learn
+### What this lesson covers
 
-- What Scheduling means and why it matters.
-- How Scaling fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at deployments and the part it plays in container orchestration.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Scheduling and Scaling and shows how they fit into a working container orchestration process.
+"Deployments" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
 
-Scheduling and Scaling are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with deployments makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of container orchestration you have seen (in a tutorial, a product, or the news). Identify where Scheduling appears and where Scaling matters. Write two or three sentences connecting them.
+Write a short definition of deployments in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where deployments appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Scheduling, and why does it matter in container orchestration?
-2. How are Scheduling and Scaling connected?
-3. What is one practical situation where this lesson would help you?
+1. What is deployments, and why does it matter in container orchestration?
+2. Give one example of deployments in a real devops and site reliability engineering task.
+3. Which other topic in this course does deployments connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Services
 
-### What you will learn
+### What this lesson covers
 
-- What Health checks means and why it matters.
-- How Configuration fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at services and the part it plays in container orchestration.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Health checks and Configuration and how they shape the tools and steps you will use when working on container orchestration.
+"Services" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Health checks and Configuration helps you decide what to do first, what to check, and what to leave for a later pass when you are working on container orchestration.
+Getting comfortable with services makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small container orchestration task. Mark on your sketch where Health checks and Configuration appear and why the order matters.
+Write a short definition of services in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where services appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Health checks, and why does it matter in container orchestration?
-2. How are Health checks and Configuration connected?
-3. What is one practical situation where this lesson would help you?
+1. What is services, and why does it matter in container orchestration?
+2. Give one example of services in a real devops and site reliability engineering task.
+3. Which other topic in this course does services connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Scheduling
 
-### What you will learn
+### What this lesson covers
 
-- What Workload recovery means and why it matters.
-- How Deployments fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at scheduling and the part it plays in container orchestration.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Workload recovery and Deployments to show how the concepts behave when you actually put them to work.
+"Scheduling" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with scheduling makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Workload recovery.
+Write a short definition of scheduling in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where scheduling appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Workload recovery, and why does it matter in container orchestration?
-2. How are Workload recovery and Deployments connected?
-3. What is one practical situation where this lesson would help you?
+1. What is scheduling, and why does it matter in container orchestration?
+2. Give one example of scheduling in a real devops and site reliability engineering task.
+3. Which other topic in this course does scheduling connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Scaling
 
-### What you will learn
+### What this lesson covers
 
-- What Orchestration platforms such as kubernetes means and why it matters.
-- How Practise deploying a sample application fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at scaling and the part it plays in container orchestration.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers Orchestration platforms such as kubernetes and Practise deploying a sample application and gives you a calm, repeatable way to find and fix problems.
+"Scaling" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
 
-Problems in container orchestration usually have recognisable patterns. Learning Orchestration platforms such as kubernetes and Practise deploying a sample application helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with scaling makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of scaling in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where scaling appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Orchestration platforms such as kubernetes, and why does it matter in container orchestration?
-2. How are Orchestration platforms such as kubernetes and Practise deploying a sample application connected?
-3. What is one practical situation where this lesson would help you?
+1. What is scaling, and why does it matter in container orchestration?
+2. Give one example of scaling in a real devops and site reliability engineering task.
+3. Which other topic in this course does scaling connect to, and how?
 
-## Lesson 6: Bringing Container Orchestration Together
+## Lesson 6: Health Checks
 
-### What you will learn
+### What this lesson covers
 
-- What Manage changing workloads means and why it matters.
-- How Services fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at health checks and the part it plays in container orchestration.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Manage changing workloads and Services and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Health Checks" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Manage changing workloads and Services show how the parts of Container Orchestration support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with health checks makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of health checks in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where health checks appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Manage changing workloads, and why does it matter in container orchestration?
-2. How are Manage changing workloads and Services connected?
-3. What is one practical situation where this lesson would help you?
+1. What is health checks, and why does it matter in container orchestration?
+2. Give one example of health checks in a real devops and site reliability engineering task.
+3. Which other topic in this course does health checks connect to, and how?
 
-## Summary
+## Lesson 7: Configuration
 
-You have covered the foundations of container orchestration, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at configuration and the part it plays in container orchestration.
+
+### Explanation
+
+"Configuration" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with configuration makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of configuration in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where configuration appears and why it matters.
+
+### Review questions
+
+1. What is configuration, and why does it matter in container orchestration?
+2. Give one example of configuration in a real devops and site reliability engineering task.
+3. Which other topic in this course does configuration connect to, and how?
+
+## Lesson 8: Workload Recovery
+
+### What this lesson covers
+
+A closer look at workload recovery and the part it plays in container orchestration.
+
+### Explanation
+
+"Workload Recovery" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with workload recovery makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of workload recovery in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where workload recovery appears and why it matters.
+
+### Review questions
+
+1. What is workload recovery, and why does it matter in container orchestration?
+2. Give one example of workload recovery in a real devops and site reliability engineering task.
+3. Which other topic in this course does workload recovery connect to, and how?
+
+## Lesson 9: Orchestration Platforms Such as Kubernetes
+
+### What this lesson covers
+
+A closer look at orchestration platforms such as kubernetes and the part it plays in container orchestration.
+
+### Explanation
+
+"Orchestration Platforms Such as Kubernetes" is one of the building blocks of Container Orchestration. You will recognise it whenever you work on a container orchestration task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with orchestration platforms such as kubernetes makes the rest of the DevOps and Site Reliability Engineering material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of orchestration platforms such as kubernetes in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where orchestration platforms such as kubernetes appears and why it matters.
+
+### Review questions
+
+1. What is orchestration platforms such as kubernetes, and why does it matter in container orchestration?
+2. Give one example of orchestration platforms such as kubernetes in a real devops and site reliability engineering task.
+3. Which other topic in this course does orchestration platforms such as kubernetes connect to, and how?
+
+## Lesson 10: Container Orchestration: Putting It into Practice
+
+### What this lesson covers
+
+Students explore orchestration platforms such as Kubernetes and practise deploying a sample application, helping them understand how automated systems maintain application availability and manage changing workloads.
+
+### Explanation
+
+This final lesson brings Container Orchestration together. You have looked at deployments, services, scheduling, scaling, health checks, configuration, workload recovery, orchestration platforms such as kubernetes and seen how they relate. Individually they are manageable; together they describe how container orchestration work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of container orchestration, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on container orchestration and compare it with what you learned here.
-- Explore a related course in the DevOps and Site Reliability Engineering area to widen your skills.
+- Explore a related course in the DevOps and Site Reliability Engineering area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in container orchestration look like for you?

@@ -4,7 +4,7 @@ _Computer Science · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Theory of Computation is part of the Computer Science area. Theory of Computation explores the mathematical foundations of computing. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Theory of Computation explores the mathematical foundations of computing. Students study formal languages, finite automata, regular expressions, grammars, computability, and computational complexity. The course explains which problems computers can solve and how resource requirements affect solutions. Exercises develop logical reasoning and help learners understand the theoretical limits of algorithms.
 
 ## Learning Objectives
 
@@ -25,157 +25,211 @@ Computer Science studies the fundamental principles behind computing systems, al
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about theory of computation. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Theory of Computation
+## Lesson 1: Introduction to Theory of Computation
 
-### What you will learn
+### What this lesson covers
 
-- What Mathematical foundations of computing means and why it matters.
-- How Formal languages fits into the wider picture.
-- A small way to practise the idea today.
+Theory of Computation explores the mathematical foundations of computing.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Mathematical foundations of computing and Formal languages so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of theory of computation, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Theory of Computation is and why it belongs to Computer Science.
 
-Mathematical foundations of computing sets the scene for everything else in theory of computation. Once you can describe it in your own words, you have a reliable starting point for later lessons. Formal languages builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Computer Science studies the fundamental principles behind computing systems, algorithms, programming, and information processing. Students learn how computers solve problems, represent data, execute instructions, and support intelligent applications, while developing analytical thinking and computational problem-solving skills.
 
-Create a one-page reference sheet. On one side list Mathematical foundations of computing; on the other, write one sentence explaining Formal languages in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Theory of Computation, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Mathematical foundations of computing, and why does it matter in theory of computation?
-2. How are Mathematical foundations of computing and Formal languages connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Theory of Computation?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Theory of Computation matter within the Computer Science area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Mathematical Foundations of Computing
 
-### What you will learn
+### What this lesson covers
 
-- What Finite automata means and why it matters.
-- How Regular expressions fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at mathematical foundations of computing and the part it plays in theory of computation.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Finite automata and Regular expressions and shows how they fit into a working theory of computation process.
+"Mathematical Foundations of Computing" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
 
-Finite automata and Regular expressions are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with mathematical foundations of computing makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of theory of computation you have seen (in a tutorial, a product, or the news). Identify where Finite automata appears and where Regular expressions matters. Write two or three sentences connecting them.
+Write a short definition of mathematical foundations of computing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where mathematical foundations of computing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Finite automata, and why does it matter in theory of computation?
-2. How are Finite automata and Regular expressions connected?
-3. What is one practical situation where this lesson would help you?
+1. What is mathematical foundations of computing, and why does it matter in theory of computation?
+2. Give one example of mathematical foundations of computing in a real computer science task.
+3. Which other topic in this course does mathematical foundations of computing connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Formal Languages
 
-### What you will learn
+### What this lesson covers
 
-- What Grammars means and why it matters.
-- How Computability fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at formal languages and the part it plays in theory of computation.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Grammars and Computability and how they shape the tools and steps you will use when working on theory of computation.
+"Formal Languages" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Grammars and Computability helps you decide what to do first, what to check, and what to leave for a later pass when you are working on theory of computation.
+Getting comfortable with formal languages makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small theory of computation task. Mark on your sketch where Grammars and Computability appear and why the order matters.
+Write a short definition of formal languages in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where formal languages appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Grammars, and why does it matter in theory of computation?
-2. How are Grammars and Computability connected?
-3. What is one practical situation where this lesson would help you?
+1. What is formal languages, and why does it matter in theory of computation?
+2. Give one example of formal languages in a real computer science task.
+3. Which other topic in this course does formal languages connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Finite Automata
 
-### What you will learn
+### What this lesson covers
 
-- What Computational complexity means and why it matters.
-- How Mathematical foundations of computing fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at finite automata and the part it plays in theory of computation.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Computational complexity and Mathematical foundations of computing to show how the concepts behave when you actually put them to work.
+"Finite Automata" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with finite automata makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Computational complexity.
+Write a short definition of finite automata in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where finite automata appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Computational complexity, and why does it matter in theory of computation?
-2. How are Computational complexity and Mathematical foundations of computing connected?
-3. What is one practical situation where this lesson would help you?
+1. What is finite automata, and why does it matter in theory of computation?
+2. Give one example of finite automata in a real computer science task.
+3. Which other topic in this course does finite automata connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Regular Expressions
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at regular expressions and the part it plays in theory of computation.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Regular Expressions" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
 
-Problems in theory of computation usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with regular expressions makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of regular expressions in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where regular expressions appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in theory of computation?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is regular expressions, and why does it matter in theory of computation?
+2. Give one example of regular expressions in a real computer science task.
+3. Which other topic in this course does regular expressions connect to, and how?
 
-## Lesson 6: Bringing Theory of Computation Together
+## Lesson 6: Grammars
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Formal languages fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at grammars and the part it plays in theory of computation.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Formal languages and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Grammars" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Formal languages show how the parts of Theory of Computation support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with grammars makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of grammars in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where grammars appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in theory of computation?
-2. How are The main tool and Formal languages connected?
-3. What is one practical situation where this lesson would help you?
+1. What is grammars, and why does it matter in theory of computation?
+2. Give one example of grammars in a real computer science task.
+3. Which other topic in this course does grammars connect to, and how?
 
-## Summary
+## Lesson 7: Computability
 
-You have covered the foundations of theory of computation, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at computability and the part it plays in theory of computation.
+
+### Explanation
+
+"Computability" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with computability makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of computability in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where computability appears and why it matters.
+
+### Review questions
+
+1. What is computability, and why does it matter in theory of computation?
+2. Give one example of computability in a real computer science task.
+3. Which other topic in this course does computability connect to, and how?
+
+## Lesson 8: Computational Complexity
+
+### What this lesson covers
+
+A closer look at computational complexity and the part it plays in theory of computation.
+
+### Explanation
+
+"Computational Complexity" is one of the building blocks of Theory of Computation. You will recognise it whenever you work on a theory of computation task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with computational complexity makes the rest of the Computer Science material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of computational complexity in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where computational complexity appears and why it matters.
+
+### Review questions
+
+1. What is computational complexity, and why does it matter in theory of computation?
+2. Give one example of computational complexity in a real computer science task.
+3. Which other topic in this course does computational complexity connect to, and how?
+
+## Lesson 9: Theory of Computation: Putting It into Practice
+
+### What this lesson covers
+
+Exercises develop logical reasoning and help learners understand the theoretical limits of algorithms.
+
+### Explanation
+
+This final lesson brings Theory of Computation together. You have looked at mathematical foundations of computing, formal languages, finite automata, regular expressions, grammars, computability, computational complexity and seen how they relate. Individually they are manageable; together they describe how theory of computation work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of theory of computation, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on theory of computation and compare it with what you learned here.
-- Explore a related course in the Computer Science area to widen your skills.
+- Explore a related course in the Computer Science area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in theory of computation look like for you?

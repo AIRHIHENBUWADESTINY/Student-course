@@ -4,7 +4,7 @@ _Data Science and Analytics · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Data Warehousing is part of the Data Science and Analytics area. Data Warehousing teaches students how to organize integrated data for reporting and analysis. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Data Warehousing teaches students how to organize integrated data for reporting and analysis. Topics include warehouse architecture, fact and dimension tables, star schemas, data transformation, and refresh strategies. Students design simple analytical data models and load information from operational sources, learning how consistent structures support reporting, historical comparisons, and business intelligence.
 
 ## Learning Objectives
 
@@ -25,157 +25,233 @@ Data Science and Analytics focuses on collecting, preparing, analysing, and inte
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about data warehousing. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Data Warehousing
+## Lesson 1: Introduction to Data Warehousing
 
-### What you will learn
+### What this lesson covers
 
-- What Warehouse architecture means and why it matters.
-- How Fact fits into the wider picture.
-- A small way to practise the idea today.
+Data Warehousing teaches students how to organize integrated data for reporting and analysis.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Warehouse architecture and Fact so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of data warehousing, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Data Warehousing is and why it belongs to Data Science and Analytics.
 
-Warehouse architecture sets the scene for everything else in data warehousing. Once you can describe it in your own words, you have a reliable starting point for later lessons. Fact builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Data Science and Analytics focuses on collecting, preparing, analysing, and interpreting data to support decisions. Students learn statistical reasoning, programming, data visualization, data management, and analytical methods for discovering patterns, evaluating performance, and communicating useful findings to different audiences.
 
-Create a one-page reference sheet. On one side list Warehouse architecture; on the other, write one sentence explaining Fact in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Data Warehousing, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Warehouse architecture, and why does it matter in data warehousing?
-2. How are Warehouse architecture and Fact connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Data Warehousing?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Data Warehousing matter within the Data Science and Analytics area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Warehouse Architecture
 
-### What you will learn
+### What this lesson covers
 
-- What Dimension tables means and why it matters.
-- How Star schemas fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at warehouse architecture and the part it plays in data warehousing.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Dimension tables and Star schemas and shows how they fit into a working data warehousing process.
+"Warehouse Architecture" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
 
-Dimension tables and Star schemas are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with warehouse architecture makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of data warehousing you have seen (in a tutorial, a product, or the news). Identify where Dimension tables appears and where Star schemas matters. Write two or three sentences connecting them.
+Write a short definition of warehouse architecture in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where warehouse architecture appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Dimension tables, and why does it matter in data warehousing?
-2. How are Dimension tables and Star schemas connected?
-3. What is one practical situation where this lesson would help you?
+1. What is warehouse architecture, and why does it matter in data warehousing?
+2. Give one example of warehouse architecture in a real data science and analytics task.
+3. Which other topic in this course does warehouse architecture connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Fact
 
-### What you will learn
+### What this lesson covers
 
-- What Data transformation means and why it matters.
-- How Refresh strategies fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at fact and the part it plays in data warehousing.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Data transformation and Refresh strategies and how they shape the tools and steps you will use when working on data warehousing.
+"Fact" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Data transformation and Refresh strategies helps you decide what to do first, what to check, and what to leave for a later pass when you are working on data warehousing.
+Getting comfortable with fact makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small data warehousing task. Mark on your sketch where Data transformation and Refresh strategies appear and why the order matters.
+Write a short definition of fact in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where fact appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Data transformation, and why does it matter in data warehousing?
-2. How are Data transformation and Refresh strategies connected?
-3. What is one practical situation where this lesson would help you?
+1. What is fact, and why does it matter in data warehousing?
+2. Give one example of fact in a real data science and analytics task.
+3. Which other topic in this course does fact connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Dimension Tables
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Warehouse architecture fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at dimension tables and the part it plays in data warehousing.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Warehouse architecture to show how the concepts behave when you actually put them to work.
+"Dimension Tables" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with dimension tables makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of dimension tables in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where dimension tables appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in data warehousing?
-2. How are The core idea and Warehouse architecture connected?
-3. What is one practical situation where this lesson would help you?
+1. What is dimension tables, and why does it matter in data warehousing?
+2. Give one example of dimension tables in a real data science and analytics task.
+3. Which other topic in this course does dimension tables connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Star Schemas
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at star schemas and the part it plays in data warehousing.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Star Schemas" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
 
-Problems in data warehousing usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with star schemas makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of star schemas in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where star schemas appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in data warehousing?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is star schemas, and why does it matter in data warehousing?
+2. Give one example of star schemas in a real data science and analytics task.
+3. Which other topic in this course does star schemas connect to, and how?
 
-## Lesson 6: Bringing Data Warehousing Together
+## Lesson 6: Data Transformation
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Fact fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at data transformation and the part it plays in data warehousing.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Fact and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Data Transformation" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Fact show how the parts of Data Warehousing support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with data transformation makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of data transformation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where data transformation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in data warehousing?
-2. How are Quality and accuracy and Fact connected?
-3. What is one practical situation where this lesson would help you?
+1. What is data transformation, and why does it matter in data warehousing?
+2. Give one example of data transformation in a real data science and analytics task.
+3. Which other topic in this course does data transformation connect to, and how?
 
-## Summary
+## Lesson 7: Refresh Strategies
 
-You have covered the foundations of data warehousing, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at refresh strategies and the part it plays in data warehousing.
+
+### Explanation
+
+"Refresh Strategies" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with refresh strategies makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of refresh strategies in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where refresh strategies appears and why it matters.
+
+### Review questions
+
+1. What is refresh strategies, and why does it matter in data warehousing?
+2. Give one example of refresh strategies in a real data science and analytics task.
+3. Which other topic in this course does refresh strategies connect to, and how?
+
+## Lesson 8: Consistent Structures Support Reporting
+
+### What this lesson covers
+
+A closer look at consistent structures support reporting and the part it plays in data warehousing.
+
+### Explanation
+
+"Consistent Structures Support Reporting" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with consistent structures support reporting makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of consistent structures support reporting in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where consistent structures support reporting appears and why it matters.
+
+### Review questions
+
+1. What is consistent structures support reporting, and why does it matter in data warehousing?
+2. Give one example of consistent structures support reporting in a real data science and analytics task.
+3. Which other topic in this course does consistent structures support reporting connect to, and how?
+
+## Lesson 9: Historical Comparisons
+
+### What this lesson covers
+
+A closer look at historical comparisons and the part it plays in data warehousing.
+
+### Explanation
+
+"Historical Comparisons" is one of the building blocks of Data Warehousing. You will recognise it whenever you work on a data warehousing task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with historical comparisons makes the rest of the Data Science and Analytics material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of historical comparisons in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where historical comparisons appears and why it matters.
+
+### Review questions
+
+1. What is historical comparisons, and why does it matter in data warehousing?
+2. Give one example of historical comparisons in a real data science and analytics task.
+3. Which other topic in this course does historical comparisons connect to, and how?
+
+## Lesson 10: Data Warehousing: Putting It into Practice
+
+### What this lesson covers
+
+Students design simple analytical data models and load information from operational sources, learning how consistent structures support reporting, historical comparisons, and business intelligence.
+
+### Explanation
+
+This final lesson brings Data Warehousing together. You have looked at warehouse architecture, fact, dimension tables, star schemas, data transformation, refresh strategies, consistent structures support reporting, historical comparisons and seen how they relate. Individually they are manageable; together they describe how data warehousing work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of data warehousing, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on data warehousing and compare it with what you learned here.
-- Explore a related course in the Data Science and Analytics area to widen your skills.
+- Explore a related course in the Data Science and Analytics area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in data warehousing look like for you?

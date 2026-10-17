@@ -11,7 +11,14 @@ export async function GET(request: Request) {
   try {
     const auth = await getAuthContext(request);
     const supabase = auth?.supabase ?? createSupabaseClient();
-    return NextResponse.json(await listCourses(supabase));
+    const courses = await listCourses(supabase);
+    // Lesson bodies are only served through the registration-gated lessons and
+    // materials endpoints, never with the course catalogue.
+    const payload = courses.map((course) => ({
+      ...course,
+      lessons: course.lessons.map((lesson) => ({ ...lesson, content: [] })),
+    }));
+    return NextResponse.json(payload);
   } catch (cause) {
     return serverError(cause, "Failed to load courses");
   }

@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { CheckCircle2, SearchX } from "lucide-react";
 import { useProgress } from "@/components/providers/ProgressProvider";
+import { useRegistration } from "@/components/providers/RegistrationProvider";
 import LessonItem from "@/components/dashboard/LessonItem";
 import SearchInput from "@/components/ui/SearchInput";
 import EmptyState from "@/components/ui/EmptyState";
@@ -11,11 +12,18 @@ import { buttonClasses } from "@/components/ui/Button";
 import { getCompletedEntries } from "@/lib/progress";
 
 export default function CompletedPage() {
-  const { progress, courses, lessons } = useProgress();
+  const { progress, courses, lessons, profile } = useProgress();
+  const reg = useRegistration();
   const [query, setQuery] = useState("");
   const entries = useMemo(
-    () => getCompletedEntries(lessons, courses, progress),
-    [lessons, courses, progress]
+    () =>
+      getCompletedEntries(lessons, courses, progress).filter(
+        (entry) =>
+          reg.isRegistered(entry.course.id) ||
+          Boolean(entry.course.ownerId) ||
+          profile.role === "admin"
+      ),
+    [lessons, courses, progress, reg, profile.role]
   );
 
   const filtered = useMemo(() => {

@@ -49,7 +49,7 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
   const { toast } = useToast();
   const [portal, setPortal] = useState<PortalSettings | null>(null);
   const [semester, setSemester] = useState<Semester>(DEFAULT_SEMESTER);
-  const [registrations, setRegistrations] = useState<Registration[]>([]);
+  const [allRegistrations, setAllRegistrations] = useState<Registration[]>([]);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [reloadKey, setReloadKey] = useState(0);
@@ -64,13 +64,10 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
     (async () => {
       try {
         const portalSettings = await portalApi.get();
-        const list = await registrationsApi.list({
-          session: portalSettings.session,
-          semester,
-        });
+        const list = await registrationsApi.list();
         if (cancelled) return;
         setPortal(portalSettings);
-        setRegistrations(list);
+        setAllRegistrations(list);
       } catch (cause) {
         if (cancelled) return;
         setError(
@@ -86,13 +83,28 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
     };
-  }, [reloadKey, semester]);
+  }, [reloadKey]);
 
   const reload = useCallback(() => setReloadKey((value) => value + 1), []);
 
+  // Keep every registration the student has made (across sessions/semesters) so
+  // course access stays stable — the server grants content for any registration.
+  // The `registrations` list below is scoped to the active session/semester and
+  // is what the registration UI displays.
+  const registrations = useMemo(
+    () =>
+      allRegistrations.filter(
+        (item) =>
+          item.semester === semester &&
+          (!portal?.session || item.session === portal.session)
+      ),
+    [allRegistrations, semester, portal]
+  );
+
   const isRegistered = useCallback(
-    (courseId: string) => registrations.some((item) => item.courseId === courseId),
-    [registrations]
+    (courseId: string) =>
+      allRegistrations.some((item) => item.courseId === courseId),
+    [allRegistrations]
   );
 
   const register = useCallback(
@@ -102,9 +114,14 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
         session: active.session,
         semester,
       });
-      setRegistrations((current) => {
-        if (current.some((item) => item.courseId === courseId)) return current;
-        return [...current, registration];
+      setAllRegistrations((current) => {
+        const exists = current.some(
+          (item) =>
+            item.courseId === courseId &&
+            item.session === registration.session &&
+            item.semester === registration.semester
+        );
+        return exists ? current : [...current, registration];
       });
       toast("Course added to your registration");
     },
@@ -118,8 +135,15 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
         session: active.session,
         semester,
       });
-      setRegistrations((current) =>
-        current.filter((item) => item.courseId !== courseId)
+      setAllRegistrations((current) =>
+        current.filter(
+          (item) =>
+            !(
+              item.courseId === courseId &&
+              item.session === active.session &&
+              item.semester === semester
+            )
+        )
       );
       toast("Course removed from your registration", "info");
     },
@@ -132,7 +156,13 @@ export function RegistrationProvider({ children }: { children: ReactNode }) {
       session: active.session,
       semester,
     });
-    setRegistrations(list);
+    setAllRegistrations((current) => [
+      ...current.filter(
+        (item) =>
+          !(item.session === active.session && item.semester === semester)
+      ),
+      ...list,
+    ]);
     toast("Registration submitted successfully");
   }, [portal, semester, toast]);
 

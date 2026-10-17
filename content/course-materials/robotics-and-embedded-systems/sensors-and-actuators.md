@@ -4,7 +4,7 @@ _Robotics and Embedded Systems · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Sensors and Actuators is part of the Robotics and Embedded Systems area. Sensors and Actuators teaches students how electronic systems detect physical conditions and produce actions. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Sensors and Actuators teaches students how electronic systems detect physical conditions and produce actions. Topics include temperature, pressure, light, motion, and distance sensors, along with motors and other actuators. Practical activities connect components to controllers and interpret their signals, helping learners calibrate devices and build systems that respond to environmental changes.
 
 ## Learning Objectives
 
@@ -25,157 +25,211 @@ Robotics and Embedded Systems combines computing, electronics, sensing, and cont
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about sensors and actuators. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Sensors and Actuators
+## Lesson 1: Introduction to Sensors and Actuators
 
-### What you will learn
+### What this lesson covers
 
-- What Temperature means and why it matters.
-- How Pressure fits into the wider picture.
-- A small way to practise the idea today.
+Sensors and Actuators teaches students how electronic systems detect physical conditions and produce actions.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Temperature and Pressure so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of sensors and actuators, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Sensors and Actuators is and why it belongs to Robotics and Embedded Systems.
 
-Temperature sets the scene for everything else in sensors and actuators. Once you can describe it in your own words, you have a reliable starting point for later lessons. Pressure builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Robotics and Embedded Systems combines computing, electronics, sensing, and control to create devices that interact with the physical world. Students learn microcontrollers, embedded software, automation, sensors, and intelligent control for applications in industry, healthcare, transport, and consumer technology.
 
-Create a one-page reference sheet. On one side list Temperature; on the other, write one sentence explaining Pressure in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Sensors and Actuators, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Temperature, and why does it matter in sensors and actuators?
-2. How are Temperature and Pressure connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Sensors and Actuators?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Sensors and Actuators matter within the Robotics and Embedded Systems area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Temperature
 
-### What you will learn
+### What this lesson covers
 
-- What Light means and why it matters.
-- How Motion fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at temperature and the part it plays in sensors and actuators.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Light and Motion and shows how they fit into a working sensors and actuators process.
+"Temperature" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
 
-Light and Motion are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with temperature makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of sensors and actuators you have seen (in a tutorial, a product, or the news). Identify where Light appears and where Motion matters. Write two or three sentences connecting them.
+Write a short definition of temperature in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where temperature appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Light, and why does it matter in sensors and actuators?
-2. How are Light and Motion connected?
-3. What is one practical situation where this lesson would help you?
+1. What is temperature, and why does it matter in sensors and actuators?
+2. Give one example of temperature in a real robotics and embedded systems task.
+3. Which other topic in this course does temperature connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Pressure
 
-### What you will learn
+### What this lesson covers
 
-- What Distance sensors means and why it matters.
-- How Along with motors fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at pressure and the part it plays in sensors and actuators.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Distance sensors and Along with motors and how they shape the tools and steps you will use when working on sensors and actuators.
+"Pressure" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Distance sensors and Along with motors helps you decide what to do first, what to check, and what to leave for a later pass when you are working on sensors and actuators.
+Getting comfortable with pressure makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small sensors and actuators task. Mark on your sketch where Distance sensors and Along with motors appear and why the order matters.
+Write a short definition of pressure in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where pressure appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Distance sensors, and why does it matter in sensors and actuators?
-2. How are Distance sensors and Along with motors connected?
-3. What is one practical situation where this lesson would help you?
+1. What is pressure, and why does it matter in sensors and actuators?
+2. Give one example of pressure in a real robotics and embedded systems task.
+3. Which other topic in this course does pressure connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Light
 
-### What you will learn
+### What this lesson covers
 
-- What Other actuators means and why it matters.
-- How Temperature fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at light and the part it plays in sensors and actuators.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use Other actuators and Temperature to show how the concepts behave when you actually put them to work.
+"Light" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with light makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using Other actuators.
+Write a short definition of light in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where light appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Other actuators, and why does it matter in sensors and actuators?
-2. How are Other actuators and Temperature connected?
-3. What is one practical situation where this lesson would help you?
+1. What is light, and why does it matter in sensors and actuators?
+2. Give one example of light in a real robotics and embedded systems task.
+3. Which other topic in this course does light connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Motion
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How The typical workflow fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at motion and the part it plays in sensors and actuators.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The core idea and The typical workflow and gives you a calm, repeatable way to find and fix problems.
+"Motion" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
 
-Problems in sensors and actuators usually have recognisable patterns. Learning The core idea and The typical workflow helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with motion makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of motion in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where motion appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in sensors and actuators?
-2. How are The core idea and The typical workflow connected?
-3. What is one practical situation where this lesson would help you?
+1. What is motion, and why does it matter in sensors and actuators?
+2. Give one example of motion in a real robotics and embedded systems task.
+3. Which other topic in this course does motion connect to, and how?
 
-## Lesson 6: Bringing Sensors and Actuators Together
+## Lesson 6: Distance Sensors
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Pressure fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at distance sensors and the part it plays in sensors and actuators.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The main tool and Pressure and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Distance Sensors" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The main tool and Pressure show how the parts of Sensors and Actuators support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with distance sensors makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of distance sensors in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where distance sensors appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in sensors and actuators?
-2. How are The main tool and Pressure connected?
-3. What is one practical situation where this lesson would help you?
+1. What is distance sensors, and why does it matter in sensors and actuators?
+2. Give one example of distance sensors in a real robotics and embedded systems task.
+3. Which other topic in this course does distance sensors connect to, and how?
 
-## Summary
+## Lesson 7: Along with Motors
 
-You have covered the foundations of sensors and actuators, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at along with motors and the part it plays in sensors and actuators.
+
+### Explanation
+
+"Along with Motors" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with along with motors makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of along with motors in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where along with motors appears and why it matters.
+
+### Review questions
+
+1. What is along with motors, and why does it matter in sensors and actuators?
+2. Give one example of along with motors in a real robotics and embedded systems task.
+3. Which other topic in this course does along with motors connect to, and how?
+
+## Lesson 8: Actuators
+
+### What this lesson covers
+
+A closer look at actuators and the part it plays in sensors and actuators.
+
+### Explanation
+
+"Actuators" is one of the building blocks of Sensors and Actuators. You will recognise it whenever you work on a sensors and actuators task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with actuators makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of actuators in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where actuators appears and why it matters.
+
+### Review questions
+
+1. What is actuators, and why does it matter in sensors and actuators?
+2. Give one example of actuators in a real robotics and embedded systems task.
+3. Which other topic in this course does actuators connect to, and how?
+
+## Lesson 9: Sensors and Actuators: Putting It into Practice
+
+### What this lesson covers
+
+Practical activities connect components to controllers and interpret their signals, helping learners calibrate devices and build systems that respond to environmental changes.
+
+### Explanation
+
+This final lesson brings Sensors and Actuators together. You have looked at temperature, pressure, light, motion, distance sensors, along with motors, actuators and seen how they relate. Individually they are manageable; together they describe how sensors and actuators work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of sensors and actuators, its key terms, and the core topics (7), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on sensors and actuators and compare it with what you learned here.
-- Explore a related course in the Robotics and Embedded Systems area to widen your skills.
+- Explore a related course in the Robotics and Embedded Systems area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in sensors and actuators look like for you?

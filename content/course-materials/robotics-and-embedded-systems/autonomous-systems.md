@@ -4,7 +4,7 @@ _Robotics and Embedded Systems · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Autonomous Systems is part of the Robotics and Embedded Systems area. Autonomous Systems examines how machines operate with limited human intervention. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Autonomous Systems examines technologies that allow machines to perceive conditions and perform tasks with limited direct human control. Students study sensing, decision-making, localization, path planning, and system evaluation. Projects may use simulation to explore autonomous vehicles or mobile robots, while discussing uncertainty, safety constraints, reliability, and appropriate human oversight.
 
 ## Learning Objectives
 
@@ -12,10 +12,10 @@ By the end of this course you should be able to:
 
 - Explain the main ideas that make up autonomous systems.
 - Describe sensing and how it is used.
-- Describe perception and how it is used.
 - Describe decision-making and how it is used.
+- Describe localization and how it is used.
 - Describe path planning and how it is used.
-- Describe navigation and how it is used.
+- Describe system evaluation and how it is used.
 - Apply the concepts to a small, realistic task.
 - Recognise common mistakes and know how to avoid them.
 
@@ -25,157 +25,233 @@ Robotics and Embedded Systems combines computing, electronics, sensing, and cont
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about autonomous systems. Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Autonomous Systems
+## Lesson 1: Introduction to Autonomous Systems
 
-### What you will learn
+### What this lesson covers
 
-- What Sensing means and why it matters.
-- How Perception fits into the wider picture.
-- A small way to practise the idea today.
+Autonomous Systems examines technologies that allow machines to perceive conditions and perform tasks with limited direct human control.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Sensing and Perception so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of autonomous systems, and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Autonomous Systems is and why it belongs to Robotics and Embedded Systems.
 
-Sensing sets the scene for everything else in autonomous systems. Once you can describe it in your own words, you have a reliable starting point for later lessons. Perception builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Robotics and Embedded Systems combines computing, electronics, sensing, and control to create devices that interact with the physical world. Students learn microcontrollers, embedded software, automation, sensors, and intelligent control for applications in industry, healthcare, transport, and consumer technology.
 
-Create a one-page reference sheet. On one side list Sensing; on the other, write one sentence explaining Perception in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Autonomous Systems, and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Sensing, and why does it matter in autonomous systems?
-2. How are Sensing and Perception connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Autonomous Systems?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Autonomous Systems matter within the Robotics and Embedded Systems area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Sensing
 
-### What you will learn
+### What this lesson covers
 
-- What Decision-making means and why it matters.
-- How Path planning fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at sensing and the part it plays in autonomous systems.
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Decision-making and Path planning and shows how they fit into a working autonomous systems process.
+"Sensing" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
 
-Decision-making and Path planning are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with sensing makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of autonomous systems you have seen (in a tutorial, a product, or the news). Identify where Decision-making appears and where Path planning matters. Write two or three sentences connecting them.
+Write a short definition of sensing in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where sensing appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Decision-making, and why does it matter in autonomous systems?
-2. How are Decision-making and Path planning connected?
-3. What is one practical situation where this lesson would help you?
+1. What is sensing, and why does it matter in autonomous systems?
+2. Give one example of sensing in a real robotics and embedded systems task.
+3. Which other topic in this course does sensing connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Decision-making
 
-### What you will learn
+### What this lesson covers
 
-- What Navigation means and why it matters.
-- How The core idea fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at decision-making and the part it plays in autonomous systems.
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Navigation and The core idea and how they shape the tools and steps you will use when working on autonomous systems.
+"Decision-making" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Navigation and The core idea helps you decide what to do first, what to check, and what to leave for a later pass when you are working on autonomous systems.
+Getting comfortable with decision-making makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small autonomous systems task. Mark on your sketch where Navigation and The core idea appear and why the order matters.
+Write a short definition of decision-making in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where decision-making appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Navigation, and why does it matter in autonomous systems?
-2. How are Navigation and The core idea connected?
-3. What is one practical situation where this lesson would help you?
+1. What is decision-making, and why does it matter in autonomous systems?
+2. Give one example of decision-making in a real robotics and embedded systems task.
+3. Which other topic in this course does decision-making connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Localization
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How Sensing fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at localization and the part it plays in autonomous systems.
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The typical workflow and Sensing to show how the concepts behave when you actually put them to work.
+"Localization" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with localization makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The typical workflow.
+Write a short definition of localization in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where localization appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in autonomous systems?
-2. How are The typical workflow and Sensing connected?
-3. What is one practical situation where this lesson would help you?
+1. What is localization, and why does it matter in autonomous systems?
+2. Give one example of localization in a real robotics and embedded systems task.
+3. Which other topic in this course does localization connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Path Planning
 
-### What you will learn
+### What this lesson covers
 
-- What The main tool means and why it matters.
-- How Quality and accuracy fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at path planning and the part it plays in autonomous systems.
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The main tool and Quality and accuracy and gives you a calm, repeatable way to find and fix problems.
+"Path Planning" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
 
-Problems in autonomous systems usually have recognisable patterns. Learning The main tool and Quality and accuracy helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with path planning makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of path planning in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where path planning appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The main tool, and why does it matter in autonomous systems?
-2. How are The main tool and Quality and accuracy connected?
-3. What is one practical situation where this lesson would help you?
+1. What is path planning, and why does it matter in autonomous systems?
+2. Give one example of path planning in a real robotics and embedded systems task.
+3. Which other topic in this course does path planning connect to, and how?
 
-## Lesson 6: Bringing Autonomous Systems Together
+## Lesson 6: System Evaluation
 
-### What you will learn
+### What this lesson covers
 
-- What The common mistake means and why it matters.
-- How Perception fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at system evaluation and the part it plays in autonomous systems.
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit The common mistake and Perception and connect the earlier lessons into one picture so you can continue learning with confidence.
+"System Evaluation" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
 
-Taken together, The common mistake and Perception show how the parts of Autonomous Systems support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with system evaluation makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of system evaluation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where system evaluation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The common mistake, and why does it matter in autonomous systems?
-2. How are The common mistake and Perception connected?
-3. What is one practical situation where this lesson would help you?
+1. What is system evaluation, and why does it matter in autonomous systems?
+2. Give one example of system evaluation in a real robotics and embedded systems task.
+3. Which other topic in this course does system evaluation connect to, and how?
 
-## Summary
+## Lesson 7: Autonomous Vehicles or Mobile Robots
 
-You have covered the foundations of autonomous systems, the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at autonomous vehicles or mobile robots and the part it plays in autonomous systems.
+
+### Explanation
+
+"Autonomous Vehicles or Mobile Robots" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with autonomous vehicles or mobile robots makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of autonomous vehicles or mobile robots in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where autonomous vehicles or mobile robots appears and why it matters.
+
+### Review questions
+
+1. What is autonomous vehicles or mobile robots, and why does it matter in autonomous systems?
+2. Give one example of autonomous vehicles or mobile robots in a real robotics and embedded systems task.
+3. Which other topic in this course does autonomous vehicles or mobile robots connect to, and how?
+
+## Lesson 8: While Discussing Uncertainty
+
+### What this lesson covers
+
+A closer look at while discussing uncertainty and the part it plays in autonomous systems.
+
+### Explanation
+
+"While Discussing Uncertainty" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with while discussing uncertainty makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of while discussing uncertainty in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where while discussing uncertainty appears and why it matters.
+
+### Review questions
+
+1. What is while discussing uncertainty, and why does it matter in autonomous systems?
+2. Give one example of while discussing uncertainty in a real robotics and embedded systems task.
+3. Which other topic in this course does while discussing uncertainty connect to, and how?
+
+## Lesson 9: Safety Constraints
+
+### What this lesson covers
+
+A closer look at safety constraints and the part it plays in autonomous systems.
+
+### Explanation
+
+"Safety Constraints" is one of the building blocks of Autonomous Systems. You will recognise it whenever you work on a autonomous systems task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with safety constraints makes the rest of the Robotics and Embedded Systems material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of safety constraints in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where safety constraints appears and why it matters.
+
+### Review questions
+
+1. What is safety constraints, and why does it matter in autonomous systems?
+2. Give one example of safety constraints in a real robotics and embedded systems task.
+3. Which other topic in this course does safety constraints connect to, and how?
+
+## Lesson 10: Autonomous Systems: Putting It into Practice
+
+### What this lesson covers
+
+Projects may use simulation to explore autonomous vehicles or mobile robots, while discussing uncertainty, safety constraints, reliability, and appropriate human oversight.
+
+### Explanation
+
+This final lesson brings Autonomous Systems together. You have looked at sensing, decision-making, localization, path planning, system evaluation, autonomous vehicles or mobile robots, while discussing uncertainty, safety constraints and seen how they relate. Individually they are manageable; together they describe how autonomous systems work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of autonomous systems, its key terms, and the core topics (8), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on autonomous systems and compare it with what you learned here.
-- Explore a related course in the Robotics and Embedded Systems area to widen your skills.
+- Explore a related course in the Robotics and Embedded Systems area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in autonomous systems look like for you?

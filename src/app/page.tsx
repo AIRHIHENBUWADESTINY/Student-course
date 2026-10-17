@@ -392,7 +392,7 @@ export default function DashboardPage() {
                       {item.course?.category ?? "—"}
                     </td>
                     <td className="px-4 py-3 text-slate-500">
-                      {item.course?.level ?? "—"}
+                      {item.course ? "Beginner" : "—"}
                     </td>
                     <td className="px-4 py-3 text-right font-semibold text-slate-700">
                       {formatNaira(item.course?.price)}

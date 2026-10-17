@@ -5,6 +5,7 @@ import type {
   CourseInput,
   DepartmentRecord,
   Lesson,
+  LessonDetail,
   LessonStatus,
   LoginResult,
   MaterialCourseSummary,
@@ -31,7 +32,7 @@ export const coursesApi = {
 
 export const lessonsApi = {
   list: () => http.get<Lesson[]>("/lessons"),
-  get: (lessonId: string) => http.get<Lesson>(`/lessons/${lessonId}`),
+  get: (lessonId: string) => http.get<LessonDetail>(`/lessons/${lessonId}`),
   byCourse: (courseId: string) =>
     http.get<Lesson[]>(`/courses/${courseId}/lessons`),
 };

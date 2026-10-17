@@ -4,7 +4,7 @@ _Digital Media and Creative Technology · Faculty of Technology · Level 100L_
 
 ## Overview
 
-Virtual Reality (VR) is part of the Digital Media and Creative Technology area. Virtual Reality introduces computer-generated environments designed to provide immersive experiences. This self-study guide takes you from the core vocabulary through to a small practical project so you can learn at your own pace.
+Virtual Reality introduces computer-generated environments designed to provide immersive experiences. Students explore spatial interaction, scene design, tracking, navigation, interface placement, and performance requirements. Practical projects create simple virtual environments or demonstrations, while considering accessibility, comfort, privacy, hardware limitations, and appropriate applications in education, training, simulation, and entertainment.
 
 ## Learning Objectives
 
@@ -25,157 +25,189 @@ Digital Media and Creative Technology combines artistic communication with digit
 
 In this subject, the goal is not just to memorise facts but to build a reliable way of thinking about virtual reality (vr). Work through each lesson in order, try the examples, and answer the review questions before moving on. If a term is new, write a one-line definition in your own words — that habit alone will make the material stick.
 
-## Lesson 1: Foundations of Virtual Reality (VR)
+## Lesson 1: Introduction to Virtual Reality (VR)
 
-### What you will learn
+### What this lesson covers
 
-- What Spatial interaction means and why it matters.
-- How Scene design fits into the wider picture.
-- A small way to practise the idea today.
+Virtual Reality introduces computer-generated environments designed to provide immersive experiences.
 
 ### Explanation
 
-Every field has a shared language. This lesson introduces Spatial interaction and Scene design so that the rest of the course makes sense. Read each idea slowly and, if something is unfamiliar, look it up before moving on.
+This opening lesson gives you the map for the whole course. You will meet the vocabulary, the purpose of virtual reality (vr), and the way the later lessons build on one another. Aim to finish this lesson able to explain, in one or two sentences, what Virtual Reality (VR) is and why it belongs to Digital Media and Creative Technology.
 
-Spatial interaction sets the scene for everything else in virtual reality (vr). Once you can describe it in your own words, you have a reliable starting point for later lessons. Scene design builds directly on top of it and explains why the topic matters to real tasks.
+The goal is not to memorise everything at once. Read the description once for the big picture, then return to the words you could not yet define and look them up before continuing.
 
-### Practical example
+_About the area:_ Digital Media and Creative Technology combines artistic communication with digital tools used to create visual, animated, interactive, and audio content. Students learn design principles, media production, modelling, editing, and immersive technologies for education, entertainment, marketing, and digital communication.
 
-Create a one-page reference sheet. On one side list Spatial interaction; on the other, write one sentence explaining Scene design in plain language. Keep it nearby as you study.
+### Practice
+
+Write a short paragraph (three or four sentences) answering: "What is Virtual Reality (VR), and what kinds of problems does it solve?" Keep it somewhere handy so you can improve it as you read on.
 
 ### Review questions
 
-1. In your own words, what is Spatial interaction, and why does it matter in virtual reality (vr)?
-2. How are Spatial interaction and Scene design connected?
-3. What is one practical situation where this lesson would help you?
+1. In your own words, what is Virtual Reality (VR)?
+2. Which ideas in this course are already familiar, and which are new?
+3. Why does Virtual Reality (VR) matter within the Digital Media and Creative Technology area?
 
-## Lesson 2: Core Concepts and Key Terms
+## Lesson 2: Spatial Interaction
 
-### What you will learn
+### What this lesson covers
 
-- What Tracking means and why it matters.
-- How Navigation fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at spatial interaction and the part it plays in virtual reality (vr).
 
 ### Explanation
 
-Now that the vocabulary is in place, we connect the pieces. This lesson looks at Tracking and Navigation and shows how they fit into a working virtual reality (vr) process.
+"Spatial Interaction" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
 
-Tracking and Navigation are the ideas you will meet most often. Understanding how they relate — rather than memorising them in isolation — is what lets you reason about new situations instead of only repeating examples.
+Getting comfortable with spatial interaction makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Take a recent example of virtual reality (vr) you have seen (in a tutorial, a product, or the news). Identify where Tracking appears and where Navigation matters. Write two or three sentences connecting them.
+Write a short definition of spatial interaction in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where spatial interaction appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Tracking, and why does it matter in virtual reality (vr)?
-2. How are Tracking and Navigation connected?
-3. What is one practical situation where this lesson would help you?
+1. What is spatial interaction, and why does it matter in virtual reality (vr)?
+2. Give one example of spatial interaction in a real digital media and creative technology task.
+3. Which other topic in this course does spatial interaction connect to, and how?
 
-## Lesson 3: Tools, Environment, and Workflow
+## Lesson 3: Scene Design
 
-### What you will learn
+### What this lesson covers
 
-- What Interface placement means and why it matters.
-- How Performance requirements fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at scene design and the part it plays in virtual reality (vr).
 
 ### Explanation
 
-Ideas only become useful when you can apply them. Here we look at Interface placement and Performance requirements and how they shape the tools and steps you will use when working on virtual reality (vr).
+"Scene Design" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
 
-Choosing the right approach is part of the skill. Understanding Interface placement and Performance requirements helps you decide what to do first, what to check, and what to leave for a later pass when you are working on virtual reality (vr).
+Getting comfortable with scene design makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Sketch the steps you would follow to complete a small virtual reality (vr) task. Mark on your sketch where Interface placement and Performance requirements appear and why the order matters.
+Write a short definition of scene design in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where scene design appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Interface placement, and why does it matter in virtual reality (vr)?
-2. How are Interface placement and Performance requirements connected?
-3. What is one practical situation where this lesson would help you?
+1. What is scene design, and why does it matter in virtual reality (vr)?
+2. Give one example of scene design in a real digital media and creative technology task.
+3. Which other topic in this course does scene design connect to, and how?
 
-## Lesson 4: A Guided Practical Example
+## Lesson 4: Tracking
 
-### What you will learn
+### What this lesson covers
 
-- What The core idea means and why it matters.
-- How Spatial interaction fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at tracking and the part it plays in virtual reality (vr).
 
 ### Explanation
 
-This lesson walks through a small, realistic scenario from start to finish. We use The core idea and Spatial interaction to show how the concepts behave when you actually put them to work.
+"Tracking" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
 
-A worked example is the fastest way to learn. Follow the steps below and try to predict the next step before you read it. If your prediction differs, that is a useful signal about which concept needs more attention.
+Getting comfortable with tracking makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Work through a small example by hand. Change one detail — a value, a rule, or an input — and predict what will happen before you check. Explain the result using The core idea.
+Write a short definition of tracking in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where tracking appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The core idea, and why does it matter in virtual reality (vr)?
-2. How are The core idea and Spatial interaction connected?
-3. What is one practical situation where this lesson would help you?
+1. What is tracking, and why does it matter in virtual reality (vr)?
+2. Give one example of tracking in a real digital media and creative technology task.
+3. Which other topic in this course does tracking connect to, and how?
 
-## Lesson 5: Common Problems and How to Solve Them
+## Lesson 5: Navigation
 
-### What you will learn
+### What this lesson covers
 
-- What The typical workflow means and why it matters.
-- How The main tool fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at navigation and the part it plays in virtual reality (vr).
 
 ### Explanation
 
-Things rarely go perfectly the first time. This lesson covers The typical workflow and The main tool and gives you a calm, repeatable way to find and fix problems.
+"Navigation" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
 
-Problems in virtual reality (vr) usually have recognisable patterns. Learning The typical workflow and The main tool helps you move from guessing to diagnosing: you form a hypothesis, test it, and only then change the work.
+Getting comfortable with navigation makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Look at a piece of work that contains a mistake. Describe what is wrong, which concept was ignored, and what you would do differently.
+Write a short definition of navigation in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where navigation appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is The typical workflow, and why does it matter in virtual reality (vr)?
-2. How are The typical workflow and The main tool connected?
-3. What is one practical situation where this lesson would help you?
+1. What is navigation, and why does it matter in virtual reality (vr)?
+2. Give one example of navigation in a real digital media and creative technology task.
+3. Which other topic in this course does navigation connect to, and how?
 
-## Lesson 6: Bringing Virtual Reality (VR) Together
+## Lesson 6: Interface Placement
 
-### What you will learn
+### What this lesson covers
 
-- What Quality and accuracy means and why it matters.
-- How Scene design fits into the wider picture.
-- A small way to practise the idea today.
+A closer look at interface placement and the part it plays in virtual reality (vr).
 
 ### Explanation
 
-This final lesson pulls the course together. We revisit Quality and accuracy and Scene design and connect the earlier lessons into one picture so you can continue learning with confidence.
+"Interface Placement" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
 
-Taken together, Quality and accuracy and Scene design show how the parts of Virtual Reality (VR) support one another. With this overview you can revisit any lesson, practise deliberately, and set your own next goals.
+Getting comfortable with interface placement makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
 
-### Practical example
+### Practice
 
-Plan a small project you could finish in a few hours. List the concepts from this course you would need and write down how you would know it worked.
+Write a short definition of interface placement in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where interface placement appears and why it matters.
 
 ### Review questions
 
-1. In your own words, what is Quality and accuracy, and why does it matter in virtual reality (vr)?
-2. How are Quality and accuracy and Scene design connected?
-3. What is one practical situation where this lesson would help you?
+1. What is interface placement, and why does it matter in virtual reality (vr)?
+2. Give one example of interface placement in a real digital media and creative technology task.
+3. Which other topic in this course does interface placement connect to, and how?
 
-## Summary
+## Lesson 7: Performance Requirements
 
-You have covered the foundations of virtual reality (vr), the key terms, the tools and workflow, a guided example, and common problems. Taken together, these lessons give you a working understanding you can build on through practice.
+### What this lesson covers
 
-## Suggested next steps
+A closer look at performance requirements and the part it plays in virtual reality (vr).
+
+### Explanation
+
+"Performance Requirements" is one of the building blocks of Virtual Reality (VR). You will recognise it whenever you work on a virtual reality (vr) task, because it shapes the decisions you make and the results you produce.
+
+Getting comfortable with performance requirements makes the rest of the Digital Media and Creative Technology material easier to follow, since later topics build on it. Read the description again slowly, then write your own one-sentence definition before moving on.
+
+### Practice
+
+Write a short definition of performance requirements in your own words, then find one real example — from a tutorial, a product, or your own work — and describe where performance requirements appears and why it matters.
+
+### Review questions
+
+1. What is performance requirements, and why does it matter in virtual reality (vr)?
+2. Give one example of performance requirements in a real digital media and creative technology task.
+3. Which other topic in this course does performance requirements connect to, and how?
+
+## Lesson 8: Virtual Reality (VR): Putting It into Practice
+
+### What this lesson covers
+
+Practical projects create simple virtual environments or demonstrations, while considering accessibility, comfort, privacy, hardware limitations, and appropriate applications in education, training, simulation, and entertainment.
+
+### Explanation
+
+This final lesson brings Virtual Reality (VR) together. You have looked at spatial interaction, scene design, tracking, navigation, interface placement, performance requirements and seen how they relate. Individually they are manageable; together they describe how virtual reality (vr) work is actually done, from understanding a problem to producing something that works.
+
+### Practice
+
+Plan a small project you could finish in a few hours. List which of the topics from this course you would need, put them in the order you would tackle them, and write down how you would know the result worked.
+
+### Course summary
+
+You have covered the foundations of virtual reality (vr), its key terms, and the core topics (6), and how they fit together. That gives you a working base you can build on with practice.
+
+### Suggested next steps
 
 - Re-read your notes and rewrite the review questions in your own words.
-- Build one small project that uses at least three concepts from this course.
+- Build one small project that uses at least three of the topics above.
 - Read an introductory article or watch a short tutorial on virtual reality (vr) and compare it with what you learned here.
-- Explore a related course in the Digital Media and Creative Technology area to widen your skills.
+- Explore a related course in the Digital Media and Creative Technology area to broaden your skills.
+
+### Review questions
+
+1. How do the topics in this course connect to one another?
+2. Which topic do you feel least confident about, and what will you do next to improve?
+3. What would a realistic first project in virtual reality (vr) look like for you?
