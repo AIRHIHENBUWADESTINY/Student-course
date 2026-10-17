@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   title: "LearnHub | Student Learning Dashboard",
   description:
     "Manage your courses, access lessons and track your learning progress in one place.",
+  icons: {
+    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+    shortcut: ["/favicon.ico"],
+    apple: ["/favicon.ico"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
