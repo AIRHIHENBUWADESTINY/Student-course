@@ -193,23 +193,15 @@ export default function LandingPage({
                 </div>
                 <div className="mt-4 space-y-3">
                   {[
-                    { code: "CSC 301", title: "Web Development", units: 3, done: 78 },
-                    { code: "CSC 305", title: "Artificial Intelligence", units: 3, done: 45 },
-                    { code: "MTH 341", title: "Data Science", units: 2, done: 62 },
+                    { title: "Web Development", done: 78 },
+                    { title: "Artificial Intelligence", done: 45 },
+                    { title: "Data Science", done: 62 },
                   ].map((course) => (
                     <div
-                      key={course.code}
+                      key={course.title}
                       className="rounded-xl border border-slate-100 bg-slate-50/60 p-3"
                     >
-                      <div className="flex items-center justify-between text-sm">
-                        <span className="font-semibold text-slate-800">
-                          {course.code}
-                        </span>
-                        <span className="text-slate-400">
-                          {course.units} units
-                        </span>
-                      </div>
-                      <p className="mt-0.5 text-xs text-slate-500">
+                      <p className="text-sm font-semibold text-slate-800">
                         {course.title}
                       </p>
                       <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
@@ -220,12 +212,6 @@ export default function LandingPage({
                       </div>
                     </div>
                   ))}
-                </div>
-                <div className="mt-4 flex items-center justify-between rounded-xl bg-blue-50 px-3 py-2.5 text-sm">
-                  <span className="font-medium text-blue-800">
-                    Total credit units
-                  </span>
-                  <span className="font-bold text-blue-800">8</span>
                 </div>
               </div>
               <div className="absolute -bottom-5 -left-5 hidden items-center gap-2 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-lg sm:flex">
