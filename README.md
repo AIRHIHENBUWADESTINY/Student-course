@@ -274,3 +274,21 @@ lessons, tracking progress and using the AI assistant.
    project and run the seed files.
 5. Deploy. Set `NEXT_PUBLIC_API_BASE_URL` to `/api` unless the API is hosted
    elsewhere.
+
+### Troubleshooting "Request failed"
+
+A **"Request failed"** message on the login screen means an API route returned a
+non-JSON error (for example, Next.js returned an HTML 500 page). To diagnose:
+
+1. Open `https://<your-deployment>/api/health`. A healthy deployment returns
+   HTTP 200 with `"status": "ok"`.
+2. If it reports `"supabase": "fallback"`, the host does not have
+   `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` set and
+   the built-in defaults in `src/lib/supabase/config.ts` are being used. Set the
+   variables in the hosting dashboard and redeploy — `NEXT_PUBLIC_*` values are
+   inlined at build time, so an existing deployment will not pick them up.
+3. If it reports `"supabase": "missing"` (HTTP 503), set the variables and
+   redeploy.
+
+Uncaught exceptions in the auth routes now return a JSON `{ "message": ... }`
+body, so the login screen shows the real reason instead of a generic failure.
