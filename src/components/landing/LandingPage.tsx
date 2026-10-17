@@ -392,7 +392,7 @@ export default function LandingPage({
                 <button
                   type="button"
                   onClick={() => onSignIn("signup")}
-                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-emerald-400 px-5 text-base font-medium text-emerald-950 shadow-sm transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-blue-400 px-5 text-base font-medium text-blue-950 shadow-sm transition hover:bg-blue-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   Create your account
                   <ArrowRight className="h-4 w-4" />
