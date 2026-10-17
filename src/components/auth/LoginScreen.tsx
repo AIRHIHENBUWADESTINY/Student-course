@@ -81,7 +81,7 @@ export default function LoginScreen({
         <div className="mb-6 flex flex-col items-center text-center">
           <Image
             src="/icon.png"
-            alt="Deeplearn logo"
+            alt="Deeperlearn logo"
             width={48}
             height={48}
             className="h-12 w-12 rounded-2xl shadow-sm"
@@ -89,8 +89,8 @@ export default function LoginScreen({
           />
           <h1 className="mt-4 text-xl font-bold text-slate-900">
             {mode === "signin"
-              ? "Welcome back to Deeplearn"
-              : "Create your Deeplearn account"}
+              ? "Welcome back to Deeperlearn"
+              : "Create your Deeperlearn account"}
           </h1>
           <p className="mt-1 text-sm text-slate-500">
             {mode === "signin"

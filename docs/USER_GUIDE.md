@@ -1,8 +1,8 @@
 <div align="center">
 
-![Deeplearn — app logo, wordmark and dashboard preview](deeplearn-hero.jpg)
+![Deeperlearn — app logo, wordmark and dashboard preview](deeperlearn-hero.jpg)
 
-# Deeplearn User Guide
+# Deeperlearn User Guide
 
 **A simple, step-by-step guide for students.**
 
@@ -10,14 +10,14 @@
 
 ---
 
-Welcome to **Deeplearn**. This guide explains how to use the app in plain
+Welcome to **Deeperlearn**. This guide explains how to use the app in plain
 language — no technical knowledge required. You will learn how to create an
 account, find and register courses, submit your registration, read your
 lessons, and track your progress.
 
 ## Table of Contents
 
-- [1. What is Deeplearn?](#1-what-is-deeplearn)
+- [1. What is Deeperlearn?](#1-what-is-deeperlearn)
 - [2. Creating your account](#2-creating-your-account)
 - [3. Signing in and out](#3-signing-in-and-out)
 - [4. Your dashboard](#4-your-dashboard)
@@ -33,9 +33,9 @@ lessons, and track your progress.
 - [14. Your profile and settings](#14-your-profile-and-settings)
 - [15. Questions and troubleshooting](#15-questions-and-troubleshooting)
 
-## 1. What is Deeplearn?
+## 1. What is Deeperlearn?
 
-Deeplearn is a student app that brings your semester together in one place. With
+Deeperlearn is a student app that brings your semester together in one place. With
 it you can:
 
 - Browse the **course catalogue** and see course details, fees and credit units.
@@ -48,7 +48,7 @@ The app works in any modern web browser on a computer, tablet or phone.
 
 ## 2. Creating your account
 
-1. Open the Deeplearn website.
+1. Open the Deeperlearn website.
 2. On the welcome screen, select **Get started** (or **Sign in** if you already
    have an account).
 3. Choose the **Create account** option.
@@ -111,7 +111,7 @@ icon** next to it.
 ## 7. Understanding fees and credit units
 
 - **Credit units** measure how much of your study load a course represents.
-  Deeplearn lets you register **as many credit units as you need** — there is no
+  Deeperlearn lets you register **as many credit units as you need** — there is no
   limit per semester.
 - **Course fee** is the price of each course. Your **total course fee** is the
   sum of all the courses in your registration.

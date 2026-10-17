@@ -19,9 +19,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Deeplearn | Student Learning Dashboard",
+  applicationName: "Deeperlearn",
+  title: {
+    default: "Deeperlearn",
+    template: "%s | Deeperlearn",
+  },
   description:
     "Manage your courses, access lessons and track your learning progress in one place.",
+  openGraph: {
+    siteName: "Deeperlearn",
+    title: "Deeperlearn",
+    description:
+      "Manage your courses, access lessons and track your learning progress in one place.",
+    type: "website",
+  },
   icons: {
     icon: [
       { url: "/icon.png", type: "image/png", sizes: "512x512" },

@@ -79,14 +79,14 @@ function Logo({ className = "h-9 w-9" }: { className?: string }) {
     <span className="flex items-center gap-2.5">
       <Image
         src="/icon.png"
-        alt="Deeplearn logo"
+        alt="Deeperlearn logo"
         width={40}
         height={40}
         className={`${className} rounded-lg shadow-sm`}
         priority
       />
       <span className="text-lg font-bold tracking-tight text-slate-900">
-        Deep
+        Deeper
         <span className="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400 bg-clip-text text-transparent">
           learn
         </span>
@@ -113,7 +113,7 @@ export default function LandingPage({
               How it works
             </a>
             <a href="#why" className="transition hover:text-slate-900">
-              Why Deeplearn
+              Why Deeperlearn
             </a>
           </nav>
           <div className="flex items-center gap-2">
@@ -145,11 +145,11 @@ export default function LandingPage({
               <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
                 Your personal hub for{" "}
                 <span className="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-400 bg-clip-text text-transparent">
-                  deep, focused learning
+                  focused, personal learning
                 </span>
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-                Deeplearn brings your course registration, lessons, materials and
+                Deeperlearn brings your course registration, lessons, materials and
                 progress together in one calm dashboard — so you can spend less
                 time organising and more time actually learning.
               </p>
@@ -253,7 +253,7 @@ export default function LandingPage({
                 Everything you need to learn with intent
               </h2>
               <p className="mt-3 text-lg text-slate-600">
-                Deeplearn replaces scattered notes and spreadsheets with one
+                Deeperlearn replaces scattered notes and spreadsheets with one
                 focused workspace for your courses.
               </p>
             </div>
@@ -285,7 +285,7 @@ export default function LandingPage({
                 Up and running in three steps
               </h2>
               <p className="mt-3 text-lg text-slate-600">
-                From sign-up to your first completed lesson, Deeplearn keeps the
+                From sign-up to your first completed lesson, Deeperlearn keeps the
                 path short and clear.
               </p>
             </div>
@@ -323,7 +323,7 @@ export default function LandingPage({
                 Positioned for real student life
               </h2>
               <p className="mt-3 text-lg text-slate-600">
-                Deeplearn is built for students who want structure without the
+                Deeperlearn is built for students who want structure without the
                 clutter — a single, reliable place to plan a semester and study
                 every day.
               </p>
@@ -382,10 +382,10 @@ export default function LandingPage({
           <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-blue-800 to-teal-800 px-8 py-12 text-center shadow-xl sm:px-12">
               <h2 className="text-3xl font-bold tracking-tight text-white">
-                Ready to learn deeper?
+                Ready to start learning?
               </h2>
               <p className="mx-auto mt-3 max-w-xl text-blue-50">
-                Create your free Deeplearn account and bring your whole semester
+                Create your free Deeperlearn account and bring your whole semester
                 into focus today.
               </p>
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
@@ -414,7 +414,7 @@ export default function LandingPage({
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 sm:flex-row sm:px-6">
           <Logo className="h-8 w-8" />
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} Deeplearn. Learn deeper, every day.
+            © {new Date().getFullYear()} Deeperlearn. Learn smarter, every day.
           </p>
         </div>
       </footer>

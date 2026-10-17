@@ -13,7 +13,7 @@ function Splash() {
     <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-slate-50">
       <Image
         src="/icon.png"
-        alt="Deeplearn logo"
+        alt="Deeperlearn logo"
         width={48}
         height={48}
         className="h-12 w-12 animate-pulse rounded-2xl shadow-sm"

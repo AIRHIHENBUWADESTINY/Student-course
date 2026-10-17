@@ -1,8 +1,8 @@
 <div align="center">
 
-![Deeplearn — app logo, wordmark, dashboard preview and favicon](docs/deeplearn-hero.jpg)
+![Deeperlearn — app logo, wordmark, dashboard preview and favicon](docs/deeperlearn-hero.jpg)
 
-# Deeplearn
+# Deeperlearn
 
 **A student course-registration and learning platform.**
 
@@ -16,13 +16,13 @@
 
 ---
 
-Deeplearn helps students browse an academic course catalogue, register courses
+Deeperlearn helps students browse an academic course catalogue, register courses
 for a semester, read course lessons and track their learning progress — all in
 one dashboard. It ships with a marketing landing page, an AI registration
 assistant, and an administrator console. Authentication, data and file storage
 are powered by [Supabase](https://supabase.com).
 
-> **Not a developer?** Start with the [Deeplearn User Guide](docs/USER_GUIDE.md)
+> **Not a developer?** Start with the [Deeperlearn User Guide](docs/USER_GUIDE.md)
 > for a plain-language walkthrough of the app.
 
 ## Table of Contents
@@ -231,7 +231,7 @@ docs                    Documentation assets (README banner) and the user guide
 
 ## Limitations
 
-Deeplearn is a functional reference implementation of a student course
+Deeperlearn is a functional reference implementation of a student course
 platform. The following are known limitations of the current release:
 
 - **Illustrative data.** The catalogue and lesson content are sample data for

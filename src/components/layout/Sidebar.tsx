@@ -91,7 +91,7 @@ export default function Sidebar({
           <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl shadow-sm">
             <Image
               src="/icon.png"
-              alt="Deeplearn logo"
+              alt="Deeperlearn logo"
               width={36}
               height={36}
               className="h-9 w-9 object-cover"
@@ -99,7 +99,7 @@ export default function Sidebar({
           </span>
           {!compact && (
             <span className="flex flex-col leading-none">
-              <span className="text-sm font-bold text-slate-900">Deeplearn</span>
+              <span className="text-sm font-bold text-slate-900">Deeperlearn</span>
               <span className="text-[11px] text-slate-400">
                 Student Dashboard
               </span>
