@@ -972,7 +972,7 @@ export default function AdminPage() {
           <ShieldAlert className="h-5 w-5" />
         </span>
         <div>
-          <h1 className="text-xl font-bold text-slate-900">Admin Dashboard</h1>
+          <h1 className="text-xl font-bold title-gradient">Admin Dashboard</h1>
           <p className="text-sm text-slate-500">
             Manage courses, students, departments and registration.
           </p>

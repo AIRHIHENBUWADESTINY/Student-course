@@ -68,7 +68,7 @@ export default function RegistrationsPage() {
             <ClipboardList className="h-5 w-5" />
           </span>
           <div>
-            <h1 className="text-xl font-bold text-slate-900">
+            <h1 className="text-xl font-bold title-gradient">
               My Registered Courses
             </h1>
             <p className="text-sm text-slate-500">

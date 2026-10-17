@@ -87,7 +87,7 @@ export default function LoginScreen({
             className="h-12 w-12 rounded-2xl shadow-sm"
             priority
           />
-          <h1 className="mt-4 text-xl font-bold text-slate-900">
+          <h1 className="mt-4 text-xl font-bold title-gradient">
             {mode === "signin"
               ? "Welcome back to Deeplearn"
               : "Create your Deeplearn account"}
