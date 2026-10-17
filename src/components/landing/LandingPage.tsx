@@ -193,9 +193,9 @@ export default function LandingPage({
                 </div>
                 <div className="mt-4 space-y-3">
                   {[
-                    { code: "CSC 301", title: "Data Structures", units: 3, done: 78 },
-                    { code: "CSC 305", title: "Operating Systems", units: 3, done: 45 },
-                    { code: "MTH 341", title: "Linear Algebra", units: 2, done: 62 },
+                    { code: "CSC 301", title: "Web Development", units: 3, done: 78 },
+                    { code: "CSC 305", title: "Artificial Intelligence", units: 3, done: 45 },
+                    { code: "MTH 341", title: "Data Science", units: 2, done: 62 },
                   ].map((course) => (
                     <div
                       key={course.code}
