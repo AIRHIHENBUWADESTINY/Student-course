@@ -196,6 +196,7 @@ export default function LandingPage({
                     { title: "Web Development", done: 78 },
                     { title: "Artificial Intelligence", done: 45 },
                     { title: "Data Science", done: 62 },
+                    { title: "Cyber Security", done: 30 },
                   ].map((course) => (
                     <div
                       key={course.title}
