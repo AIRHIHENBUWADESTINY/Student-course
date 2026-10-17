@@ -44,7 +44,7 @@ export default function ProgressPage() {
           <BarChart3 className="h-5 w-5" />
         </span>
         <div>
-          <h1 className="text-xl font-bold title-gradient">Learning Progress</h1>
+          <h1 className="text-xl font-bold text-slate-900">Learning Progress</h1>
           <p className="text-sm text-slate-500">
             Track your completion across every course and lesson.
           </p>

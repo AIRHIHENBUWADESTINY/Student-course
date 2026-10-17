@@ -43,7 +43,7 @@ export default function CompletedPage() {
           <CheckCircle2 className="h-5 w-5" />
         </span>
         <div>
-          <h1 className="text-xl font-bold title-gradient">
+          <h1 className="text-xl font-bold text-slate-900">
             Completed Lessons
           </h1>
           <p className="text-sm text-slate-500">

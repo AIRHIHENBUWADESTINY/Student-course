@@ -191,7 +191,7 @@ export default function CataloguePage() {
             <BookOpen className="h-5 w-5" />
           </span>
           <div>
-            <h1 className="text-xl font-bold title-gradient">Course Catalogue</h1>
+            <h1 className="text-xl font-bold text-slate-900">Course Catalogue</h1>
             <p className="text-sm text-slate-500">
               Browse and register courses for {reg.summary.session}
             </p>

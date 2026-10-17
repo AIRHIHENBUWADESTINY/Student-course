@@ -71,7 +71,7 @@ export default function CoursesPage() {
             <BookOpen className="h-5 w-5" />
           </span>
           <div>
-            <h1 className="text-xl font-bold title-gradient">My Courses</h1>
+            <h1 className="text-xl font-bold text-slate-900">My Courses</h1>
             <p className="text-sm text-slate-500">
               {allStats.length} courses enrolled · explore and continue learning
             </p>

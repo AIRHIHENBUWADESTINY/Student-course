@@ -72,7 +72,7 @@ export default function LearningMaterialsPage() {
           <BookOpen className="h-5 w-5" />
         </span>
         <div>
-          <h1 className="text-xl font-bold title-gradient">Learning Materials</h1>
+          <h1 className="text-xl font-bold text-slate-900">Learning Materials</h1>
           <p className="text-sm text-slate-500">
             Read the study notes for the courses you registered for.
           </p>

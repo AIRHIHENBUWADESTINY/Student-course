@@ -170,7 +170,7 @@ export default function CourseMaterialPage() {
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <Badge tone="blue">{material.category}</Badge>
-            <h1 className="mt-3 text-2xl font-bold title-gradient">
+            <h1 className="mt-3 text-2xl font-bold text-slate-900">
               {material.title}
             </h1>
             <p className="mt-1 text-sm text-slate-500">

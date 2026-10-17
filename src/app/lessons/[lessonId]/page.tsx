@@ -229,7 +229,7 @@ export default function LessonDetailPage() {
               <StatusBadge status={status} />
             </div>
 
-            <h1 className="mt-4 text-2xl font-bold tracking-tight title-gradient sm:text-3xl">
+            <h1 className="mt-4 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
               {lesson.order}. {lesson.title}
             </h1>
 

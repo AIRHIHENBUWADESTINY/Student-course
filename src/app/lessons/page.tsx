@@ -72,7 +72,7 @@ export default function LessonsPage() {
           <ListChecks className="h-5 w-5" />
         </span>
         <div>
-          <h1 className="text-xl font-bold title-gradient">My Lessons</h1>
+          <h1 className="text-xl font-bold text-slate-900">My Lessons</h1>
           <p className="text-sm text-slate-500">
             Browse every lesson across your courses and track your status.
           </p>
