@@ -15,7 +15,6 @@ interface ChatMessage {
 const QUICK_PROMPTS = [
   "Summarize my registration",
   "Am I within the credit limit?",
-  "Add Introduction to Networking",
   "Show me the course categories",
 ];
 
@@ -179,7 +178,7 @@ export default function ChatBot() {
           onChange={(event) => setInput(event.target.value)}
           placeholder={
             reg.summary.count === 0
-              ? "e.g. Add Introduction to Networking"
+              ? "e.g. Add a course to my registration"
               : "Ask about your registration…"
           }
           disabled={busy}
